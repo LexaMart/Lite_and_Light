@@ -1,4 +1,4 @@
-// import {image1} from '../assets/images'
+//import {image1} from '../assets/images'
 export const products = 
 [
     {

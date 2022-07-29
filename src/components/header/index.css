@@ -1,8 +1,111 @@
-header {
-    width: 100%;
-    height: 50px;
-    background-color: aqua;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --main-font: "Poppins", sans-serif;
+  --font2: "Montserrat", sans-serif;
+}
+
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  display: block;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  cursor: pointer;
+}
+button {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+input {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+input:focus {
+  outline: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.header {
+  display: flex;
+  height: 155px;
+  max-width: 100%;
+  padding: 0 9%;
+  margin-bottom: 105px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-logo-img {
+  height: 66px;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 460px;
+}
+.header-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #141517;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-search {
+  border-bottom: 1px #000 solid;
+  align-items: center;
+  margin-right: 10px;
+}
+.header-search-input {
+  height: 20px;
+  width: 170px;
+}
+.header-search-input::placeholder {
+  font-family: var(--main-font);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000;
+}
+.header-search-button {
+  height: 16px;
+  width: 16px;
+  background-image: url(../../assets/images/loop.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.header-like-btn {
+  height: 24px;
+  width: 24px;
+}
+.header-like-btn svg {
+  fill: #000;
 }
