@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --main-font: "Poppins", sans-serif;
+  --font1: "Poppins", sans-serif;
   --font2: "Montserrat", sans-serif;
 }
 p {
@@ -28,7 +28,7 @@ input {
   border: none;
   margin: 0;
   padding: 0;
-  font-family: var(--main-font);
+  font-family: var(--font1);
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
@@ -41,11 +41,11 @@ ul {
   margin: 0;
   list-style: none;
 }
-.main {
-  padding: 0 9%;
-}
+/*.main {
+}*/
 .main-greet {
   height: 780px;
+  padding: 0 9%;
 }
 .main-greet-bg-box {
   display: flex;
@@ -122,6 +122,7 @@ ul {
 .main-coll {
   display: flex;
   margin-top: 230px;
+  padding: 0 9%;
 }
 /* ----------------- MAIN COLL LINKS ------------------*/
 .main-coll-links-subtitle {
@@ -153,7 +154,7 @@ ul {
   margin: 0;
 }
 .main-coll-links-btn {
-  font-family: var(--main-font);
+  font-family: var(--font1);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -182,7 +183,7 @@ ul {
   text-align: center;
   padding: 17px 0;
   position: relative;
-  font-family: var(--main-font);
+  font-family: var(--font1);
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
@@ -300,4 +301,95 @@ ul {
   position: relative;
   left: 100px;
   bottom: 70px;
+}
+
+/* ----------------- MAIN TYPES ------------------*/
+.main-types {
+  margin-top: 210px;
+}
+.main-types-subtitle {
+  margin-left: 9%;
+  font-family: var(--font2);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: -0.161212px;
+  color: #2c2e3f;
+}
+.main-types-list {
+  margin-top: 125px;
+}
+.main-types-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 260px;
+}
+.main-types-img {
+  width: 1090px;
+  height: 780px;
+}
+.main-types-box1 {
+  margin-right: 290px;
+  margin-top: 90px;
+}
+.main-types-box2 {
+  margin-left: 9%;
+  margin-top: 90px;
+}
+.main-types-title {
+  font-family: var(--font2);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 90px;
+  letter-spacing: -1.245px;
+  color: #2c2e3f;
+  margin-bottom: 81px;
+}
+.main-types-text {
+  width: 430px;
+  font-family: var(--font2);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #141517;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  margin-bottom: 7px;
+}
+.main-types-link {
+  width: 394px;
+  justify-content: center;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  margin-top: 156px;
+  border: 2px solid #504b48;
+  border-radius: 95.2045px;
+}
+.main-types-link2 {
+  margin-top: 85px;
+}
+.main-types-link p {
+  font-family: var(--font2);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.585873px;
+  text-transform: uppercase;
+  color: #504b48;
+  margin-right: 27px;
+}
+
+/* ----------------- MAIN GALLERY ------------------*/
+.main-gallery {
+  margin-bottom: 173px;
+}
+.main-gallery-title {
+  margin-left: 9%;
+  font-family: var(--font2);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  letter-spacing: -1.66px;
+  color: #463f3a;
 }

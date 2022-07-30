@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --main-font: "Poppins", sans-serif;
+  --font1: "Poppins", sans-serif;
   --font2: "Montserrat", sans-serif;
 }
 
@@ -36,7 +36,7 @@ input {
   border: none;
   margin: 0;
   padding: 0;
-  font-family: var(--main-font);
+  font-family: var(--font1);
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
@@ -67,7 +67,7 @@ ul {
   width: 460px;
 }
 .header-link {
-  font-family: var(--main-font);
+  font-family: var(--font1);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -88,7 +88,7 @@ ul {
   width: 170px;
 }
 .header-search-input::placeholder {
-  font-family: var(--main-font);
+  font-family: var(--font1);
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
