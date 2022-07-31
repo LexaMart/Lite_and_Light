@@ -50,11 +50,12 @@ ul {
   list-style: none;
 }
 .header {
+  z-index: 3;
+  position: relative;
   display: flex;
   height: 155px;
   max-width: 100%;
   padding: 0 9%;
-  margin-bottom: 105px;
   align-items: center;
   justify-content: space-between;
 }
@@ -108,4 +109,74 @@ ul {
 }
 .header-like-btn svg {
   fill: #000;
+}
+
+/* ----------------- ADAPTIVE ------------------*/
+@media (max-width: 1700px) {
+  .header {
+    height: 155px;
+  }
+}
+@media (max-width: 1460px) {
+  .header {
+    height: 100px;
+  }
+  .header-logo-img {
+    height: 50px;
+  }
+  .header-menu {
+    width: 400px;
+  }
+  .header-link {
+    font-size: 13px;
+  }
+  .header-search-input {
+    width: 140px;
+    font-size: 13px;
+  }
+  .header-search-input::placeholder {
+    font-size: 13px;
+  }
+  .header-search-button {
+    height: 14px;
+    width: 14px;
+  }
+  .header-like {
+    align-items: center;
+  }
+  .header-like-btn {
+    display: block;
+    height: 18px;
+    width: 18px;
+  }
+}
+@media (max-width: 1460px) {
+  .header {
+    height: 70px;
+  }
+  .header-logo-img {
+    height: 35px;
+  }
+  .header-menu {
+    width: 360px;
+  }
+  .header-link {
+    font-size: 11px;
+  }
+  .header-search-input {
+    width: 140px;
+    line-height: 10px;
+  }
+  .header-search-input::placeholder {
+    font-size: 13px;
+  }
+  .header-search-button {
+    height: 12px;
+    width: 12px;
+  }
+  .header-like-btn {
+    display: block;
+    height: 16px;
+    width: 16px;
+  }
 }

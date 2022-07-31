@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux/es/exports";
 import { exampleAction } from "../../store/reducers";
-import "./index.css";
 import mainGreetImg from '../../assets/images/main-greet-img.png';
 import link from '../../assets/images/link.png';
 import algorithm from '../../assets/images/algorithm.png';
@@ -11,6 +10,7 @@ import shade from '../../assets/images/shade.png';
 import trom from '../../assets/images/trom.png';
 import typesImg1 from '../../assets/images/main-types-img1.png';
 import typesImg2 from '../../assets/images/main-types-img2.png';
+import "./index.css";
 
 export const Main = ({ ...props }) => {
   const reduxValue = useSelector((store) => store.exampleReducer.exampleField);
@@ -44,41 +44,17 @@ export const Main = ({ ...props }) => {
       <div className="main-greet-content">
         <img src={mainGreetImg} alt="img" className="main-greet-img"></img>
         <div className="main-greet-title-box">
-          <p className="main-greet-text">От идеи,&nbsp;до воплощения</p>
-          <p className="main-greet-title">Больше,&nbsp;чем просто свет</p>
+          <p className="main-greet-text">От идеи,</p>
+          <p className="main-greet-text">до воплощения</p>
+          <p className="main-greet-title">Больше,</p>
+          <p className="main-greet-title">чем просто свет</p>
         </div>
       </div>
     </div>
     <div className="main-coll">
       <div className="main-coll-links">
-        <p className="main-coll-links-subtitle">Избранные</p>
+        <p className="main-coll-links-title">Избранные</p>
         <p className="main-coll-links-title">Коллекции</p>
-        <ul className="main-coll-links-list">
-          <li className="main-coll-links-item">
-            <button className="main-coll-links-btn">Wireflow</button>
-          </li>
-          <li className="main-coll-links-item">
-            <button className="main-coll-links-btn">Shade</button>
-          </li>
-          <li className="main-coll-links-item">
-            <button className="main-coll-links-btn">Link</button>
-          </li>
-          <li className="main-coll-links-item">
-            <button className="main-coll-links-btn">Algorithm</button>
-          </li>
-          <li className="main-coll-links-item">
-            <button className="main-coll-links-btn">Duo</button>
-          </li>
-          <li className="main-coll-links-item">
-            <button className="main-coll-links-btn">Palma</button>
-          </li>
-          <li className="main-coll-links-item">
-            <button className="main-coll-links-btn">Trom</button>
-          </li>
-          <li className="main-coll-links-item">
-            <button className="main-coll-links-btn">Zepp Light</button>
-          </li>
-        </ul>
       </div>
       <div className="main-coll-content">
         <div className="main-coll-content1">
@@ -119,11 +95,8 @@ export const Main = ({ ...props }) => {
             <img src={typesImg1} alt="" className="main-types-img"></img>
             <div className="main-types-box1">
               <p className="main-types-title">Классика</p>
-              <p className="main-types-text">Концептуальные решения</p>
-              <p className="main-types-text">Креативные и функциональные</p>
-              <p className="main-types-text">От мировых брендов</p>
-              <p className="main-types-text">Акцент на световые решения </p>
-              <p className="main-types-text">Креатив для восприятия</p>
+              <p className="main-types-text">Готовые</p>
+              <p className="main-types-text">Решения</p>
               <a href="#" className="main-types-link">
                 <p>Перейти в каталог</p>
                 <svg width="77" height="18" viewBox="0 0 116 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -137,14 +110,8 @@ export const Main = ({ ...props }) => {
           <li className="main-types-item">
             <div className="main-types-box2">
               <p className="main-types-title">Кастом</p>
-              <p className="main-types-text">Индивидуальные решения</p>
-              <p className="main-types-text">Воплощаем авторские задумки</p>
-              <p className="main-types-text">Нет предела вашей фантазии</p>
-              <p className="main-types-text">Под ключ</p>
-              <p className="main-types-text">Нам достаточно наброска</p>
-              <p className="main-types-text">Индивидуальные подход</p>
-              <p className="main-types-text">Уникальные задумки в жизнь</p>
-              <p className="main-types-text">Мы знаем как это сделать</p>
+              <p className="main-types-text">Индивидуальные</p>
+              <p className="main-types-text">решения</p>
               <a href="#" className="main-types-link main-types-link2">
                 <p>Перейти в каталог</p>
                 <svg width="77" height="18" viewBox="0 0 116 18" fill="none" xmlns="http://www.w3.org/2000/svg">
