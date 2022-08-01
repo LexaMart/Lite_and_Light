@@ -8,29 +8,22 @@ export const Footer = ({...props}) => {
           <div className="footer-high">
             <ul className="footer-list">
               <li className="footer-item">
-                <p className="footer-title">Каталог</p>
+                <a className="footer-title">Каталог</a>
+              </li>
+              <li className="footer-item">
+                <a className="footer-title">Галерея</a>
                 <a href="#" className="footer-link">FABROS</a>
                 <a href="#" className="footer-link">STROY TECH PROGRESS</a>
                 <a href="#" className="footer-link">ESQUIRE</a>
               </li>
               <li className="footer-item">
-                <p className="footer-title">Галерея</p>
-                <a href="#" className="footer-link">Wireflow</a>
-                <a href="#" className="footer-link">Palma</a>
-                <a href="#" className="footer-link">Duo</a>
-                <a href="#" className="footer-link">Shade</a>
-                <a href="#" className="footer-link">Prop</a>
-                <a href="#" className="footer-link">Algorithm</a>
-                <a href="#" className="footer-link">U Light</a>
-              </li>
-              <li className="footer-item">
-                <p className="footer-title">О нас</p>
+                <a className="footer-title">О нас</a>
                 <a href="#" className="footer-link">История</a>
                 <a href="#" className="footer-link">Идеалогия</a>
                 <a href="#" className="footer-link">Бренды</a>
               </li>
               <li className="footer-item">
-                <p className="footer-title">Контакты</p>
+                <a className="footer-title">Контакты</a>
                 <p className="footer-subtitle">Минск</p>
                 <a href="#" className="footer-link">пр. Победителей 125</a>
                 <a href="#" className="footer-link">+375 (29) 375-87-29</a>

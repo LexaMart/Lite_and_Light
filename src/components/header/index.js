@@ -5,9 +5,9 @@ import logo from '../../assets/images/logo.png';
 export const Header = ({...props}) => {
     return (
     <header className = "header">
-        <div className="header-logo">
-            <img className="header-logo-img" src={logo}></img>
-        </div>
+        <a className="header-logo">
+                <img className="header-logo-img" src={logo}></img>
+        </a>
         <div className="header-menu">
             <a href="#" className="header-link">Каталог</a>
             <a href="#" className="header-link">Галерея</a>

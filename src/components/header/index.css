@@ -58,6 +58,21 @@ ul {
   padding: 0 9%;
   align-items: center;
   justify-content: space-between;
+  animation: header 2s;
+}
+@keyframes header {
+  from {
+    bottom: 150px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+.header-logo {
+  transition: 0.5s;
+}
+.header-logo:hover {
+  opacity: 0.5;
 }
 .header-logo-img {
   height: 66px;
@@ -68,12 +83,16 @@ ul {
   width: 460px;
 }
 .header-link {
+  transition: 0.5s;
   font-family: var(--font1);
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   text-transform: uppercase;
   color: #141517;
+}
+.header-link:hover {
+  opacity: 0.4;
 }
 .header-nav {
   display: flex;
@@ -102,10 +121,18 @@ ul {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: 0.5s;
+}
+.header-search-button:hover {
+  opacity: 0.4;
 }
 .header-like-btn {
+  transition: 0.5s;
   height: 24px;
   width: 24px;
+}
+.header-like-btn:hover {
+  opacity: 0.5;
 }
 .header-like-btn svg {
   fill: #000;
