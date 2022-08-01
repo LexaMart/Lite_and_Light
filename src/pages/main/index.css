@@ -116,13 +116,13 @@ ul {
   width: 594px;
   top: -260px;
   margin-left: 46px;
-  animation: main-greet-img 1.4s;
+  animation: main-greet-img 1.5s;
   animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 @keyframes main-greet-img {
   from {
-    top: -1200px;
+    top: -1600px;
   }
   to {
     top: -260px;
@@ -449,6 +449,14 @@ ul {
     top: -190px;
     margin-left: 20px;
   }
+  @keyframes main-greet-img {
+    from {
+      top: -1200px;
+    }
+    to {
+      top: -190px;
+    }
+  }
   .main-greet-title-box {
     height: 700px;
     margin-left: 0;
@@ -632,6 +640,14 @@ ul {
     width: 470px;
     top: -120px;
     margin-left: 30px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -1200px;
+    }
+    to {
+      top: -120px;
+    }
   }
   .main-greet-title-box {
     height: 600px;
@@ -836,6 +852,14 @@ ul {
     margin-left: 60px;
     margin-right: 5%;
   }
+  @keyframes main-greet-img {
+    from {
+      top: -1200px;
+    }
+    to {
+      top: -75px;
+    }
+  }
   .main-greet-title-box {
     height: 500px;
   }
@@ -968,6 +992,14 @@ ul {
     top: -65px;
     margin-left: 15px;
     margin-right: 30px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -1200px;
+    }
+    to {
+      top: -65px;
+    }
   }
   .main-greet-text {
     font-size: 20px;
