@@ -75,7 +75,8 @@ export const Main = ({ ...props }) => {
           </div>
           <div className="main-coll-content">
             <div className="main-coll-content1">
-              <div
+              <a
+                href="#"
                 className="main-coll-content-box main-coll-pendant"
                 data-aos="fade-up"
                 data-aos-offset="200"
@@ -90,8 +91,8 @@ export const Main = ({ ...props }) => {
                 <p className="main-coll-content-text main-coll-content-text-pendant ">
                   Shade Pendant
                 </p>
-              </div>
-              <div
+              </a>
+              <a
                 className="main-coll-content-box main-coll-shade"
                 data-aos="fade-up"
                 data-aos-offset="100"
@@ -106,8 +107,8 @@ export const Main = ({ ...props }) => {
                 <p className="main-coll-content-text main-coll-content-text-shade">
                   Shade
                 </p>
-              </div>
-              <div
+              </a>
+              <a
                 className="main-coll-content-box main-coll-square"
                 data-aos="fade-up"
                 data-aos-offset="100"
@@ -122,7 +123,7 @@ export const Main = ({ ...props }) => {
                 <p className="main-coll-content-text main-coll-content-text-square">
                   Shade square
                 </p>
-              </div>
+              </a>
             </div>
             <div className="main-coll-content2">
               <p
@@ -134,7 +135,7 @@ export const Main = ({ ...props }) => {
               >
                 Дизайнерские решения
               </p>
-              <div
+              <a
                 className="main-coll-content-box main-coll-link"
                 data-aos="fade-up"
                 data-aos-offset="200"
@@ -149,8 +150,8 @@ export const Main = ({ ...props }) => {
                 <p className="main-coll-content-text main-coll-content-text-link">
                   Link
                 </p>
-              </div>
-              <div
+              </a>
+              <a
                 className="main-coll-content-box main-coll-algorithm"
                 data-aos="fade-up"
                 data-aos-offset="200"
@@ -165,8 +166,8 @@ export const Main = ({ ...props }) => {
                 <p className="main-coll-content-text main-coll-content-text-algorithm">
                   Algorithm
                 </p>
-              </div>
-              <div
+              </a>
+              <a
                 className="main-coll-content-box main-coll-trom"
                 data-aos="fade-up"
                 data-aos-offset="180"
@@ -181,7 +182,7 @@ export const Main = ({ ...props }) => {
                   alt=""
                   className="main-coll-content-img-trom"
                 ></img>
-              </div>
+              </a>
             </div>
           </div>
         </div>

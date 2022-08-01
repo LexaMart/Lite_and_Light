@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import "./index.css";
 import logo from "../../assets/images/logo.png";
 
@@ -18,9 +19,16 @@ export const Header = ({ ...props }) => {
         <a href="#" className="header-link">
           О нас
         </a>
-        <a href="#" className="header-link">
+        <Link
+          to="footer"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+          className="header-link"
+        >
           Контакты
-        </a>
+        </Link>
       </div>
       <div className="header-nav">
         <div className="header-search">
@@ -36,7 +44,7 @@ export const Header = ({ ...props }) => {
           </form>
         </div>
         <div className="header-like">
-          <button className="header-like-btn">
+          <a className="header-like-btn">
             <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
               <defs></defs>
               <title />
@@ -47,7 +55,7 @@ export const Header = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </button>
+          </a>
         </div>
       </div>
     </header>
