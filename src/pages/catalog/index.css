@@ -73,3 +73,25 @@ ul {
     line-height: 30px;
   }
 }
+@media (max-width: 720px) {
+  .catalog {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 0 11%;
+  }
+  .catalog-title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .catalog {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 0 11%;
+  }
+  .catalog-title {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

@@ -101,6 +101,9 @@ ul {
   align-items: center;
   margin-right: 10px;
 }
+.header-search form {
+  display: flex;
+}
 .header-search-input {
   height: 20px;
   width: 170px;
@@ -134,6 +137,7 @@ ul {
 }
 .header-like-btn svg {
   fill: #000;
+  width: 24px;
 }
 
 /* ----------------- ADAPTIVE ------------------*/
@@ -174,6 +178,9 @@ ul {
     height: 18px;
     width: 18px;
   }
+  .header-like-btn svg {
+    width: 18px;
+  }
 }
 @media (max-width: 1460px) {
   .header {
@@ -203,5 +210,143 @@ ul {
     display: block;
     height: 16px;
     width: 16px;
+  }
+  .header-like-btn svg {
+    width: 16px;
+  }
+}
+@media (max-width: 850px) {
+  .header {
+    height: 50px;
+  }
+  .header-logo-img {
+    height: 25px;
+  }
+  .header-menu {
+    width: 250px;
+  }
+  .header-link {
+    font-size: 10px;
+  }
+  .header-search-input {
+    width: 100px;
+    line-height: 10px;
+    font-size: 11px;
+  }
+  .header-search-input::placeholder {
+    font-size: 11px;
+  }
+  .header-search-button {
+    height: 12px;
+    width: 12px;
+  }
+  .header-like-btn {
+    display: block;
+    height: 16px;
+    width: 16px;
+  }
+  .header-like-btn svg {
+    width: 16px;
+  }
+}
+@media (max-width: 720px) {
+  .header {
+    height: 40px;
+  }
+  .header-logo-img {
+    height: 20px;
+  }
+  .header-menu {
+    width: 200px;
+  }
+  .header-link {
+    font-size: 9px;
+  }
+  .header-search-input {
+    width: 80px;
+    height: 15px;
+    font-size: 10px;
+  }
+  .header-search-input::placeholder {
+    font-size: 10px;
+  }
+  .header-search-button {
+    height: 10px;
+    width: 10px;
+  }
+  .header-like-btn {
+    display: block;
+    height: 14px;
+    width: 14px;
+  }
+  .header-like-btn svg {
+    width: 14px;
+  }
+}
+@media (max-width: 450px) {
+  .header {
+    height: 35px;
+  }
+  .header-logo-img {
+    height: 20px;
+  }
+  .header-menu {
+    width: 150px;
+  }
+  .header-link {
+    font-size: 6px;
+  }
+  .header-search-input {
+    width: 60px;
+    height: 10px;
+    font-size: 6px;
+  }
+  .header-search-input::placeholder {
+    font-size: 7px;
+  }
+  .header-search-button {
+    height: 8px;
+    width: 8px;
+  }
+  .header-like-btn {
+    display: flex;
+    height: 11px;
+    width: 11px;
+  }
+  .header-like-btn svg {
+    width: 11px;
+  }
+}
+@media (max-width: 450px) {
+  .header {
+    height: 30px;
+  }
+  .header-logo-img {
+    height: 15px;
+  }
+  .header-menu {
+    width: 140px;
+  }
+  .header-link {
+    font-size: 5px;
+  }
+  .header-search-input {
+    width: 30px;
+    height: 10px;
+    font-size: 6px;
+  }
+  .header-search-input::placeholder {
+    font-size: 6px;
+  }
+  .header-search-button {
+    height: 7px;
+    width: 7px;
+  }
+  .header-like-btn {
+    height: 10px;
+    width: 10px;
+  }
+  .header-like-btn svg {
+    width: 10px;
   }
 }

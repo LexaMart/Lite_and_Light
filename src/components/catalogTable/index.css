@@ -42,8 +42,20 @@ button:hover {
     gap: 35px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .catalog-table {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 720px) {
+  .catalog-table {
+    gap: 30px;
+  }
+}
+@media (max-width: 550px) {
+  .catalog-table {
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
   }
 }
