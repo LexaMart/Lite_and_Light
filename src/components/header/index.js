@@ -7,9 +7,9 @@ import "./index.css";
 export const Header = ({ ...props }) => {
   return (
     <header className="header">
-      <a className="header-logo">
+      <NavLink to="/" className="header-logo">
         <img className="header-logo-img" src={logo}></img>
-      </a>
+      </NavLink>
       <div className="header-menu">
         <NavLink to="/catalog" className="header-link">
           Каталог

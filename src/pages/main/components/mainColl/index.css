@@ -1,0 +1,711 @@
+:root {
+  --font1: "Poppins", sans-serif;
+  --font2: "Montserrat", sans-serif;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  cursor: pointer;
+}
+button {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+input {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font1);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+input:focus {
+  outline: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+/* ----------------- MAIN COOLECTIONS ------------------*/
+.main-coll {
+  display: flex;
+  margin-top: 230px;
+  padding: 0 9%;
+}
+/* ----------------- MAIN COLL LINKS ------------------*/
+.main-coll-links-title {
+  font-family: var(--font2);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 90px;
+  letter-spacing: -1.245px;
+  color: #2c2e3f;
+}
+/* ----------------- MAIN COLL CONTENT ------------------*/
+.main-coll-content-box {
+  display: block;
+}
+.main-coll-content {
+  display: flex;
+  margin-left: 83px;
+}
+.main-coll-content-text {
+  width: 240px;
+  height: 36px;
+  text-align: center;
+  padding: 17px 0;
+  position: relative;
+  font-family: var(--font1);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.415px;
+  color: #2c2e3f;
+  background-color: #fff;
+}
+/* ----------------- PENDANT ------------------*/
+.main-coll-pendant {
+  margin-left: 133px;
+  width: 400px;
+  height: 520px;
+  background-color: #f4f3ee;
+}
+.main-coll-content-img-pendant {
+  position: relative;
+  right: 46px;
+  width: 382px;
+}
+.main-coll-content-text-pendant {
+  top: 85px;
+  left: 160px;
+}
+/* ----------------- SHADE ------------------*/
+.main-coll-shade {
+  margin-top: 30px;
+  width: 530px;
+  height: 425px;
+  background-color: #f2f2f4;
+}
+.main-coll-content-img-shade {
+  position: relative;
+  width: 286px;
+  left: 210px;
+  top: 37px;
+}
+.main-coll-content-text-shade {
+  bottom: 490px;
+}
+/* ----------------- SQUARE ------------------*/
+.main-coll-square {
+  margin-top: 65px;
+  margin-left: 133px;
+  width: 400px;
+  height: 320px;
+  background-color: #ffeddb;
+}
+.main-coll-content-img-square {
+  position: relative;
+  width: 420px;
+  right: 133px;
+}
+.main-coll-content-text-square {
+  bottom: 435px;
+  left: 160px;
+}
+
+/* ----------------- COLL2 ------------------*/
+.main-coll-content2 {
+  margin-left: 26px;
+}
+.main-coll-content-title {
+  font-family: var(--font2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: right;
+  letter-spacing: 4.03333px;
+  color: rgba(44, 46, 63, 0.698039);
+  margin-left: 137px;
+  margin-bottom: 250px;
+  width: 370px;
+}
+
+/* ----------------- LINK ------------------*/
+.main-coll-link {
+  background-color: #bcb8b1;
+  width: 376px;
+  height: 390px;
+}
+.main-coll-content-img-link {
+  position: relative;
+  left: 10px;
+  top: 115px;
+  width: 511px;
+}
+.main-coll-content-text-link {
+  top: 187px;
+  right: 2px;
+}
+/* ----------------- ALGORITHM ------------------*/
+.main-coll-algorithm {
+  background-color: #463f3a;
+  width: 504px;
+  height: 363px;
+  margin-top: 27px;
+}
+.main-coll-content-img-algorithm {
+  position: relative;
+  width: 504px;
+  mix-blend-mode: screen;
+}
+.main-coll-content-text-algorithm {
+  bottom: 330px;
+  left: 267px;
+}
+/* ----------------- TROM ------------------*/
+.main-coll-trom {
+  background-color: #e0afa0;
+  width: 408px;
+  height: 364px;
+  margin-top: 26px;
+}
+.main-coll-content-img-trom {
+  width: 384px;
+  position: relative;
+  left: 100px;
+  bottom: 70px;
+}
+.main-coll-content-text-trom {
+  bottom: 2px;
+  right: 1px;
+}
+
+@media (max-width: 1700px) {
+  /* ----------------- MAIN COOLECTIONS ------------------*/
+  .main-coll {
+    margin-top: 200px;
+  }
+  /* ----------------- MAIN COLL LINKS ------------------*/
+  .main-coll-links-title {
+    font-size: 60px;
+  }
+  /* ----------------- MAIN COLL CONTENT ------------------*/
+  .main-coll-content {
+    margin-left: 30px;
+  }
+  .main-coll-content-text {
+    width: 230px;
+    height: 34px;
+    padding: 17px 0;
+    font-size: 22px;
+  }
+  /* ----------------- PENDANT ------------------*/
+  .main-coll-pendant {
+    margin-left: 133px;
+    width: 380px;
+    height: 500px;
+  }
+  .main-coll-content-img-pendant {
+    right: 46px;
+    width: 382px;
+  }
+  .main-coll-content-text-pendant {
+    top: 65px;
+    left: 150px;
+  }
+  /* ----------------- SHADE ------------------*/
+  .main-coll-shade {
+    margin-top: 30px;
+    width: 510px;
+    height: 405px;
+  }
+  .main-coll-content-img-shade {
+    width: 270px;
+    left: 210px;
+    top: 30px;
+  }
+  .main-coll-content-text-shade {
+    bottom: 461px;
+    right: 3px;
+  }
+  /* ----------------- SQUARE ------------------*/
+  .main-coll-square {
+    margin-top: 60px;
+    margin-left: 133px;
+    width: 380px;
+    height: 300px;
+  }
+  .main-coll-content-img-square {
+    width: 400px;
+    right: 123px;
+  }
+  .main-coll-content-text-square {
+    bottom: 413px;
+    left: 152px;
+  }
+  .main-coll-content-title {
+    margin-left: 100px;
+    margin-bottom: 250px;
+  }
+  /* ----------------- LINK ------------------*/
+  .main-coll-link {
+    width: 356px;
+    height: 370px;
+  }
+  .main-coll-content-img-link {
+    left: 10px;
+    top: 100px;
+    width: 490px;
+  }
+  .main-coll-content-text-link {
+    top: 174px;
+    right: 2px;
+  }
+  /* ----------------- ALGORITHM ------------------*/
+  .main-coll-algorithm {
+    width: 484px;
+    height: 343px;
+  }
+  .main-coll-content-img-algorithm {
+    width: 484px;
+  }
+  .main-coll-content-text-algorithm {
+    bottom: 318px;
+    left: 255px;
+  }
+  /*----------------- TROM ------------------*/
+  .main-coll-trom {
+    width: 388px;
+    height: 344px;
+  }
+  .main-coll-content-img-trom {
+    width: 364px;
+    left: 100px;
+    bottom: 70px;
+  }
+  .main-coll-content-text-trom {
+    bottom: 1px;
+    right: 1px;
+  }
+}
+@media (max-width: 1570px) {
+  /* ----------------- MAIN COOLECTIONS ------------------*/
+  .main-coll {
+    margin-top: 180px;
+  }
+  /* ----------------- MAIN COLL LINKS ------------------*/
+  .main-coll-links-title {
+    font-size: 53px;
+  }
+  /* ----------------- MAIN COLL CONTENT ------------------*/
+  .main-coll-content-text {
+    width: 220px;
+    height: 30px;
+    padding: 17px 0;
+    font-size: 18px;
+  }
+  /* ----------------- PENDANT ------------------*/
+  .main-coll-pendant {
+    margin-left: 133px;
+    width: 360px;
+    height: 460px;
+  }
+  .main-coll-content-img-pendant {
+    right: 46px;
+    width: 362px;
+  }
+  .main-coll-content-text-pendant {
+    top: 49px;
+    left: 150px;
+  }
+  /* ----------------- SHADE ------------------*/
+  .main-coll-shade {
+    margin-top: 30px;
+    width: 490px;
+    height: 385px;
+  }
+  .main-coll-content-img-shade {
+    width: 250px;
+    left: 210px;
+    top: 20px;
+  }
+  .main-coll-content-text-shade {
+    bottom: 428px;
+    right: 3px;
+  }
+  /* ----------------- SQUARE ------------------*/
+  .main-coll-square {
+    margin-top: 50px;
+    margin-left: 133px;
+    width: 360px;
+    height: 280px;
+  }
+  .main-coll-content-img-square {
+    width: 360px;
+    right: 110px;
+  }
+  .main-coll-content-text-square {
+    bottom: 378px;
+    left: 140px;
+  }
+  .main-coll-content-title {
+    margin-left: 60px;
+    margin-bottom: 200px;
+  }
+  /* ----------------- LINK ------------------*/
+  .main-coll-link {
+    width: 336px;
+    height: 350px;
+  }
+  .main-coll-content-img-link {
+    left: 10px;
+    top: 80px;
+    width: 440px;
+  }
+  .main-coll-content-text-link {
+    top: 172px;
+    right: 2px;
+  }
+  /* ----------------- ALGORITHM ------------------*/
+  .main-coll-algorithm {
+    width: 464px;
+    height: 323px;
+  }
+  .main-coll-content-img-algorithm {
+    width: 464px;
+  }
+  .main-coll-content-text-algorithm {
+    bottom: 304px;
+    left: 244px;
+  }
+  /*----------------- TROM ------------------*/
+  .main-coll-trom {
+    width: 368px;
+    height: 324px;
+  }
+  .main-coll-content-img-trom {
+    width: 344px;
+    left: 100px;
+    bottom: 60px;
+  }
+  .main-coll-content-text-trom {
+    bottom: 1px;
+    right: 1px;
+  }
+}
+@media (max-width: 1460px) {
+  .main-coll {
+    margin-top: 150px;
+  }
+  .main-coll-links-title {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .main-coll-content-text {
+    width: 220px;
+    height: 30px;
+    padding: 17px 0;
+    font-size: 18px;
+  }
+  .main-coll-pendant {
+    margin-left: 133px;
+    width: 320px;
+    height: 410px;
+  }
+  .main-coll-content-img-pendant {
+    right: 46px;
+    width: 312px;
+  }
+  .main-coll-content-text-pendant {
+    top: 46px;
+    left: 100px;
+  }
+  .main-coll-shade {
+    margin-top: 25px;
+    width: 450px;
+    height: 305px;
+  }
+  .main-coll-content-img-shade {
+    width: 210px;
+    left: 210px;
+    top: 10px;
+  }
+  .main-coll-content-text-shade {
+    bottom: 360px;
+    right: 3px;
+  }
+  .main-coll-square {
+    margin-top: 50px;
+    margin-left: 133px;
+    width: 320px;
+    height: 240px;
+  }
+  .main-coll-content-img-square {
+    width: 320px;
+    right: 98px;
+  }
+  .main-coll-content-text-square {
+    bottom: 329px;
+    left: 100px;
+  }
+  .main-coll-content-title {
+    margin-left: 60px;
+    margin-bottom: 100px;
+  }
+  .main-coll-link {
+    width: 296px;
+    height: 310px;
+  }
+  .main-coll-content-img-link {
+    left: 10px;
+    top: 80px;
+    width: 400px;
+  }
+  .main-coll-content-text-link {
+    top: 141px;
+    right: 2px;
+  }
+  .main-coll-algorithm {
+    width: 424px;
+    height: 283px;
+  }
+  .main-coll-content-img-algorithm {
+    width: 424px;
+  }
+  .main-coll-content-text-algorithm {
+    bottom: 279px;
+    left: 206px;
+  }
+  .main-coll-trom {
+    width: 328px;
+    height: 324px;
+  }
+  .main-coll-content-img-trom {
+    width: 304px;
+    left: 80px;
+    bottom: 65px;
+  }
+}
+@media (max-width: 1370px) {
+  /* ----------------- MAIN COOLECTIONS ------------------*/
+  .main-coll {
+    margin-top: 130px;
+  }
+  /* ----------------- MAIN COLL LINKS ------------------*/
+  .main-coll-links-title {
+    font-size: 35px;
+  }
+  /* ----------------- MAIN COLL CONTENT ------------------*/
+  .main-coll-content-text {
+    width: 180px;
+    height: 25px;
+    padding: 17px 0;
+    font-size: 14px;
+  }
+  /* ----------------- PENDANT ------------------*/
+  .main-coll-pendant {
+    margin-left: 133px;
+    width: 260px;
+    height: 310px;
+  }
+  .main-coll-content-img-pendant {
+    right: 46px;
+    width: 240px;
+  }
+  .main-coll-content-text-pendant {
+    top: 23px;
+    left: 80px;
+  }
+  /* ----------------- SHADE ------------------*/
+  .main-coll-shade {
+    margin-top: 25px;
+    width: 390px;
+    height: 285px;
+  }
+  .main-coll-content-img-shade {
+    width: 190px;
+    left: 180px;
+    top: 10px;
+  }
+  .main-coll-content-text-shade {
+    bottom: 325px;
+    right: 3px;
+  }
+  /* ----------------- SQUARE ------------------*/
+  .main-coll-square {
+    margin-top: 50px;
+    margin-left: 133px;
+    width: 260px;
+    height: 200px;
+  }
+  .main-coll-content-img-square {
+    width: 260px;
+    right: 80px;
+  }
+  .main-coll-content-text-square {
+    bottom: 280px;
+    left: 90px;
+  }
+  .main-coll-content-title {
+    margin-left: 50px;
+    margin-bottom: 80px;
+    font-size: 13px;
+  }
+  /* ----------------- LINK ------------------*/
+  .main-coll-link {
+    width: 226px;
+    height: 280px;
+  }
+  .main-coll-content-img-link {
+    left: 10px;
+    top: 80px;
+    width: 320px;
+  }
+  .main-coll-content-text-link {
+    top: 140px;
+    right: 10px;
+  }
+  /* ----------------- ALGORITHM ------------------*/
+  .main-coll-algorithm {
+    width: 364px;
+    height: 263px;
+  }
+  .main-coll-content-img-algorithm {
+    width: 364px;
+  }
+  .main-coll-content-text-algorithm {
+    bottom: 250px;
+    left: 190px;
+  }
+  /*----------------- TROM ------------------*/
+  .main-coll-trom {
+    width: 272px;
+    height: 254px;
+  }
+  .main-coll-content-img-trom {
+    width: 254px;
+    left: 80px;
+    bottom: 58px;
+  }
+}
+@media (max-width: 1220px) {
+  /* ----------------- MAIN COOLECTIONS ------------------*/
+  .main-coll {
+    margin-top: 130px;
+    padding: 0 4%;
+  }
+  /* ----------------- MAIN COLL LINKS ------------------*/
+  .main-coll-links-title {
+    font-size: 30px;
+  }
+  .main-coll-content-text {
+    width: 120px;
+    height: 29px;
+    padding: 17px 0;
+    font-size: 12px;
+  }
+  .main-coll-content2 {
+    margin-left: 15px;
+  }
+  /* ----------------- PENDANT ------------------*/
+  .main-coll-pendant {
+    margin-left: 133px;
+    width: 220px;
+    height: 280px;
+  }
+  .main-coll-content-img-pendant {
+    right: 46px;
+    width: 200px;
+  }
+  .main-coll-content-text-pendant {
+    top: 23px;
+    left: 100px;
+  }
+  /* ----------------- SHADE ------------------*/
+  .main-coll-shade {
+    margin-top: 25px;
+    width: 350px;
+    height: 225px;
+  }
+  .main-coll-content-img-shade {
+    width: 140px;
+    left: 180px;
+    top: 20px;
+  }
+  .main-coll-content-text-shade {
+    bottom: 240px;
+    right: 3px;
+  }
+  /* ----------------- SQUARE ------------------*/
+  .main-coll-square {
+    margin-top: 50px;
+    margin-left: 133px;
+    width: 220px;
+    height: 180px;
+  }
+  .main-coll-content-img-square {
+    width: 220px;
+    right: 67px;
+  }
+  .main-coll-content-text-square {
+    bottom: 230px;
+    left: 100px;
+  }
+  .main-coll-content-title {
+    margin-left: 0px;
+    position: relative;
+    right: 60px;
+    margin-bottom: 80px;
+    font-size: 13px;
+  }
+  /* ----------------- LINK ------------------*/
+  .main-coll-link {
+    width: 186px;
+    height: 240px;
+  }
+  .main-coll-content-img-link {
+    left: 10px;
+    top: 80px;
+    width: 280px;
+  }
+  .main-coll-content-text-link {
+    top: 110px;
+    right: 1px;
+  }
+  /* ----------------- ALGORITHM ------------------*/
+  .main-coll-algorithm {
+    width: 314px;
+    height: 223px;
+  }
+  .main-coll-content-img-algorithm {
+    width: 314px;
+  }
+  .main-coll-content-text-algorithm {
+    bottom: 210px;
+    left: 200px;
+  }
+  /*----------------- TROM ------------------*/
+  .main-coll-trom {
+    width: 232px;
+    height: 224px;
+  }
+  .main-coll-content-img-trom {
+    width: 224px;
+    left: 80px;
+    bottom: 62px;
+    left: 50px;
+  }
+}
