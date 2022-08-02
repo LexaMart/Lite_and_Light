@@ -2,6 +2,7 @@ import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./index.css";
 import logo from "../../assets/images/logo.png";
+import { NavLink } from "react-router-dom";
 
 export const Header = ({ ...props }) => {
   return (
@@ -10,9 +11,9 @@ export const Header = ({ ...props }) => {
         <img className="header-logo-img" src={logo}></img>
       </a>
       <div className="header-menu">
-        <a href="#" className="header-link">
+        <NavLink to="/catalog" className="header-link">
           Каталог
-        </a>
+        </NavLink>
         <a href="#" className="header-link">
           Галерея
         </a>

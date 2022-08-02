@@ -1,0 +1,53 @@
+:root {
+  --font1: "Poppins", sans-serif;
+  --font2: "Montserrat", sans-serif;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  cursor: pointer;
+}
+button {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+input {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font1);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+input:focus {
+  outline: none;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.catalog {
+  margin-top: 64px;
+  margin-bottom: 130px;
+  padding: 0 9%;
+}
+.catalog-title {
+  font-family: var(--font2);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  color: #463f3a;
+}
