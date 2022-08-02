@@ -1,0 +1,34 @@
+:root {
+  --font1: "Poppins", sans-serif;
+  --font2: "Montserrat", sans-serif;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  cursor: pointer;
+}
+button {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+.catalog-table {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 58px;
+  justify-items: center;
+}
+.catalog-table-item-wrapper {
+  width: 18%;
+}

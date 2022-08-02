@@ -42,7 +42,7 @@ ul {
 .catalog {
   margin-top: 64px;
   margin-bottom: 130px;
-  padding: 0 9%;
+  padding: 0 8%;
 }
 .catalog-title {
   font-family: var(--font2);
@@ -50,4 +50,5 @@ ul {
   font-size: 72px;
   line-height: 88px;
   color: #463f3a;
+  margin-bottom: 31px;
 }

@@ -1,0 +1,75 @@
+:root {
+  --font1: "Poppins", sans-serif;
+  --font2: "Montserrat", sans-serif;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  cursor: pointer;
+}
+button {
+  background-color: #fff;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+.catalog-table-item {
+  display: inline-block;
+  width: 100%;
+}
+.catalog-table-item-img {
+  max-width: 100%;
+}
+.catalog-table-item-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.catalog-table-item-desk-title {
+  font-family: var(--font1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+.catalog-table-item-desk-subtitle {
+  font-family: var(--font2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000000;
+}
+.catalog-table-item-info {
+  text-align: right;
+}
+.catalog-table-item-info-price-box {
+  display: flex;
+}
+.catalog-table-item-info-price-box-first {
+  font-family: var(--font1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #8a817c;
+}
+.catalog-table-item-info-price-box-second {
+  font-family: var(--font1);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #463f3a;
+  margin-left: 5px;
+}
+.catalog-table-item-info-btn-like {
+  width: 24px;
+}
