@@ -13,6 +13,7 @@ export const CatalogTable = ({ ...props }) => {
             subtitle={product.subtitle}
             image={product.image}
             price={product.price}
+            linkValue={product.linkValue}
           />
         </div>
       ))}

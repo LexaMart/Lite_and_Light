@@ -31,6 +31,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img1],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "U-light",
@@ -39,6 +40,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img2],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "U-light Acoustic",
@@ -47,6 +49,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img3],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "U-light Acoustic",
@@ -55,6 +58,7 @@ export const products = [
     subtitle: "Настенная лампа",
     image: [img4],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "U-light Acoustic",
@@ -63,6 +67,7 @@ export const products = [
     subtitle: "Настенная лампа",
     image: [img5],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Hoops",
@@ -71,6 +76,7 @@ export const products = [
     subtitle: "Потолочная лампа",
     image: [img6],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Hoops",
@@ -79,6 +85,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img7],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Wireflow",
@@ -87,6 +94,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img8],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Wireflow Chandelier",
@@ -95,6 +103,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img9],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Wireflow li neal",
@@ -103,6 +112,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img10],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Wireflow free-form",
@@ -111,6 +121,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img11],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Duo",
@@ -119,6 +130,7 @@ export const products = [
     subtitle: "Потолочная лампа",
     image: [img12],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Palma",
@@ -127,6 +139,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img13],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Palma",
@@ -135,6 +148,7 @@ export const products = [
     subtitle: "Настенная лампа",
     image: [img14],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Palma",
@@ -143,6 +157,7 @@ export const products = [
     subtitle: "Настольная лампа",
     image: [img15],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Palma",
@@ -151,6 +166,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img16],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "Link",
@@ -159,6 +175,7 @@ export const products = [
     subtitle: "Потолочная лампа",
     image: [img17],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "BuzziShade Square",
@@ -167,6 +184,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img18],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "BuzziShade",
@@ -175,6 +193,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img19],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "BuzziProp",
@@ -183,6 +202,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img20],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "BuzziDisk",
@@ -191,6 +211,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img21],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "BuzziTrom",
@@ -199,6 +220,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img22],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "BuzziZepp Light",
@@ -207,6 +229,7 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img23],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
   {
     name: "BuzziZepp Light",
@@ -215,5 +238,6 @@ export const products = [
     subtitle: "Подвесная лампа",
     image: [img24],
     price: "00.000 ",
+    linkValue: "/catalog",
   },
 ];

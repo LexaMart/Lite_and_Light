@@ -1,8 +1,8 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import "./index.css";
-import logo from "../../assets/images/logo.png";
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/images/logo.png";
+import "./index.css";
 
 export const Header = ({ ...props }) => {
   return (
