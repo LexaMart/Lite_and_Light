@@ -181,6 +181,9 @@ ul {
   color: #2c2e3f;
 }
 /* ----------------- MAIN COLL CONTENT ------------------*/
+.main-coll-content-box {
+  display: block;
+}
 .main-coll-content {
   display: flex;
   margin-left: 83px;
@@ -966,7 +969,7 @@ ul {
     bottom: 65px;
   }
 }
-@media (max-width: 1460px) {
+@media (max-width: 1370px) {
   .main {
     padding-top: 40px;
   }
@@ -1168,5 +1171,222 @@ ul {
   }
   .main-gallery-title {
     font-size: 35px;
+  }
+}
+@media (max-width: 1220px) {
+  .main-greet {
+    height: 400px;
+  }
+  .main-greet-bg1 {
+    height: 400px;
+  }
+  .main-greet-bg-div {
+    height: 330px;
+  }
+  .main-greet-bg-link {
+    height: 73px;
+  }
+  .main-greet-bg-link svg {
+    width: 45px;
+  }
+  .main-greet-bg-text {
+    font-size: 11px;
+  }
+  .main-greet-content {
+    height: 400px;
+    top: -550px;
+  }
+  .main-greet-img {
+    height: 520px;
+    width: 300px;
+    top: 20px;
+    margin-left: 0px;
+    margin-right: 5%;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -1200px;
+    }
+    to {
+      top: 20px;
+    }
+  }
+  .main-greet-title-box {
+    height: 400px;
+  }
+  .main-greet-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .main-greet-text:first-child {
+    margin-top: 250px;
+  }
+  .main-greet-title {
+    font-size: 30px;
+    line-height: 28px;
+    margin-top: 70px;
+  }
+  /* ----------------- MAIN COOLECTIONS ------------------*/
+  .main-coll {
+    margin-top: 130px;
+    padding: 0 4%;
+  }
+  /* ----------------- MAIN COLL LINKS ------------------*/
+  .main-coll-links-title {
+    font-size: 30px;
+  }
+  .main-coll-content-text {
+    width: 120px;
+    height: 29px;
+    padding: 17px 0;
+    font-size: 12px;
+  }
+  .main-coll-content2 {
+    margin-left: 15px;
+  }
+  /* ----------------- PENDANT ------------------*/
+  .main-coll-pendant {
+    margin-left: 133px;
+    width: 220px;
+    height: 280px;
+  }
+  .main-coll-content-img-pendant {
+    right: 46px;
+    width: 200px;
+  }
+  .main-coll-content-text-pendant {
+    top: 23px;
+    left: 100px;
+  }
+  /* ----------------- SHADE ------------------*/
+  .main-coll-shade {
+    margin-top: 25px;
+    width: 350px;
+    height: 225px;
+  }
+  .main-coll-content-img-shade {
+    width: 140px;
+    left: 180px;
+    top: 20px;
+  }
+  .main-coll-content-text-shade {
+    bottom: 240px;
+    right: 3px;
+  }
+  /* ----------------- SQUARE ------------------*/
+  .main-coll-square {
+    margin-top: 50px;
+    margin-left: 133px;
+    width: 220px;
+    height: 180px;
+  }
+  .main-coll-content-img-square {
+    width: 220px;
+    right: 67px;
+  }
+  .main-coll-content-text-square {
+    bottom: 230px;
+    left: 100px;
+  }
+  .main-coll-content-title {
+    margin-left: 0px;
+    position: relative;
+    right: 60px;
+    margin-bottom: 80px;
+    font-size: 13px;
+  }
+  /* ----------------- LINK ------------------*/
+  .main-coll-link {
+    width: 186px;
+    height: 240px;
+  }
+  .main-coll-content-img-link {
+    left: 10px;
+    top: 80px;
+    width: 280px;
+  }
+  .main-coll-content-text-link {
+    top: 110px;
+    right: 1px;
+  }
+  /* ----------------- ALGORITHM ------------------*/
+  .main-coll-algorithm {
+    width: 314px;
+    height: 223px;
+  }
+  .main-coll-content-img-algorithm {
+    width: 314px;
+  }
+  .main-coll-content-text-algorithm {
+    bottom: 210px;
+    left: 200px;
+  }
+  /*----------------- TROM ------------------*/
+  .main-coll-trom {
+    width: 232px;
+    height: 224px;
+  }
+  .main-coll-content-img-trom {
+    width: 224px;
+    left: 80px;
+    bottom: 62px;
+    left: 50px;
+  }
+  /* ----------------- MAIN TYPES ------------------*/
+  .main-types {
+    margin-top: 60px;
+  }
+  .main-types-list {
+    margin-top: 55px;
+  }
+  .main-types-item {
+    margin-bottom: 60px;
+  }
+  .main-types-subtitle {
+    font-size: 14px;
+  }
+  .main-types-img {
+    width: 50%;
+    height: 30%;
+  }
+  .main-types-img:first-child {
+    margin-right: 10%;
+  }
+  .main-types-box1 {
+    margin-top: 30px;
+  }
+  .main-types-box2 {
+    margin-top: 30px;
+  }
+  .main-types-title {
+    font-size: 30px;
+    margin-bottom: 50px;
+    line-height: 35px;
+  }
+  .main-types-text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .main-types-link2 {
+    margin-top: 80px;
+  }
+  .main-types-link {
+    width: 200px;
+    padding: 20px 0;
+    margin-top: 80px;
+  }
+  .main-types-link p {
+    font-size: 9px;
+    margin-right: 15px;
+  }
+  .main-types-link svg {
+    width: 40px;
+  }
+  /* ----------------- MAIN GALLERY ------------------*/
+  .main-gallery {
+    margin-bottom: 120px;
+  }
+  .main-gallery-title {
+    font-size: 30px;
   }
 }
