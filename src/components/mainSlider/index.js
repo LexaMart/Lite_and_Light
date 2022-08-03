@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
+import { NavLink } from "react-router-dom";
 import img1 from "../../assets/mainSliderImages/img1.png";
 import img2 from "../../assets/mainSliderImages/img2.png";
 import img3 from "../../assets/mainSliderImages/img3.png";
@@ -29,8 +30,9 @@ export const MainSlider = ({ ...props }) => {
     <div className="slider">
       <Slider className="big-slider" {...settings}>
         {images.map((img, idx) => (
-          <div
-            key="{item}"
+          <NavLink
+            to="/"
+            key={idx}
             className={idx === imageIndex ? "slide activeSlide" : "slide"}
           >
             <img src={img} alt={img} />
@@ -41,10 +43,10 @@ export const MainSlider = ({ ...props }) => {
                   : "slide-content"
               }
             >
-              <a className="slide-content-link">Галерея</a>
+              <p className="slide-content-link">Галерея</p>
               <p className="slide-content-num">0{idx + 1}</p>
             </div>
-          </div>
+          </NavLink>
         ))}
       </Slider>
     </div>

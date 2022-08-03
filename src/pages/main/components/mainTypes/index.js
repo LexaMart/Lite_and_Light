@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-//import AOS from "aos";
+import AOS from "aos";
 import typesImg1 from "../../../../assets/images/main-types-img1.png";
 import typesImg2 from "../../../../assets/images/main-types-img2.png";
 import "./index.css";
 
 export const MainTypes = ({ ...props }) => {
-  //AOS.init();
+  AOS.init();
   return (
     <div className="main-types">
       <p className="main-types-subtitle"> Типы дизайнерского света </p>

@@ -233,10 +233,13 @@
   }
   .main-types-box1 {
     margin-top: 5%;
+    width: 40%;
+    margin-right: 0;
   }
   .main-types-box2 {
     margin-top: 5%;
     margin-left: 5%;
+    width: 40%;
   }
   .main-types-title {
     font-size: 30px;
@@ -244,6 +247,7 @@
     line-height: 35px;
   }
   .main-types-text {
+    width: 40%;
     font-size: 18px;
     line-height: 20px;
   }

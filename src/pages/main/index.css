@@ -1,50 +1,8 @@
-:root {
-  --font1: "Poppins", sans-serif;
-  --font2: "Montserrat", sans-serif;
-}
-p {
-  padding: 0;
-  margin: 0;
-}
-a {
-  text-decoration: none;
-  color: #000;
-}
-a:hover {
-  cursor: pointer;
-}
-button {
-  background-color: #fff;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-button:hover {
-  cursor: pointer;
-}
-input {
-  border: none;
-  margin: 0;
-  padding: 0;
-  font-family: var(--font1);
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-}
-input:focus {
-  outline: none;
-}
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
 .main {
   position: relative;
   z-index: 2;
   padding-top: 105px;
 }
-/* ----------------- MAIN GALLERY ------------------*/
 .main-gallery {
   margin-bottom: 173px;
 }
@@ -58,8 +16,6 @@ ul {
   color: #463f3a;
 }
 
-/* ----------------- ADAPTIVE ------------------*/
-
 @media (max-width: 1700px) {
 }
 
@@ -68,7 +24,6 @@ ul {
     padding-top: 70px;
   }
 
-  /* ----------------- MAIN GALLERY ------------------*/
   .main-gallery {
     margin-bottom: 160px;
   }
@@ -82,8 +37,6 @@ ul {
   .main {
     padding-top: 40px;
   }
-
-  /* ----------------- MAIN GALLERY ------------------*/
   .main-gallery {
     margin-bottom: 160px;
   }
@@ -92,7 +45,6 @@ ul {
   }
 }
 @media (max-width: 1220px) {
-  /*--------------- MAIN GALLERY ------------------*/
   .main-gallery {
     margin-bottom: 120px;
   }
@@ -103,5 +55,24 @@ ul {
 @media (max-width: 530px) {
   .main {
     padding-top: 10px;
+  }
+  .main-gallery-title {
+    font-size: 25px;
+  }
+}
+@media (max-width: 450px) {
+  .main {
+    padding-top: 10px;
+  }
+  .main-gallery-title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 400px) {
+  .main {
+    padding-top: 10px;
+  }
+  .main-gallery-title {
+    font-size: 14px;
   }
 }
