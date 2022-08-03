@@ -1,11 +1,12 @@
 import React from "react";
-import AOS from "aos";
+import { NavLink } from "react-router-dom";
+//import AOS from "aos";
 import typesImg1 from "../../../../assets/images/main-types-img1.png";
 import typesImg2 from "../../../../assets/images/main-types-img2.png";
 import "./index.css";
 
 export const MainTypes = ({ ...props }) => {
-  AOS.init();
+  //AOS.init();
   return (
     <div className="main-types">
       <p className="main-types-subtitle"> Типы дизайнерского света </p>
@@ -31,7 +32,7 @@ export const MainTypes = ({ ...props }) => {
             <p className="main-types-title">Классика</p>
             <p className="main-types-text">Готовые</p>
             <p className="main-types-text">Решения</p>
-            <a href="#" className="main-types-link">
+            <NavLink to="/catalog" className="main-types-link">
               <p>Перейти в каталог</p>
               <svg
                 width="77"
@@ -47,7 +48,7 @@ export const MainTypes = ({ ...props }) => {
                   fill="#504B48"
                 />
               </svg>
-            </a>
+            </NavLink>
           </div>
         </li>
         <li className="main-types-item">
@@ -62,7 +63,7 @@ export const MainTypes = ({ ...props }) => {
             <p className="main-types-title">Кастом</p>
             <p className="main-types-text">Индивидуальные</p>
             <p className="main-types-text">решения</p>
-            <a href="#" className="main-types-link main-types-link2">
+            <NavLink to="/catalog" className="main-types-link main-types-link2">
               <p>Перейти в каталог</p>
               <svg
                 width="77"
@@ -78,7 +79,7 @@ export const MainTypes = ({ ...props }) => {
                   fill="#504B48"
                 />
               </svg>
-            </a>
+            </NavLink>
           </div>
           <img
             src={typesImg2}
