@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import link from "../../../../assets/images/link.png";
 import algorithm from "../../../../assets/images/algorithm.png";
@@ -20,7 +21,7 @@ export const MainColl = ({ ...props }) => {
         data-aos-anchor-placement="top-bottom"
       >
         <p className="main-coll-links-title">Избранные</p>
-        <p className="main-coll-links-title">Коллекции</p>
+        <p className="main-coll-links-title">коллекции</p>
       </div>
       <div className="main-coll-content">
         <div className="main-coll-content1">

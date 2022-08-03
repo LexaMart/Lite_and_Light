@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import mainGreetImg from "../../../../assets/images/main-greet-img.png";
 import "./index.css";
@@ -11,7 +12,7 @@ export const MainGreet = ({ ...props }) => {
         <div className="main-greet-bg1"></div>
         <div className="main-greet-bg2">
           <div className="main-greet-bg-div"></div>
-          <a className="main-greet-bg-link">
+          <NavLink to="/catalog" className="main-greet-bg-link">
             <p className="main-greet-bg-text">Перейти в каталог</p>
             <svg
               width="116"
@@ -27,7 +28,7 @@ export const MainGreet = ({ ...props }) => {
                 fill="white"
               />
             </svg>
-          </a>
+          </NavLink>
         </div>
       </div>
       <div className="main-greet-content">

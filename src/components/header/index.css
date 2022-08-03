@@ -103,6 +103,7 @@ ul {
 }
 .header-search form {
   display: flex;
+  align-items: center;
 }
 .header-search-input {
   height: 20px;
@@ -116,6 +117,7 @@ ul {
   color: #000;
 }
 .header-search-button {
+  display: flex;
   height: 16px;
   width: 16px;
   background-image: url(../../assets/images/loop.png);
@@ -128,6 +130,7 @@ ul {
   opacity: 0.4;
 }
 .header-like-btn {
+  display: flex;
   transition: 0.5s;
   height: 24px;
   width: 24px;
@@ -174,7 +177,6 @@ ul {
     align-items: center;
   }
   .header-like-btn {
-    display: block;
     height: 18px;
     width: 18px;
   }
@@ -207,7 +209,6 @@ ul {
     width: 12px;
   }
   .header-like-btn {
-    display: block;
     height: 16px;
     width: 16px;
   }
@@ -241,7 +242,6 @@ ul {
     width: 12px;
   }
   .header-like-btn {
-    display: block;
     height: 16px;
     width: 16px;
   }
@@ -275,7 +275,6 @@ ul {
     width: 10px;
   }
   .header-like-btn {
-    display: block;
     height: 14px;
     width: 14px;
   }
@@ -286,15 +285,16 @@ ul {
 @media (max-width: 450px) {
   .header {
     height: 35px;
+    padding: 0 4%;
   }
   .header-logo-img {
     height: 20px;
   }
   .header-menu {
-    width: 150px;
+    width: 200px;
   }
   .header-link {
-    font-size: 6px;
+    font-size: 8px;
   }
   .header-search-input {
     width: 60px;
@@ -309,7 +309,6 @@ ul {
     width: 8px;
   }
   .header-like-btn {
-    display: flex;
     height: 11px;
     width: 11px;
   }
@@ -317,7 +316,7 @@ ul {
     width: 11px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 370px) {
   .header {
     height: 30px;
   }
@@ -328,7 +327,7 @@ ul {
     width: 140px;
   }
   .header-link {
-    font-size: 5px;
+    font-size: 6px;
   }
   .header-search-input {
     width: 30px;
