@@ -1,19 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import { addItemAction } from "../../store/reducers";
 import "./index.css";
 
 export const CatalogItem = ({ ...props }) => {
   const [isLiked, setIsLiked] = useState(false);
+  const {likedItems} = useSelector((store) => store.likedItemsReducer)
+  const dispatch = useDispatch();
+
   function pushToLocalStorage() {
-    setIsLiked(!isLiked);
-    if (!isLiked) {
-      props.likedItems.push(props.id);
-    } else {
-      props.likedItems.splice(props.likedItems.indexOf(props.id), 1);
-    }
-    localStorage.likedItems = props.likedItems;
-    console.log(localStorage.likedItems);
+    dispatch(addItemAction(props.id))
   }
+  useEffect(() => {
+    setIsLiked(likedItems.includes(props.id))
+  }, [likedItems])
   return (
     <div className="catalog-table-item">
       <NavLink to="/catalog">
