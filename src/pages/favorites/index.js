@@ -2,19 +2,19 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux/es/exports";
 import { CatalogItem } from "../../components/catalogItem";
 import { products } from "../../data/products";
-//import "./index.css";
+import "./index.css";
 
 export const Favorites = ({ ...props }) => {
   const [likedProducts, setlikedProducts] = useState([]);
-  const {likedItems} = useSelector((store) => store.likedItemsReducer);
+  const { likedItems } = useSelector((store) => store.likedItemsReducer);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    setlikedProducts(products.filter(el => likedItems.includes(el.id)))
+    setlikedProducts(products.filter((el) => likedItems.includes(el.id)));
   }, [likedItems]);
   return (
     <div className="favorites">
-      <p className="favorites-title">Каталог</p>
+      <p className="favorites-title">Избранные</p>
       <div className="catalog-table">
         {likedProducts.map((product, idx) => (
           <div key={idx}>
