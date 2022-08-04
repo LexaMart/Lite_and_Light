@@ -1,18 +1,19 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
-import "./index.css";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import "./index.css";
 
 export const Header = ({ ...props }) => {
   return (
     <header className="header">
-      <a className="header-logo">
+      <NavLink to="/" className="header-logo">
         <img className="header-logo-img" src={logo}></img>
-      </a>
+      </NavLink>
       <div className="header-menu">
-        <a href="#" className="header-link">
+        <NavLink to="/catalog" className="header-link">
           Каталог
-        </a>
+        </NavLink>
         <a href="#" className="header-link">
           Галерея
         </a>
