@@ -1,16 +1,16 @@
-.buzzy {
+.buzzi {
   padding: 0 9%;
 }
-.buzzy-content {
+.buzzi-content {
   display: flex;
   position: relative;
   z-index: 2;
 }
-.buzzy-img1 {
+.buzzi-img1 {
   width: 53%;
   padding-left: 10%;
 }
-.buzzy-text {
+.buzzi-text {
   position: relative;
   height: fit-content;
   font-family: var(--font2);
@@ -19,331 +19,331 @@
   line-height: 158.69%;
   color: #8a817c;
 }
-.buzzy-text-dark {
+.buzzi-text-dark {
   font-weight: 600;
   color: #463f3a;
 }
-.buzzy-text1 {
+.buzzi-text1 {
   top: 440px;
   margin-left: 10%;
   width: 352px;
 }
-.buzzy-text2 {
+.buzzi-text2 {
   padding: 424px 172px 250px 96px;
   z-index: 1;
   background-color: #f4f3ee;
   width: 413px;
   top: -255px;
 }
-.buzzy-img2 {
+.buzzi-img2 {
   position: relative;
-  top: -750px;
+  bottom: 750px;
   left: 35%;
   width: 65%;
   z-index: 4;
 }
 @media (max-width: 1770px) {
-  .buzzy-text {
+  .buzzi-text {
     font-size: 23px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 420px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 400px 160px 240px 70px;
     width: 393px;
     top: -265px;
   }
-  .buzzy-img2 {
-    top: -750px;
+  .buzzi-img2 {
+    bottom: 750px;
   }
 }
 @media (max-width: 1620px) {
-  .buzzy-text {
+  .buzzi-text {
     font-size: 22px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 360px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 380px 150px 220px 60px;
     width: 375px;
     top: -265px;
   }
-  .buzzy-img2 {
-    top: -700px;
+  .buzzi-img2 {
+    bottom: 700px;
   }
 }
 @media (max-width: 1520px) {
-  .buzzy-text {
+  .buzzi-text {
     font-size: 21px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 250px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 380px 150px 200px 50px;
     width: 375px;
     top: -265px;
   }
-  .buzzy-img2 {
-    top: -650px;
+  .buzzi-img2 {
+    bottom: 650px;
   }
 }
 @media (max-width: 1420px) {
-  .buzzy {
+  .buzzi {
     padding: 0 6%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 20px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 220px;
     margin-left: 6%;
     width: 300px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 380px 150px 200px 50px;
     width: 360px;
     top: -265px;
   }
-  .buzzy-img2 {
-    top: -650px;
+  .buzzi-img2 {
+    bottom: 650px;
   }
 }
 @media (max-width: 1280px) {
-  .buzzy {
+  .buzzi {
     padding: 0 5%;
   }
-  .buzzy-img1 {
+  .buzzi-img1 {
     width: 53%;
     padding-left: 7%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 19px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 220px;
     margin-left: 6%;
     width: 300px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 350px 120px 180px 50px;
     width: 350px;
     top: -265px;
   }
-  .buzzy-img2 {
-    top: -600px;
+  .buzzi-img2 {
+    bottom: 600px;
     left: 40%;
     width: 60%;
   }
 }
 @media (max-width: 1060px) {
-  .buzzy {
+  .buzzi {
     padding: 0 5%;
   }
-  .buzzy-img1 {
+  .buzzi-img1 {
     width: 53%;
     padding-left: 7%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 16px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 200px;
     margin-left: 6%;
     width: 250px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 280px 120px 100px 50px;
     width: 290px;
     top: -220px;
   }
-  .buzzy-img2 {
-    top: -490px;
+  .buzzi-img2 {
+    bottom: 490px;
     left: 40%;
     width: 60%;
   }
 }
 @media (max-width: 910px) {
-  .buzzy {
+  .buzzi {
     padding: 0 4%;
   }
-  .buzzy-img1 {
+  .buzzi-img1 {
     width: 53%;
     padding-left: 6%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 14px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 160px;
     margin-left: 6%;
     width: 200px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 200px 120px 70px 40px;
     width: 240px;
     top: -160px;
   }
-  .buzzy-img2 {
-    top: -370px;
+  .buzzi-img2 {
+    bottom: 370px;
     left: 40%;
     width: 60%;
   }
 }
 @media (max-width: 770px) {
-  .buzzy {
+  .buzzi {
     padding: 0 4%;
   }
-  .buzzy-img1 {
+  .buzzi-img1 {
     width: 53%;
     padding-left: 6%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 12px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 120px;
     margin-left: 6%;
     width: 175px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 200px 70px 70px 40px;
     width: 220px;
     top: -160px;
   }
-  .buzzy-img2 {
-    top: -370px;
+  .buzzi-img2 {
+    bottom: 370px;
     left: 40%;
     width: 60%;
   }
 }
 @media (max-width: 670px) {
-  .buzzy {
+  .buzzi {
     padding: 0 3%;
   }
-  .buzzy-img1 {
+  .buzzi-img1 {
     width: 53%;
     padding-left: 6%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 10px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 100px;
     margin-left: 6%;
     width: 150px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 200px 70px 70px 20px;
     width: 180px;
     top: -160px;
   }
-  .buzzy-img2 {
-    top: -370px;
+  .buzzi-img2 {
+    bottom: 370px;
     left: 42%;
     width: 58%;
   }
 }
 @media (max-width: 520px) {
-  .buzzy {
+  .buzzi {
     padding: 0 3%;
   }
-  .buzzy-img1 {
+  .buzzi-img1 {
     width: 50%;
     padding-left: 6%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 8.5px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 80px;
     margin-left: 6%;
     width: 130px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 160px 40px 50px 18px;
     width: 150px;
     top: -100px;
   }
-  .buzzy-img2 {
-    top: -230px;
+  .buzzi-img2 {
+    bottom: 230px;
     left: 42%;
     width: 58%;
   }
 }
 @media (max-width: 420px) {
-  .buzzy {
+  .buzzi {
     padding: 0 3%;
   }
-  .buzzy-img1 {
+  .buzzi-img1 {
     width: 60%;
     padding-left: 6%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 7px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 80px;
     margin-left: 3%;
     width: 110px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 100px 40px 30px 18px;
     width: 120px;
     top: -80px;
   }
-  .buzzy-img2 {
-    top: -180px;
+  .buzzi-img2 {
+    bottom: 180px;
     left: 42%;
     width: 58%;
   }
 }
 @media (max-width: 350px) {
-  .buzzy {
+  .buzzi {
     padding: 0 3%;
   }
-  .buzzy-img1 {
+  .buzzi-img1 {
     width: 50%;
     padding-left: 6%;
   }
-  .buzzy-text {
+  .buzzi-text {
     font-size: 7px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 50px;
     margin-left: 3%;
     width: 110px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 100px 20px 30px 18px;
     width: 120px;
     top: -80px;
   }
-  .buzzy-img2 {
-    top: -180px;
+  .buzzi-img2 {
+    bottom: 180px;
     left: 47%;
     width: 53%;
   }
 }
 @media (max-width: 315px) {
-  .buzzy-text {
+  .buzzi-text {
     font-size: 6px;
   }
-  .buzzy-text1 {
+  .buzzi-text1 {
     top: 50px;
     margin-left: 3%;
     width: 90px;
   }
-  .buzzy-text2 {
+  .buzzi-text2 {
     padding: 70px 40px 30px 10px;
     line-height: 8px;
     width: 90px;
     top: -45px;
   }
-  .buzzy-img2 {
-    top: -120px;
+  .buzzi-img2 {
+    bottom: 120px;
     left: 47%;
     width: 53%;
   }

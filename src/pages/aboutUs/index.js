@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 //import { useDispatch, useSelector } from "react-redux/es/exports";
-import { Buzzy } from "./components/buzzi";
+import { Buzzi } from "./components/buzzi";
+import { Light } from "./components/light";
 import "./index.css";
 
 export const AboutUs = ({ ...props }) => {
@@ -8,7 +9,8 @@ export const AboutUs = ({ ...props }) => {
     <div className="wraper">
       <div className="about-us">
         <p className="about-us-title">О нас</p>
-        <Buzzy />
+        <Buzzi />
+        <Light />
       </div>
     </div>
   );
