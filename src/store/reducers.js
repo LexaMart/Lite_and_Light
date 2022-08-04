@@ -1,15 +1,18 @@
-import {createReducer, createAction} from '@reduxjs/toolkit'
+import { createReducer, createAction } from "@reduxjs/toolkit";
 
-const exampleState = {
-    exampleField: true
-}
+const initialState = {
+  /*likedItems: JSON.parse(localStorage.likedItems).length
+    ? JSON.parse(localStorage.likedItems)
+    : [],*/
+  likedItems: [],
+};
 
-export const exampleAction = createAction("ExampleActionName")
+export const addItemAction = createAction("AddItem");
 
-export const exampleReducer = createReducer(exampleState, (builder) => {
-    builder.addCase(exampleAction, (state, action) => {
-        state.exampleField = !!action.payload || false
-    })
-})
+export const likedItemsReducer = createReducer(initialState, (builder) => {
+  builder.addCase(addItemAction, (state, action) => {
+    state.exampleField = !!action.payload || false;
+  });
+});
 
 // export default exampleReducer

@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { Main } from "../pages/main";
 import { Catalog } from "../pages/catalog";
+import { Favorites } from "../pages/favorites";
 
 export const Routing = ({ ...props }) => {
   return (
@@ -9,6 +10,7 @@ export const Routing = ({ ...props }) => {
       <Route path="/" element={<Main />} />
       <Route path="*" element={<Main />} />
       <Route path="/catalog" element={<Catalog />} />
+      <Route path="/favorites" element={<Favorites />} />
     </Routes>
   );
 };

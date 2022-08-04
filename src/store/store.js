@@ -1,7 +1,7 @@
-import { configureStore } from '@reduxjs/toolkit'
-import { exampleReducer } from './reducers'
+import { configureStore } from "@reduxjs/toolkit";
+import { likedItemsReducer } from "./reducers";
 
 export default configureStore({
-  reducer: {exampleReducer},
-  devTools: process.env.REACT_APP_DEV_TOOLS === 'true'
-})
+  reducer: { likedItemsReducer },
+  devTools: process.env.REACT_APP_DEV_TOOLS === "true",
+});
