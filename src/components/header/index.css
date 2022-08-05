@@ -48,11 +48,11 @@
   align-items: center;
 }
 .header-search {
-  border-bottom: 1px #000 solid;
   align-items: center;
   margin-right: 10px;
 }
 .header-search form {
+  border-bottom: 1px #000 solid;
   display: flex;
   align-items: center;
 }

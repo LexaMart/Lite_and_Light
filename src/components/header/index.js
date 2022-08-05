@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
+import { Search } from "../search";
 import logo from "../../assets/images/logo.png";
 import "./index.css";
 
 export const Header = ({ ...props }) => {
+  const { register, handleSubmit } = useForm();
+  const [value, setValue] = useState("0");
+  //const { onChange } = register("formValue");
+  const onSubmit = (d) => {};
+  const onChange = (event) => {
+    setValue(event.target.value);
+  };
   return (
     <header className="header">
       <NavLink to="/" className="header-logo">
@@ -33,8 +42,10 @@ export const Header = ({ ...props }) => {
       </div>
       <div className="header-nav">
         <div className="header-search">
-          <form>
+          <form onSubmit={handleSubmit(onSubmit)}>
             <input
+              {...register("searchValue")}
+              onChange={onChange}
               className="header-search-input"
               type="text"
               placeholder="Поиск"
@@ -43,6 +54,7 @@ export const Header = ({ ...props }) => {
               {" "}
             </button>
           </form>
+          <Search value={value} />
         </div>
         <div className="header-like">
           <NavLink to="/favorites" className="header-like-btn">
