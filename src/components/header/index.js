@@ -42,7 +42,6 @@ export const Header = ({ ...props }) => {
       </div>
       <div className="header-nav">
         <div className="header-search">
-          <form></form>
           <Search value={value} />
         </div>
         <div className="header-like">

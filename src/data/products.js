@@ -91,7 +91,7 @@ export const products = [
   //   price: "00.000 ",
   // },
   {
-    name: "U-light Wall",
+    name: "U-light",
     subName: "Wall",
     id: "0005",
     title: "U-light Wall",
@@ -131,7 +131,7 @@ export const products = [
     price: "00.000 ",
   },
   {
-    name: "Wireflow Chandelier",
+    name: "Wireflow",
     subName: "Chandelier",
     id: "0009",
     title: "Wireflow Chandelier",
@@ -141,7 +141,7 @@ export const products = [
     price: "00.000 ",
   },
   {
-    name: "Wireflow li neal",
+    name: "Wireflow",
     subName: "Lineal",
     id: "0010",
     title: "Wireflow li neal",
@@ -151,7 +151,7 @@ export const products = [
     price: "00.000 ",
   },
   {
-    name: "Wireflow free-form",
+    name: "Wireflow",
     subName: "free-form",
     id: "0011",
     title: "Wireflow free-form",

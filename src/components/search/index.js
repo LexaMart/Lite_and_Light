@@ -22,24 +22,47 @@ export const Search = ({ ...props }) => {
   };
   useEffect(() => {}, []);
   return (
-    <div className="result">
+    <div className="search">
       <input
         onChange={search}
-        className="header-search-input"
+        className="search-input"
         type="text"
         placeholder="Поиск"
       ></input>
       <button type="submit" className="header-search-button">
         {" "}
       </button>
-      {foundProducts.map((product, idx) => (
-        <div key={idx}>
-          <a className="result-item">
-            <img src={product.image} className="result-item-img" />
-            <p className="result-item-name">{product.name}</p>
+      <div
+        style={
+          foundProducts.length ? { display: "initial" } : { display: "none" }
+        }
+        className="result"
+      >
+        {foundProducts.map((product, idx) => (
+          <a className="result-item" key={idx}>
+            <div className="result-item-image">
+              <img
+                src={product.cardImage}
+                alt="search_icon"
+                className="result-item-img"
+              />
+            </div>
+            <div className="result-item-name">
+              <span className="result-item-name-title">{product.name}</span>
+              {product.subName && (
+                <span className="result-item-name-subtitle">
+                  {product.subName}
+                </span>
+              )}
+              {product.subtitle && (
+                <span className="result-item-name-type">
+                  {product.subtitle}
+                </span>
+              )}
+            </div>
           </a>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
