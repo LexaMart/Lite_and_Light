@@ -1,5 +1,6 @@
 .result {
   position: absolute;
+  right: 500px;
   border: 1px solid #f4f3ee;
   width: 130px;
   padding: 5px 10px;

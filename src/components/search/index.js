@@ -5,15 +5,33 @@ import "./index.css";
 export const Search = ({ ...props }) => {
   const [foundProducts, setFoundProducts] = useState([]);
   const [value, setValue] = useState(props.value);
-  useEffect(() => {
-    if (props.value !== "") {
-      setFoundProducts(products.filter((el) => el.name.includes(props.value)));
+
+  const search = (inputValue) => {
+    if (inputValue.target.value) {
+      setFoundProducts(
+        products.filter((el) => {
+          const valueToSearch = `${el.subtitle} ${el.name} `;
+          return valueToSearch
+            .toLowerCase()
+            .includes(inputValue.target.value?.toLowerCase());
+        })
+      );
     } else {
       setFoundProducts([]);
     }
-  }, [props.value]);
+  };
+  useEffect(() => {}, []);
   return (
     <div className="result">
+      <input
+        onChange={search}
+        className="header-search-input"
+        type="text"
+        placeholder="Поиск"
+      ></input>
+      <button type="submit" className="header-search-button">
+        {" "}
+      </button>
       {foundProducts.map((product, idx) => (
         <div key={idx}>
           <a className="result-item">
