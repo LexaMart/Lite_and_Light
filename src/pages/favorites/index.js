@@ -1,23 +1,22 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux/es/exports";
-//import { exampleAction } from "../../store/reducers";
 import { CatalogItem } from "../../components/catalogItem";
 import { products } from "../../data/products";
 import "./index.css";
 
-export const Catalog = ({ ...props }) => {
-  const [likedItems, setLikedItems] = useState([]);
-  //const reduxValue = useSelector((store) => store.exampleReducer.exampleField);
+export const Favorites = ({ ...props }) => {
+  const [likedProducts, setlikedProducts] = useState([]);
+  const { likedItems } = useSelector((store) => store.likedItemsReducer);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    setLikedItems(localStorage.likedItems);
-  }, []);
+    setlikedProducts(products.filter((el) => likedItems.includes(el.id)));
+  }, [likedItems]);
   return (
-    <div className="catalog">
-      <p className="catalog-title">Каталог</p>
+    <div className="favorites">
+      <p className="favorites-title">Избранные</p>
       <div className="catalog-table">
-        {products.map((product, idx) => (
+        {likedProducts.map((product, idx) => (
           <div key={idx}>
             <CatalogItem
               title={product.title}
@@ -25,7 +24,6 @@ export const Catalog = ({ ...props }) => {
               image={product.image}
               price={product.price}
               id={product.id}
-              likedItems={likedItems}
             />
           </div>
         ))}

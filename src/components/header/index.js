@@ -17,9 +17,9 @@ export const Header = ({ ...props }) => {
         <a href="#" className="header-link">
           Галерея
         </a>
-        <a href="#" className="header-link">
+        <NavLink to="/aboutUs" href="#" className="header-link">
           О нас
-        </a>
+        </NavLink>
         <Link
           to="footer"
           spy={true}
@@ -45,7 +45,7 @@ export const Header = ({ ...props }) => {
           </form>
         </div>
         <div className="header-like">
-          <a className="header-like-btn">
+          <NavLink to="/favorites" className="header-like-btn">
             <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
               <defs></defs>
               <title />
@@ -56,7 +56,7 @@ export const Header = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </a>
+          </NavLink>
         </div>
       </div>
     </header>

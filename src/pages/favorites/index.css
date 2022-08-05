@@ -1,9 +1,9 @@
-.catalog {
+.favorites {
   margin-top: 64px;
   margin-bottom: 130px;
   padding: 0 8%;
 }
-.catalog-title {
+.favorites-title {
   font-family: var(--font2);
   font-weight: 700;
   font-size: 72px;
@@ -13,44 +13,44 @@
 }
 
 @media (max-width: 1460px) {
-  .catalog {
+  .favorites {
     margin-top: 25px;
     margin-bottom: 130px;
     padding: 0 8%;
   }
-  .catalog-title {
+  .favorites-title {
     font-size: 40px;
   }
 }
 @media (max-width: 1000px) {
-  .catalog {
+  .favorites {
     margin-top: 0px;
     margin-bottom: 30px;
     padding: 0 11%;
   }
-  .catalog-title {
+  .favorites-title {
     font-size: 30px;
     line-height: 30px;
   }
 }
 @media (max-width: 720px) {
-  .catalog {
+  .favorites {
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 0 11%;
   }
-  .catalog-title {
+  .favorites-title {
     font-size: 25px;
     line-height: 30px;
   }
 }
 @media (max-width: 450px) {
-  .catalog {
+  .favorites {
     margin-top: 15px;
     margin-bottom: 20px;
     padding: 0 11%;
   }
-  .catalog-title {
+  .favorites-title {
     font-size: 20px;
     line-height: 25px;
   }

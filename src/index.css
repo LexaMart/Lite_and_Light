@@ -37,6 +37,9 @@ button {
 button:hover {
   cursor: pointer;
 }
+button:focus {
+  outline: none;
+}
 .catalog-table {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
