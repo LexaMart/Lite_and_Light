@@ -4,6 +4,10 @@
 }
 .catalog-table-item-img {
   max-width: 100%;
+  transition: 0.5s;
+}
+.catalog-table-item-img:hover {
+  opacity: 0.7;
 }
 .catalog-table-item-box {
   display: flex;

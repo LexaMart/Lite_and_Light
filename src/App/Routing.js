@@ -12,7 +12,7 @@ export const Routing = ({ ...props }) => {
       <Route path="*" element={<Main />} />
       <Route path="/catalog" element={<Catalog />} />
       <Route path="/favorites" element={<Favorites />} />
-      <Route path="/aboutUs" element={<AboutUs />} />
+      <Route path="/about" element={<AboutUs />} />
     </Routes>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
-import "./index.css";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/big-logo.png";
+import "./index.css";
 
 export const Footer = ({ ...props }) => {
   return (
@@ -8,7 +9,9 @@ export const Footer = ({ ...props }) => {
       <div className="footer-high">
         <ul className="footer-list">
           <li className="footer-item">
-            <a className="footer-title">Каталог</a>
+            <NavLink to="/catalog" className="footer-title">
+              Каталог
+            </NavLink>
           </li>
           <li className="footer-item">
             <a className="footer-title">Галерея</a>
@@ -23,7 +26,9 @@ export const Footer = ({ ...props }) => {
             </a>
           </li>
           <li className="footer-item">
-            <a className="footer-title">О нас</a>
+            <NavLink to="/about" className="footer-title">
+              О нас
+            </NavLink>
             <a href="#" className="footer-link">
               История
             </a>

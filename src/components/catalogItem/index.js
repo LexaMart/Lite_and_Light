@@ -5,16 +5,13 @@ import { addItemAction } from "../../store/reducers";
 import "./index.css";
 
 export const CatalogItem = ({ ...props }) => {
-  //const [isLiked, setIsLiked] = useState(false);
   const { likedItems } = useSelector((store) => store.likedItemsReducer);
   const dispatch = useDispatch();
 
   function pushToLocalStorage() {
     dispatch(addItemAction(props.id));
   }
-  useEffect(() => {
-    //setIsLiked(likedItems.includes(props.id));
-  }, [likedItems]);
+  useEffect(() => {}, []);
   return (
     <div className="catalog-table-item">
       <NavLink to="/catalog">

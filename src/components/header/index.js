@@ -26,7 +26,7 @@ export const Header = ({ ...props }) => {
         <a href="#" className="header-link">
           Галерея
         </a>
-        <NavLink to="/aboutUs" href="#" className="header-link">
+        <NavLink to="/about" href="#" className="header-link">
           О нас
         </NavLink>
         <Link

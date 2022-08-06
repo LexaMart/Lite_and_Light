@@ -110,7 +110,7 @@
     font-size: 12px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .result {
     width: 150px;
     top: 96%;

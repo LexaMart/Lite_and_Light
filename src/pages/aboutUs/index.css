@@ -1,5 +1,15 @@
 .about-us {
+  position: relative;
   margin-top: 72px;
+  animation: show-content 2s;
+}
+@keyframes show-content {
+  from {
+    top: 800px;
+  }
+  to {
+    top: 0;
+  }
 }
 .about-us-title {
   padding-left: 9%;
