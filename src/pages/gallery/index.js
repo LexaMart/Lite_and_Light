@@ -42,20 +42,29 @@ export const Gallery = ({ ...props }) => {
       <div className="gallery-high">
         <div className="gallery-high-list">
           {titles.map((title, idx) => (
-            <label>
-              <input
-                onChange={() => setCheckValue(title.value)}
-                type="radio"
-                name="gallery"
-                className="gallery-high-list-item"
-              />
-              {title.title}
-            </label>
+            <div key={idx} className="gallery-high-list-item">
+              <label>
+                <input
+                  onChange={() => setCheckValue(title.value)}
+                  type="radio"
+                  name="gallery"
+                />
+                {title.title}
+              </label>
+            </div>
           ))}
         </div>
-        <div className="visibleValues">
-          {checkValue === "embassy" ? <img src={embassy1} /> : <div></div>}
-          {checkValue === "fabros" ? <img src={fabros1} /> : <div></div>}
+        <div className="gallery-high-visible">
+          {checkValue === "embassy" ? (
+            <img className="gallery-high-visible-img" src={embassy1} />
+          ) : (
+            <div></div>
+          )}
+          {checkValue === "fabros" ? (
+            <img className="gallery-high-visible-img" src={fabros1} />
+          ) : (
+            <div></div>
+          )}
         </div>
       </div>
     </div>
