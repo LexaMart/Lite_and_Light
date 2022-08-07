@@ -6,14 +6,6 @@ import logo from "../../assets/images/logo.png";
 import "./index.css";
 
 export const Header = ({ ...props }) => {
-  //const { onChange } = register("formValue");
-  const onSubmit = (d) => {};
-  //////-------------------
-  const [value, setValue] = useState("0");
-
-  const onChange = (event) => {
-    setValue(event.target.value);
-  };
   return (
     <header className="header">
       <NavLink to="/" className="header-logo">
@@ -23,9 +15,9 @@ export const Header = ({ ...props }) => {
         <NavLink to="/catalog" className="header-link">
           Каталог
         </NavLink>
-        <a href="#" className="header-link">
+        <NavLink to="/galery" href="#" className="header-link">
           Галерея
-        </a>
+        </NavLink>
         <NavLink to="/about" href="#" className="header-link">
           О нас
         </NavLink>
@@ -42,7 +34,7 @@ export const Header = ({ ...props }) => {
       </div>
       <div className="header-nav">
         <div className="header-search">
-          <Search value={value} />
+          <Search />
         </div>
         <div className="header-like">
           <NavLink to="/favorites" className="header-like-btn">

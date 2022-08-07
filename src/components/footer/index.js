@@ -14,7 +14,9 @@ export const Footer = ({ ...props }) => {
             </NavLink>
           </li>
           <li className="footer-item">
-            <a className="footer-title">Галерея</a>
+            <NavLink to="/galery" className="footer-title">
+              Галерея
+            </NavLink>
             <a href="#" className="footer-link">
               FABROS
             </a>
