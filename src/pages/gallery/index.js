@@ -1,69 +1,46 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { setActiveLink } from "react-scroll/modules/mixins/scroller";
-import embassy1 from "../../assets/galleryImages/embassy1.png";
-import fabros1 from "../../assets/galleryImages/fabros1.png";
+import { galleryItems } from "../../data/galleryItems";
 import "./index.css";
 
 export const Gallery = ({ ...props }) => {
-  const [checkValue, setCheckValue] = useState("");
-  const titles = [
-    {
-      title: "Посольство Беларуси в Казахстане",
-      value: "embassy",
-    },
-    {
-      title: "FABROS",
-      value: "fabros",
-    },
-    {
-      title: "PLUTO",
-      value: "pluto",
-    },
-    {
-      title: "Офис производственной компаниии",
-      value: "office",
-    },
-    {
-      title: "Gelleria Minsk",
-      value: "mall",
-    },
-    {
-      title: "Businesss Aviation",
-      value: "aviation",
-    },
-    {
-      title: "Холл бизнес-центра",
-      value: "hall",
-    },
-  ];
+  const [checkValue, setCheckValue] = useState("embassy");
   return (
     <div className="gallery">
       <div className="gallery-high">
         <div className="gallery-high-list">
-          {titles.map((title, idx) => (
+          {galleryItems.map((item, idx) => (
             <div key={idx} className="gallery-high-list-item">
-              <label>
-                <input
-                  onChange={() => setCheckValue(title.value)}
-                  type="radio"
-                  name="gallery"
-                />
-                {title.title}
+              <input
+                id={item.value}
+                onChange={() => setCheckValue(item.value)}
+                type="radio"
+                name="gallery"
+              />
+              <label
+                className={
+                  checkValue === item.value
+                    ? "gallery-high-list-item-label gallery-high-list-item-label-active"
+                    : "gallery-high-list-item-label"
+                }
+                htmlFor={item.value}
+              >
+                {item.title}
               </label>
             </div>
           ))}
         </div>
         <div className="gallery-high-visible">
-          {checkValue === "embassy" ? (
-            <img className="gallery-high-visible-img" src={embassy1} />
-          ) : (
-            <div></div>
-          )}
-          {checkValue === "fabros" ? (
-            <img className="gallery-high-visible-img" src={fabros1} />
-          ) : (
-            <div></div>
+          {galleryItems.map((item, idx) =>
+            checkValue === item.value ? (
+              <img
+                key={idx}
+                className="gallery-high-visible-img"
+                src={item.img}
+              />
+            ) : (
+              ""
+            )
           )}
         </div>
       </div>
