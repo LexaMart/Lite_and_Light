@@ -18,7 +18,7 @@
   position: absolute;
   width: 250px;
   right: 00px;
-  top: 84%;
+  top: 95%;
   border: 0.5px solid #000000;
   background-color: #fff;
   overflow: auto;
@@ -86,7 +86,7 @@
 @media (max-width: 1000px) {
   .result {
     width: 200px;
-    top: 84%;
+    top: 99%;
     height: 120px;
   }
 
@@ -114,6 +114,38 @@
   .result {
     width: 150px;
     top: 96%;
+    height: 100px;
+  }
+
+  .result-item {
+    height: 50px;
+  }
+
+  .result-item-name {
+    padding-left: 10px;
+  }
+
+  .result-item-name-title {
+    font-size: 12px;
+  }
+
+  .result-item-name-subtitle {
+    font-size: 12px;
+  }
+
+  .result-item-name-type {
+    font-size: 10px;
+  }
+}
+@media (max-width: 370px) {
+  .search-input {
+    font-size: 8px;
+    line-height: 100%;
+    border-bottom: 0.1px solid #000000;
+  }
+  .result {
+    width: 150px;
+    top: 89%;
     height: 100px;
   }
 
