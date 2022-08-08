@@ -11,12 +11,12 @@ export const Fabros = ({ ...props }) => {
       <p className="fabros-title"> Fabros </p>
       <div className="fabros-flex-box">
         <div className="fabros-flex-box-item">
-          <img src={fabros2} className="fabros-flex-box-item-img img1" />
-          <img src={fabros4} className="fabros-flex-box-item-img img1" />
+          <img src={fabros2} className="fabros-flex-box-item-img" />
+          <img src={fabros4} className="fabros-flex-box-item-img" />
         </div>
         <div className="fabros-flex-box-item">
-          <img src={fabros3} className="fabros-flex-box-item-img img1" />
-          <img src={fabros5} className="fabros-flex-box-item-img img1" />
+          <img src={fabros3} className="fabros-flex-box-item-img" />
+          <img src={fabros5} className="fabros-flex-box-item-img" />
         </div>
       </div>
     </div>

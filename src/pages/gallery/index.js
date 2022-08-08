@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { galleryItems } from "../../data/galleryItems";
 import { Embassy } from "./galleryComponents/embassy";
 import { Fabros } from "./galleryComponents/fabros";
+import { Pluto } from "./galleryComponents/pluto";
 import "./index.css";
 
 export const Gallery = ({ ...props }) => {
@@ -49,6 +50,7 @@ export const Gallery = ({ ...props }) => {
       <div className="gallery-low">
         {checkValue === "embassy" ? <Embassy /> : ""}
         {checkValue === "fabros" ? <Fabros /> : ""}
+        {checkValue === "pluto" ? <Pluto /> : ""}
       </div>
     </div>
   );
