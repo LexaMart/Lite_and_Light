@@ -4,6 +4,7 @@ import { galleryItems } from "../../data/galleryItems";
 import { Embassy } from "./galleryComponents/embassy";
 import { Fabros } from "./galleryComponents/fabros";
 import { Pluto } from "./galleryComponents/pluto";
+import { Office } from "./galleryComponents/office";
 import "./index.css";
 
 export const Gallery = ({ ...props }) => {
@@ -40,6 +41,7 @@ export const Gallery = ({ ...props }) => {
                 key={idx}
                 className="gallery-high-visible-img"
                 src={item.img}
+                alt="img"
               />
             ) : (
               ""
@@ -48,9 +50,10 @@ export const Gallery = ({ ...props }) => {
         </div>
       </div>
       <div className="gallery-low">
-        {checkValue === "embassy" ? <Embassy /> : ""}
-        {checkValue === "fabros" ? <Fabros /> : ""}
-        {checkValue === "pluto" ? <Pluto /> : ""}
+        {checkValue === "embassy" && <Embassy />}
+        {checkValue === "fabros" && <Fabros />}
+        {checkValue === "pluto" && <Pluto />}
+        {checkValue === "office" && <Office />}
       </div>
     </div>
   );

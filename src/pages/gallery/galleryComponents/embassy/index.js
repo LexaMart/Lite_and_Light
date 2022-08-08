@@ -11,15 +11,15 @@ export const Embassy = ({ ...props }) => {
     <div className="embassy">
       <p className="embassy-title"> Посольство Беларуси в Казахстане </p>
       <div className="embassy-flex-box embassy-flex-box1">
-        <img src={embassy2} className="embassy-flex-box-img img1" />
-        <img src={embassy3} className="embassy-flex-box-img img2" />
+        <img alt="img" src={embassy2} className="embassy-flex-box-img img1" />
+        <img alt="img" src={embassy3} className="embassy-flex-box-img img2" />
       </div>
       <div className="embassy-box">
-        <img src={embassy4} className="embassy-box-img" />
+        <img alt="img" src={embassy4} className="embassy-box-img" />
       </div>
       <div className="embassy-flex-box embassy-flex-box2">
-        <img src={embassy5} className="embassy-flex-box-img img5" />
-        <img src={embassy6} className="embassy-flex-box-img img6" />
+        <img alt="img" src={embassy5} className="embassy-flex-box-img img5" />
+        <img alt="img" src={embassy6} className="embassy-flex-box-img img6" />
       </div>
     </div>
   );

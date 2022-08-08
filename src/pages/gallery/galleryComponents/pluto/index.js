@@ -11,15 +11,15 @@ export const Pluto = ({ ...props }) => {
     <div className="pluto">
       <p className="pluto-title"> Pluto </p>
       <div className="pluto-flex-box pluto-flex-box1">
-        <img src={pluto2} className="pluto-flex-box-img pluto-img1" />
-        <img src={pluto3} className="pluto-flex-box-img pluto-img2" />
+        <img alt="img" src={pluto2} className="pluto-flex-box-img pluto-img1" />
+        <img alt="img" src={pluto3} className="pluto-flex-box-img pluto-img2" />
       </div>
       <div className="pluto-box">
-        <img src={pluto4} className="pluto-box-img" />
+        <img alt="img" src={pluto4} className="pluto-box-img" />
       </div>
       <div className="pluto-flex-box pluto-flex-box2">
-        <img src={pluto5} className="pluto-flex-box-img pluto-img5" />
-        <img src={pluto6} className="pluto-flex-box-img pluto-img6" />
+        <img alt="img" src={pluto5} className="pluto-flex-box-img pluto-img5" />
+        <img alt="img" src={pluto6} className="pluto-flex-box-img pluto-img6" />
       </div>
     </div>
   );
