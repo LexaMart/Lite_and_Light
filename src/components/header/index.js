@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
+import { Search } from "../search";
 import logo from "../../assets/images/logo.png";
 import "./index.css";
 
@@ -14,10 +15,10 @@ export const Header = ({ ...props }) => {
         <NavLink to="/catalog" className="header-link">
           Каталог
         </NavLink>
-        <a href="#" className="header-link">
+        <NavLink to="/galery" href="#" className="header-link">
           Галерея
-        </a>
-        <NavLink to="/aboutUs" href="#" className="header-link">
+        </NavLink>
+        <NavLink to="/about" href="#" className="header-link">
           О нас
         </NavLink>
         <Link
@@ -33,16 +34,7 @@ export const Header = ({ ...props }) => {
       </div>
       <div className="header-nav">
         <div className="header-search">
-          <form>
-            <input
-              className="header-search-input"
-              type="text"
-              placeholder="Поиск"
-            ></input>
-            <button type="submit" className="header-search-button">
-              {" "}
-            </button>
-          </form>
+          <Search />
         </div>
         <div className="header-like">
           <NavLink to="/favorites" className="header-like-btn">

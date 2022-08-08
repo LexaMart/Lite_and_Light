@@ -48,11 +48,11 @@
   align-items: center;
 }
 .header-search {
-  border-bottom: 1px #000 solid;
   align-items: center;
   margin-right: 10px;
 }
 .header-search form {
+  border-bottom: 1px #000 solid;
   display: flex;
   align-items: center;
 }
@@ -212,6 +212,9 @@
   }
   .header-link {
     font-size: 9px;
+  }
+  .header-search {
+    width: 70px;
   }
   .header-search-input {
     width: 80px;

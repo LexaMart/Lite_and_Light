@@ -10,10 +10,9 @@ import img6 from "../../assets/mainSliderImages/img6.png";
 import img7 from "../../assets/mainSliderImages/img7.png";
 import "./index.css";
 
-const images = [img1, img2, img3, img4, img5, img6, img7];
-
 export const MainSlider = ({ ...props }) => {
   const [imageIndex, setImageIndex] = useState(0);
+  const images = [img1, img2, img3, img4, img5, img6, img7];
   const settings = {
     dots: true,
     infinite: true,

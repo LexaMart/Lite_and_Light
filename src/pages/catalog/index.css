@@ -2,6 +2,16 @@
   margin-top: 64px;
   margin-bottom: 130px;
   padding: 0 8%;
+  position: relative;
+  animation: show-content 2s;
+}
+@keyframes show-content {
+  from {
+    top: 800px;
+  }
+  to {
+    top: 0;
+  }
 }
 .catalog-title {
   font-family: var(--font2);
