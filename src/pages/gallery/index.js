@@ -6,6 +6,7 @@ import { Fabros } from "./galleryComponents/fabros";
 import { Pluto } from "./galleryComponents/pluto";
 import { Office } from "./galleryComponents/office";
 import { Mall } from "./galleryComponents/mall";
+import { Aviation } from "./galleryComponents/aviation";
 import "./index.css";
 
 export const Gallery = ({ ...props }) => {
@@ -56,6 +57,7 @@ export const Gallery = ({ ...props }) => {
         {checkValue === "pluto" && <Pluto />}
         {checkValue === "office" && <Office />}
         {checkValue === "mall" && <Mall />}
+        {checkValue === "aviation" && <Aviation />}
       </div>
     </div>
   );
