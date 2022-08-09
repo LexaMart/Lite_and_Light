@@ -22,6 +22,34 @@ export const MainColl = ({ ...props }) => {
       >
         <p className="main-coll-links-title">Избранные</p>
         <p className="main-coll-links-title">коллекции</p>
+        <a
+          className="main-coll-content-box main-coll-square"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-duration="1500"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <img
+            src={shadeSquare}
+            alt="square"
+            className="main-coll-content-img-square"
+          ></img>
+          <p className="main-coll-content-text main-coll-content-text-square">
+            Shade square
+          </p>
+        </a>
+        <a
+          className="main-coll-content-box main-coll-trom"
+          data-aos="fade-up"
+          data-aos-offset="180"
+          data-aos-duration="1500"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <p className="main-coll-content-text main-coll-content-text-trom">
+            Trom
+          </p>
+          <img src={trom} alt="" className="main-coll-content-img-trom"></img>
+        </a>
       </div>
       <div className="main-coll-content">
         <div className="main-coll-content1">
@@ -56,22 +84,6 @@ export const MainColl = ({ ...props }) => {
             ></img>
             <p className="main-coll-content-text main-coll-content-text-shade">
               Shade
-            </p>
-          </a>
-          <a
-            className="main-coll-content-box main-coll-square"
-            data-aos="fade-up"
-            data-aos-offset="100"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-bottom"
-          >
-            <img
-              src={shadeSquare}
-              alt="square"
-              className="main-coll-content-img-square"
-            ></img>
-            <p className="main-coll-content-text main-coll-content-text-square">
-              Shade square
             </p>
           </a>
         </div>
@@ -116,18 +128,6 @@ export const MainColl = ({ ...props }) => {
             <p className="main-coll-content-text main-coll-content-text-algorithm">
               Algorithm
             </p>
-          </a>
-          <a
-            className="main-coll-content-box main-coll-trom"
-            data-aos="fade-up"
-            data-aos-offset="180"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-bottom"
-          >
-            <p className="main-coll-content-text main-coll-content-text-trom">
-              Trom
-            </p>
-            <img src={trom} alt="" className="main-coll-content-img-trom"></img>
           </a>
         </div>
       </div>
