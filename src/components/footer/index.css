@@ -193,7 +193,6 @@
 }
 @media (max-width: 710px) {
   .footer {
-    position: absolute;
     left: 0px;
     bottom: 0px;
     width: 82%;

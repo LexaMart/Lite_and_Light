@@ -16,7 +16,7 @@ export const MainColl = ({ ...props }) => {
       <div
         className="main-coll-links"
         data-aos="fade-up"
-        data-aos-offset="100"
+        data-aos-offset="50"
         data-aos-duration="1500"
         data-aos-anchor-placement="top-bottom"
       >
@@ -25,7 +25,7 @@ export const MainColl = ({ ...props }) => {
         <a
           className="main-coll-content-box main-coll-square"
           data-aos="fade-up"
-          data-aos-offset="100"
+          data-aos-offset="50"
           data-aos-duration="1500"
           data-aos-anchor-placement="top-bottom"
         >
@@ -41,7 +41,7 @@ export const MainColl = ({ ...props }) => {
         <a
           className="main-coll-content-box main-coll-trom"
           data-aos="fade-up"
-          data-aos-offset="180"
+          data-aos-offset="50"
           data-aos-duration="1500"
           data-aos-anchor-placement="top-bottom"
         >
@@ -57,7 +57,7 @@ export const MainColl = ({ ...props }) => {
             href="#"
             className="main-coll-content-box main-coll-pendant"
             data-aos="fade-up"
-            data-aos-offset="200"
+            data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
@@ -73,7 +73,7 @@ export const MainColl = ({ ...props }) => {
           <a
             className="main-coll-content-box main-coll-shade"
             data-aos="fade-up"
-            data-aos-offset="100"
+            data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
@@ -91,7 +91,7 @@ export const MainColl = ({ ...props }) => {
           <p
             className="main-coll-content-title"
             data-aos="fade-up"
-            data-aos-offset="200"
+            data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
@@ -100,7 +100,7 @@ export const MainColl = ({ ...props }) => {
           <a
             className="main-coll-content-box main-coll-link"
             data-aos="fade-up"
-            data-aos-offset="200"
+            data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
@@ -116,7 +116,7 @@ export const MainColl = ({ ...props }) => {
           <a
             className="main-coll-content-box main-coll-algorithm"
             data-aos="fade-up"
-            data-aos-offset="200"
+            data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
