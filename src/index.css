@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.wraper {
+  height: calc(100vh);
+}
+
 :root {
   --font1: "Poppins", sans-serif;
   --font2: "Montserrat", sans-serif;

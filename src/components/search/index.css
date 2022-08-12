@@ -11,7 +11,6 @@
   width: 100%;
   font-size: 11px;
   line-height: 100%;
-  border-bottom: 0.5px solid #000000;
 }
 
 .result {
@@ -111,6 +110,9 @@
   }
 }
 @media (max-width: 800px) {
+  .search-input {
+    font-size: 10px;
+  }
   .result {
     width: 150px;
     top: 96%;
@@ -140,11 +142,10 @@
 @media (max-width: 370px) {
   .search-input {
     font-size: 8px;
-    line-height: 100%;
-    border-bottom: 0.1px solid #000000;
+    line-height: 80%;
   }
   .result {
-    width: 150px;
+    width: 120px;
     top: 89%;
     height: 100px;
   }
@@ -158,14 +159,14 @@
   }
 
   .result-item-name-title {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .result-item-name-subtitle {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .result-item-name-type {
-    font-size: 10px;
+    font-size: 8px;
   }
 }

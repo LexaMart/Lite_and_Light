@@ -18,13 +18,19 @@ export const Footer = ({ ...props }) => {
               Галерея
             </NavLink>
             <a href="#" className="footer-link">
-              FABROS
+              Посольтво РБ в Казахстане
             </a>
             <a href="#" className="footer-link">
-              STROY TECH PROGRESS
+              Офит IT-компании
             </a>
             <a href="#" className="footer-link">
-              ESQUIRE
+              Офис производственной компании
+            </a>
+            <a href="#" className="footer-link">
+              Офис Бизнес Авиации
+            </a>
+            <a href="#" className="footer-link">
+              Офис военно-промышленного предприятия
             </a>
           </li>
           <li className="footer-item">
