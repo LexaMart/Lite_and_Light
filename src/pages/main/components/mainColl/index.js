@@ -5,7 +5,7 @@ import link from "../../../../assets/images/link.png";
 import algorithm from "../../../../assets/images/algorithm.png";
 import shadePendant from "../../../../assets/images/shade-pendant.png";
 import shadeSquare from "../../../../assets/images/shade-square.png";
-import shade from "../../../../assets/images/shade.png";
+import duo from "../../../../assets/images/duo.png";
 import trom from "../../../../assets/images/trom.png";
 import "./index.css";
 
@@ -23,6 +23,22 @@ export const MainColl = ({ ...props }) => {
         <p className="main-coll-links-title">Избранные</p>
         <p className="main-coll-links-title">коллекции</p>
         <a
+          className="main-coll-content-box main-coll-duo"
+          data-aos="fade-up"
+          data-aos-offset="50"
+          data-aos-duration="1500"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <p className="main-coll-content-text main-coll-content-text-duo">
+            Duo
+          </p>
+          <img
+            src={duo}
+            alt="shade"
+            className="main-coll-content-img-duo"
+          ></img>
+        </a>
+        <a
           className="main-coll-content-box main-coll-square"
           data-aos="fade-up"
           data-aos-offset="50"
@@ -37,18 +53,6 @@ export const MainColl = ({ ...props }) => {
           <p className="main-coll-content-text main-coll-content-text-square">
             Shade square
           </p>
-        </a>
-        <a
-          className="main-coll-content-box main-coll-trom"
-          data-aos="fade-up"
-          data-aos-offset="50"
-          data-aos-duration="1500"
-          data-aos-anchor-placement="top-bottom"
-        >
-          <p className="main-coll-content-text main-coll-content-text-trom">
-            Trom
-          </p>
-          <img src={trom} alt="" className="main-coll-content-img-trom"></img>
         </a>
       </div>
       <div className="main-coll-content">
@@ -71,32 +75,19 @@ export const MainColl = ({ ...props }) => {
             </p>
           </a>
           <a
-            className="main-coll-content-box main-coll-shade"
+            className="main-coll-content-box main-coll-trom"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
-            <img
-              src={shade}
-              alt="shade"
-              className="main-coll-content-img-shade"
-            ></img>
-            <p className="main-coll-content-text main-coll-content-text-shade">
-              Shade
+            <p className="main-coll-content-text main-coll-content-text-trom">
+              Trom
             </p>
+            <img src={trom} alt="" className="main-coll-content-img-trom"></img>
           </a>
         </div>
         <div className="main-coll-content2">
-          <p
-            className="main-coll-content-title"
-            data-aos="fade-up"
-            data-aos-offset="50"
-            data-aos-duration="1500"
-            data-aos-anchor-placement="top-bottom"
-          >
-            Дизайнерские решения
-          </p>
           <a
             className="main-coll-content-box main-coll-link"
             data-aos="fade-up"

@@ -13,7 +13,7 @@ code {
 }
 
 .wraper {
-  height: calc(100vh);
+  height: fit-content;
 }
 
 :root {
