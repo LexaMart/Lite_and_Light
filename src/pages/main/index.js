@@ -15,6 +15,7 @@ export const Main = ({ ...props }) => {
   return (
     <div className="wraper">
       <main className="main">
+        <MainGreet />
         <div className="main-gallery">
           <p className="main-gallery-title">Наши работы</p>
         </div>

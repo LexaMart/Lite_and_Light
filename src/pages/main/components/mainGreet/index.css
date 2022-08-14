@@ -1,27 +1,3 @@
-:root {
-  --font1: "Poppins", sans-serif;
-  --font2: "Montserrat", sans-serif;
-}
-p {
-  padding: 0;
-  margin: 0;
-}
-a {
-  text-decoration: none;
-  color: #000;
-}
-a:hover {
-  cursor: pointer;
-}
-button {
-  background-color: #fff;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-button:hover {
-  cursor: pointer;
-}
 input {
   border: none;
   margin: 0;
@@ -40,8 +16,7 @@ ul {
   list-style: none;
 }
 .main-greet {
-  height: calc(100vh - 300px);
-  padding: 0 9%;
+  padding: 0 19% 0 16.5%;
 }
 .main-greet-bg-box {
   display: flex;
@@ -61,27 +36,28 @@ ul {
   }
 }
 .main-greet-bg1 {
-  height: calc(100vh - 300px);
-  width: 67%;
+  height: 550px;
+  width: 66%;
   background: linear-gradient(316deg, #bacac4 11.84%, #f4f4f4 77.42%);
-  border: 1px solid #000000;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .main-greet-bg2 {
-  width: 33%;
+  width: 34%;
 }
 .main-greet-bg-div {
-  height: calc(100vh - 463px);
+  height: 430px;
   background: #f5f0e1;
 }
 .main-greet-bg-link {
-  height: 165px;
+  height: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 80px;
+  padding: 0 60px 0 25px;
   background-color: #463f3a;
   transition: 0.5s;
+}
+.main-greet-bg-link svg {
+  width: 85px;
 }
 .main-greet-bg-link:hover {
   opacity: 0.9;
@@ -96,20 +72,19 @@ ul {
   text-transform: uppercase;
 }
 .main-greet-content {
-  height: 780px;
+  width: 65%;
   display: flex;
   position: absolute;
+  align-items: center;
   z-index: 2;
-  /*top: -780px;*/
-  top: 100px;
+  top: 0;
 }
 .main-greet-img {
   display: block;
   position: relative;
-  height: calc(100vh - 100px);
-  /*width: 50%;*/
-  top: -260px;
-  margin-left: 46px;
+  width: 510px;
+  top: -155px;
+  margin-left: 50px;
   animation: main-greet-img 1.5s;
   animation-delay: 1s;
   animation-fill-mode: backwards;
@@ -119,12 +94,11 @@ ul {
     top: -1600px;
   }
   to {
-    top: -260px;
+    top: -155px;
   }
 }
 .main-greet-title-box {
-  height: calc(100vh - 300px);
-  margin-left: 21px;
+  margin-left: 35px;
   animation: main-greet-title-box 1.5s;
   animation-delay: 1.3s;
   animation-fill-mode: backwards;
@@ -139,148 +113,194 @@ ul {
   }
 }
 .main-greet-text {
+  display: flex;
   font-family: var(--font2);
   font-weight: 400;
-  font-size: 32px;
+  font-size: 15px;
   line-height: 42px;
   letter-spacing: -0.184242px;
+  text-transform: uppercase;
   color: #8a817c;
-}
-.main-greet-text:first-child {
-  margin-top: calc(100vh - 900px);
+  padding-top: 380px;
+  padding-left: 43%;
 }
 .main-greet-title {
   font-family: var(--font2);
   font-weight: 700;
-  font-size: 400%;
+  font-size: 40px;
   line-height: 70px;
   letter-spacing: -1.66px;
+  text-transform: uppercase;
   color: #2c2e3f;
-  margin-top: 119px;
 }
 .main-greet-title:last-child {
-  margin-top: 0;
+  margin-bottom: 160px;
 }
-@media (max-width: 1700px) {
-  .main-greet {
-    height: calc(100vh - 295px);
+@media (max-width: 1800px) {
+  .main-greet-bg-link svg {
+    width: 75px;
   }
+  .main-greet-bg-text {
+    font-size: 15px;
+  }
+  .main-greet-img {
+    width: 500px;
+  }
+  .main-greet-title-box {
+    margin-left: 20px;
+  }
+  .main-greet-text {
+    padding-top: 380px;
+    padding-left: 38%;
+  }
+}
+@media (max-width: 1660px) {
   .main-greet-bg1 {
-    height: calc(100vh - 295px);
+    height: 500px;
   }
   .main-greet-bg-div {
-    height: calc(100vh - 445px);
-    background: #f5f0e1;
+    height: 400px;
   }
   .main-greet-bg-link {
-    height: 152px;
-    justify-content: space-between;
+    height: 100px;
+    padding: 0 50px 0 20px;
   }
   .main-greet-bg-link svg {
-    width: 70px;
+    width: 75px;
   }
   .main-greet-bg-text {
     font-size: 14px;
   }
-  .main-greet-content {
-    height: 700px;
-    top: 50px;
-  }
   .main-greet-img {
-    display: block;
-    height: calc(100vh - 120px);
-    /*width: 570px;*/
-    top: -210px;
-    margin-left: 20px;
+    width: 460px;
+    top: -130px;
+    margin-left: 30px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: -210px;
+      top: -130px;
     }
   }
   .main-greet-title-box {
-    height: 700px;
-    margin-left: 0;
+    margin-left: 15px;
   }
   .main-greet-text {
-    font-size: 30px;
-  }
-  .main-greet-text:first-child {
-    margin-top: calc(100vh - 820px);
+    font-size: 14px;
+    padding-top: 360px;
+    padding-left: 35%;
   }
   .main-greet-title {
-    font-size: 58px;
-    margin-top: 100px;
+    font-size: 37px;
   }
   .main-greet-title:last-child {
-    margin-top: 0;
+    margin-bottom: 140px;
   }
 }
-@media (max-width: 1570px) {
-  .main-greet {
-    height: calc(100vh - 350px);
-  }
+@media (max-width: 1500px) {
   .main-greet-bg1 {
-    height: calc(100vh - 350px);
+    height: 470px;
   }
   .main-greet-bg-div {
-    height: calc(100vh - 466px);
+    height: 380px;
   }
   .main-greet-bg-link {
-    height: 120px;
+    height: 90px;
+    padding: 0 40px 0 20px;
   }
   .main-greet-bg-link svg {
-    width: 65px;
+    width: 68px;
+  }
+  .main-greet-bg-text {
+    font-size: 13px;
+  }
+  .main-greet-img {
+    width: 430px;
+    top: -130px;
+    margin-left: 10px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -1600px;
+    }
+    to {
+      top: -130px;
+    }
+  }
+  .main-greet-title-box {
+    margin-left: 10px;
+  }
+  .main-greet-text {
+    font-size: 14px;
+    padding-top: 345px;
+    padding-left: 30%;
+  }
+  .main-greet-title {
+    font-size: 35px;
+    line-height: 55px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 1370px) {
+  .main-greet-bg1 {
+    height: 430px;
+  }
+  .main-greet-bg-div {
+    height: 350px;
+  }
+  .main-greet-bg-link {
+    height: 80px;
+    padding: 0 30px 0 15px;
+  }
+  .main-greet-bg-link svg {
+    width: 63px;
   }
   .main-greet-bg-text {
     font-size: 12px;
   }
-  .main-greet-content {
-    height: 600px;
-    top: 20px;
-  }
   .main-greet-img {
-    height: calc(100vh - 130px);
-    top: -180px;
+    width: 400px;
+    top: -110px;
     margin-left: 0px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: -180px;
+      top: -110px;
     }
   }
   .main-greet-title-box {
-    height: 600px;
+    margin-left: 5px;
   }
   .main-greet-text {
-    font-size: 25px;
-  }
-  .main-greet-text:first-child {
-    margin-top: calc(100vh - 770px);
+    font-size: 13px;
+    padding-top: 310px;
+    padding-left: 28%;
   }
   .main-greet-title {
-    font-size: 53px;
-    margin-top: 50px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 100px;
   }
 }
-@media (max-width: 1460px) {
-  .main-greet {
-    height: calc(100vh - 180px);
-  }
+@media (max-width: 1225px) {
   .main-greet-bg1 {
-    height: calc(100vh - 180px);
+    height: 410px;
   }
   .main-greet-bg-div {
-    height: calc(100vh - 280px);
+    height: 340px;
   }
   .main-greet-bg-link {
-    height: 103px;
+    height: 70px;
+    padding: 0 15px 0 15px;
   }
   .main-greet-bg-link svg {
     width: 60px;
@@ -288,96 +308,128 @@ ul {
   .main-greet-bg-text {
     font-size: 11px;
   }
-  .main-greet-content {
-    height: 500px;
-    top: 0px;
-  }
   .main-greet-img {
-    height: calc(100vh - 60px);
-    top: -75px;
-    margin-right: 5%;
+    width: 360px;
+    top: -99px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: -75px;
+      top: -99px;
     }
   }
-  .main-greet-title-box {
-    height: 500px;
-    width: 500px;
-  }
   .main-greet-text {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .main-greet-text:first-child {
-    margin-top: calc(100vh - 480px);
+    font-size: 13px;
+    padding-top: 305px;
+    padding-left: 23%;
   }
   .main-greet-title {
-    font-size: 45px;
-    line-height: 35px;
-    margin-top: 70px;
+    font-size: 28px;
+    line-height: 47px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 100px;
   }
 }
-@media (max-width: 1370px) {
+@media (max-width: 1150px) {
   .main-greet {
-    padding: 0 13%;
+    padding: 0 15% 0 10.5%;
+  }
+  .main-greet-bg1 {
+    height: 380px;
+  }
+  .main-greet-bg-div {
+    height: 310px;
   }
   .main-greet-bg-link {
-    padding: 0 50px;
+    height: 70px;
+    padding: 0 15px 0 15px;
   }
   .main-greet-bg-link svg {
     width: 55px;
   }
   .main-greet-bg-text {
-    font-size: 11px;
-  }
-  .main-greet-content {
-    top: -20px;
+    font-size: 10px;
   }
   .main-greet-img {
-    height: calc(100vh - 70px);
-    top: -65px;
-    margin-left: 15px;
-    margin-right: 30px;
+    width: 350px;
+    top: -99px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: -65px;
+      top: -99px;
     }
   }
   .main-greet-text {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  .main-greet-text:first-child {
-    margin-top: calc(100vh - 470px);
+    font-size: 12px;
+    padding-top: 277px;
+    padding-left: 25%;
   }
   .main-greet-title {
-    font-size: 45px;
-    line-height: 40px;
-    margin-top: 70px;
+    font-size: 25px;
+    line-height: 42px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 100px;
   }
 }
-@media (max-width: 1220px) {
-  .main-greet {
-    height: calc(100vh - 210px);
-  }
+@media (max-width: 950px) {
   .main-greet-bg1 {
-    height: calc(100vh - 210px);
+    height: 330px;
   }
   .main-greet-bg-div {
-    height: calc(100vh - 280px);
+    height: 260px;
   }
   .main-greet-bg-link {
-    height: 73px;
-    padding: 0 20px;
+    height: 70px;
+    padding: 0 15px 0 15px;
+  }
+  .main-greet-bg-link svg {
+    width: 50px;
+  }
+  .main-greet-bg-text {
+    font-size: 10px;
+  }
+  .main-greet-img {
+    width: 320px;
+    top: -80px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -1600px;
+    }
+    to {
+      top: -80px;
+    }
+  }
+  .main-greet-text {
+    font-size: 11px;
+    padding-top: 226px;
+    padding-left: 24%;
+  }
+  .main-greet-title {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 70px;
+  }
+}
+@media (max-width: 850px) {
+  .main-greet-bg1 {
+    height: 300px;
+  }
+  .main-greet-bg-div {
+    height: 240px;
+  }
+  .main-greet-bg-link {
+    height: 60px;
+    padding: 0 15px 0 15px;
   }
   .main-greet-bg-link svg {
     width: 40px;
@@ -385,362 +437,319 @@ ul {
   .main-greet-bg-text {
     font-size: 9px;
   }
-  .main-greet-content {
-    height: 400px;
-    top: -90px;
-  }
   .main-greet-img {
-    height: calc(100vh - 100px);
-    top: 20px;
-    margin-left: 0px;
-    margin-right: 5%;
+    width: 290px;
+    top: -70px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: 20px;
+      top: -70px;
     }
-  }
-  .main-greet-title-box {
-    height: 400px;
   }
   .main-greet-text {
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .main-greet-text:first-child {
-    margin-top: calc(100vh - 370px);
+    font-size: 11px;
+    padding-top: 210px;
+    padding-left: 15%;
   }
   .main-greet-title {
-    font-size: 30px;
-    line-height: 28px;
-    margin-top: 70px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 50px;
   }
 }
-@media (max-width: 850px) {
-  .main-greet {
-    height: calc(45vh - 190px);
-  }
+@media (max-width: 755px) {
   .main-greet-bg1 {
-    height: calc(45vh - 190px);
+    height: 280px;
   }
   .main-greet-bg-div {
-    height: calc(45vh - 260px);
+    height: 220px;
   }
   .main-greet-bg-link {
-    height: 73px;
-    padding: 0 15px;
-  }
-  .main-greet-bg-link svg {
-    width: 35px;
-  }
-  .main-greet-bg-text {
-    font-size: 7px;
-  }
-  .main-greet-content {
-    height: 300px;
-    top: -130px;
-  }
-  .main-greet-img {
-    height: calc(45vh - 120px);
-    top: 80px;
-    margin-left: 0px;
-    margin-right: 5%;
-  }
-  @keyframes main-greet-img {
-    from {
-      top: -1200px;
-    }
-    to {
-      top: 80px;
-    }
-  }
-  .main-greet-title-box {
-    height: 300px;
-    width: 220px;
-  }
-  .main-greet-text {
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .main-greet-text:first-child {
-    margin-top: calc(45vh - 260px);
-  }
-  .main-greet-title {
-    font-size: 25px;
-    line-height: 23px;
-    margin-top: 50px;
-  }
-}
-@media (max-width: 670px) {
-  .main-greet {
-    height: calc(40vh - 160px);
-  }
-  .main-greet-bg1 {
-    height: calc(40vh - 160px);
-  }
-  .main-greet-bg-div {
-    height: calc(40vh - 211px);
-  }
-  .main-greet-bg-link {
-    height: 53px;
-    padding: 0 12px;
+    height: 60px;
+    padding: 0 15px 0 15px;
   }
   .main-greet-bg-link svg {
     width: 30px;
   }
   .main-greet-bg-text {
-    font-size: 5px;
-  }
-  .main-greet-content {
-    height: 250px;
-    top: -145px;
+    font-size: 8px;
   }
   .main-greet-img {
-    height: calc(40vh - 100px);
-    top: 105px;
-    margin-left: 0px;
-    margin-right: 3%;
+    width: 240px;
+    top: -50px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: 105px;
+      top: -50px;
     }
   }
-  .main-greet-title-box {
-    height: 250px;
-  }
   .main-greet-text {
-    font-size: 11px;
-    line-height: 12px;
-  }
-  .main-greet-text:first-child {
-    margin-top: calc(40vh - 180px);
+    font-size: 10px;
+    padding-top: 190px;
+    padding-left: 10px;
   }
   .main-greet-title {
-    font-size: 23px;
-    line-height: 20px;
-    margin-top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+    right: 60px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 30px;
   }
 }
-@media (max-width: 530px) {
-  .main-greet {
-    height: calc(35vh - 160px);
-  }
+@media (max-width: 650px) {
   .main-greet-bg1 {
-    height: calc(35vh - 160px);
-    border: 0.2px solid #818181;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    height: 280px;
   }
   .main-greet-bg-div {
-    height: calc(35vh - 200px);
+    height: 220px;
   }
   .main-greet-bg-link {
-    height: 42px;
-    padding: 0 12px;
+    height: 60px;
+    padding: 0 10px 0 10px;
+  }
+  .main-greet-bg-link svg {
+    width: 30px;
+  }
+  .main-greet-bg-text {
+    font-size: 6px;
+  }
+  .main-greet-content {
+    width: 85%;
+  }
+  .main-greet-img {
+    width: 220px;
+    top: -40px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -1600px;
+    }
+    to {
+      top: -40px;
+    }
+  }
+  .main-greet-text {
+    font-size: 8px;
+    padding-top: 190px;
+    padding-left: 10px;
+  }
+  .main-greet-title {
+    font-size: 17px;
+    line-height: 30px;
+    right: 90px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 540px) {
+  .main-greet {
+    padding: 0 13% 0 8.5%;
+  }
+  .main-greet-bg1 {
+    height: 230px;
+  }
+  .main-greet-bg-div {
+    height: 190px;
+  }
+  .main-greet-bg-link {
+    height: 40px;
+    padding: 0 7px;
   }
   .main-greet-bg-link svg {
     width: 25px;
   }
   .main-greet-bg-text {
-    font-size: 4px;
+    font-size: 6px;
   }
   .main-greet-content {
-    height: 200px;
-    top: -220px;
+    width: 85%;
   }
   .main-greet-img {
-    height: calc(35vh - 100px);
-    top: 180px;
-    margin-left: 0px;
-    margin-right: 3%;
+    width: 200px;
+    top: -40px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: 180px;
+      top: -40px;
     }
   }
-  .main-greet-title-box {
-    height: 200px;
-    width: 145px;
-  }
   .main-greet-text {
-    font-size: 9px;
-    line-height: 10px;
-  }
-  .main-greet-text:first-child {
-    margin-top: calc(35vh - 70px);
+    font-size: 7px;
+    padding-top: 160px;
+    padding-left: 10px;
   }
   .main-greet-title {
-    font-size: 18px;
-    line-height: 15px;
-    margin-top: 30px;
+    position: relative;
+    font-size: 15px;
+    line-height: 25px;
+    left: -40px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 450px) {
   .main-greet {
-    height: 180px;
+    padding: 0 13% 0 8.5%;
   }
   .main-greet-bg1 {
     height: 180px;
   }
   .main-greet-bg-div {
-    height: 150px;
+    height: 140px;
   }
   .main-greet-bg-link {
-    height: 32px;
-    padding: 0 12px;
+    height: 40px;
+    padding: 0 5px;
   }
   .main-greet-bg-link svg {
-    display: none;
-    width: 15px;
+    width: 20px;
   }
   .main-greet-bg-text {
-    margin: 0 auto;
-    font-size: 4px;
+    font-size: 5px;
   }
   .main-greet-content {
-    height: 180px;
-    top: -230px;
+    width: 85%;
   }
   .main-greet-img {
-    height: 220px;
-    width: 127px;
-    top: 195px;
-    margin-left: 0px;
-    margin-right: 1%;
+    width: 160px;
+    top: -40px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: 195px;
+      top: -40px;
     }
   }
-  .main-greet-title-box {
-    height: 180px;
-  }
   .main-greet-text {
-    font-size: 8px;
-    line-height: 8px;
-  }
-  .main-greet-text:first-child {
-    margin-top: 290px;
+    font-size: 6px;
+    padding-top: 110px;
+    padding-left: 10px;
   }
   .main-greet-title {
-    font-size: 17px;
-    line-height: 15px;
-    margin-top: 30px;
+    position: relative;
+    font-size: 12px;
+    line-height: 18px;
+    left: -20px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 380px) {
   .main-greet {
-    height: 160px;
+    padding: 0 13% 0 8.5%;
   }
   .main-greet-bg1 {
-    height: 160px;
+    height: 150px;
   }
   .main-greet-bg-div {
-    height: 135px;
+    height: 120px;
   }
   .main-greet-bg-link {
-    height: 27px;
-    padding: 0 12px;
+    height: 30px;
+    padding: 0 5px;
+  }
+  .main-greet-bg-link svg {
+    width: 15px;
   }
   .main-greet-bg-text {
-    font-size: 3.5px;
+    font-size: 4px;
   }
   .main-greet-content {
-    height: 160px;
-    top: -240px;
+    width: 85%;
   }
   .main-greet-img {
-    height: 200px;
-    width: 115px;
-    top: 205px;
-    margin-left: 0px;
-    margin-right: 0;
+    width: 150px;
+    top: -40px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: 205px;
+      top: -40px;
     }
   }
-  .main-greet-title-box {
-    height: 160px;
-  }
   .main-greet-text {
-    font-size: 8px;
-    line-height: 8px;
-  }
-  .main-greet-text:first-child {
-    margin-top: 290px;
+    font-size: 5px;
+    padding-top: 90px;
+    padding-left: 10px;
   }
   .main-greet-title {
-    font-size: 14px;
-    line-height: 13px;
-    margin-top: 30px;
+    position: relative;
+    font-size: 11px;
+    line-height: 18px;
+    left: -20px;
+    letter-spacing: -1px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 320px) {
   .main-greet {
-    height: 140px;
+    padding: 0 13% 0 8.5%;
   }
   .main-greet-bg1 {
-    height: 140px;
+    height: 150px;
   }
   .main-greet-bg-div {
-    height: 115px;
+    height: 120px;
   }
   .main-greet-bg-link {
-    height: 27px;
-    padding: 0 0px;
+    height: 30px;
+    padding: 0 3px;
+  }
+  .main-greet-bg-link svg {
+    width: 12px;
   }
   .main-greet-bg-text {
     font-size: 3px;
   }
   .main-greet-content {
-    height: 160px;
-    top: -250px;
+    width: 85%;
   }
   .main-greet-img {
-    height: 180px;
-    width: 104px;
-    top: 215px;
+    width: 130px;
+    top: -30px;
   }
   @keyframes main-greet-img {
     from {
-      top: -1200px;
+      top: -1600px;
     }
     to {
-      top: 215px;
+      top: -30px;
     }
   }
-  .main-greet-title-box {
-    height: 140px;
-  }
   .main-greet-text {
-    font-size: 8px;
-    line-height: 8px;
-  }
-  .main-greet-text:first-child {
-    margin-top: 295px;
+    font-size: 4px;
+    padding-top: 93px;
+    padding-left: 10px;
   }
   .main-greet-title {
-    font-size: 13px;
-    line-height: 14px;
-    margin-top: 20px;
+    position: relative;
+    font-size: 9px;
+    line-height: 15px;
+    left: -20px;
+    letter-spacing: -1px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 20px;
   }
 }
