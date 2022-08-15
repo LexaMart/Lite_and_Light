@@ -20,6 +20,7 @@ export const Main = ({ ...props }) => {
         <MainTypes />
         <div className="main-gallery">
           <p className="main-gallery-title">Наши работы</p>
+          <MainSlider />
         </div>
       </main>
     </div>

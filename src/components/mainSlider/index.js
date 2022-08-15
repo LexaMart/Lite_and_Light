@@ -30,7 +30,7 @@ export const MainSlider = ({ ...props }) => {
       <Slider className="big-slider" {...settings}>
         {images.map((img, idx) => (
           <NavLink
-            to="/"
+            to="/gallery"
             key={idx}
             className={idx === imageIndex ? "slide activeSlide" : "slide"}
           >
@@ -41,10 +41,7 @@ export const MainSlider = ({ ...props }) => {
                   ? "slide-content slide-content-active"
                   : "slide-content"
               }
-            >
-              <p className="slide-content-link">Галерея</p>
-              <p className="slide-content-num">0{idx + 1}</p>
-            </div>
+            ></div>
           </NavLink>
         ))}
       </Slider>
