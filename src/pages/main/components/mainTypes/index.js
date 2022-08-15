@@ -22,7 +22,7 @@ export const MainTypes = ({ ...props }) => {
             data-aos-anchor-placement="top-bottom"
           ></img>
           <div
-            className="main-types-box1"
+            className="main-types-box main-types-box1"
             data-aos="fade-right"
             data-aos-offset="350"
             data-aos-delay="150"
@@ -53,18 +53,18 @@ export const MainTypes = ({ ...props }) => {
         </li>
         <li className="main-types-item">
           <div
-            className="main-types-box2"
+            className="main-types-box main-types-box2"
             data-aos="fade-right"
             data-aos-offset="350"
             data-aos-delay="150"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
-            <p className="main-types-title">Кастом</p>
-            <p className="main-types-text">Индивидуальные</p>
-            <p className="main-types-text">решения</p>
+            <p className="main-types-title main-types-title2">Кастом</p>
+            <p className="main-types-text main-types-text2">Индивидуальные</p>
+            <p className="main-types-text main-types-text2">решения</p>
             <NavLink to="/catalog" className="main-types-link main-types-link2">
-              <p>Перейти в каталог</p>
+              <p>Оставить заявку</p>
               <svg
                 width="77"
                 height="18"
