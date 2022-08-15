@@ -1,15 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux/es/exports";
-//import { exampleAction } from "../../store/reducers";
 import { CatalogItem } from "../../components/catalogItem";
 import { products } from "../../data/products";
 import "./index.css";
 
 export const Catalog = ({ ...props }) => {
   const [likedItems, setLikedItems] = useState([]);
-  //const reduxValue = useSelector((store) => store.exampleReducer.exampleField);
-  const dispatch = useDispatch();
-
   useEffect(() => {
     setLikedItems(localStorage.likedItems);
   }, []);

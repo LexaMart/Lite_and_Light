@@ -11,11 +11,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.wraper {
-  height: fit-content;
-}
-
 :root {
   --font1: "Poppins", sans-serif;
   --font2: "Montserrat", sans-serif;
@@ -83,10 +78,16 @@ button:focus {
 .catalog-table {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 58px;
+  gap: 20px;
   justify-items: center;
 }
+.wraper {
+  min-height: calc(100vh - 650px);
+}
 @media (max-width: 1460px) {
+  .wraper {
+    min-height: calc(100vh - 550px);
+  }
   .catalog-table {
     gap: 40px;
   }
@@ -95,6 +96,14 @@ button:focus {
   .catalog-table {
     gap: 35px;
   }
+  .wraper {
+    min-height: calc(100vh - 520px);
+  }
+}
+@media (max-width: 1080px) {
+  .wraper {
+    min-height: calc(100vh - 450px);
+  }
 }
 @media (max-width: 960px) {
   .catalog-table {
@@ -102,14 +111,34 @@ button:focus {
     gap: 30px;
   }
 }
+@media (max-width: 910px) {
+  .wraper {
+    min-height: calc(100vh - 380px);
+  }
+}
 @media (max-width: 720px) {
   .catalog-table {
     gap: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .wraper {
+    min-height: calc(100vh - 320px);
+  }
+}
+@media (max-width: 590px) {
+  .wraper {
+    min-height: calc(100vh - 260px);
   }
 }
 @media (max-width: 550px) {
   .catalog-table {
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
+  }
+}
+@media (max-width: 430px) {
+  .wraper {
+    min-height: calc(100vh - 240px);
   }
 }

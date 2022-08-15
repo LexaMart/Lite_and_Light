@@ -22,32 +22,29 @@ import img21 from "../assets/catalogImages/img21.png";
 import img22 from "../assets/catalogImages/img22.png";
 import img23 from "../assets/catalogImages/img23.png";
 import img24 from "../assets/catalogImages/img24.png";
-import productImage1 from "../assets/productCardImages/1.png"
-import productImage2 from "../assets/productCardImages/2.png"
+import productImage1 from "../assets/productCardImages/1.png";
+import productImage2 from "../assets/productCardImages/2.png";
 // import productImage4 from "../assets/productCardImages/4.png"
-import productImage5 from "../assets/productCardImages/5.png"
-import productImage6 from "../assets/productCardImages/6.png"
-import productImage7 from "../assets/productCardImages/7.png"
-import productImage8 from "../assets/productCardImages/8.png"
-import productImage9 from "../assets/productCardImages/9.png"
-import productImage10 from "../assets/productCardImages/10.png"
-import productImage11 from "../assets/productCardImages/11.png"
-import productImage12 from "../assets/productCardImages/12.png"
-import productImage13 from "../assets/productCardImages/13.png"
-import productImage14 from "../assets/productCardImages/14.png"
-import productImage15 from "../assets/productCardImages/15.png"
-import productImage16 from "../assets/productCardImages/16.png"
-import productImage17 from "../assets/productCardImages/17.png"
-import productImage18 from "../assets/productCardImages/18.png"
-import productImage19 from "../assets/productCardImages/19.png"
-import productImage20 from "../assets/productCardImages/20.png"
-import productImage21 from "../assets/productCardImages/21.png"
-import productImage22 from "../assets/productCardImages/22.png"
-import productImage23 from "../assets/productCardImages/23.png"
+import productImage5 from "../assets/productCardImages/5.png";
+import productImage6 from "../assets/productCardImages/6.png";
+import productImage7 from "../assets/productCardImages/7.png";
+import productImage8 from "../assets/productCardImages/8.png";
+import productImage9 from "../assets/productCardImages/9.png";
+import productImage10 from "../assets/productCardImages/10.png";
+import productImage11 from "../assets/productCardImages/11.png";
+import productImage12 from "../assets/productCardImages/12.png";
+import productImage13 from "../assets/productCardImages/13.png";
+import productImage14 from "../assets/productCardImages/14.png";
+import productImage15 from "../assets/productCardImages/15.png";
+import productImage16 from "../assets/productCardImages/16.png";
+import productImage17 from "../assets/productCardImages/17.png";
+import productImage18 from "../assets/productCardImages/18.png";
+import productImage19 from "../assets/productCardImages/19.png";
+import productImage20 from "../assets/productCardImages/20.png";
+import productImage21 from "../assets/productCardImages/21.png";
+import productImage22 from "../assets/productCardImages/22.png";
+import productImage23 from "../assets/productCardImages/23.png";
 // import productImage24 from "../assets/productCardImages/24.png"
-
-
-
 
 export const products = [
   {
@@ -70,33 +67,33 @@ export const products = [
     image: [img2],
     price: "00.000 ",
   },
-  // {
-  //   name: "U-light",
-  //   subName: "Suspension",
-  //   id: "0003",
-  //   title: "U-light Suspension",
-  //   subtitle: "Подвесная лампа",
-  //   cardImage: null,
-  //   image: [img3],
-  //   price: "00.000 ",
-  // },
-  // {
-  //   name: "U-light",
-  //   subName: "Acoustic",
-  //   id: "0004",
-  //   title: "U-light Acoustic",
-  //   subtitle: "Настенная лампа",
-  //   cardImage: null,
-  //   image: [img4],
-  //   price: "00.000 ",
-  // },
   {
     name: "U-light",
     subName: "Wall",
-    id: "0005",
+    id: "0003",
     title: "U-light Wall",
     subtitle: "Настенная лампа",
     cardImage: productImage5,
+    image: [img3],
+    price: "00.000 ",
+  },
+  {
+    name: "Ego",
+    subName: null,
+    id: "0004",
+    title: "Ego",
+    subtitle: "Потолочная лампа",
+    cardImage: null,
+    image: [img4],
+    price: "00.000 ",
+  },
+  {
+    name: "Match",
+    subName: null,
+    id: "0005",
+    title: "Match",
+    subtitle: "Потолочная лампа",
+    cardImage: null,
     image: [img5],
     price: "00.000 ",
   },

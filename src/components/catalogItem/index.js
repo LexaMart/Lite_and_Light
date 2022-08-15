@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
 import { addItemAction } from "../../store/reducers";
 import "./index.css";
 
 export const CatalogItem = ({ ...props }) => {
+  AOS.init();
   const { likedItems } = useSelector((store) => store.likedItemsReducer);
   const dispatch = useDispatch();
 
@@ -13,7 +15,13 @@ export const CatalogItem = ({ ...props }) => {
   }
   useEffect(() => {}, []);
   return (
-    <div className="catalog-table-item">
+    <div
+      className="catalog-table-item"
+      data-aos="fade-up"
+      data-aos-once="true"
+      data-aos-offset="-300"
+      data-aos-anchor-placement="top-bottom"
+    >
       <NavLink to="/catalog">
         <img className="catalog-table-item-img" src={props.image}></img>
       </NavLink>
