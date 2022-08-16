@@ -22,6 +22,7 @@ import img21 from "../assets/catalogImages/img21.png";
 import img22 from "../assets/catalogImages/img22.png";
 import img23 from "../assets/catalogImages/img23.png";
 import img24 from "../assets/catalogImages/img24.png";
+import img28 from "../assets/catalogImages/img28.png";
 import productImage1 from "../assets/productCardImages/1.png";
 import productImage2 from "../assets/productCardImages/2.png";
 // import productImage4 from "../assets/productCardImages/4.png"
@@ -45,6 +46,7 @@ import productImage21 from "../assets/productCardImages/21.png";
 import productImage22 from "../assets/productCardImages/22.png";
 import productImage23 from "../assets/productCardImages/23.png";
 // import productImage24 from "../assets/productCardImages/24.png"
+import productImage28 from "../assets/productCardImages/28.png";
 
 export const products = [
   {
@@ -287,4 +289,14 @@ export const products = [
   //   image: [img24],
   //   price: "00.000 ",
   // },
+  {
+    name: "Flat",
+    subName: "Hanging",
+    id: "0028",
+    title: "Flat Hanging",
+    subtitle: "Подвесная лампа",
+    cardImage: productImage28,
+    image: [img28],
+    price: "00.000 ",
+  },
 ];
