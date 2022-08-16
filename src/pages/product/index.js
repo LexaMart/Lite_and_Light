@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { ProductHead } from "./components/productHead";
+import { ProductInfo } from "./components/productInfo";
 import { products } from "../../data/products";
 import "./index.css";
 
@@ -17,6 +18,10 @@ export const Product = ({ ...props }) => {
                 subName={product.subName}
                 price={product.price}
                 cardImage={product.cardImage}
+              />
+              <ProductInfo
+                infoText={product.infoText}
+                pageImages={product.pageImages}
               />
             </div>
           )

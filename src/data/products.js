@@ -25,6 +25,7 @@ import img24 from "../assets/catalogImages/img24.png";
 import img28 from "../assets/catalogImages/img28.png";
 import productImage1 from "../assets/productCardImages/1.png";
 import productImage2 from "../assets/productCardImages/2.png";
+import productImage3 from "../assets/productCardImages/3.png";
 // import productImage4 from "../assets/productCardImages/4.png"
 import productImage5 from "../assets/productCardImages/5.png";
 import productImage6 from "../assets/productCardImages/6.png";
@@ -47,6 +48,30 @@ import productImage22 from "../assets/productCardImages/22.png";
 import productImage23 from "../assets/productCardImages/23.png";
 // import productImage24 from "../assets/productCardImages/24.png"
 import productImage28 from "../assets/productCardImages/28.png";
+//---------------------//
+import uLightWall1 from "../assets/pageCardImages/ULightWall/img1.png";
+import uLightWall2 from "../assets/pageCardImages/ULightWall/img2.png";
+import uLightWall3 from "../assets/pageCardImages/ULightWall/img3.png";
+import uLightWall4 from "../assets/pageCardImages/ULightWall/img4.png";
+import uLightWall5 from "../assets/pageCardImages/ULightWall/img5.png";
+//---------------------//
+import palmaTable1 from "../assets/pageCardImages/PalmaTable/img1.png";
+import palmaTable2 from "../assets/pageCardImages/PalmaTable/img2.png";
+import palmaTable3 from "../assets/pageCardImages/PalmaTable/img3.png";
+import palmaTable4 from "../assets/pageCardImages/PalmaTable/img4.png";
+import palmaTable5 from "../assets/pageCardImages/PalmaTable/img5.png";
+//---------------------//
+import link1 from "../assets/pageCardImages/Link/img1.png";
+import link2 from "../assets/pageCardImages/Link/img2.png";
+import link3 from "../assets/pageCardImages/Link/img3.png";
+import link4 from "../assets/pageCardImages/Link/img4.png";
+import link5 from "../assets/pageCardImages/Link/img5.png";
+//---------------------//
+import flat1 from "../assets/pageCardImages/FlatHanging/img1.png";
+import flat2 from "../assets/pageCardImages/FlatHanging/img2.png";
+import flat3 from "../assets/pageCardImages/FlatHanging/img3.png";
+import flat4 from "../assets/pageCardImages/FlatHanging/img4.png";
+import flat5 from "../assets/pageCardImages/FlatHanging/img5.png";
 
 export const products = [
   {
@@ -75,9 +100,30 @@ export const products = [
     id: "0003",
     title: "U-light Wall",
     subtitle: "Настенная лампа",
-    cardImage: productImage5,
+    cardImage: productImage3,
     image: [img3],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">U-light</span> в своей
+        настенной и потолочной версии отказывается от культовой буквы U в пользу
+        классической круглой формы. Кольцо, в структуру которого вставлен
+        светодиод, дающий белый теплый свет. Благодаря своему минималистичному
+        дизайну <span className="product-text product-text-dark">U-light</span>{" "}
+        подходит для разных стилей, персонализируя пространство с большим
+        живописным эффектом. Кроме того, благодаря установке акустической панели{" "}
+        <span className="product-text product-text-dark">U-light</span> имеет
+        Эквивалентную площадь звукопоглощения до 2,49, что позволяет снизить
+        уровень шума до 44%.
+      </p>,
+    ],
+    pageImages: [
+      uLightWall1,
+      uLightWall2,
+      uLightWall3,
+      uLightWall4,
+      uLightWall5,
+    ],
   },
   {
     name: "Ego",
@@ -198,6 +244,27 @@ export const products = [
     cardImage: productImage15,
     image: [img15],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Дизайн <span className="product-text product-text-dark">Palma</span>{" "}
+        снован на элементарных формах, его световые качества выражены теплым
+        регулируемым светом. Фильтруется двумя светящимися полусферами из
+        выдувного опалового стекла, соединенными алюминиевым кольцом с
+        графитовой или белой отделкой.
+      </p>,
+      <p className="product-text">
+        Мы представляем настольную лампу со сферой из дутого стекла, создающей
+        теплый световой эффект, который наполняет внутреннее пространство
+        обволакивающим светом, одновременно успокаивающим и обнадеживающим.
+      </p>,
+    ],
+    pageImages: [
+      palmaTable1,
+      palmaTable2,
+      palmaTable3,
+      palmaTable4,
+      palmaTable5,
+    ],
   },
   {
     name: "Algorithm",
@@ -218,6 +285,33 @@ export const products = [
     cardImage: productImage17,
     image: [img17],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">Link</span> - это
+        коллекция потолочных светильников. Лампы{" "}
+        <span className="product-text product-text-dark">Link</span> сочетают в
+        себе широкий спектр модулей, различающихся по размеру и количеству
+        элементов, чтобы пользователь мог выбрать оптимальный светильник для
+        своего дома. Благодаря минималистичному, почти нейтральному дизайну он
+        может дополнить любой интерьер.
+      </p>,
+      <p className="product-text">
+        Мы производит светильник{" "}
+        <span className="product-text product-text-dark">Link</span> в
+        лакированном глянцевом белом и лакированном глянцевом графите.
+      </p>,
+      <p className="product-text">
+        Геометрия как декор...{" "}
+        <span className="product-text product-text-dark">Link</span>{" "}
+        представляет собой набор заранее сконфигурированных геометрических
+        узоров, которые можно расположить на полотне потолка. Эти конфигурации
+        имеют неглубокие профили, что делает их идеальными для жилых и
+        гостиничных помещений, а также для помещений с низкими потолками.
+        Комбинации различных прямоугольных форм создают накладные светильники
+        разных размеров, до пяти комбинированных кубистических форм.
+      </p>,
+    ],
+    pageImages: [link1, link2, link3, link4, link5],
   },
   {
     name: "BuzziShade",
@@ -298,5 +392,23 @@ export const products = [
     cardImage: productImage28,
     image: [img28],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Подвесные светильники{" "}
+        <span className="product-text product-text-dark">Flat</span> выполнены в
+        виде металлических плоскостей, расположенных на разной высоте. Они
+        отражают свет от своих поверхностей, излучая обволакивающее свечение.
+        Подвесные светильники, подвешенные к потолку на кабеле, изящны, но
+        поразительно графичны, словно парят над головой.
+      </p>,
+      <p className="product-text">
+        Диски света спускаются с потолка, образуя подвесной светильник, где
+        плоскости отраженного света сливаются с архитектурой. Все модели
+        коллекции <span className="product-text product-text-dark">Flat</span>{" "}
+        оснащены светодиодным освещением и доступны в различных нейтральных
+        тонах. Отрегулируйте высоту при установке
+      </p>,
+    ],
+    pageImages: [flat1, flat2, flat3, flat4, flat5],
   },
 ];
