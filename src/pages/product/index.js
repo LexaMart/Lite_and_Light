@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { ProductHead } from "./components/productHead";
 import { ProductInfo } from "./components/productInfo";
+import { Template1 } from "./components/templetes/template1";
 import { products } from "../../data/products";
 import "./index.css";
 
@@ -21,8 +22,15 @@ export const Product = ({ ...props }) => {
               />
               <ProductInfo
                 infoText={product.infoText}
-                pageImages={product.pageImages}
+                pageImage={product.pageImage}
               />
+              {product.template === 1 && (
+                <Template1
+                  pageImage={product.pageImage}
+                  pageContentRight={product.pageContentRight}
+                  pageContentLeft={product.pageContentLeft}
+                />
+              )}
             </div>
           )
       )}

@@ -26,7 +26,7 @@ import img28 from "../assets/catalogImages/img28.png";
 import productImage1 from "../assets/productCardImages/1.png";
 import productImage2 from "../assets/productCardImages/2.png";
 import productImage3 from "../assets/productCardImages/3.png";
-// import productImage4 from "../assets/productCardImages/4.png"
+import productImage4 from "../assets/productCardImages/4.png";
 import productImage5 from "../assets/productCardImages/5.png";
 import productImage6 from "../assets/productCardImages/6.png";
 import productImage7 from "../assets/productCardImages/7.png";
@@ -49,11 +49,30 @@ import productImage23 from "../assets/productCardImages/23.png";
 // import productImage24 from "../assets/productCardImages/24.png"
 import productImage28 from "../assets/productCardImages/28.png";
 //---------------------//
+import uLightPendant1 from "../assets/pageCardImages/ULightPendant/img1.png";
+import uLightPendant2 from "../assets/pageCardImages/ULightPendant/img2.png";
+import uLightPendant3 from "../assets/pageCardImages/ULightPendant/img3.png";
+import uLightPendant4 from "../assets/pageCardImages/ULightPendant/img4.png";
+import uLightPendant5 from "../assets/pageCardImages/ULightPendant/img5.png";
+import uLightPendant6 from "../assets/pageCardImages/ULightPendant/img6.png";
+import uLightPendant7 from "../assets/pageCardImages/ULightPendant/img7.png";
+//---------------------//
 import uLightWall1 from "../assets/pageCardImages/ULightWall/img1.png";
 import uLightWall2 from "../assets/pageCardImages/ULightWall/img2.png";
 import uLightWall3 from "../assets/pageCardImages/ULightWall/img3.png";
 import uLightWall4 from "../assets/pageCardImages/ULightWall/img4.png";
 import uLightWall5 from "../assets/pageCardImages/ULightWall/img5.png";
+//---------------------//
+import ego1 from "../assets/pageCardImages/Ego/img1.png";
+import ego2 from "../assets/pageCardImages/Ego/img2.png";
+import ego3 from "../assets/pageCardImages/Ego/img3.png";
+import ego4 from "../assets/pageCardImages/Ego/img4.png";
+//---------------------//
+import palmaWall1 from "../assets/pageCardImages/PalmaWall/img1.png";
+import palmaWall2 from "../assets/pageCardImages/PalmaWall/img2.png";
+import palmaWall3 from "../assets/pageCardImages/PalmaWall/img3.png";
+import palmaWall4 from "../assets/pageCardImages/PalmaWall/img4.png";
+import palmaWall5 from "../assets/pageCardImages/PalmaWall/img5.png";
 //---------------------//
 import palmaTable1 from "../assets/pageCardImages/PalmaTable/img1.png";
 import palmaTable2 from "../assets/pageCardImages/PalmaTable/img2.png";
@@ -83,6 +102,40 @@ export const products = [
     image: [img1],
     cardImage: productImage1,
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Сочетание геометрических форм создает минималистичный дизайн.
+        Отличительной чертой{" "}
+        <span className="product-text product-text-dark">U-light</span> является
+        кольцеобразная конструкция, в которую в одном из двух подвесных
+        вариантов вставлена знаковая арка. Благодаря своему важному, но в то же
+        время легкому объему{" "}
+        <span className="product-text product-text-dark">U-light</span> может
+        динамично заполнять пространство, но не утяжеляя его. Минималистичный
+        дизайн, интенсивность освещения и визуальный комфорт делают{" "}
+        <span className="product-text product-text-dark">U-light</span> лампой,
+        которая может украшать различные архитектурные стили, от домашнего до
+        офисного. Благодаря установке акустической панели{" "}
+        <span className="product-text product-text-dark">U-light Acquisic</span>{" "}
+        также имеет эквивалентную площадь звукопоглощения до 3,11, что позволяет
+        снизить уровень шума до 49%.{" "}
+        <span className="product-text product-text-dark">U-light</span> был
+        удостоен награды «NYCxDESIGN Award 2016» в категории «Освещение» журнала
+        «Дизайн интерьера» и ICFF.
+      </p>,
+    ],
+    template: 1,
+    pageImage: uLightPendant1,
+    pageContentLeft: [
+      <img alt="img" src={uLightPendant5} className="temp1-content-img" />,
+      <img alt="img" src={uLightPendant3} className="temp1-content-img" />,
+      <img alt="img" src={uLightPendant7} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={uLightPendant2} className="temp1-content-img" />,
+      <img alt="img" src={uLightPendant6} className="temp1-content-img" />,
+      <img alt="img" src={uLightPendant4} className="temp1-content-img" />,
+    ],
   },
   {
     name: "U-light",
@@ -117,13 +170,16 @@ export const products = [
         уровень шума до 44%.
       </p>,
     ],
-    pageImages: [
-      uLightWall1,
-      uLightWall2,
-      uLightWall3,
-      uLightWall4,
-      uLightWall5,
+    pageImage: uLightWall1,
+    pageContentLeft: [
+      <img alt="img" src={uLightWall2} className="temp1-content-img" />,
+      <img alt="img" src={uLightWall3} className="temp1-content-img" />,
     ],
+    pageContentRight: [
+      <img alt="img" src={uLightWall4} className="temp1-content-img" />,
+      <img alt="img" src={uLightWall5} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "Ego",
@@ -131,9 +187,28 @@ export const products = [
     id: "0004",
     title: "Ego",
     subtitle: "Потолочная лампа",
-    cardImage: null,
+    cardImage: productImage4,
     image: [img4],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Полностью изготовленный из натуральной латуни, он представляет собой
+        синтез элегантности и индивидуальности.
+      </p>,
+      <p className="product-text">
+        Совершенство используемых линз создает очень впечатляющий и неожиданный
+        луч света.
+      </p>,
+    ],
+    pageImage: ego1,
+    pageContentLeft: [
+      <img alt="img" src={ego2} className="temp1-content-img" />,
+      <img alt="img" src={ego3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={ego4} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "Match",
@@ -147,21 +222,21 @@ export const products = [
   },
   {
     name: "Hoops",
-    subName: null,
+    subName: "Ceiling",
     id: "0006",
-    title: "Hoops",
+    title: "Hoops Ceiling",
     subtitle: "Потолочная лампа",
-    cardImage: productImage6,
+    cardImage: productImage7,
     image: [img6],
     price: "00.000 ",
   },
   {
     name: "Hoops",
-    subName: "Ceiling",
+    subName: null,
     id: "0007",
-    title: "Hoops Ceiling",
+    title: "Hoops",
     subtitle: "Подвесная лампа",
-    cardImage: productImage7,
+    cardImage: productImage6,
     image: [img7],
     price: "00.000 ",
   },
@@ -224,6 +299,35 @@ export const products = [
     cardImage: productImage13,
     image: [img13],
     price: "00.000 ",
+    template: 1,
+    pageImage: palmaWall1,
+    infoText: [
+      <p className="product-text">
+        Это система освещения, которая вводит дневной свет, обычно связанный с
+        растениями на открытом воздухе, в обстановку в помещении.
+      </p>,
+      <p className="product-text">
+        Коллекция Palma также позволяет создавать несколько композиций земного
+        шара, вертикальных и горизонтальных, для создания визуальных осей в
+        большем масштабе, объединяя растительность. Его также можно использовать
+        как индивидуальный глобус. При таком подходе возможны многочисленные
+        варианты. Одним из самых инновационных является использование нескольких
+        бра для общественных помещений.
+      </p>,
+    ],
+    pageContentLeft: [
+      <img alt="img" src={palmaWall2} className="temp1-content-img" />,
+      <img alt="img" src={palmaWall3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={palmaWall4} className="temp1-content-img" />,
+      <p className="product-text">
+        Мы представляем индивидуальный настенный светильник. Его вневременная
+        сфера света эволюционирует в сторону органического. Слегка сплющенный,
+        как форма Земли, он излучает теплый и регулируемый свет
+      </p>,
+      <img alt="img" src={palmaWall5} className="temp1-content-img" />,
+    ],
   },
   {
     name: "Palma",
@@ -258,13 +362,16 @@ export const products = [
         обволакивающим светом, одновременно успокаивающим и обнадеживающим.
       </p>,
     ],
-    pageImages: [
-      palmaTable1,
-      palmaTable2,
-      palmaTable3,
-      palmaTable4,
-      palmaTable5,
+    pageImage: palmaTable1,
+    pageContentLeft: [
+      <img alt="img" src={palmaTable2} className="temp1-content-img" />,
+      <img alt="img" src={palmaTable3} className="temp1-content-img" />,
     ],
+    pageContentRight: [
+      <img alt="img" src={palmaTable4} className="temp1-content-img" />,
+      <img alt="img" src={palmaTable5} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "Algorithm",
@@ -311,7 +418,16 @@ export const products = [
         разных размеров, до пяти комбинированных кубистических форм.
       </p>,
     ],
-    pageImages: [link1, link2, link3, link4, link5],
+    pageImage: link1,
+    pageContentLeft: [
+      <img alt="img" src={link2} className="temp1-content-img" />,
+      <img alt="img" src={link3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={link4} className="temp1-content-img" />,
+      <img alt="img" src={link5} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "BuzziShade",
@@ -409,6 +525,15 @@ export const products = [
         тонах. Отрегулируйте высоту при установке
       </p>,
     ],
-    pageImages: [flat1, flat2, flat3, flat4, flat5],
+    pageImage: flat1,
+    pageContentLeft: [
+      <img alt="img" src={flat2} className="temp1-content-img" />,
+      <img alt="img" src={flat3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={flat4} className="temp1-content-img" />,
+      <img alt="img" src={flat5} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
 ];
