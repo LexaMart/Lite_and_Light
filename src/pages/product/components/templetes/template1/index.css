@@ -1,6 +1,10 @@
-.temp1 {
+.temp1-content-wrap {
   display: flex;
-  align-items: center;
+}
+.temp1-content {
+  justify-content: space-between;
+  display: inline-flex;
+  flex-direction: column;
 }
 .temp1-content1 {
   width: 48.7%;

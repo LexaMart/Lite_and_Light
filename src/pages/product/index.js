@@ -20,16 +20,31 @@ export const Product = ({ ...props }) => {
                 price={product.price}
                 cardImage={product.cardImage}
               />
-              <ProductInfo
-                infoText={product.infoText}
-                pageImage={product.pageImage}
-              />
+              {product.template === 0 && (
+                <>
+                  <Template1
+                    pageImage={product.pageImage}
+                    pageContentTop={product.pageContentTop}
+                    pageContentRight={product.pageContentRight}
+                    pageContentLeft={product.pageContentLeft}
+                    pageContentBottom={product.pageContentBottom}
+                  />
+                </>
+              )}
               {product.template === 1 && (
-                <Template1
-                  pageImage={product.pageImage}
-                  pageContentRight={product.pageContentRight}
-                  pageContentLeft={product.pageContentLeft}
-                />
+                <>
+                  <ProductInfo
+                    infoText={product.infoText}
+                    pageImage={product.pageImage}
+                  />
+                  <Template1
+                    pageImage={product.pageImage}
+                    pageContentTop={product.pageContentTop}
+                    pageContentRight={product.pageContentRight}
+                    pageContentLeft={product.pageContentLeft}
+                    pageContentBottom={product.pageContentBottom}
+                  />
+                </>
               )}
             </div>
           )

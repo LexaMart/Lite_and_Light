@@ -57,6 +57,10 @@ import uLightPendant5 from "../assets/pageCardImages/ULightPendant/img5.png";
 import uLightPendant6 from "../assets/pageCardImages/ULightPendant/img6.png";
 import uLightPendant7 from "../assets/pageCardImages/ULightPendant/img7.png";
 //---------------------//
+import uLightSupersion2 from "../assets/pageCardImages/UlightSupersion/img2.png";
+import uLightSupersion3 from "../assets/pageCardImages/UlightSupersion/img3.png";
+import uLightSupersion4 from "../assets/pageCardImages/UlightSupersion/img4.png";
+//---------------------//
 import uLightWall1 from "../assets/pageCardImages/ULightWall/img1.png";
 import uLightWall2 from "../assets/pageCardImages/ULightWall/img2.png";
 import uLightWall3 from "../assets/pageCardImages/ULightWall/img3.png";
@@ -68,17 +72,74 @@ import ego2 from "../assets/pageCardImages/Ego/img2.png";
 import ego3 from "../assets/pageCardImages/Ego/img3.png";
 import ego4 from "../assets/pageCardImages/Ego/img4.png";
 //---------------------//
+import match2 from "../assets/pageCardImages/Match/img2.png";
+import match3 from "../assets/pageCardImages/Match/img3.png";
+import match4 from "../assets/pageCardImages/Match/img4.png";
+import match5 from "../assets/pageCardImages/Match/img5.png";
+//---------------------//
+import hoopsCeiling1 from "../assets/pageCardImages/HoopsCeiling/img1.png";
+import hoopsCeiling2 from "../assets/pageCardImages/HoopsCeiling/img2.png";
+import hoopsCeiling3 from "../assets/pageCardImages/HoopsCeiling/img3.png";
+import hoopsCeiling4 from "../assets/pageCardImages/HoopsCeiling/img4.png";
+//---------------------//
+import hoops1 from "../assets/pageCardImages/Hoops/img1.png";
+import hoops2 from "../assets/pageCardImages/Hoops/img2.png";
+import hoops3 from "../assets/pageCardImages/Hoops/img3.png";
+import hoops4 from "../assets/pageCardImages/Hoops/img4.png";
+//---------------------//
+import wireflow1 from "../assets/pageCardImages/Wireflow/img1.png";
+import wireflow2 from "../assets/pageCardImages/Wireflow/img2.png";
+import wireflow3 from "../assets/pageCardImages/Wireflow/img3.png";
+import wireflow4 from "../assets/pageCardImages/Wireflow/img4.png";
+//---------------------//
+import wireflowChandelier1 from "../assets/pageCardImages/WireflowChandelier/img1.png";
+import wireflowChandelier2 from "../assets/pageCardImages/WireflowChandelier/img2.png";
+import wireflowChandelier3 from "../assets/pageCardImages/WireflowChandelier/img3.png";
+import wireflowChandelier4 from "../assets/pageCardImages/WireflowChandelier/img4.png";
+import wireflowChandelier5 from "../assets/pageCardImages/WireflowChandelier/img5.png";
+import wireflowChandelier6 from "../assets/pageCardImages/WireflowChandelier/img6.png";
+//---------------------//
+import wireflowLineal1 from "../assets/pageCardImages/WireflowLineal/img1.png";
+import wireflowLineal2 from "../assets/pageCardImages/WireflowLineal/img2.png";
+import wireflowLineal3 from "../assets/pageCardImages/WireflowLineal/img3.png";
+import wireflowLineal4 from "../assets/pageCardImages/WireflowLineal/img4.png";
+//---------------------//
+import wireflowFreeForm1 from "../assets/pageCardImages/WireflowFreeForm/img1.png";
+import wireflowFreeForm2 from "../assets/pageCardImages/WireflowFreeForm/img2.png";
+import wireflowFreeForm3 from "../assets/pageCardImages/WireflowFreeForm/img3.png";
+//---------------------//
+import duo1 from "../assets/pageCardImages/Duo/img1.png";
+import duo2 from "../assets/pageCardImages/Duo/img2.png";
+import duo3 from "../assets/pageCardImages/Duo/img3.png";
+import duo4 from "../assets/pageCardImages/Duo/img4.png";
+import duo5 from "../assets/pageCardImages/Duo/img5.png";
+import duo6 from "../assets/pageCardImages/Duo/img6.png";
+//---------------------//
 import palmaWall1 from "../assets/pageCardImages/PalmaWall/img1.png";
 import palmaWall2 from "../assets/pageCardImages/PalmaWall/img2.png";
 import palmaWall3 from "../assets/pageCardImages/PalmaWall/img3.png";
 import palmaWall4 from "../assets/pageCardImages/PalmaWall/img4.png";
 import palmaWall5 from "../assets/pageCardImages/PalmaWall/img5.png";
 //---------------------//
+import palmaHanging1 from "../assets/pageCardImages/PalmaHanging/img1.png";
+import palmaHanging2 from "../assets/pageCardImages/PalmaHanging/img2.png";
+import palmaHanging3 from "../assets/pageCardImages/PalmaHanging/img3.png";
+import palmaHanging4 from "../assets/pageCardImages/PalmaHanging/img4.png";
+import palmaHanging5 from "../assets/pageCardImages/PalmaHanging/img5.png";
+import palmaHanging6 from "../assets/pageCardImages/PalmaHanging/img6.png";
+//---------------------//
 import palmaTable1 from "../assets/pageCardImages/PalmaTable/img1.png";
 import palmaTable2 from "../assets/pageCardImages/PalmaTable/img2.png";
 import palmaTable3 from "../assets/pageCardImages/PalmaTable/img3.png";
 import palmaTable4 from "../assets/pageCardImages/PalmaTable/img4.png";
 import palmaTable5 from "../assets/pageCardImages/PalmaTable/img5.png";
+//---------------------//
+import algorithm1 from "../assets/pageCardImages/Algorithm/img1.png";
+import algorithm2 from "../assets/pageCardImages/Algorithm/img2.png";
+import algorithm3 from "../assets/pageCardImages/Algorithm/img3.png";
+import algorithm4 from "../assets/pageCardImages/Algorithm/img4.png";
+import algorithm5 from "../assets/pageCardImages/Algorithm/img5.png";
+import algorithm6 from "../assets/pageCardImages/Algorithm/img6.png";
 //---------------------//
 import link1 from "../assets/pageCardImages/Link/img1.png";
 import link2 from "../assets/pageCardImages/Link/img2.png";
@@ -146,6 +207,36 @@ export const products = [
     cardImage: productImage2,
     image: [img2],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">U-light</span>{" "}
+        явыражает мощность и световую эффективность, подчеркивая эстетическую
+        сущность в гармоничном союзе, который создает сильное присутствие в
+        пространстве.
+      </p>,
+      <p className="product-text">
+        Успешная и культовая коллекция{" "}
+        <span className="product-text product-text-dark">U-light</span>{" "}
+        представляет собой графическую игру круглых алюминиевых элементов,
+        минималистичных и легких, которые украшают потолки и стены.
+        Представитель мастерства и передовых технологий, все модели оснащены
+        диммируемой белой светодиодной подсветкой. Теперь появилось новое
+        большое измерение – 180 см в диаметре, решение с сильным сценическим
+        эффектом, которое определяет пространство для гостеприимства формой и
+        светом.
+      </p>,
+    ],
+    template: 1,
+    pageImage: null,
+    pageContentLeft: [
+      <img alt="img" src={uLightSupersion2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={uLightSupersion3} className="temp1-content-img" />,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={uLightSupersion4} className="temp1-content-img" />,
+    ],
   },
   {
     name: "U-light",
@@ -219,6 +310,49 @@ export const products = [
     cardImage: null,
     image: [img5],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">Match</span>,
+        представляет собой гораздо большее, чем просто лампа, это новая
+        концепция освещения, в которой мы вовлекаем конечного пользователя в
+        творческий процесс, позволяя легко интегрировать светильник в дизайн
+        интерьера. Конечным результатом является лампа{" "}
+        <span className="product-text product-text-dark">Match</span>{" "}
+        индивидуального дизайна.
+      </p>,
+      <p className="product-text">
+        <span className="product-text product-text-dark">Match</span> — это
+        коллекция подвесных светильников, состоящая из тонких металлических
+        стержней, окрашенных в белый матовый лак или матовый лакированный
+        графит, оснащенных светодиодными клеммами.
+      </p>,
+    ],
+    pageImage: null,
+    pageContentTop: [
+      <img alt="img" src={match2} className="temp1-content-img" />,
+    ],
+    pageContentLeft: [
+      <p className="product-text">
+        Уникальный и неповторимый светильник{" "}
+        <span className="product-text product-text-dark">Match</span> — это
+        гораздо больше, чем светильник. Этот инновационный продукт представляет
+        собой новую концепцию освещения, основанную на совместном творчестве.
+        Используя программное обеспечение для конфигурирования продукта CREA,{" "}
+        <span className="product-text product-text-dark">Match</span> позволяет
+        создавать структуры, расположенные хаотично, автоматически планируемые в
+        режиме онлайн и адаптированные к помещению и имеющемуся пространству.
+        Результатом являются бесконечные художественные конфигурации на основе
+        тонких стержней из алюминия и светодиодных световых терминалов,
+        образующих световую скульптуру, освещающую центральные темы пространства
+        и внутреннего убранства.
+      </p>,
+      <img alt="img" src={match3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={match4} className="temp1-content-img" />,
+      <img alt="img" src={match5} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "Hoops",
@@ -229,6 +363,24 @@ export const products = [
     cardImage: productImage7,
     image: [img6],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Линии, которые сладострастно танцуют вокруг ядра в меняющейся игре
+        отраженных форм и света. Извилистость Обручей – это тонкая извивающаяся
+        нить, за которой должны следовать глаза.{" "}
+      </p>,
+    ],
+    pageImage: hoopsCeiling1,
+    pageContentTop: [
+      <img alt="img" src={hoopsCeiling2} className="temp1-content-img" />,
+    ],
+    pageContentLeft: [
+      <img alt="img" src={hoopsCeiling3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={hoopsCeiling4} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "Hoops",
@@ -239,6 +391,24 @@ export const products = [
     cardImage: productImage6,
     image: [img7],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Линии, которые сладострастно танцуют вокруг ядра в меняющейся игре
+        отраженных форм и света. Извилистость Обручей – это тонкая извивающаяся
+        нить, за которой должны следовать глаза.{" "}
+      </p>,
+    ],
+    pageImage: hoops1,
+    pageContentBottom: [
+      <img alt="img" src={hoops4} className="temp1-content-img" />,
+    ],
+    pageContentLeft: [
+      <img alt="img" src={hoops2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={hoops3} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "Wireflow",
@@ -249,6 +419,25 @@ export const products = [
     cardImage: productImage8,
     image: [img8],
     price: "00.000 ",
+    pageContentLeft: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">Wireflow</span> -
+        подвесной светильник, который пересматривает и обновляет внешний вид
+        люстры посредством упрощения, которое исследует ее сущность и
+        подчеркивает ее контур с большой деликатностью и в то же время сильным
+        формальным присутствием. Его внешний вид, представляющий собой структуру
+        тонких кабелей с восемью светодиодными клеммами, дискретно соединяется с
+        классическими моделями люстр, выводя этот тип лампы на новый,
+        новаторский и футуристический уровень.
+      </p>,
+      <img alt="img" src={wireflow1} className="temp1-content-img" />,
+      <img alt="img" src={wireflow2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={wireflow3} className="temp1-content-img" />,
+      <img alt="img" src={wireflow4} className="temp1-content-img" />,
+    ],
+    template: 0,
   },
   {
     name: "Wireflow",
@@ -259,16 +448,67 @@ export const products = [
     cardImage: productImage9,
     image: [img9],
     price: "00.000 ",
+    pageContentLeft: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">Wireflow</span> -
+        подвесной светильник, который пересматривает и обновляет внешний вид
+        люстры посредством упрощения, которое исследует ее сущность и
+        подчеркивает ее контур с большой деликатностью и в то же время сильным
+        формальным присутствием. Его внешний вид, представляющий собой структуру
+        тонких кабелей с восемью светодиодными клеммами, дискретно соединяется с
+        классическими моделями люстр, выводя этот тип лампы на новый,
+        новаторский и футуристический уровень.
+      </p>,
+      <img alt="img" src={wireflowChandelier1} className="temp1-content-img" />,
+      <img alt="img" src={wireflowChandelier2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={wireflowChandelier3} className="temp1-content-img" />,
+      <img alt="img" src={wireflowChandelier4} className="temp1-content-img" />,
+      <img alt="img" src={wireflowChandelier5} className="temp1-content-img" />,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={wireflowChandelier6} className="temp1-content-img" />,
+    ],
+    template: 0,
   },
   {
     name: "Wireflow",
     subName: "Lineal",
     id: "0010",
-    title: "Wireflow li neal",
+    title: "Wireflow Lineal",
     subtitle: "Подвесная лампа",
     cardImage: productImage10,
     image: [img10],
     price: "00.000 ",
+    pageContentLeft: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">Wireflow</span>-
+        линейная подвесная лампа. Ее внешний вид в виде структуры тонких кабелей
+        с двумя светодиодными клеммами мощностью 4,5 Вт идеально подходит для
+        дискретного подключения к классическим моделям люстр, выводя этот тип
+        лампы на новый, новаторский и футуристический уровень. Идеально подходит
+        для декорирования больших помещений, особенно с высокими потолками, в
+        том числе приемных отелей, точек розничной торговли и баров с едой и
+        напитками.
+      </p>,
+      <p className="product-text">
+        Черный электрический кабель в сочетании с металлической стержневой
+        структурой, характерной для коллекции{" "}
+        <span className="product-text product-text-dark">Wireflow</span> -
+        прослеживает чистые минималистские формы в двух измерениях, которые
+        создают захватывающее графическое ощущение. Лампы{" "}
+        <span className="product-text product-text-dark">Wireflow</span> 2D
+        доступны в различных версиях с 2, 6 и 10 рассеивателями.
+      </p>,
+      <img alt="img" src={wireflowLineal1} className="temp1-content-img" />,
+      <img alt="img" src={wireflowLineal2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={wireflowLineal3} className="temp1-content-img" />,
+      <img alt="img" src={wireflowLineal4} className="temp1-content-img" />,
+    ],
+    template: 0,
   },
   {
     name: "Wireflow",
@@ -279,6 +519,32 @@ export const products = [
     cardImage: productImage11,
     image: [img11],
     price: "00.000 ",
+    pageContentLeft: [
+      <p className="product-text">
+        Дизайнер Арик Леви представляет подвесной светильник свободной формы{" "}
+        <span className="product-text product-text-dark">Wireflow</span>.
+        Подвесной светильник{" "}
+        <span className="product-text product-text-dark">Wireflow</span>{" "}
+        произвольной формы состоит из черного электрического кабеля,
+        соединяющего клеммы освещения с помощью светодиодного источника света.
+        Подвесные светильники, которые могут быть установлены на потолке или
+        стенах, дают пользователю полную свободу действий при создании
+        внутреннего пространства. Таким образом, мы предлагаем световые решения
+        для клиентов, у которых есть доступ только к розеткам, но требуется
+        подвесной светильник. Существует бесконечное количество вариантов на
+        выбор, от 1 до (до) 9 светодиодов, клиенты могут выбирать между
+        стеклянными или нестеклянными версиями, окружающим или акцентным
+        освещением.
+      </p>,
+      <img alt="img" src={wireflowFreeForm1} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={wireflowFreeForm2} className="temp1-content-img" />,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={wireflowFreeForm3} className="temp1-content-img" />,
+    ],
+    template: 0,
   },
   {
     name: "Duo",
@@ -289,6 +555,34 @@ export const products = [
     cardImage: productImage12,
     image: [img12],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">Duo</span> — это
+        потолочный светильник, который сочетает в себе естественный теплый
+        внешний вид дерева с технической изысканностью металлической оболочки.
+        Это лампа контрастов, которая естественным образом вписывается в любую
+        обстановку.
+      </p>,
+      <p className="product-text">
+        <span className="product-text product-text-dark">Duo</span> — это
+        потолочный светильник с поверхностным монтажом, в котором естественный
+        теплый внешний вид древесины дуба внутри сочетается с технической
+        утонченностью алюминиевого металлического покрытия снаружи.
+      </p>,
+    ],
+    template: 1,
+    pageImage: duo1,
+    pageContentLeft: [
+      <img alt="img" src={duo2} className="temp1-content-img" />,
+      <img alt="img" src={duo3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={duo4} className="temp1-content-img" />,
+      <img alt="img" src={duo5} className="temp1-content-img" />,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={duo6} className="temp1-content-img" />,
+    ],
   },
   {
     name: "Palma",
@@ -338,6 +632,39 @@ export const products = [
     cardImage: productImage14,
     image: [img14],
     price: "00.000 ",
+    template: 1,
+    pageImage: palmaHanging1,
+    infoText: [
+      <p className="product-text">
+        Мы рассматриваем подвесной светильник
+        <span className="product-text product-text-dark">Palma</span>
+        как ландшафтный проект, который со временем будет преображаться, как
+        только дизайнер закончит первую часть работы. Способность{" "}
+        <span className="product-text product-text-dark">Palma</span>
+        создавать атмосферу в интерьере увеличивается по мере его роста. как
+        светящийся висячий сад.
+      </p>,
+      <p className="product-text">
+        Классический земной шар, слегка приплюснутый здесь, приобретает более
+        органичную форму, а подвесная версия с почти незаметной опорой троса
+        усиливает ощущение парения.
+      </p>,
+    ],
+    pageContentLeft: [
+      <img alt="img" src={palmaHanging2} className="temp1-content-img" />,
+      <img alt="img" src={palmaHanging3} className="temp1-content-img" />,
+      <img alt="img" src={palmaHanging4} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={palmaHanging5} className="temp1-content-img" />,
+      <p className="product-text">
+        <span className="product-text product-text-dark">Palma</span>{" "}
+        представляет подвесной светильник. Он включает в себя два размера
+        стеклянных сфер, выдувных вручную, соединенных ремнем, и алюминиевые
+        конструкции. Интенсивность светодиодного источника света регулируется
+      </p>,
+      <img alt="img" src={palmaHanging6} className="temp1-content-img" />,
+    ],
   },
   {
     name: "Palma",
@@ -382,6 +709,41 @@ export const products = [
     cardImage: productImage16,
     image: [img16],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Эта коллекция объединяет красоту и геометрию в системе освещения,
+        наполненной волшебством.
+      </p>,
+      <p className="product-text">
+        Мы предлагаем группу подвесных светильников, в которых пользователь
+        может выбирать между предопределенными ссылками или создавать свою
+        собственную конфигурацию продукта, чтобы идеально адаптироваться к
+        рассматриваемому пространству.
+      </p>,
+      <p className="product-text">
+        Коллекция{" "}
+        <span className="product-text product-text-dark">Algorithm</span>{" "}
+        состоит из конфигураций сфер светодиодного света, подвешенных на разной
+        высоте и прикрепленных к потолку с помощью плавающей трубчатой
+        конструкции.
+      </p>,
+      <p className="product-text">
+        Подвесной светильник состоит из выдувного вручную стеклянного шара со
+        светодиодным источником света, подвешенного в воздухе на натяжном тросе.
+        Доступен в лакированном матовом графите и матовом белом цвете.
+      </p>,
+    ],
+    pageImage: algorithm1,
+    pageContentLeft: [
+      <img alt="img" src={algorithm2} className="temp1-content-img" />,
+      <img alt="img" src={algorithm3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={algorithm4} className="temp1-content-img" />,
+      <img alt="img" src={algorithm5} className="temp1-content-img" />,
+      <img alt="img" src={algorithm6} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "Link",
