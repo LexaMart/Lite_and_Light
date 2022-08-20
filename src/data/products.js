@@ -22,6 +22,9 @@ import img21 from "../assets/catalogImages/img21.png";
 import img22 from "../assets/catalogImages/img22.png";
 import img23 from "../assets/catalogImages/img23.png";
 import img24 from "../assets/catalogImages/img24.png";
+import img25 from "../assets/catalogImages/img25.png";
+import img26 from "../assets/catalogImages/img26.png";
+import img27 from "../assets/catalogImages/img27.png";
 import img28 from "../assets/catalogImages/img28.png";
 import productImage1 from "../assets/productCardImages/1.png";
 import productImage2 from "../assets/productCardImages/2.png";
@@ -46,7 +49,10 @@ import productImage20 from "../assets/productCardImages/20.png";
 import productImage21 from "../assets/productCardImages/21.png";
 import productImage22 from "../assets/productCardImages/22.png";
 import productImage23 from "../assets/productCardImages/23.png";
-// import productImage24 from "../assets/productCardImages/24.png"
+import productImage24 from "../assets/productCardImages/24.png";
+import productImage25 from "../assets/productCardImages/25.png";
+import productImage26 from "../assets/productCardImages/26.png";
+//import productImage27 from "../assets/productCardImages/27.png";
 import productImage28 from "../assets/productCardImages/28.png";
 //---------------------//
 import uLightPendant1 from "../assets/pageCardImages/ULightPendant/img1.png";
@@ -146,6 +152,77 @@ import link2 from "../assets/pageCardImages/Link/img2.png";
 import link3 from "../assets/pageCardImages/Link/img3.png";
 import link4 from "../assets/pageCardImages/Link/img4.png";
 import link5 from "../assets/pageCardImages/Link/img5.png";
+//---------------------//
+import buzziShadeSquare1 from "../assets/pageCardImages/BuzziShadeSquare/img1.png";
+import buzziShadeSquare2 from "../assets/pageCardImages/BuzziShadeSquare/img2.jpg";
+import buzziShadeSquare3 from "../assets/pageCardImages/BuzziShadeSquare/img3.png";
+import buzziShadeSquare4 from "../assets/pageCardImages/BuzziShadeSquare/img4.png";
+import buzziShadeSquare5 from "../assets/pageCardImages/BuzziShadeSquare/img5.png";
+import buzziShadeSquare6 from "../assets/pageCardImages/BuzziShadeSquare/img6.jpg";
+import buzziShadeSquare7 from "../assets/pageCardImages/BuzziShadeSquare/img7.png";
+//---------------------//
+import buzziShade1 from "../assets/pageCardImages/BuzziShade/img1.png";
+import buzziShade2 from "../assets/pageCardImages/BuzziShade/img2.png";
+import buzziShade3 from "../assets/pageCardImages/BuzziShade/img3.png";
+import buzziShade4 from "../assets/pageCardImages/BuzziShade/img4.png";
+import buzziShade5 from "../assets/pageCardImages/BuzziShade/img5.png";
+import buzziShade6 from "../assets/pageCardImages/BuzziShade/img6.png";
+import buzziShade7 from "../assets/pageCardImages/BuzziShade/img7.png";
+import buzziShade8 from "../assets/pageCardImages/BuzziShade/img8.png";
+import buzziShade9 from "../assets/pageCardImages/BuzziShade/img9.png";
+//---------------------//
+import buzziProp1 from "../assets/pageCardImages/BuzziProp/img1.png";
+import buzziProp2 from "../assets/pageCardImages/BuzziProp/img2.png";
+import buzziProp3 from "../assets/pageCardImages/BuzziProp/img3.png";
+import buzziProp4 from "../assets/pageCardImages/BuzziProp/img4.png";
+import buzziProp5 from "../assets/pageCardImages/BuzziProp/img5.png";
+import buzziProp6 from "../assets/pageCardImages/BuzziProp/img6.png";
+import buzziProp7 from "../assets/pageCardImages/BuzziProp/img7.png";
+import buzziProp8 from "../assets/pageCardImages/BuzziProp/img8.png";
+import buzziProp9 from "../assets/pageCardImages/BuzziProp/img9.png";
+//---------------------//
+import buzziDisk1 from "../assets/pageCardImages/BuzziDisk/img1.png";
+import buzziDisk2 from "../assets/pageCardImages/BuzziDisk/img2.png";
+import buzziDisk3 from "../assets/pageCardImages/BuzziDisk/img3.png";
+import buzziDisk4 from "../assets/pageCardImages/BuzziDisk/img4.png";
+import buzziDisk5 from "../assets/pageCardImages/BuzziDisk/img5.png";
+import buzziDisk6 from "../assets/pageCardImages/BuzziDisk/img6.png";
+//---------------------//
+import buzziTrom1 from "../assets/pageCardImages/BuzziTrom/img1.png";
+import buzziTrom2 from "../assets/pageCardImages/BuzziTrom/img2.png";
+import buzziTrom3 from "../assets/pageCardImages/BuzziTrom/img3.png";
+import buzziTrom4 from "../assets/pageCardImages/BuzziTrom/img4.png";
+import buzziTrom5 from "../assets/pageCardImages/BuzziTrom/img5.png";
+import buzziTrom6 from "../assets/pageCardImages/BuzziTrom/img6.png";
+import buzziTrom7 from "../assets/pageCardImages/BuzziTrom/img7.png";
+//---------------------//
+import buzziZeppLight1 from "../assets/pageCardImages/BuzziZeppLight/img1.png";
+import buzziZeppLight2 from "../assets/pageCardImages/BuzziZeppLight/img2.png";
+import buzziZeppLight3 from "../assets/pageCardImages/BuzziZeppLight/img3.png";
+import buzziZeppLight4 from "../assets/pageCardImages/BuzziZeppLight/img4.png";
+import buzziZeppLight5 from "../assets/pageCardImages/BuzziZeppLight/img5.png";
+//---------------------//
+import skirt1 from "../assets/pageCardImages/Skirt/img1.png";
+import skirt2 from "../assets/pageCardImages/Skirt/img2.png";
+import skirt3 from "../assets/pageCardImages/Skirt/img3.png";
+import skirt4 from "../assets/pageCardImages/Skirt/img4.png";
+import skirt5 from "../assets/pageCardImages/Skirt/img5.png";
+//---------------------//
+import fedora1 from "../assets/pageCardImages/Fedora/img1.png";
+import fedora2 from "../assets/pageCardImages/Fedora/img2.png";
+import fedora3 from "../assets/pageCardImages/Fedora/img3.png";
+import fedora4 from "../assets/pageCardImages/Fedora/img4.png";
+import fedora5 from "../assets/pageCardImages/Fedora/img5.png";
+import fedora6 from "../assets/pageCardImages/Fedora/img6.png";
+//---------------------//
+import virtus1 from "../assets/pageCardImages/Virtus/img1.png";
+import virtus2 from "../assets/pageCardImages/Virtus/img2.png";
+import virtus3 from "../assets/pageCardImages/Virtus/img3.png";
+import virtus4 from "../assets/pageCardImages/Virtus/img4.png";
+//---------------------//
+//import degrees1 from "../assets/pageCardImages/45degrees/img1.png";
+import degrees2 from "../assets/pageCardImages/45degrees/img2.png";
+import degrees3 from "../assets/pageCardImages/45degrees/img3.png";
 //---------------------//
 import flat1 from "../assets/pageCardImages/FlatHanging/img1.png";
 import flat2 from "../assets/pageCardImages/FlatHanging/img2.png";
@@ -800,6 +877,60 @@ export const products = [
     cardImage: productImage18,
     image: [img18],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">
+          BuzziShade Square
+        </span>{" "}
+        снижает уровень внешнего шума до минимума. Благодаря большой площади
+        поверхности подвесного светильника и закругленным углам, решение может
+        эффективно улавливать звуковые волны, когда они движутся вверх, и, таким
+        образом, предотвращать их отражение по комнате.
+      </p>,
+      <p className="product-text">
+        Разместив{" "}
+        <span className="product-text product-text-dark">
+          BuzziShade Square
+        </span>{" "}
+        над источником шума (например, гостиной или рабочими станциями), он
+        будет поглощать большое количество звука, что поможет создать хорошо
+        сбалансированное рабочее пространство.
+      </p>,
+    ],
+    pageImage: buzziShadeSquare1,
+    pageContentTop: [
+      <img alt="img" src={buzziShadeSquare2} className="temp1-content-img" />,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={buzziShadeSquare3} className="temp1-content-img" />,
+    ],
+    temp2Top: [
+      <img
+        alt="img"
+        src={buzziShadeSquare4}
+        style={{ width: "65%" }}
+        className="temp2-content-img"
+      />,
+      <img
+        alt="img"
+        src={buzziShadeSquare5}
+        style={{ width: "35%" }}
+        className="temp2-content-img"
+      />,
+    ],
+    temp2Bottom: [
+      <img
+        alt="img"
+        src={buzziShadeSquare6}
+        className="temp2-content-img temp2-content-img1"
+      />,
+      <img
+        alt="img"
+        src={buzziShadeSquare7}
+        className="temp2-content-img temp2-content-img2"
+      />,
+    ],
+    template: 2,
   },
   {
     name: "BuzziShade",
@@ -810,6 +941,72 @@ export const products = [
     cardImage: productImage19,
     image: [img19],
     price: "00.000 ",
+    pageContentLeft: [
+      <p className="product-text">
+        Предотвратите подслушивание ваших личных разговоров и сведите к минимуму
+        уровень внешнего шума. Эта подвеска с шумоподавлением удовлетворяет
+        требования как к поглощению звука, так и к освещению.
+      </p>,
+      <p className="product-text">
+        В настоящее время многие открытые помещения, нуждающиеся в акустической
+        обработке, также нуждаются в лучшем освещении.
+      </p>,
+      <p className="product-text">
+        И акустика, и освещение влияют на личное самочувствие и, следовательно,
+        являются основными факторами позитивного рабочего пространства.
+      </p>,
+      <img alt="img" src={buzziShade1} className="temp1-content-img" />,
+      <img alt="img" src={buzziShade2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={buzziShade3} className="temp1-content-img" />,
+      <p className="product-text">
+        <span className="product-text product-text-dark">BuzziShade</span>{" "}
+        зготовлен из металлического каркаса с покрытием, обитого{" "}
+        <span className="product-text product-text-dark">BuzziFelt</span>{" "}
+        различных цветов. Что касается сертификатов, подвесной светодиод{" "}
+        <span className="product-text product-text-dark">BuzziShade</span>{" "}
+        включен в списки cULus и CE.
+      </p>,
+      <p className="product-text">
+        Знаменитый оттенок теперь предлагается в больших размерах:{" "}
+        <span className="product-text product-text-dark">BuzziShade XL</span> и{" "}
+        <span className="product-text product-text-dark">BuzziShade XXL</span>.
+        Эти негабаритные шторы действуют как кокон со звукопоглощающими
+        свойствами, разграничивая пространство с элегантностью и тишиной
+      </p>,
+      <img alt="img" src={buzziShade4} className="temp1-content-img" />,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={buzziShade5} className="temp1-content-img" />,
+    ],
+    temp2Top: [
+      <img
+        alt="img"
+        src={buzziShade6}
+        style={{ width: "60%" }}
+        className="temp2-content-img"
+      />,
+      <img
+        alt="img"
+        src={buzziShade7}
+        style={{ width: "40%" }}
+        className="temp2-content-img"
+      />,
+    ],
+    temp2Bottom: [
+      <img
+        alt="img"
+        src={buzziShade8}
+        className="temp2-content-img temp2-content-img1"
+      />,
+      <img
+        alt="img"
+        src={buzziShade9}
+        className="temp2-content-img temp2-content-img2"
+      />,
+    ],
+    template: 3,
   },
   {
     name: "BuzziProp",
@@ -820,6 +1017,94 @@ export const products = [
     cardImage: productImage20,
     image: [img20],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Позвольте своему разуму путешествовать в непрерывные далекие места. Этот
+        подвесной светильник с шумоподавлением помогает позаботиться об этом,
+        уравновешивая звук для улучшения фокусировки и концентрации, при этом
+        улучшая дизайн вашего потолка.
+      </p>,
+      <p className="product-text">
+        В отличие от жестких оболочек, доступных сегодня на рынке, мягкая
+        структура{" "}
+        <span className="product-text product-text-dark">BuzziProp</span>{" "}
+        обладает звукопоглощающими свойствами, обеспечивая акустический комфорт
+        в сочетании с теплым окружающим светом. И{" "}
+        <span className="product-text product-text-dark">BuzziProp Small</span>{" "}
+        и <span className="product-text product-text-dark">BuzziProp Beam</span>{" "}
+        специально разработаны для поглощения высокочастотных звуков, таких как
+        рингтоны и шум болтающих коллег.
+      </p>,
+    ],
+    pageImage: buzziProp1,
+    pageContentTop: [
+      <img alt="img" src={buzziProp2} className="temp1-content-img" />,
+    ],
+    pageContentLeft: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">BuzziProp Small</span>{" "}
+        идеально подходит для отдельных столов, а{" "}
+        <span className="product-text product-text-dark">BuzziProp Beam</span>{" "}
+        хорошо работает в больших помещениях для совместной работы,
+        конференц-залах и приемных. Разместите{" "}
+        <span className="product-text product-text-dark">BuzziProp Beam</span>{" "}
+        над большим столом в качестве дополнительного акцента, не перегружая
+        существующий декор в вашем рабочем пространстве и не имея необходимости
+        иметь дело с несколькими шнурами питания. Для более динамичного образа
+        комбинируйте{" "}
+        <span className="product-text product-text-dark">BuzziProp Small</span>{" "}
+        и <span className="product-text product-text-dark">BuzziProp Beam</span>{" "}
+        разных цветов и тканей.
+      </p>,
+      <img alt="img" src={buzziProp3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">BuzziProp Small</span>{" "}
+        ожет быть оснащен нашим интегрированным светодиодным решением BuzziSol
+        Solo либо в виде стеклянного шара для декоративного эффекта, либо в виде
+        отражателя для более прямого освещения, либо в качестве решения для
+        модернизации. В большую балку
+        <span className="product-text product-text-dark">
+          BuzziProp Beam
+        </span>{" "}
+        Beam можно поместить BuzziSol Trio в виде пятен или глобусов на ваш
+        выбор.
+      </p>,
+      <img alt="img" src={buzziProp4} className="temp1-content-img" />,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={buzziProp5} className="temp1-content-img" />,
+    ],
+    temp2Top: [
+      <img
+        alt="img"
+        src={buzziProp6}
+        style={{ width: "58%" }}
+        className="temp2-content-img"
+      />,
+      <img
+        alt="img"
+        src={buzziProp7}
+        style={{ width: "40%" }}
+        className="temp2-content-img"
+      />,
+    ],
+    temp2Bottom: [
+      <img
+        alt="img"
+        src={buzziProp8}
+        style={{ width: "58%" }}
+        className="temp2-content-img temp2-content-img1"
+      />,
+      <img
+        alt="img"
+        src={buzziProp9}
+        style={{ width: "40%" }}
+        className="temp2-content-img temp2-content-img2"
+      />,
+    ],
+    template: 2,
   },
   {
     name: "BuzziDisk",
@@ -830,6 +1115,42 @@ export const products = [
     cardImage: productImage21,
     image: [img21],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Для любителей минимализма{" "}
+        <span className="product-text product-text-dark">BuzziDisk</span> — это
+        наша версия Buzzi на круглой светодиодной панели с нашей фирменной
+        мягкой отделкой и деталями.
+      </p>,
+      <p className="product-text">
+        Добавьте BuzziTouch в свое пространство.
+        <span className="product-text product-text-dark">BuzziDisk</span> может
+        иметь обивку из различных цветов и тканей, чтобы соответствовать
+        существующему декору, дополнительно добавляя яркости и тепла вашему
+        рабочему пространству.
+      </p>,
+      <p className="product-text">
+        Выберите между подвесным или потолочным, чтобы оживить рабочую зону, или
+        смешайте два варианта для многомерного потолка.
+        <span className="product-text product-text-dark">BuzziDisk</span> акже
+        можно сделать на заказ; настройте световое решение в соответствии с
+        вашими потребностями на основе цветового люмена, температуры, систем
+        затемнения и т. д.
+      </p>,
+    ],
+    pageImage: buzziDisk1,
+    pageContentTop: [
+      <img alt="img" src={buzziDisk2} className="temp1-content-img" />,
+      <img alt="img" src={buzziDisk3} className="temp1-content-img" />,
+    ],
+    pageContentLeft: [
+      <img alt="img" src={buzziDisk4} className="temp1-content-img" />,
+      <img alt="img" src={buzziDisk5} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={buzziDisk6} className="temp1-content-img" />,
+    ],
+    template: 1,
   },
   {
     name: "BuzziTrom",
@@ -840,6 +1161,78 @@ export const products = [
     cardImage: productImage22,
     image: [img22],
     price: "00.000 ",
+    pageContentLeft: [
+      <p className="product-text">
+        Не обманывайтесь его легким внешним видом и простым дизайном. Корпус{" "}
+        <span className="product-text product-text-dark">BuzziTrom</span> в
+        форме барабана создает симфонию света в любом рабочем пространстве, а
+        его двойной слой войлока обеспечивает исключительные акустические
+        характеристики, которых вы не ожидаете.
+      </p>,
+      <p className="product-text">
+        <span className="product-text product-text-dark">BuzziTrom</span> — это
+        первое функциональное решение для акустического освещения, созданное с
+        использованием двухслойного войлока, которое присоединится к нашей семье
+        и работает одинаково как на уровне освещения, так и на уровне акустики.
+        Наряду со встроенным светодиодным диском этот акустический подвесной
+        светильник содержит закрытую воздушную полость, которая обеспечивает
+        максимальную акустическую производительность
+      </p>,
+      <img alt="img" src={buzziTrom2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={buzziTrom1} className="temp1-content-img" />,
+      <p className="product-text">
+        BuzziTrom оснащен прочными блестящими бронзовыми кнопками вместо нашей
+        фирменной шнуровки, что придает варианту освещения современный вид.
+        Светодиодный диск также покрыт войлочным слоем, чтобы дополнить полный
+        комплект.
+      </p>,
+      <p className="product-text">
+        Созданный из двух слоев фетра, вы можете одеть{" "}
+        <span className="product-text product-text-dark">BuzziTrom</span> в
+        однотонный наряд или даже проявить творческий подход и выбрать
+        двухцветную вариацию; возможности безграничны!
+      </p>,
+      <p className="product-text">
+        Чтобы создать идеальную мелодию,{" "}
+        <span className="product-text product-text-dark">BuzziTrom</span>{" "}
+        поставляется в трех разных размерах, чтобы соответствовать вашей
+        атмосфере. Выбирайте от S до L.
+      </p>,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={buzziTrom3} className="temp1-content-img" />,
+    ],
+    temp2Top: [
+      <img
+        alt="img"
+        src={buzziTrom4}
+        style={{ width: "60%" }}
+        className="temp2-content-img"
+      />,
+      <img
+        alt="img"
+        src={buzziTrom5}
+        style={{ width: "40%" }}
+        className="temp2-content-img"
+      />,
+    ],
+    temp2Bottom: [
+      <img
+        alt="img"
+        src={buzziTrom6}
+        style={{ width: "60%" }}
+        className="temp2-content-img temp2-content-img1"
+      />,
+      <img
+        alt="img"
+        src={buzziTrom7}
+        style={{ width: "40%" }}
+        className="temp2-content-img temp2-content-img2"
+      />,
+    ],
+    template: 3,
   },
   {
     name: "BuzziZepp",
@@ -850,17 +1243,213 @@ export const products = [
     cardImage: productImage23,
     image: [img23],
     price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Мгновенно создавайте Центры Единения с помощью{" "}
+        <span className="product-text product-text-dark">BuzziZeppLight</span> .
+        Решение акустического освещения удваивается как звукопоглощающая панель
+        и может сочетаться либо с нашей линейкой светодиодов, либо с итерациями
+        Globe или Spot BuzziSol Trio и BuzziSol Quintet.{" "}
+        <span className="product-text product-text-dark">BuzziZeppLight</span>{" "}
+        дополнительно гарантирует, что в вашем помещении будет минимальное эхо и
+        достаточное освещение.
+      </p>,
+      <p className="product-text">
+        Благодаря своему элегантному дизайну{" "}
+        <span className="product-text product-text-dark">BuzziZeppLight</span>{" "}
+        выглядит так, будто он плавно парит в воздухе. В отличие от вертикальных
+        перегородок и стен,{" "}
+        <span className="product-text product-text-dark">BuzziZeppLight</span>{" "}
+        помогает создать приватные зоны для интимного и более целенаправленного
+        ощущения пространства. Кроме того, акустическая панель и источник света
+        подвешены отдельно, что означает, что найти идеальное решение для вашего
+        помещения, как с точки зрения акустики, так и с точки зрения освещения,
+        не составит труда.
+      </p>,
+    ],
+    pageImage: buzziZeppLight1,
+    pageContentLeft: [
+      <img alt="img" src={buzziZeppLight2} className="temp1-content-img" />,
+      <p className="product-text">
+        Обтекаемый дизайн{" "}
+        <span className="product-text product-text-dark">BuzziZeppLight</span>{" "}
+        позволяет легко добавить его в любое рабочее пространство, будь то
+        корпоративный, образовательный или гостиничный сектор. Кроме того,
+        BuzziZepp может быть оснащен различными тканями и цветовыми сочетаниями,
+        что позволяет легко комбинировать его с другой мебелью в вашем
+        помещении.
+      </p>,
+    ],
+    pageContentRight: [
+      <p className="product-text">
+        Откройте для себя различные дополнения к освещению, чтобы улучшить
+        атмосферу. Выберите линейку светодиодов с регулируемой яркостью для
+        более функциональных настроек и освещения рабочих мест. Для более
+        декоративного ощущения BuzziSol Trio и BuzziSol Quintet Globe создадут
+        более расслабленную ауру, а BuzziSol Trio и BuzziSol Quintet Spot
+        обеспечивают прямое освещение поверхности. Независимо от того, какой
+        вариант{" "}
+        <span className="product-text product-text-dark">BuzziZeppLight</span>{" "}
+        вы выберете, он будет идеально висеть над большим столом для совещаний
+        или совместной работы.
+      </p>,
+      <img alt="img" src={buzziZeppLight3} className="temp1-content-img" />,
+    ],
+    temp2Top: [
+      <img
+        alt="img"
+        src={buzziZeppLight4}
+        style={{ width: "58%" }}
+        className="temp2-content-img"
+      />,
+      <img
+        alt="img"
+        src={buzziZeppLight5}
+        style={{ width: "40%" }}
+        className="temp2-content-img"
+      />,
+    ],
+    template: 2,
   },
-  // {
-  //   name: "BuzziZepp",
-  //   subName: "Light",
-  //   id: "0024",
-  //   title: "BuzziZepp Light",
-  //   subtitle: "Подвесная лампа",
-  //   cardImage: productImage24,
-  //   image: [img24],
-  //   price: "00.000 ",
-  // },
+  {
+    name: "Skirt",
+    subName: null,
+    id: "0024",
+    title: "Skirt",
+    subtitle: "Подвесная лампа",
+    cardImage: productImage24,
+    image: img24,
+    price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        <span className="product-text product-text-dark">Skirt</span> черпает
+        вдохновение из мира моды, в частности, из одноименного предмета одежды.
+        Результатом стала коллекция подвесных светильников с уникальным и
+        элегантным дизайном, придаваемым извилистыми формами. Коллекция, которая
+        может быть фокусом окружающей среды, не преодолевая другие элементы.
+      </p>,
+      <p className="product-text">
+        Утонченный дизайн, который позволяет{" "}
+        <span className="product-text product-text-dark">Skirt</span>{" "}
+        адаптироваться к различным типам помещений, от домашнего до контрактного
+        и гостиничного. Его абажур состоит из ткани, которая также обладает
+        звукопоглощающими свойствами, что позволяет снизить шум до 53% благодаря
+        эквивалентной площади поглощения, которая достигает максимума 3,55.
+      </p>,
+    ],
+    pageImage: skirt1,
+    pageContentTop: [
+      <img alt="img" src={skirt2} className="temp1-content-img" />,
+    ],
+    pageContentLeft: [
+      <img alt="img" src={skirt3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={skirt4} className="temp1-content-img" />,
+    ],
+    pageContentBottom: [
+      <img alt="img" src={skirt5} className="temp1-content-img" />,
+    ],
+    template: 1,
+  },
+  {
+    name: "Fedora",
+    subName: "Suspension",
+    id: "0025",
+    title: "Fedora Suspension",
+    subtitle: "Подвесная лампа",
+    cardImage: productImage25,
+    image: img25,
+    price: "00.000 ",
+    pageContentLeft: [
+      <p className="product-text">
+        Извилистая и изящная, как матрешка/русская кукла, одиночная или
+        составная, выражает свою индивидуальность в великолепных
+        сценографических конфигурациях. Современность и традиции сочетаются в
+        его светящейся гармонии.
+      </p>,
+      <img alt="img" src={fedora1} className="temp1-content-img" />,
+      <img alt="img" src={fedora2} className="temp1-content-img" />,
+      <img alt="img" src={fedora3} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={fedora4} className="temp1-content-img" />,
+      <img alt="img" src={fedora5} className="temp1-content-img" />,
+      <img alt="img" src={fedora6} className="temp1-content-img" />,
+    ],
+    template: 0,
+  },
+  {
+    name: "Virtus",
+    subName: null,
+    id: "0026",
+    title: "Virtus",
+    subtitle: "Подвесная лампа",
+    cardImage: productImage26,
+    image: img26,
+    price: "00.000 ",
+    pageContentLeft: [
+      <p className="product-text">
+        Линейная простота становится чистой элегантностью.{" "}
+        <span className="product-text product-text-dark">Virtus</span> — это
+        удар света, который сочетает в себе легкость и изящество, создавая
+        светящиеся архитектурные проекты, способные очень оригинально
+        персонализировать пространство.
+      </p>,
+      <img alt="img" src={virtus1} className="temp1-content-img" />,
+      <img alt="img" src={virtus2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img
+        alt="img"
+        src={virtus3}
+        style={{ width: "13%" }}
+        className="temp1-content-img"
+      />,
+      <img alt="img" src={virtus4} className="temp1-content-img" />,
+    ],
+    template: 0,
+  },
+  {
+    name: "45 Degrees",
+    subName: null,
+    id: "0027",
+    title: "45 Degrees",
+    subtitle: "Потолочная лампа",
+    cardImage: null,
+    image: img27,
+    price: "00.000 ",
+    infoText: [
+      <p className="product-text">
+        Коллекция потолочных светильников с утонченным и утонченным силуэтом,
+        создающих акцентный свет. Стремясь предоставить пользователям
+        индивидуальное световое решение, мы представляем потолочные светильники{" "}
+        <span className="product-text product-text-dark">45°</span> с матовым
+        лаковым покрытием белого, черного и синего цветов, каждый из которых
+        оснащен двумя сменными рассеивателями из поликарбоната норкового и
+        оранжевого тонов. Используем мощный верхний светодиодный светильник
+        мощностью 6,1 Вт для коллекции{" "}
+        <span className="product-text product-text-dark">45°</span>, который
+        обеспечивает хороший уровень энергопотребления и световые
+        характеристики.
+      </p>,
+      <p className="product-text">
+        <span className="product-text product-text-dark">45°</span> — это
+        потолочный светильник, позволяющий создавать различные вертикальные
+        композиции с направленным вниз освещением, комбинируя различные трубки.
+        Разработанный Виктором Карраско, он доступен в трех цветах: матовый
+        белый лак, черный или сатинированная бронза.
+      </p>,
+    ],
+    pageImage: null,
+    pageContentLeft: [
+      <img alt="img" src={degrees2} className="temp1-content-img" />,
+    ],
+    pageContentRight: [
+      <img alt="img" src={degrees3} className="temp1-content-img" />,
+    ],
+    template: 1,
+  },
   {
     name: "Flat",
     subName: "Hanging",

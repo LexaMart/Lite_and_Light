@@ -3,6 +3,7 @@ import { NavLink, useParams } from "react-router-dom";
 import { ProductHead } from "./components/productHead";
 import { ProductInfo } from "./components/productInfo";
 import { Template1 } from "./components/templetes/template1";
+import { Template2 } from "./components/templetes/template2";
 import { products } from "../../data/products";
 import "./index.css";
 
@@ -43,6 +44,40 @@ export const Product = ({ ...props }) => {
                     pageContentRight={product.pageContentRight}
                     pageContentLeft={product.pageContentLeft}
                     pageContentBottom={product.pageContentBottom}
+                  />
+                </>
+              )}
+              {product.template === 2 && (
+                <>
+                  <ProductInfo
+                    infoText={product.infoText}
+                    pageImage={product.pageImage}
+                  />
+                  <Template1
+                    pageImage={product.pageImage}
+                    pageContentTop={product.pageContentTop}
+                    pageContentRight={product.pageContentRight}
+                    pageContentLeft={product.pageContentLeft}
+                    pageContentBottom={product.pageContentBottom}
+                  />
+                  <Template2
+                    temp2Top={product.temp2Top}
+                    temp2Bottom={product.temp2Bottom}
+                  />
+                </>
+              )}
+              {product.template === 3 && (
+                <>
+                  <Template1
+                    pageImage={product.pageImage}
+                    pageContentTop={product.pageContentTop}
+                    pageContentRight={product.pageContentRight}
+                    pageContentLeft={product.pageContentLeft}
+                    pageContentBottom={product.pageContentBottom}
+                  />
+                  <Template2
+                    temp2Top={product.temp2Top}
+                    temp2Bottom={product.temp2Bottom}
                   />
                 </>
               )}
