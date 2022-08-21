@@ -5,19 +5,37 @@ import logo from "../../assets/images/logo.png";
 import "./index.css";
 
 export const Header = ({ ...props }) => {
+  const [isFavoritesActive, setIsFavoritesActive] = useState(false);
   return (
     <header className="header">
       <div className="header-menu">
         <NavLink to="/" className="header-logo">
           <img className="header-logo-img" src={logo}></img>
         </NavLink>
-        <NavLink to="/catalog" className="header-link">
+        <NavLink
+          to="/catalog"
+          className={({ isActive }) =>
+            isActive ? "active-link header-link" : "header-link"
+          }
+        >
           Каталог
         </NavLink>
-        <NavLink to="/galery" href="#" className="header-link">
+        <NavLink
+          to="/galery"
+          href="#"
+          className={({ isActive }) =>
+            isActive ? "active-link header-link" : "header-link"
+          }
+        >
           Галерея
         </NavLink>
-        <NavLink to="/about" href="#" className="header-link">
+        <NavLink
+          to="/about"
+          href="#"
+          className={({ isActive }) =>
+            isActive ? "active-link header-link" : "header-link"
+          }
+        >
           О нас
         </NavLink>
       </div>
@@ -26,8 +44,20 @@ export const Header = ({ ...props }) => {
           <Search />
         </div>
         <div className="header-like">
-          <NavLink to="/favorites" className="header-like-btn">
-            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <NavLink
+            to="/favorites"
+            className={({ isActive }) => {
+              isActive
+                ? setIsFavoritesActive(true)
+                : setIsFavoritesActive(false);
+              return "header-like-btn";
+            }}
+          >
+            <svg
+              className={isFavoritesActive ? "active-link-favorites" : ""}
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <defs></defs>
               <title />
               <g data-name="Layer 54" id="Layer_54">
