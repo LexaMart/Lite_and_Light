@@ -6,7 +6,12 @@ const initialState = {
     : [],
 };
 
+const initialStateFeedBack = {
+  isShown: false
+}
+
 export const addItemAction = createAction("AddItem");
+export const setFormVisability = createAction("SetFormVisability")
 
 export const likedItemsReducer = createReducer(initialState, (builder) => {
   builder.addCase(addItemAction, (state, action) => {
@@ -23,4 +28,8 @@ export const likedItemsReducer = createReducer(initialState, (builder) => {
   });
 });
 
-// export default exampleReducer
+export const feedBackFormReducer = createReducer(initialStateFeedBack, (builder) => {
+  builder.addCase(setFormVisability, (state, action) => {
+    state.isShown = action.payload
+  })
+})
