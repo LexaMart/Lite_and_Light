@@ -181,6 +181,14 @@ ul {
     font-size: 90px;
     line-height: 110px;
   }
+  @keyframes main-greet-title-box {
+    from {
+      left: 3000px;
+    }
+    to {
+      left: 0px;
+    }
+  }
   .main-greet-title:last-child {
     margin-bottom: 250px;
   }

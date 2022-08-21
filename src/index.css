@@ -84,6 +84,12 @@ button:focus {
 .wraper {
   min-height: calc(100vh - 650px);
 }
+@media (min-width: 4000px) {
+  .catalog-table {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+  }
+}
 @media (max-width: 1460px) {
   .wraper {
     min-height: calc(100vh - 550px);

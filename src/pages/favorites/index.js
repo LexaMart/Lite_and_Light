@@ -18,15 +18,14 @@ export const Favorites = ({ ...props }) => {
         <p className="favorites-title">Избранные</p>
         <div className="catalog-table">
           {likedProducts.map((product, idx) => (
-            <div key={idx}>
-              <CatalogItem
-                title={product.title}
-                subtitle={product.subtitle}
-                image={product.image}
-                price={product.price}
-                id={product.id}
-              />
-            </div>
+            <CatalogItem
+              key={idx}
+              title={product.title}
+              subtitle={product.subtitle}
+              image={product.image}
+              price={product.price}
+              id={product.id}
+            />
           ))}
         </div>
       </div>
