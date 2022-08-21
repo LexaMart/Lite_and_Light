@@ -18,7 +18,19 @@
   text-transform: uppercase;
   color: #463f3a;
 }
-
+@media (min-width: 4000px) {
+  .main {
+    padding-top: 60px;
+  }
+  .main-gallery {
+    padding: 0 23% 0 17.5%;
+    margin-bottom: 150px;
+  }
+  .main-gallery-title {
+    font-size: 80px;
+    line-height: 90px;
+  }
+}
 @media (max-width: 1700px) {
 }
 

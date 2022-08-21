@@ -18,7 +18,6 @@ export const CatalogItem = ({ ...props }) => {
     <div
       className="catalog-table-item"
       data-aos="fade-up"
-      data-aos-once="true"
       data-aos-offset="-300"
       data-aos-anchor-placement="top-bottom"
     >

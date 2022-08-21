@@ -33,7 +33,29 @@
   position: relative;
   bottom: 500px;
 }
-
+@media (min-width: 4000px) {
+  .slider {
+    padding-top: 100px;
+  }
+  .slide {
+    height: 950px;
+  }
+  .slide img {
+    width: 950px;
+    height: 950px;
+  }
+  .activeSlide {
+    height: 950px;
+  }
+  .activeSlide img {
+    width: 950px;
+    height: 950px;
+  }
+  .slide-content {
+    width: 950px;
+    height: 950px;
+  }
+}
 @media (max-width: 1600px) {
   .slide {
     height: 400px;

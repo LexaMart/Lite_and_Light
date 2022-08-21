@@ -136,6 +136,55 @@ ul {
 .main-greet-title:last-child {
   margin-bottom: 160px;
 }
+@media (min-width: 4000px) {
+  .main-greet {
+    padding: 0 23% 0 17.5%;
+  }
+  .main-greet-bg1 {
+    height: 900px;
+  }
+  .main-greet-bg-div {
+    height: 700px;
+  }
+  .main-greet-bg-link {
+    height: 200px;
+    padding: 0 100px 0 100px;
+  }
+  .main-greet-bg-link svg {
+    width: 150px;
+  }
+  .main-greet-bg-text {
+    font-size: 26.3333px;
+  }
+  .main-greet-img {
+    width: 840px;
+    top: -230px;
+    margin-left: 150px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -1600px;
+    }
+    to {
+      top: -230px;
+    }
+  }
+  .main-greet-title-box {
+    margin-left: 50px;
+  }
+  .main-greet-text {
+    font-size: 25px;
+    padding-top: 650px;
+    padding-left: 52%;
+  }
+  .main-greet-title {
+    font-size: 90px;
+    line-height: 110px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 250px;
+  }
+}
 @media (max-width: 1800px) {
   .main-greet-bg-link svg {
     width: 75px;
