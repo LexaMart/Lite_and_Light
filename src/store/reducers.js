@@ -7,7 +7,7 @@ const initialState = {
 };
 
 const initialStateFeedBack = {
-  isShown: true,
+  isShown: false,
 };
 
 export const addItemAction = createAction("AddItem");
