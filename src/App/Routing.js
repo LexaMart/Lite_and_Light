@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { Main } from "../pages/main";
 import { Catalog } from "../pages/catalog";
 import { Product } from "../pages/product";
@@ -9,8 +9,9 @@ import { Gallery } from "../pages/gallery";
 import { Layout } from "../components/layout";
 
 export const Routing = ({ ...props }) => {
+  const location = useLocation()
   return (
-    <Routes>
+    <Routes location={location}>
       <Route path="/" element={<Layout />}>
         <Route path="/" element={<Main />} />
         <Route path="*" element={<Main />} />
