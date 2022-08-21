@@ -6,12 +6,18 @@ const initialState = {
     : [],
 };
 
+const initialStateFeedBack = {
+  isShown: false,
+};
+
 export const addItemAction = createAction("AddItem");
+export const setFormVisability = createAction("SetFormVisability");
+export const submitFeedBackForm = createAction("SubmitForm");
 
 export const likedItemsReducer = createReducer(initialState, (builder) => {
   builder.addCase(addItemAction, (state, action) => {
     if (state.likedItems.includes(action.payload)) {
-      state.likedItems = state.likedItems.filter((el) => el !== action.payload)
+      state.likedItems = state.likedItems.filter((el) => el !== action.payload);
       localStorage.setItem(
         "likedItems",
         JSON.stringify(state.likedItems.filter((el) => el !== action.payload))
@@ -23,4 +29,12 @@ export const likedItemsReducer = createReducer(initialState, (builder) => {
   });
 });
 
-// export default exampleReducer
+export const feedBackFormReducer = createReducer(
+  initialStateFeedBack,
+  (builder) => {
+    builder.addCase(setFormVisability, (state, action) => {
+      state.isShown = action.payload;
+    });
+    builder.addCase(submitFeedBackForm, (state, action) => {});
+  }
+);
