@@ -13,20 +13,21 @@ export const Favorites = ({ ...props }) => {
     setlikedProducts(products.filter((el) => likedItems.includes(el.id)));
   }, [likedItems]);
   return (
-    <div className="favorites">
-      <p className="favorites-title">Избранные</p>
-      <div className="catalog-table">
-        {likedProducts.map((product, idx) => (
-          <div key={idx}>
+    <div className="wraper">
+      <div className="favorites">
+        <p className="favorites-title">Избранные</p>
+        <div className="catalog-table">
+          {likedProducts.map((product, idx) => (
             <CatalogItem
+              key={idx}
               title={product.title}
               subtitle={product.subtitle}
               image={product.image}
               price={product.price}
               id={product.id}
             />
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

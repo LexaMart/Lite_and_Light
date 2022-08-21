@@ -11,7 +11,6 @@
   width: 100%;
   font-size: 11px;
   line-height: 100%;
-  border-bottom: 0.5px solid #000000;
 }
 
 .result {
@@ -83,6 +82,42 @@
   color: #8a817c;
   font-size: 12px;
 }
+@media (min-width: 4000px) {
+  .search-input {
+    font-size: 28px;
+  }
+  .result {
+    position: absolute;
+    top: 110%;
+    width: 600px;
+    height: 340px;
+  }
+  .result-item {
+    height: 180px;
+  }
+  .result-item-name-title {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 30px;
+    color: #463f3a;
+    font-weight: 700;
+  }
+
+  .result-item-name-subtitle {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 30px;
+    color: #8a817c;
+    font-weight: 700;
+  }
+
+  .result-item-name-type {
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    color: #8a817c;
+    font-size: 25px;
+  }
+}
 @media (max-width: 1000px) {
   .result {
     width: 200px;
@@ -111,6 +146,9 @@
   }
 }
 @media (max-width: 800px) {
+  .search-input {
+    font-size: 10px;
+  }
   .result {
     width: 150px;
     top: 96%;
@@ -140,11 +178,10 @@
 @media (max-width: 370px) {
   .search-input {
     font-size: 8px;
-    line-height: 100%;
-    border-bottom: 0.1px solid #000000;
+    line-height: 80%;
   }
   .result {
-    width: 150px;
+    width: 120px;
     top: 89%;
     height: 100px;
   }
@@ -158,14 +195,14 @@
   }
 
   .result-item-name-title {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .result-item-name-subtitle {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .result-item-name-type {
-    font-size: 10px;
+    font-size: 8px;
   }
 }

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import { Search } from "../search";
 import logo from "../../assets/images/logo.png";
@@ -8,10 +7,10 @@ import "./index.css";
 export const Header = ({ ...props }) => {
   return (
     <header className="header">
-      <NavLink to="/" className="header-logo">
-        <img className="header-logo-img" src={logo}></img>
-      </NavLink>
       <div className="header-menu">
+        <NavLink to="/" className="header-logo">
+          <img className="header-logo-img" src={logo}></img>
+        </NavLink>
         <NavLink to="/catalog" className="header-link">
           Каталог
         </NavLink>
@@ -21,16 +20,6 @@ export const Header = ({ ...props }) => {
         <NavLink to="/about" href="#" className="header-link">
           О нас
         </NavLink>
-        <Link
-          to="footer"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={1000}
-          className="header-link"
-        >
-          Контакты
-        </Link>
       </div>
       <div className="header-nav">
         <div className="header-search">

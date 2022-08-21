@@ -11,7 +11,9 @@ export const MainGreet = ({ ...props }) => {
       <div className="main-greet-bg-box">
         <div className="main-greet-bg1"></div>
         <div className="main-greet-bg2">
-          <div className="main-greet-bg-div"></div>
+          <div className="main-greet-bg-div">
+            <p className="main-greet-text">От идеи до воплощения</p>
+          </div>
           <NavLink to="/catalog" className="main-greet-bg-link">
             <p className="main-greet-bg-text">Перейти в каталог</p>
             <svg
@@ -34,8 +36,6 @@ export const MainGreet = ({ ...props }) => {
       <div className="main-greet-content">
         <img src={mainGreetImg} alt="img" className="main-greet-img"></img>
         <div className="main-greet-title-box">
-          <p className="main-greet-text">От идеи,</p>
-          <p className="main-greet-text">до воплощения</p>
           <p className="main-greet-title">Больше,</p>
           <p className="main-greet-title">чем просто свет</p>
         </div>
