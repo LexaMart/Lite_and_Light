@@ -25,6 +25,7 @@
   "scripts": {
     "rebuildServer": "npm run build && nodemon server.js",
     "startServer": "nodemon server.js",
+    "deployScript": "npm run build && node server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
