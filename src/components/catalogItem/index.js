@@ -18,7 +18,8 @@ export const CatalogItem = ({ ...props }) => {
     <div
       className="catalog-table-item"
       data-aos="fade-up"
-      data-aos-offset="-300"
+      data-aos-duration="1000"
+      data-aos-delay="0"
       data-aos-anchor-placement="top-bottom"
     >
       <NavLink to={props.id}>
@@ -30,12 +31,6 @@ export const CatalogItem = ({ ...props }) => {
           <p className="catalog-table-item-desk-subtitle">{props.subtitle}</p>
         </div>
         <div className="catalog-table-item-info">
-          <div className="catalog-table-item-info-price-box">
-            <p className="catalog-table-item-info-price-box-first">
-              {props.price}
-            </p>
-            <p className="catalog-table-item-info-price-box-second">₽</p>
-          </div>
           <button
             onClick={() => pushToLocalStorage()}
             className="catalog-table-item-info-btn"

@@ -1,11 +1,11 @@
 .favorites {
-  margin-top: 64px;
-  margin-bottom: 130px;
-  padding: 0 8%;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  padding: 0 11%;
   position: relative;
   animation: show-content 2s;
 }
-@keyframes show-content {
+@keyframes show-content1 {
   from {
     top: 800px;
   }
@@ -16,8 +16,8 @@
 .favorites-title {
   font-family: var(--font2);
   font-weight: 700;
-  font-size: 72px;
-  line-height: 88px;
+  font-size: 48px;
+  line-height: 59px;
   color: #463f3a;
   margin-bottom: 31px;
 }
@@ -34,9 +34,9 @@
 }
 @media (max-width: 1460px) {
   .favorites {
-    margin-top: 25px;
-    margin-bottom: 130px;
-    padding: 0 8%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding: 0 11%;
   }
   .favorites-title {
     font-size: 40px;

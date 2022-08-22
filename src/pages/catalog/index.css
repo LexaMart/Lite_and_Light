@@ -34,8 +34,8 @@
 }
 @media (max-width: 1460px) {
   .catalog {
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin-top: 0px;
+    margin-bottom: 15px;
     padding: 0 11%;
   }
   .catalog-title {
