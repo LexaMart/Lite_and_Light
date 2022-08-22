@@ -1,7 +1,13 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { setFormVisability } from "../../../../store/reducers";
 import "./index.css";
 
 export const ProductHead = ({ ...props }) => {
+  const dispatch = useDispatch();
+  const openPopup = () => {
+    dispatch(setFormVisability(true));
+  }
   return (
     <div className="product-head">
       <img src={props.cardImage} alt="img" className="product-head-img" />
@@ -18,7 +24,7 @@ export const ProductHead = ({ ...props }) => {
             ₽{" "}
           </span>
         </p>
-        <a className="product-head-order-link">Заказать</a>
+        <a onClick={openPopup} className="product-head-order-link">Заказать</a>
       </div>
     </div>
   );
