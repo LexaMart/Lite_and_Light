@@ -142,11 +142,11 @@ export const FeedBackForm = ({ ...props }) => {
                   type="text"
                 />
               </div>
-            </div>
-            <div className="popup__btns">
+              <div className="popup__btns">
               <div onClick={submitForm} className="btn">
                 Отправить
               </div>
+            </div>
             </div>
           </div>
         </div>
