@@ -142,7 +142,7 @@ input::placeholder {
 }
 @media (min-width: 2500px) {
     .popup {
-        width: 55%;
+        width: 35%;
     }
 
     .popup__content__item {
