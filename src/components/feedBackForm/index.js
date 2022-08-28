@@ -81,7 +81,7 @@ export const FeedBackForm = ({ ...props }) => {
     if (product) {
       setForm({
         ...form,
-        product,
+        product: product || "Продукт не выбран",
       });
     }
   }, [location]);

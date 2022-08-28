@@ -1,11 +1,19 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import {useDispatch} from 'react-redux'
 import AOS from "aos";
 import typesImg1 from "../../../../assets/images/main-types-img1.png";
 import typesImg2 from "../../../../assets/images/main-types-img2.png";
 import "./index.css";
+import { setFormVisability } from "../../../../store/reducers";
 
 export const MainTypes = ({ ...props }) => {
+  const dispatch = useDispatch()
+
+  const openForm = () => {
+    dispatch(setFormVisability(true));
+  }
+
   AOS.init();
   return (
     <div className="main-types">
@@ -63,7 +71,7 @@ export const MainTypes = ({ ...props }) => {
             <p className="main-types-title main-types-title2">Кастом</p>
             <p className="main-types-text main-types-text2">Индивидуальные</p>
             <p className="main-types-text main-types-text2">решения</p>
-            <NavLink to="/catalog" className="main-types-link main-types-link2">
+            <div onClick={openForm} className="main-types-link main-types-link2">
               <p>Оставить заявку</p>
               <svg
                 width="77"
@@ -79,7 +87,7 @@ export const MainTypes = ({ ...props }) => {
                   fill="#504B48"
                 />
               </svg>
-            </NavLink>
+            </div>
           </div>
           <img
             src={typesImg2}
