@@ -21,9 +21,10 @@ app.get("/*", (req, res) => {
 app.post("/submit", (req, res) => {
   const form = req.body;
   bot.sendMessage(tgInfo.chatId, `
-  НОВАЯ ЗАЯВКА!\n
-  Телефон: ${form.phone}
-  `)
+  *НОВАЯ ЗАЯВКА!*\n\n\n*ТЕЛЕФОН*: ${form.phone}\n\n*ИМЯ КЛИЕНТА:* ${form.name}\n\n*ОСТАВЛЕННОЕ СООБЩЕНИЕ: *${form.message}\n\n*НАЗВАНИЕ ПРОДУКТА: *${form.product}\n
+  `,{
+    parse_mode: 'Markdown'
+  })
   res.sendStatus(200);
 });
 
