@@ -5,6 +5,7 @@
 .catalog-table-item-img {
   width: 100%;
   transition: 0.5s;
+  height: 90%;
 }
 .catalog-table-item-img:hover {
   opacity: 0.7;
