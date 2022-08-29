@@ -400,6 +400,7 @@
 @media (max-width: 1200px) {
   .main-coll {
     padding: 0 15% 0 10.5%;
+    margin-top: 10px;
   }
   .main-coll-links {
     margin-right: 30px;
@@ -486,6 +487,9 @@
   }
 }
 @media (max-width: 900px) {
+  .main-coll {
+    margin-top: 10px;
+  }
   .main-coll-links {
     margin-right: 30px;
   }
@@ -661,7 +665,7 @@
 }
 @media (max-width: 600px) {
   .main-coll {
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .main-coll-links {
     margin-right: 10px;
