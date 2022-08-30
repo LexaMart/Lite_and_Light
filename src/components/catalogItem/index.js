@@ -8,6 +8,8 @@ import "./index.css";
 export const CatalogItem = ({ ...props }) => {
   AOS.init();
   const { likedItems } = useSelector((store) => store.likedItemsReducer);
+  const width = document.body.clientWidth;
+  console.log(width);
   const dispatch = useDispatch();
 
   function pushToLocalStorage() {
@@ -18,9 +20,22 @@ export const CatalogItem = ({ ...props }) => {
     <div
       className="catalog-table-item"
       data-aos="fade-up"
+      data-aos-offset={
+        width >= 1300
+          ? -370
+          : width >= 900
+          ? -450
+          : width >= 800
+          ? 270
+          : width >= 700
+          ? -500
+          : width >= 500
+          ? 260
+          : width >= 400 && -400
+      }
       data-aos-duration="1000"
-      data-aos-delay="0"
-      data-aos-anchor-placement="top-bottom"
+      //data-aos-delay="0"
+      //data-aos-anchor-placement="top-bottom"
     >
       <NavLink to={props.id}>
         <img className="catalog-table-item-img" src={props.image}></img>
