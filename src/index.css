@@ -103,7 +103,7 @@ button:focus {
   fill: #ed3a3f !important ;
 }
 
-@media (min-width: 4000px) {
+@media (min-width: 3800px) {
   .catalog-table {
     grid-template-columns: repeat(4, 1fr);
     gap: 70px;

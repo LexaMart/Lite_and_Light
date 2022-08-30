@@ -58,7 +58,7 @@
 .product-head-order-link:hover {
   opacity: 0.7;
 }
-@media (min-width: 4000px) {
+@media (min-width: 3800px) {
   .product-head {
     height: 900px;
   }

@@ -18,7 +18,7 @@
   text-transform: uppercase;
   color: #463f3a;
 }
-@media (min-width: 4000px) {
+@media (min-width: 3800px) {
   .main {
     padding-top: 60px;
   }

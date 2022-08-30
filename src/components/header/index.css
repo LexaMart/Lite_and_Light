@@ -82,7 +82,7 @@
   fill: #000;
   width: 24px;
 }
-@media (min-width: 4000px) {
+@media (min-width: 3800px) {
   .header {
     height: 200px;
     margin: 0 15% 0 10%;

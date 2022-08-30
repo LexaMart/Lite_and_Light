@@ -174,7 +174,7 @@ ul {
 .main-greet-title:last-child {
   margin-bottom: 50px;
 }
-@media (min-width: 3700px) {
+@media (min-width: 3800px) {
   .main-greet {
     top: -80px;
     padding: 0 5% 0 0;
@@ -198,15 +198,15 @@ ul {
     height: 850px;
   }
   .main-greet-img {
-    width: 700px;
-    top: -1500px;
+    width: 620px;
+    top: -1350px;
   }
   @keyframes main-greet-img {
     from {
       top: -2500px;
     }
     to {
-      top: -1500px;
+      top: -1350px;
     }
   }
   .main-greet-content-ellipse {

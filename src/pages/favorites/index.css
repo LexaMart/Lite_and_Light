@@ -21,7 +21,7 @@
   color: #463f3a;
   margin-bottom: 31px;
 }
-@media (min-width: 4000px) {
+@media (min-width: 3800px) {
   .favorites {
     margin-top: 50px;
     margin-bottom: 100px;

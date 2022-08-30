@@ -106,7 +106,7 @@
   stroke: #777986;
 }
 
-@media (min-width: 4000px) {
+@media (min-width: 3800px) {
   .footer-high {
     padding: 60px 10%;
     margin: 0 7% 0 12%;

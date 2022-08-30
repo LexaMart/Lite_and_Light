@@ -126,7 +126,7 @@
   bottom: 270px;
   left: 220px;
 }
-@media (min-width: 4000px) {
+@media (min-width: 3800px) {
   .main-coll {
     margin-top: 200px;
     padding: 0 23% 0 17.5%;
