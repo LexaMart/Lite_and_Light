@@ -7,10 +7,16 @@
 }
 
 .search-input {
-  /*text-align: center;*/
+  text-align: start;
   width: 100%;
   font-size: 11px;
   line-height: 100%;
+}
+.search-input::placeholder {
+  display: block;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
 }
 
 .result {
@@ -82,7 +88,7 @@
   color: #8a817c;
   font-size: 12px;
 }
-@media (min-width: 4000px) {
+@media (min-width: 3800px) {
   .search-input {
     font-size: 28px;
   }
@@ -148,10 +154,18 @@
 @media (max-width: 800px) {
   .search-input {
     font-size: 10px;
+    height: 10px;
+  }
+  .search-input::placeholder {
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 0;
+    padding: 0;
   }
   .result {
     width: 150px;
-    top: 96%;
+    top: 108%;
     height: 100px;
   }
 
@@ -179,6 +193,12 @@
   .search-input {
     font-size: 8px;
     line-height: 80%;
+  }
+  .search-input::placeholder {
+    display: block;
+    font-size: 7px;
+    margin: 0;
+    padding: 0;
   }
   .result {
     width: 120px;

@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import {useDispatch} from 'react-redux'
+import { useDispatch } from "react-redux";
 import AOS from "aos";
 import typesImg1 from "../../../../assets/images/main-types-img1.png";
 import typesImg2 from "../../../../assets/images/main-types-img2.png";
@@ -8,11 +8,11 @@ import "./index.css";
 import { setFormVisability } from "../../../../store/reducers";
 
 export const MainTypes = ({ ...props }) => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const openForm = () => {
     dispatch(setFormVisability(true));
-  }
+  };
 
   AOS.init();
   return (
@@ -22,7 +22,7 @@ export const MainTypes = ({ ...props }) => {
         <li className="main-types-item">
           <img
             src={typesImg1}
-            alt=""
+            alt="img"
             className="main-types-img"
             data-aos="fade-right"
             data-aos-offset="180"
@@ -32,10 +32,10 @@ export const MainTypes = ({ ...props }) => {
           <div
             className="main-types-box main-types-box1"
             data-aos="fade-right"
-            data-aos-offset="350"
+            //data-aos-offset="100"
             data-aos-delay="150"
             data-aos-duration="1500"
-            data-aos-anchor-placement="top-bottom"
+            //data-aos-anchor-placement="top-bottom"
           >
             <p className="main-types-title">Классика</p>
             <p className="main-types-text">Готовые</p>
@@ -63,15 +63,18 @@ export const MainTypes = ({ ...props }) => {
           <div
             className="main-types-box main-types-box2"
             data-aos="fade-right"
-            data-aos-offset="350"
+            data-aos-offset="100"
             data-aos-delay="150"
             data-aos-duration="1500"
-            data-aos-anchor-placement="top-bottom"
+            //data-aos-anchor-placement="top-bottom"
           >
             <p className="main-types-title main-types-title2">Кастом</p>
             <p className="main-types-text main-types-text2">Индивидуальные</p>
             <p className="main-types-text main-types-text2">решения</p>
-            <div onClick={openForm} className="main-types-link main-types-link2">
+            <div
+              onClick={openForm}
+              className="main-types-link main-types-link2"
+            >
               <p>Оставить заявку</p>
               <svg
                 width="77"
@@ -91,7 +94,7 @@ export const MainTypes = ({ ...props }) => {
           </div>
           <img
             src={typesImg2}
-            alt=""
+            alt="img"
             className="main-types-img"
             data-aos="fade-right"
             data-aos-offset="180"

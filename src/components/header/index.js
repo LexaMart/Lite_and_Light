@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import { Search } from "../search";
 import logo from "../../assets/images/logo.png";
@@ -22,22 +23,22 @@ export const Header = ({ ...props }) => {
         </NavLink>
         <NavLink
           to="/galery"
-          href="#"
           className={({ isActive }) =>
             isActive ? "active-link header-link" : "header-link"
           }
         >
           Галерея
         </NavLink>
-        <NavLink
-          to="/about"
-          href="#"
-          className={({ isActive }) =>
-            isActive ? "active-link header-link" : "header-link"
-          }
+        <Link
+          to="main-types"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={1000}
+          className="header-link"
         >
-          О нас
-        </NavLink>
+          Кастом
+        </Link>
       </div>
       <div className="header-nav">
         <div className="header-search">
