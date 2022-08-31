@@ -30,7 +30,7 @@ import productImage1 from "../assets/productCardImages/U-Light Pendant Main.png"
 import productImage2 from "../assets/productCardImages/U-Light Suspension Main.png";
 import productImage3 from "../assets/productCardImages/U-Light Wall Main.png";
 import productImage4 from "../assets/productCardImages/Ego Main.png";
-import productImage5 from "../assets/productCardImages/5.png";
+import productImage5 from "../assets/productCardImages/Match Main.png";
 import productImage6 from "../assets/productCardImages/Hoops Ceiling Main.png";
 import productImage7 from "../assets/productCardImages/Hoops Main.png";
 import productImage8 from "../assets/productCardImages/8.png";
@@ -78,6 +78,7 @@ import ego2 from "../assets/pageCardImages/Ego/img2.png";
 import ego3 from "../assets/pageCardImages/Ego/img3.png";
 import ego4 from "../assets/pageCardImages/Ego/img4.png";
 //---------------------//
+import match1 from "../assets/pageCardImages/Match/img1.png";
 import match2 from "../assets/pageCardImages/Match/img2.png";
 import match3 from "../assets/pageCardImages/Match/img3.png";
 import match4 from "../assets/pageCardImages/Match/img4.png";
@@ -220,7 +221,7 @@ import virtus2 from "../assets/pageCardImages/Virtus/img2.png";
 import virtus3 from "../assets/pageCardImages/Virtus/img3.png";
 import virtus4 from "../assets/pageCardImages/Virtus/img4.png";
 //---------------------//
-//import degrees1 from "../assets/pageCardImages/45degrees/img1.png";
+import degrees1 from "../assets/pageCardImages/45degrees/img1.png";
 import degrees2 from "../assets/pageCardImages/45degrees/img2.png";
 import degrees3 from "../assets/pageCardImages/45degrees/img3.png";
 //---------------------//
@@ -384,7 +385,7 @@ export const products = [
     id: "0005",
     title: "Match",
     subtitle: "Потолочная лампа",
-    cardImage: null,
+    cardImage: productImage5,
     image: [img5],
     price: "00.000 ",
     infoText: [
@@ -404,7 +405,7 @@ export const products = [
         графит, оснащенных светодиодными клеммами.
       </p>,
     ],
-    pageImage: null,
+    pageImage: match1,
     pageContentTop: [
       <img alt="img" src={match2} className="temp1-content-img" />,
     ],
@@ -1441,7 +1442,7 @@ export const products = [
         белый лак, черный или сатинированная бронза.
       </p>,
     ],
-    pageImage: null,
+    pageImage: degrees1,
     pageContentLeft: [
       <img alt="img" src={degrees2} className="temp1-content-img" />,
     ],
