@@ -1,16 +1,31 @@
 import React, { useState } from "react";
-import { NavLink, useParams } from "react-router-dom";
+import { Link, NavLink, useNavigate, useParams } from "react-router-dom";
 import { galleryItems } from "../../data/galleryItems";
 import "./index.css";
 
 export const GalleryItemPage = ({ ...props }) => {
   const { id } = useParams();
+  const navigate = useNavigate();
+
+  const getNextProject = () => {
+    const currentIndex = galleryItems.findIndex((el) => el.id === id);
+    if (currentIndex < galleryItems.length - 1) {
+      navigate(`../galery/${galleryItems[currentIndex + 1].id}`, {
+        replace: true,
+      });
+    }else {
+      navigate(`../galery/${galleryItems[0].id}`, {
+        replace: true,
+      });
+    }
+  };
+
   return (
     <div className="wraper">
       {galleryItems.map(
         (item, idx) =>
           id === item.id &&
-          (id == "002" ? (
+          (id === "002" ? (
             <div className="gallery-item-page-wrap1">
               <div className="gallery-item-page-content">
                 <img
@@ -22,7 +37,10 @@ export const GalleryItemPage = ({ ...props }) => {
                   <div className="gallery-item-page-title">
                     {item.pageTitle}
                   </div>
-                  <NavLink to="galery" className="gallery-item-page-link">
+                  <div
+                    onClick={getNextProject}
+                    className="gallery-item-page-link"
+                  >
                     <div className="text-wrap">
                       <p className="gallery-item-page-link-text">Следующий</p>
                       <p className="gallery-item-page-link-text">проект</p>
@@ -41,7 +59,7 @@ export const GalleryItemPage = ({ ...props }) => {
                         fill="#000"
                       />
                     </svg>
-                  </NavLink>
+                  </div>
                 </div>
               </div>
               <div className="gallery-item-page-content">
@@ -74,7 +92,10 @@ export const GalleryItemPage = ({ ...props }) => {
                     <div className="gallery-item-page-title">
                       {item.pageTitle}
                     </div>
-                    <NavLink to="galery" className="gallery-item-page-link">
+                    <div
+                      onClick={getNextProject}
+                      className="gallery-item-page-link"
+                    >
                       <div className="text-wrap">
                         <p className="gallery-item-page-link-text">Следующий</p>
                         <p className="gallery-item-page-link-text">проект</p>
@@ -93,7 +114,7 @@ export const GalleryItemPage = ({ ...props }) => {
                           fill="#000"
                         />
                       </svg>
-                    </NavLink>
+                    </div>
                   </div>
                 </div>
                 <img
