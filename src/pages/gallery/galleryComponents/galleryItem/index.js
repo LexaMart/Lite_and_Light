@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./index.css";
 
 export const GalleryItem = ({ ...props }) => {
@@ -6,7 +7,9 @@ export const GalleryItem = ({ ...props }) => {
     <div className="gallery-item">
       <div className="gallery-item-wrap">
         <div className="gallery-item-wrap-container">{props.title}</div>
-        <href className="gallery-item-wrap-link">посмотреть</href>
+        <NavLink to={props.id} className="gallery-item-wrap-link">
+          посмотреть
+        </NavLink>
       </div>
       <div className="gallery-item-images">
         <img

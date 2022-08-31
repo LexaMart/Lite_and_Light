@@ -10,7 +10,7 @@ export const Gallery = ({ ...props }) => {
     <div className="gallery">
       {galleryItems.map((item, idx) => (
         <div key={idx} className="gallery-list-item">
-          <GalleryItem title={item.title} mainImages={item.mainImages} />
+          <GalleryItem title={item.title} mainImages={item.mainImages} id={item.id}/>
         </div>
       ))}
     </div>
