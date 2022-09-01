@@ -22,7 +22,8 @@ export const MainColl = ({ ...props }) => {
       >
         <p className="main-coll-links-title">Избранные</p>
         <p className="main-coll-links-title">коллекции</p>
-        <a
+        <NavLink
+          to="/catalog/0012"
           className="main-coll-content-box main-coll-duo"
           data-aos="fade-up"
           data-aos-offset="50"
@@ -37,8 +38,9 @@ export const MainColl = ({ ...props }) => {
             alt="shade"
             className="main-coll-content-img-duo"
           ></img>
-        </a>
-        <a
+        </NavLink>
+        <NavLink
+          to="/catalog/0018"
           className="main-coll-content-box main-coll-square"
           data-aos="fade-up"
           data-aos-offset="50"
@@ -53,12 +55,12 @@ export const MainColl = ({ ...props }) => {
           <p className="main-coll-content-text main-coll-content-text-square">
             Shade square
           </p>
-        </a>
+        </NavLink>
       </div>
       <div className="main-coll-content">
         <div className="main-coll-content1">
-          <a
-            href="#"
+          <NavLink
+            to="/catalog/0019"
             className="main-coll-content-box main-coll-pendant"
             data-aos="fade-up"
             data-aos-offset="50"
@@ -73,8 +75,9 @@ export const MainColl = ({ ...props }) => {
             <p className="main-coll-content-text main-coll-content-text-pendant ">
               Shade Pendant
             </p>
-          </a>
-          <a
+          </NavLink>
+          <NavLink
+            to="/catalog/0022"
             className="main-coll-content-box main-coll-trom"
             data-aos="fade-up"
             data-aos-offset="50"
@@ -85,10 +88,11 @@ export const MainColl = ({ ...props }) => {
               Trom
             </p>
             <img src={trom} alt="" className="main-coll-content-img-trom"></img>
-          </a>
+          </NavLink>
         </div>
         <div className="main-coll-content2">
-          <a
+          <NavLink
+            to="/catalog/0017"
             className="main-coll-content-box main-coll-link"
             data-aos="fade-up"
             data-aos-offset="50"
@@ -103,8 +107,9 @@ export const MainColl = ({ ...props }) => {
             <p className="main-coll-content-text main-coll-content-text-link">
               Link
             </p>
-          </a>
-          <a
+          </NavLink>
+          <NavLink
+            to="/catalog/0016"
             className="main-coll-content-box main-coll-algorithm"
             data-aos="fade-up"
             data-aos-offset="50"
@@ -119,7 +124,7 @@ export const MainColl = ({ ...props }) => {
             <p className="main-coll-content-text main-coll-content-text-algorithm">
               Algorithm
             </p>
-          </a>
+          </NavLink>
         </div>
       </div>
     </div>

@@ -33,6 +33,12 @@
 .main-coll-content-box {
   display: block;
 }
+.main-coll-content-box img {
+  transition: 0.5s;
+}
+.main-coll-content-box:hover img {
+  opacity: 0.7;
+}
 .main-coll-duo {
   margin-top: 70px;
   width: 400px;

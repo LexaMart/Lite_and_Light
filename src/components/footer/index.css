@@ -32,6 +32,9 @@
 .footer-item:last-child {
   margin: 0;
 }
+.footer-item p:hover {
+  opacity: 1;
+}
 .footer-title {
   display: block;
   font-family: var(--font1);

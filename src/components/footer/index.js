@@ -17,38 +17,25 @@ export const Footer = ({ ...props }) => {
             <NavLink to="/galery" className="footer-title">
               Галерея
             </NavLink>
-            <a href="#" className="footer-link">
+            <NavLink to="/galery/001" className="footer-link">
               Посольтво РБ в Казахстане
-            </a>
-            <a href="#" className="footer-link">
-              Офит IT-компании
-            </a>
-            <a href="#" className="footer-link">
-              Офис производственной компании
-            </a>
-            <a href="#" className="footer-link">
-              Офис Бизнес Авиации
-            </a>
-            <a href="#" className="footer-link">
-              Офис военно-промышленного предприятия
-            </a>
-          </li>
-          <li className="footer-item">
-            <NavLink to="/about" className="footer-title">
-              О нас
             </NavLink>
-            <a href="#" className="footer-link">
-              История
-            </a>
-            <a href="#" className="footer-link">
-              Идеалогия
-            </a>
-            <a href="#" className="footer-link">
-              Бренды
-            </a>
+            <NavLink to="/galery/002" className="footer-link">
+              Офит IT-компании
+            </NavLink>
+            <NavLink to="/galery/003" className="footer-link">
+              Офис производственной компании
+            </NavLink>
+            <NavLink to="/galery/004" className="footer-link">
+              Офис Бизнес Авиации
+            </NavLink>
+            <NavLink to="/galery/005" className="footer-link">
+              Офис военно-промышленного предприятия
+            </NavLink>
           </li>
+
           <li className="footer-item">
-            <a className="footer-title">Контакты</a>
+            <p className="footer-title">Контакты</p>
             <p className="footer-subtitle">Минск</p>
             <a
               href="https://www.google.com/maps/place/%D0%BF%D1%80-%D1%82.+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+125,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.9386633,27.4664457,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbc4e33ceb2935:0x5b8aa0d96e3411de!8m2!3d53.9386633!4d27.4686344"

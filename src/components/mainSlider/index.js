@@ -30,7 +30,7 @@ export const MainSlider = ({ ...props }) => {
       <Slider className="big-slider" {...settings}>
         {images.map((img, idx) => (
           <NavLink
-            to="/gallery"
+            to="/galery"
             key={idx}
             className={idx === imageIndex ? "slide activeSlide" : "slide"}
           >
