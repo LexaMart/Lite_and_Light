@@ -44,16 +44,16 @@ export const galleryItems = [
     id: "001",
     mainImages: [embassy1, embassy2],
     pageTitle: [
-      <p key="1" className="gallery-title">
+      <p key="1" className="gallery-title gallery-title-adaptive">
         Посольство
       </p>,
-      <p key="2" className="gallery-title">
+      <p key="2" className="gallery-title gallery-title-adaptive">
         Республики Беларусь
       </p>,
-      <p key="3" className="gallery-title">
+      <p key="3" className="gallery-title gallery-title-adaptive">
         в Республике
       </p>,
-      <p key="4" className="gallery-title">
+      <p key="4" className="gallery-title gallery-title-adaptive">
         Казахстан
       </p>,
     ],
@@ -71,10 +71,10 @@ export const galleryItems = [
     id: "002",
     mainImages: [office1, office2],
     pageTitle: [
-      <p key="1" className="gallery-title">
+      <p key="1" className="gallery-title  gallery-title-adaptive">
         Офис IT-компании в
       </p>,
-      <p key="2" className="gallery-title">
+      <p key="2" className="gallery-title  gallery-title-adaptive">
         городе Минске
       </p>,
     ],
@@ -92,16 +92,16 @@ export const galleryItems = [
     id: "003",
     mainImages: [company1, company2],
     pageTitle: [
-      <p key="1" className="gallery-title">
+      <p key="1" className="gallery-title  gallery-title-adaptive">
         Офис
       </p>,
-      <p key="2" className="gallery-title">
+      <p key="2" className="gallery-title  gallery-title-adaptive">
         производственной
       </p>,
-      <p key="2" className="gallery-title">
+      <p key="2" className="gallery-title  gallery-title-adaptive">
         компании в городе
       </p>,
-      <p key="2" className="gallery-title">
+      <p key="2" className="gallery-title  gallery-title-adaptive">
         Минске
       </p>,
     ],
@@ -119,13 +119,13 @@ export const galleryItems = [
     id: "004",
     mainImages: [aviation1, aviation2],
     pageTitle: [
-      <p key="1" className="gallery-title">
+      <p key="1" className="gallery-title  gallery-title-adaptive">
         Терминал Бизнес
       </p>,
-      <p key="2" className="gallery-title">
+      <p key="2" className="gallery-title  gallery-title-adaptive">
         Авиации в Аэропорту
       </p>,
-      <p key="2" className="gallery-title">
+      <p key="2" className="gallery-title  gallery-title-adaptive">
         Минск-2
       </p>,
     ],
@@ -146,13 +146,13 @@ export const galleryItems = [
     id: "005",
     mainImages: [img1, img2],
     pageTitle: [
-      <p key="1" className="gallery-title">
+      <p key="1" className="gallery-title  gallery-title-adaptive">
         Офис военно-
       </p>,
-      <p key="2" className="gallery-title">
+      <p key="2" className="gallery-title  gallery-title-adaptive">
         промышленного
       </p>,
-      <p key="3" className="gallery-title">
+      <p key="3" className="gallery-title  gallery-title-adaptive">
         предриятия в РБ
       </p>,
     ],

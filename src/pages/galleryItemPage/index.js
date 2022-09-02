@@ -13,7 +13,7 @@ export const GalleryItemPage = ({ ...props }) => {
       navigate(`../galery/${galleryItems[currentIndex + 1].id}`, {
         replace: true,
       });
-    }else {
+    } else {
       navigate(`../galery/${galleryItems[0].id}`, {
         replace: true,
       });
@@ -27,19 +27,19 @@ export const GalleryItemPage = ({ ...props }) => {
           id === item.id &&
           (id === "002" ? (
             <div className="gallery-item-page-wrap1">
-              <div className="gallery-item-page-content">
+              <div className="gallery-item-page-content gallery-item-page-content-adaptive">
                 <img
                   alt="img"
                   src={item.pageImages[0]}
                   className="gallery-item-page-img main-img"
                 />
-                <div className="main-info">
-                  <div className="gallery-item-page-title">
+                <div className="main-info main-info-adaptive">
+                  <div className="gallery-item-page-title gallery-item-page-title-adaptive">
                     {item.pageTitle}
                   </div>
                   <div
                     onClick={getNextProject}
-                    className="gallery-item-page-link"
+                    className="gallery-item-page-link gallery-item-page-link1"
                   >
                     <div className="text-wrap">
                       <p className="gallery-item-page-link-text">Следующий</p>
@@ -73,12 +73,12 @@ export const GalleryItemPage = ({ ...props }) => {
                 <img
                   alt="img"
                   src={item.pageImages[0]}
-                  className="gallery-item-page-img"
+                  className="gallery-item-page-img gallery-item-page-img-adptive"
                 />
                 <img
                   alt="img"
                   src={item.pageImages[1]}
-                  className="gallery-item-page-img"
+                  className="gallery-item-page-img gallery-item-page-img-adptive"
                 />
               </div>
               <div className="gallery-item-page-content2">

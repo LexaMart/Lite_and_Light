@@ -131,13 +131,77 @@
   }
 }
 @media (max-width: 880px) {
+  .gallery-item-page-wrap {
+    flex-direction: column-reverse;
+  }
+  .gallery-item-page-wrap1 {
+    margin: 25px 12.5% 52px 13.5%;
+  }
+  .gallery-title-adaptive {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .gallery-item-page-title-adaptive {
+    margin: 30px 0;
+  }
+  .gallery-item-page-content-adaptive {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-img {
+    display: block;
+    width: 100%;
+  }
+  .main-info-adaptive {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .gallery-item-page-content1 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  .gallery-item-page-content2 {
+    width: 100%;
+  }
+  .gallery-item-page-img-adptive {
+    width: 49%;
+  }
   .gallery-item-page-img {
     margin-bottom: 7px;
   }
+  .gallery-item-page-link1 {
+    margin-top: 30px;
+  }
   .gallery-item-page-link {
-    padding: 0 10px;
-    width: 130px;
-    height: 30px;
+    padding: 0 30px;
+    width: 160px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  .gallery-item-page-link-text {
+    font-size: 13.3333px;
+    line-height: 17px;
+  }
+  .gallery-item-page-link svg {
+    width: 45px;
+  }
+}
+@media (max-width: 650px) {
+  .gallery-item-page-img {
+    margin-bottom: 5px;
+  }
+  .gallery-title-adaptive {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .gallery-item-page-link {
+    padding: 0 20px;
+    width: 120px;
+    height: 35px;
     margin-bottom: 20px;
   }
   .gallery-item-page-link-text {
@@ -147,58 +211,66 @@
   .gallery-item-page-link svg {
     width: 30px;
   }
-}
-@media (max-width: 650px) {
-  .gallery-item-page-img {
-    margin-bottom: 5px;
+  .gallery-item-page-link1 {
+    margin-top: 20px;
   }
-  .gallery-item-page-link {
-    padding: 0 10px;
-    width: 90px;
-    height: 25px;
-    margin-bottom: 15px;
-  }
-  .gallery-item-page-link-text {
-    font-size: 6.3333px;
-    line-height: 8px;
-  }
-  .gallery-item-page-link svg {
-    width: 20px;
+  .gallery-item-page-title-adaptive {
+    margin: 20px 0;
   }
 }
 @media (max-width: 500px) {
   .gallery-item-page-img {
     margin-bottom: 4px;
   }
+  .gallery-title-adaptive {
+    font-size: 10px;
+    line-height: 14px;
+  }
   .gallery-item-page-link {
-    padding: 0 5px;
-    width: 70px;
-    height: 20px;
-    margin-bottom: 11px;
+    padding: 0 15px;
+    width: 100px;
+    height: 35px;
+    margin-bottom: 15px;
   }
   .gallery-item-page-link-text {
-    font-size: 5.3333px;
-    line-height: 6px;
+    font-size: 7.3333px;
+    line-height: 8px;
   }
   .gallery-item-page-link svg {
-    width: 15px;
+    width: 25px;
+  }
+  .gallery-item-page-link1 {
+    margin-top: 15px;
+  }
+  .gallery-item-page-title-adaptive {
+    margin: 15px 0;
   }
 }
 @media (max-width: 380px) {
   .gallery-item-page-img {
     margin-bottom: 4px;
   }
+  .gallery-title-adaptive {
+    font-size: 7px;
+    line-height: 9px;
+  }
   .gallery-item-page-link {
-    padding: 0 3px;
-    width: 50px;
-    height: 17px;
+    padding: 0 10px;
+    width: 75px;
+    height: 25px;
     margin-bottom: 10px;
   }
   .gallery-item-page-link-text {
-    font-size: 4.3333px;
-    line-height: 5px;
+    font-size: 5.3333px;
+    line-height: 6px;
   }
   .gallery-item-page-link svg {
-    width: 10px;
+    width: 20px;
+  }
+  .gallery-item-page-link1 {
+    margin-top: 10px;
+  }
+  .gallery-item-page-title-adaptive {
+    margin: 10px 0;
   }
 }
