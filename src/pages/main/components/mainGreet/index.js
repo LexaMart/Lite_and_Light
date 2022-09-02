@@ -1,11 +1,28 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import AOS from "aos";
-import mainGreetImg from "../../../../assets/images/main-greet-img.png";
+import { mainGreetSlider } from "../../../../data/mainGreetSlider";
 import "./index.css";
 
 export const MainGreet = ({ ...props }) => {
+  const [activeBtnId, setActiveBtnId] = useState(1);
+  const [isRuning, setIsRuning] = useState(false);
   AOS.init();
+  /*useEffect(() => {
+    const interval = setInterval(() => {
+      setIsRuning(true);
+      if (activeBtnId < 5) {
+        setActiveBtnId(activeBtnId + 1);
+      } else {
+        setActiveBtnId(1);
+      }
+    }, 2000);
+    return () =>
+      function () {
+        clearInterval(interval);
+        setIsRuning(false);
+      };
+  }, []);*/
   return (
     <div className="main-greet">
       <div className="main-greet-bg-box">
@@ -35,7 +52,43 @@ export const MainGreet = ({ ...props }) => {
       </div>
       <div className="main-greet-content">
         <div className="main-greet-content-ellipse"></div>
-        <img src={mainGreetImg} alt="img" className="main-greet-img"></img>
+        {mainGreetSlider.map((item, idx) => (
+          <div key={item.num}>
+            <img
+              alt="img"
+              src={item.img}
+              className={
+                activeBtnId === item.num
+                  ? "main-greet-img main-greet-img-active"
+                  : "main-greet-img"
+              }
+            />
+            <p
+              className={
+                activeBtnId === item.num
+                  ? "main-greet-content-btn-title main-greet-content-btn-title-active"
+                  : "main-greet-content-btn-title"
+              }
+            >
+              {item.title}
+            </p>
+          </div>
+        ))}
+        <div className="main-greet-content-list">
+          {mainGreetSlider.map((item, idx) => (
+            <button
+              key={item.num}
+              onClick={() => setActiveBtnId(item.num)}
+              className={
+                activeBtnId === item.num
+                  ? "main-greet-content-list-item main-greet-content-list-item-active"
+                  : "main-greet-content-list-item"
+              }
+            >
+              <p>{item.num}</p>
+            </button>
+          ))}
+        </div>
       </div>
     </div>
   );
