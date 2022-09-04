@@ -8,11 +8,11 @@ export const MainGreet = ({ ...props }) => {
   const [activeBtnId, setActiveBtnId] = useState(1);
   const activeBtnIdRef = useRef(activeBtnId);
   activeBtnIdRef.current = activeBtnId;
-  const [isRuning, setIsRuning] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
   AOS.init();
 
   const update = useCallback(() => {
-    setTimeout(() => {
+    let timer1 = setTimeout(() => {
       const a = activeBtnIdRef.current;
       console.log(activeBtnIdRef.current);
       if (a < 5) {
@@ -20,11 +20,21 @@ export const MainGreet = ({ ...props }) => {
       } else {
         setActiveBtnId(1);
       }
-    }, 3000);
+    }, 7000);
+    if (isClicked) {
+      clean(timer1);
+      setIsClicked(false);
+    }
   }, []);
-
+  const clean = (timer) => {
+    clearTimeout(timer);
+  };
   useEffect(() => {
-    setTimeout(() => update(), 3000);
+    let timer2 = setTimeout(() => update(), 7000);
+    if (isClicked) {
+      clean(timer2);
+      setIsClicked(false);
+    }
   }, [activeBtnId]);
   return (
     <div className="main-greet">
@@ -81,7 +91,10 @@ export const MainGreet = ({ ...props }) => {
           {mainGreetSlider.map((item, idx) => (
             <button
               key={item.num}
-              onClick={() => setActiveBtnId(item.num)}
+              onClick={() => {
+                setActiveBtnId(item.num);
+                setIsClicked(true);
+              }}
               className={
                 activeBtnId === item.num
                   ? "main-greet-content-list-item main-greet-content-list-item-active"
