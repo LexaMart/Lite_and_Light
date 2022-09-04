@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import { NavLink, useParams } from "react-router-dom";
+import React from "react";
+import { useParams } from "react-router-dom";
 import { ProductHead } from "./components/productHead";
 import { ProductInfo } from "./components/productInfo";
 import { Template1 } from "./components/templetes/template1";

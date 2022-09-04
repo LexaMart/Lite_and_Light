@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux/es/exports";
+import { useSelector } from "react-redux/es/exports";
 import { CatalogItem } from "../../components/catalogItem";
 import { products } from "../../data/products";
 import "./index.css";
@@ -7,7 +7,6 @@ import "./index.css";
 export const Favorites = ({ ...props }) => {
   const [likedProducts, setlikedProducts] = useState([]);
   const { likedItems } = useSelector((store) => store.likedItemsReducer);
-  const dispatch = useDispatch();
 
   useEffect(() => {
     setlikedProducts(products.filter((el) => likedItems.includes(el.id)));

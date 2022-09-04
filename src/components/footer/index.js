@@ -56,7 +56,7 @@ export const Footer = ({ ...props }) => {
       <div className="footer-low">
         <div className="footer-text">© 2022 Lite & Light</div>
         <div className="footer-social">
-          <a className="footer-social-link">
+          <p className="footer-social-link">
             <svg width="13" height="22" viewBox="0 0 13 22" fill="none">
               <g opacity="0.5">
                 <path
@@ -70,8 +70,8 @@ export const Footer = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </a>
-          <a className="footer-social-link">
+          </p>
+          <p className="footer-social-link">
             <svg width="24" height="21" viewBox="0 0 24 21" fill="none">
               <g opacity="0.5">
                 <path
@@ -85,8 +85,8 @@ export const Footer = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </a>
-          <a className="footer-social-link">
+          </p>
+          <p className="footer-social-link">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
               <g opacity="0.5">
                 <rect
@@ -111,7 +111,7 @@ export const Footer = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </a>
+          </p>
         </div>
       </div>
     </footer>

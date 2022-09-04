@@ -7,7 +7,7 @@ export const ProductHead = ({ ...props }) => {
   const dispatch = useDispatch();
   const openPopup = () => {
     dispatch(setFormVisability(true));
-  }
+  };
   return (
     <div className="product-head">
       <img src={props.cardImage} alt="img" className="product-head-img" />
@@ -24,7 +24,9 @@ export const ProductHead = ({ ...props }) => {
             ₽{" "}
           </span>
         </p>
-        <a onClick={openPopup} className="product-head-order-link">Заказать</a>
+        <div onClick={openPopup} className="product-head-order-link">
+          Заказать
+        </div>
       </div>
     </div>
   );

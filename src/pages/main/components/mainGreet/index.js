@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import { mainGreetSlider } from "../../../../data/mainGreetSlider";
@@ -11,8 +11,9 @@ export const MainGreet = ({ ...props }) => {
   const [isClicked, setIsClicked] = useState(false);
   AOS.init();
 
-  const update = useCallback(() => {
+  const update = () => {
     let timer1 = setTimeout(() => {
+      activeBtnIdRef.current = activeBtnId;
       const a = activeBtnIdRef.current;
       if (a < 5) {
         setActiveBtnId(a + 1);
@@ -24,7 +25,7 @@ export const MainGreet = ({ ...props }) => {
       clean(timer1);
       setIsClicked(false);
     }
-  }, []);
+  };
   const clean = (timer) => {
     clearTimeout(timer);
   };
@@ -34,7 +35,7 @@ export const MainGreet = ({ ...props }) => {
       clean(timer2);
       setIsClicked(false);
     }
-  }, [activeBtnId]);
+  });
   return (
     <div className="main-greet">
       <div className="main-greet-bg-box">

@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import { products } from "../../data/products";
 import "./index.css";
 
 export const Search = ({ ...props }) => {
   const [foundProducts, setFoundProducts] = useState([]);
-  const [value, setValue] = useState(props.value);
 
   const search = (inputValue) => {
     if (inputValue.target.value) {
@@ -39,7 +39,11 @@ export const Search = ({ ...props }) => {
         className="result"
       >
         {foundProducts.map((product, idx) => (
-          <a className="result-item" key={idx}>
+          <NavLink
+            to={`/catalog/${product.id}`}
+            className="result-item"
+            key={idx}
+          >
             <div className="result-item-image">
               <img
                 src={product.cardImage}
@@ -60,7 +64,7 @@ export const Search = ({ ...props }) => {
                 </span>
               )}
             </div>
-          </a>
+          </NavLink>
         ))}
       </div>
     </div>

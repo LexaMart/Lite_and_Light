@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
 import { Search } from "../search";
 import logo from "../../assets/images/logo.png";
@@ -11,7 +11,7 @@ export const Header = ({ ...props }) => {
     <header className="header">
       <div className="header-menu">
         <NavLink to="/" className="header-logo">
-          <img className="header-logo-img" src={logo}></img>
+          <img alt="logo" className="header-logo-img" src={logo}></img>
         </NavLink>
         <NavLink
           to="/catalog"

@@ -71,6 +71,7 @@
 }
 .gallery-item-page-link:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 .text-wrap {
   display: flex;

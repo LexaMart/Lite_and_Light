@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
-import close from "../../assets/svg/close.svg";
+//import close from "../../assets/svg/close.svg";
 import { products } from "../../data/products";
 import { setFormVisability, submitFeedBackForm } from "../../store/reducers";
 import "./index.css";
@@ -143,10 +143,10 @@ export const FeedBackForm = ({ ...props }) => {
                 />
               </div>
               <div className="popup__btns">
-              <div onClick={submitForm} className="btn">
-                Отправить
+                <div onClick={submitForm} className="btn">
+                  Отправить
+                </div>
               </div>
-            </div>
             </div>
           </div>
         </div>
