@@ -30,10 +30,10 @@ export const Header = ({ ...props }) => {
           Галерея
         </NavLink>
         <Link
-          to="main-types"
+          to="main-types-item2"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-100}
           duration={1000}
           className="header-link"
         >

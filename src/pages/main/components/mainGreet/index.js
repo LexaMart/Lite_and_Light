@@ -14,7 +14,6 @@ export const MainGreet = ({ ...props }) => {
   const update = useCallback(() => {
     let timer1 = setTimeout(() => {
       const a = activeBtnIdRef.current;
-      console.log(activeBtnIdRef.current);
       if (a < 5) {
         setActiveBtnId(a + 1);
       } else {

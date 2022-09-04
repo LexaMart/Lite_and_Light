@@ -59,7 +59,7 @@ export const MainTypes = ({ ...props }) => {
             </NavLink>
           </div>
         </li>
-        <li className="main-types-item">
+        <li className="main-types-item main-types-item2">
           <div
             className="main-types-box main-types-box2"
             data-aos="fade-right"

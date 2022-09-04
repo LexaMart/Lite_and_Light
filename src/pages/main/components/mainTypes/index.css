@@ -63,6 +63,7 @@
 }
 .main-types-link:hover {
   opacity: 0.5;
+  cursor: pointer;
 }
 .main-types-link p {
   font-family: var(--font2);
