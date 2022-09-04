@@ -39,11 +39,15 @@ export const Search = ({ ...props }) => {
         className="result"
       >
         {foundProducts.map((product, idx) => (
+<<<<<<< HEAD
           <NavLink
             to={`/catalog/${product.id}`}
             className="result-item"
             key={idx}
           >
+=======
+          <NavLink to={`catalog/${product.id}`} className="result-item" key={idx}>
+>>>>>>> af01baaa9821b9b86f00f4650322ff656123a851
             <div className="result-item-image">
               <img
                 src={product.cardImage}

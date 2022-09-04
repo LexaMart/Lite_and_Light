@@ -36,12 +36,17 @@ export const CatalogItem = ({ ...props }) => {
       //data-aos-delay="0"
       //data-aos-anchor-placement="top-bottom"
     >
+<<<<<<< HEAD
       <NavLink to={props.id}>
         <img
           alt="img"
           className="catalog-table-item-img"
           src={props.image}
         ></img>
+=======
+      <NavLink to={`/catalog/${props.id}`}>
+        <img className="catalog-table-item-img" src={props.image}></img>
+>>>>>>> af01baaa9821b9b86f00f4650322ff656123a851
       </NavLink>
       <div className="catalog-table-item-box">
         <div className="catalog-table-item-desk">
