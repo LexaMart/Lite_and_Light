@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback, useRef } from "react";
 import { NavLink } from "react-router-dom";
 import AOS from "aos";
 import { mainGreetSlider } from "../../../../data/mainGreetSlider";
@@ -6,23 +6,26 @@ import "./index.css";
 
 export const MainGreet = ({ ...props }) => {
   const [activeBtnId, setActiveBtnId] = useState(1);
+  const activeBtnIdRef = useRef(activeBtnId);
+  activeBtnIdRef.current = activeBtnId;
   const [isRuning, setIsRuning] = useState(false);
   AOS.init();
-  /*useEffect(() => {
-    const interval = setInterval(() => {
-      setIsRuning(true);
-      if (activeBtnId < 5) {
-        setActiveBtnId(activeBtnId + 1);
+
+  const update = useCallback(() => {
+    setTimeout(() => {
+      const a = activeBtnIdRef.current;
+      console.log(activeBtnIdRef.current);
+      if (a < 5) {
+        setActiveBtnId(a + 1);
       } else {
         setActiveBtnId(1);
       }
-    }, 2000);
-    return () =>
-      function () {
-        clearInterval(interval);
-        setIsRuning(false);
-      };
-  }, []);*/
+    }, 3000);
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => update(), 3000);
+  }, [activeBtnId]);
   return (
     <div className="main-greet">
       <div className="main-greet-bg-box">

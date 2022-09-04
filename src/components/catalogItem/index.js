@@ -9,7 +9,6 @@ export const CatalogItem = ({ ...props }) => {
   AOS.init();
   const { likedItems } = useSelector((store) => store.likedItemsReducer);
   const width = document.body.clientWidth;
-  console.log(width);
   const dispatch = useDispatch();
 
   function pushToLocalStorage() {

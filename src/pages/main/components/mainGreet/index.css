@@ -287,7 +287,7 @@ ul {
   }
   .main-greet-img {
     width: 620px;
-    top: -1350px;
+    top: -1400px;
   }
   @keyframes main-greet-img {
     from {
@@ -326,6 +326,30 @@ ul {
   }
   .main-greet-title:last-child {
     margin-bottom: 70px;
+  }
+  .main-greet-content-list {
+    top: 800px;
+    margin-left: 800px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 50px;
+    height: 3px;
+    margin-right: 15px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 50px;
+    height: 3px;
+    margin-left: 15px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 25px;
+    padding: 18px 23px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 800px;
+    top: 750px;
+    font-size: 35px;
+    line-height: 30px;
   }
 }
 @media (max-width: 1832px) {
@@ -393,6 +417,31 @@ ul {
   .main-greet-title:last-child {
     margin-bottom: 50px;
   }
+
+  .main-greet-content-list {
+    top: 550px;
+    margin-left: 450px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 35px;
+    height: 2px;
+    margin-right: 10px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 35px;
+    height: 2px;
+    margin-left: 10px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 12px;
+    padding: 13px 16px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 455px;
+    top: 515px;
+    font-size: 18px;
+    line-height: 30px;
+  }
 }
 @media (max-width: 1570px) {
   .main-greet {
@@ -456,6 +505,31 @@ ul {
   }
   .main-greet-title:last-child {
     margin-bottom: 50px;
+  }
+
+  .main-greet-content-list {
+    top: 450px;
+    margin-left: 350px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 30px;
+    height: 2px;
+    margin-right: 9px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 30px;
+    height: 2px;
+    margin-left: 9px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 12px;
+    padding: 10px 13px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 350px;
+    top: 415px;
+    font-size: 18px;
+    line-height: 25px;
   }
 }
 @media (max-width: 1400px) {
@@ -521,6 +595,30 @@ ul {
   .main-greet-title:last-child {
     margin-bottom: 30px;
   }
+  .main-greet-content-list {
+    top: 420px;
+    margin-left: 300px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 27px;
+    height: 2px;
+    margin-right: 8px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 27px;
+    height: 2px;
+    margin-left: 8px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 11px;
+    padding: 10px 13px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 305px;
+    top: 395px;
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
 @media (max-width: 1180px) {
   .main-greet {
@@ -584,6 +682,30 @@ ul {
   }
   .main-greet-title:last-child {
     margin-bottom: 25px;
+  }
+  .main-greet-content-list {
+    top: 300px;
+    margin-left: 250px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 25px;
+    height: 2px;
+    margin-right: 5px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 25px;
+    height: 2px;
+    margin-left: 5px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 10px;
+    padding: 9px 12px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 250px;
+    top: 270px;
+    font-size: 16px;
+    line-height: 22px;
   }
 }
 @media (max-width: 950px) {
@@ -651,6 +773,30 @@ ul {
   .main-greet-title:last-child {
     margin-bottom: 25px;
   }
+  .main-greet-content-list {
+    top: 250px;
+    margin-left: 200px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 22px;
+    height: 2px;
+    margin-right: 5px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 22px;
+    height: 2px;
+    margin-left: 5px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 10px;
+    padding: 7px 10px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 200px;
+    top: 230px;
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
 @media (max-width: 755px) {
   .main-greet {
@@ -711,6 +857,30 @@ ul {
   .main-greet-title:last-child {
     margin-bottom: 15px;
   }
+  .main-greet-content-list {
+    top: 230px;
+    margin-left: 150px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 18px;
+    height: 2px;
+    margin-right: 5px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 18px;
+    height: 2px;
+    margin-left: 5px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 9px;
+    padding: 5px 7px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 150px;
+    top: 210px;
+    font-size: 12px;
+    line-height: 15px;
+  }
 }
 @media (max-width: 570px) {
   .main-greet-bg-link {
@@ -767,6 +937,30 @@ ul {
   }
   .main-greet-title:last-child {
     margin-bottom: 15px;
+  }
+  .main-greet-content-list {
+    top: 160px;
+    margin-left: 100px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 15px;
+    height: 1px;
+    margin-right: 3px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 15px;
+    height: 1px;
+    margin-left: 3px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 7px;
+    padding: 4px 6px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 100px;
+    top: 145px;
+    font-size: 8px;
+    line-height: 10px;
   }
 }
 @media (max-width: 440px) {
@@ -825,6 +1019,26 @@ ul {
   .main-greet-title:last-child {
     margin-bottom: 10px;
   }
+  .main-greet-content-list {
+    top: 130px;
+    margin-left: 80px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 10px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 10px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 6px;
+    padding: 3px 5px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 80px;
+    top: 118px;
+    font-size: 7px;
+    line-height: 10px;
+  }
 }
 @media (max-width: 350px) {
   .main-greet-bg-link {
@@ -882,6 +1096,26 @@ ul {
   }
   .main-greet-title:last-child {
     margin-bottom: 10px;
+  }
+  .main-greet-content-list {
+    top: 110px;
+    margin-left: 60px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 7px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 7px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 5px;
+    padding: 3px 4px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 60px;
+    top: 98px;
+    font-size: 7px;
+    line-height: 10px;
   }
 }
 @media (max-width: 320px) {
