@@ -20,7 +20,7 @@ export const MainGreet = ({ ...props }) => {
       } else {
         setActiveBtnId(1);
       }
-    }, 7000);
+    }, 3000);
     if (isClicked) {
       clean(timer1);
       setIsClicked(false);
@@ -30,7 +30,7 @@ export const MainGreet = ({ ...props }) => {
     clearTimeout(timer);
   };
   useEffect(() => {
-    let timer2 = setTimeout(() => update(), 7000);
+    let timer2 = setTimeout(() => update(), 3000);
     if (isClicked) {
       clean(timer2);
       setIsClicked(false);
@@ -67,15 +67,17 @@ export const MainGreet = ({ ...props }) => {
         <div className="main-greet-content-ellipse"></div>
         {mainGreetSlider.map((item, idx) => (
           <div key={item.num}>
-            <img
-              alt="img"
-              src={item.img}
-              className={
-                activeBtnId === item.num
-                  ? "main-greet-img main-greet-img-active"
-                  : "main-greet-img"
-              }
-            />
+            <NavLink to={`catalog/${item.id}`}>
+              <img
+                alt="img"
+                src={item.img}
+                className={
+                  activeBtnId === item.num
+                    ? "main-greet-img main-greet-img-active"
+                    : "main-greet-img"
+                }
+              />
+            </NavLink>
             <p
               className={
                 activeBtnId === item.num

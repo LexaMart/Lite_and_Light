@@ -43,6 +43,7 @@ export const galleryItems = [
     ],
     id: "001",
     mainImages: [embassy1, embassy2],
+    image: [embassy1],
     pageTitle: [
       <p key="1" className="gallery-title gallery-title-adaptive">
         Посольство
@@ -70,6 +71,7 @@ export const galleryItems = [
     ],
     id: "002",
     mainImages: [office1, office2],
+    image: [office1],
     pageTitle: [
       <p key="1" className="gallery-title  gallery-title-adaptive">
         Офис IT-компании в
@@ -91,6 +93,7 @@ export const galleryItems = [
     ],
     id: "003",
     mainImages: [company1, company2],
+    image: [company1],
     pageTitle: [
       <p key="1" className="gallery-title  gallery-title-adaptive">
         Офис
@@ -118,6 +121,7 @@ export const galleryItems = [
     ],
     id: "004",
     mainImages: [aviation1, aviation2],
+    image: [aviation1],
     pageTitle: [
       <p key="1" className="gallery-title  gallery-title-adaptive">
         Терминал Бизнес
@@ -145,6 +149,7 @@ export const galleryItems = [
     ],
     id: "005",
     mainImages: [img1, img2],
+    image: [img1],
     pageTitle: [
       <p key="1" className="gallery-title  gallery-title-adaptive">
         Офис военно-

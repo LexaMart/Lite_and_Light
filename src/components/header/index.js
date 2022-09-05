@@ -1,12 +1,43 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { NavLink } from "react-router-dom";
+import { NavLink, useParams, useNavigate } from "react-router-dom";
 import { Search } from "../search";
 import logo from "../../assets/images/logo.png";
 import "./index.css";
 
 export const Header = ({ ...props }) => {
   const [isFavoritesActive, setIsFavoritesActive] = useState(false);
+  const { adress } = useParams();
+  const navigate = useNavigate();
+  const width = document.body.clientWidth;
+  const goToCastom = () => {
+    if (adress == "/") {
+      navigate("", {
+        replace: true,
+      });
+    } else {
+      navigate("/", {
+        replace: false,
+      });
+      width >= 3800
+        ? setTimeout(() => window.scrollTo(0, 4000), 1)
+        : width >= 1800
+        ? setTimeout(() => window.scrollTo(0, 2400), 1)
+        : width >= 1600
+        ? setTimeout(() => window.scrollTo(0, 2200), 1)
+        : width >= 1400
+        ? setTimeout(() => window.scrollTo(0, 2000), 1)
+        : width >= 1300
+        ? setTimeout(() => window.scrollTo(0, 1800), 1)
+        : width >= 1050
+        ? setTimeout(() => window.scrollTo(0, 1500), 1)
+        : width >= 900
+        ? setTimeout(() => window.scrollTo(0, 1400), 1)
+        : width >= 750
+        ? setTimeout(() => window.scrollTo(0, 1000), 1)
+        : width >= 200 && setTimeout(() => window.scrollTo(0, 500), 1);
+    }
+  };
   return (
     <header className="header">
       <div className="header-menu">
@@ -30,6 +61,7 @@ export const Header = ({ ...props }) => {
           Галерея
         </NavLink>
         <Link
+          onClick={goToCastom}
           to="main-types-item2"
           spy={true}
           smooth={true}

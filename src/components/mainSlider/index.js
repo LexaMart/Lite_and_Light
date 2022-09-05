@@ -1,18 +1,11 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import { NavLink } from "react-router-dom";
-import img1 from "../../assets/mainSliderImages/img1.png";
-import img2 from "../../assets/mainSliderImages/img2.png";
-import img3 from "../../assets/mainSliderImages/img3.png";
-import img4 from "../../assets/mainSliderImages/img4.png";
-import img5 from "../../assets/mainSliderImages/img5.png";
-import img6 from "../../assets/mainSliderImages/img6.png";
-import img7 from "../../assets/mainSliderImages/img7.png";
+import { galleryItems } from "../../data/galleryItems";
 import "./index.css";
 
 export const MainSlider = ({ ...props }) => {
   const [imageIndex, setImageIndex] = useState(0);
-  const images = [img1, img2, img3, img4, img5, img6, img7];
   const settings = {
     dots: true,
     infinite: true,
@@ -28,13 +21,13 @@ export const MainSlider = ({ ...props }) => {
   return (
     <div className="slider">
       <Slider className="big-slider" {...settings}>
-        {images.map((img, idx) => (
+        {galleryItems.map((item, idx) => (
           <NavLink
-            to="/galery"
+            to={`/galery/${item.id}`}
             key={idx}
             className={idx === imageIndex ? "slide activeSlide" : "slide"}
           >
-            <img src={img} alt={img} />
+            <img src={item.image} alt="img" />
             <div
               className={
                 idx === imageIndex
