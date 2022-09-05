@@ -51,7 +51,7 @@ export const Footer = ({ ...props }) => {
             </a>
           </li>
         </ul>
-        <img src={logo} alt="logo" className="footer-logo"></img>
+        <img loading="lazy" decoding="async"src={logo} alt="logo" className="footer-logo"></img>
       </div>
       <div className="footer-low">
         <div className="footer-text">© 2022 Lite & Light</div>

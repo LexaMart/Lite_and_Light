@@ -10,7 +10,7 @@ export const ProductHead = ({ ...props }) => {
   };
   return (
     <div className="product-head">
-      <img src={props.cardImage} alt="img" className="product-head-img" />
+      <img loading="lazy" decoding="async"src={props.cardImage} alt="img" className="product-head-img" />
       <div className="product-head-order">
         <p className="product-head-order-name">{props.name}</p>
         <p className="product-head-order-name product-head-order-name-lite">

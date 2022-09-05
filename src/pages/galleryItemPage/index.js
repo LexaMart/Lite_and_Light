@@ -63,8 +63,8 @@ export const GalleryItemPage = ({ ...props }) => {
                 </div>
               </div>
               <div className="gallery-item-page-content">
-                <img alt="img" src={item.pageImages[1]} className="img1" />
-                <img alt="img" src={item.pageImages[2]} className="img2" />
+                <img loading="lazy" decoding="async"alt="img" src={item.pageImages[1]} className="img1" />
+                <img loading="lazy" decoding="async"alt="img" src={item.pageImages[2]} className="img2" />
               </div>
             </div>
           ) : (

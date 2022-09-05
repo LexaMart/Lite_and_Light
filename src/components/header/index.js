@@ -11,7 +11,7 @@ export const Header = ({ ...props }) => {
   const navigate = useNavigate();
   const width = document.body.clientWidth;
   const goToCastom = () => {
-    if (adress == "/") {
+    if (adress === "/") {
       navigate("", {
         replace: true,
       });
@@ -20,29 +20,29 @@ export const Header = ({ ...props }) => {
         replace: false,
       });
       width >= 3800
-        ? setTimeout(() => window.scrollTo(0, 4000), 1)
+        ? setTimeout(() => window.scrollTo(0, 4000), 0)
         : width >= 1800
-        ? setTimeout(() => window.scrollTo(0, 2400), 1)
+        ? setTimeout(() => window.scrollTo(0, 2400), 0)
         : width >= 1600
-        ? setTimeout(() => window.scrollTo(0, 2200), 1)
+        ? setTimeout(() => window.scrollTo(0, 2200), 0)
         : width >= 1400
-        ? setTimeout(() => window.scrollTo(0, 2000), 1)
+        ? setTimeout(() => window.scrollTo(0, 2000), 0)
         : width >= 1300
-        ? setTimeout(() => window.scrollTo(0, 1800), 1)
+        ? setTimeout(() => window.scrollTo(0, 1800), 0)
         : width >= 1050
-        ? setTimeout(() => window.scrollTo(0, 1500), 1)
+        ? setTimeout(() => window.scrollTo(0, 1500), 0)
         : width >= 900
-        ? setTimeout(() => window.scrollTo(0, 1400), 1)
+        ? setTimeout(() => window.scrollTo(0, 1400), 0)
         : width >= 750
-        ? setTimeout(() => window.scrollTo(0, 1000), 1)
-        : width >= 200 && setTimeout(() => window.scrollTo(0, 500), 1);
+        ? setTimeout(() => window.scrollTo(0, 1000), 0)
+        : width >= 200 && setTimeout(() => window.scrollTo(0, 500), 0);
     }
   };
   return (
     <header className="header">
       <div className="header-menu">
         <NavLink to="/" className="header-logo">
-          <img alt="logo" className="header-logo-img" src={logo}></img>
+          <img loading="lazy" decoding="async"alt="logo" className="header-logo-img" src={logo}></img>
         </NavLink>
         <NavLink
           to="/catalog"

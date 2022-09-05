@@ -6,7 +6,6 @@ import { addItemAction } from "../../store/reducers";
 import "./index.css";
 
 export const CatalogItem = ({ ...props }) => {
-  AOS.init();
   const { likedItems } = useSelector((store) => store.likedItemsReducer);
   const width = document.body.clientWidth;
   const dispatch = useDispatch();
@@ -33,11 +32,11 @@ export const CatalogItem = ({ ...props }) => {
           : width >= 400 && -400
       }
       data-aos-duration="1000"
-      //data-aos-delay="0"
-      //data-aos-anchor-placement="top-bottom"
+      data-aos-delay="0"
+      data-aos-anchor-placement="top-bottom"
     >
       <NavLink to={`/catalog/${props.id}`}>
-        <img className="catalog-table-item-img" src={props.image}></img>
+        <img loading="lazy" decoding="async"className="catalog-table-item-img" src={props.image}></img>
       </NavLink>
       <div className="catalog-table-item-box">
         <div className="catalog-table-item-desk">

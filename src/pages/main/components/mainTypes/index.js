@@ -14,7 +14,6 @@ export const MainTypes = ({ ...props }) => {
     dispatch(setFormVisability(true));
   };
 
-  AOS.init();
   return (
     <div className="main-types">
       <p className="main-types-subtitle"> Типы дизайнерского света </p>

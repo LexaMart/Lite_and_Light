@@ -266,14 +266,14 @@ export const products = [
     template: 1,
     pageImage: uLightPendant1,
     pageContentLeft: [
-      <img alt="img" src={uLightPendant5} className="temp1-content-img" />,
-      <img alt="img" src={uLightPendant3} className="temp1-content-img" />,
-      <img alt="img" src={uLightPendant7} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightPendant5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightPendant3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightPendant7} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={uLightPendant2} className="temp1-content-img" />,
-      <img alt="img" src={uLightPendant6} className="temp1-content-img" />,
-      <img alt="img" src={uLightPendant4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightPendant2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightPendant6} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightPendant4} className="temp1-content-img" />,
     ],
   },
   {
@@ -307,13 +307,13 @@ export const products = [
     template: 1,
     pageImage: null,
     pageContentLeft: [
-      <img alt="img" src={uLightSupersion2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightSupersion2} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={uLightSupersion3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightSupersion3} className="temp1-content-img" />,
     ],
     pageContentBottom: [
-      <img alt="img" src={uLightSupersion4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightSupersion4} className="temp1-content-img" />,
     ],
   },
   {
@@ -341,12 +341,12 @@ export const products = [
     ],
     pageImage: uLightWall1,
     pageContentLeft: [
-      <img alt="img" src={uLightWall2} className="temp1-content-img" />,
-      <img alt="img" src={uLightWall3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightWall2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightWall3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={uLightWall4} className="temp1-content-img" />,
-      <img alt="img" src={uLightWall5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightWall4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={uLightWall5} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -371,11 +371,11 @@ export const products = [
     ],
     pageImage: ego1,
     pageContentLeft: [
-      <img alt="img" src={ego2} className="temp1-content-img" />,
-      <img alt="img" src={ego3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={ego2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={ego3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={ego4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={ego4} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -407,7 +407,7 @@ export const products = [
     ],
     pageImage: match1,
     pageContentTop: [
-      <img alt="img" src={match2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={match2} className="temp1-content-img" />,
     ],
     pageContentLeft: [
       <p className="product-text">
@@ -424,11 +424,11 @@ export const products = [
         образующих световую скульптуру, освещающую центральные темы пространства
         и внутреннего убранства.
       </p>,
-      <img alt="img" src={match3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={match3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={match4} className="temp1-content-img" />,
-      <img alt="img" src={match5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={match4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={match5} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -450,13 +450,13 @@ export const products = [
     ],
     pageImage: hoopsCeiling1,
     pageContentTop: [
-      <img alt="img" src={hoopsCeiling2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={hoopsCeiling2} className="temp1-content-img" />,
     ],
     pageContentLeft: [
-      <img alt="img" src={hoopsCeiling3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={hoopsCeiling3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={hoopsCeiling4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={hoopsCeiling4} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -478,13 +478,13 @@ export const products = [
     ],
     pageImage: hoops1,
     pageContentBottom: [
-      <img alt="img" src={hoops4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={hoops4} className="temp1-content-img" />,
     ],
     pageContentLeft: [
-      <img alt="img" src={hoops2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={hoops2} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={hoops3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={hoops3} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -508,12 +508,12 @@ export const products = [
         классическими моделями люстр, выводя этот тип лампы на новый,
         новаторский и футуристический уровень.
       </p>,
-      <img alt="img" src={wireflow1} className="temp1-content-img" />,
-      <img alt="img" src={wireflow2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflow1} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflow2} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={wireflow3} className="temp1-content-img" />,
-      <img alt="img" src={wireflow4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflow3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflow4} className="temp1-content-img" />,
     ],
     template: 0,
   },
@@ -537,16 +537,16 @@ export const products = [
         классическими моделями люстр, выводя этот тип лампы на новый,
         новаторский и футуристический уровень.
       </p>,
-      <img alt="img" src={wireflowChandelier1} className="temp1-content-img" />,
-      <img alt="img" src={wireflowChandelier2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowChandelier1} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowChandelier2} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={wireflowChandelier3} className="temp1-content-img" />,
-      <img alt="img" src={wireflowChandelier4} className="temp1-content-img" />,
-      <img alt="img" src={wireflowChandelier5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowChandelier3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowChandelier4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowChandelier5} className="temp1-content-img" />,
     ],
     pageContentBottom: [
-      <img alt="img" src={wireflowChandelier6} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowChandelier6} className="temp1-content-img" />,
     ],
     template: 0,
   },
@@ -579,12 +579,12 @@ export const products = [
         <span className="product-text product-text-dark">Wireflow</span> 2D
         доступны в различных версиях с 2, 6 и 10 рассеивателями.
       </p>,
-      <img alt="img" src={wireflowLineal1} className="temp1-content-img" />,
-      <img alt="img" src={wireflowLineal2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowLineal1} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowLineal2} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={wireflowLineal3} className="temp1-content-img" />,
-      <img alt="img" src={wireflowLineal4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowLineal3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowLineal4} className="temp1-content-img" />,
     ],
     template: 0,
   },
@@ -614,13 +614,13 @@ export const products = [
         стеклянными или нестеклянными версиями, окружающим или акцентным
         освещением.
       </p>,
-      <img alt="img" src={wireflowFreeForm1} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowFreeForm1} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={wireflowFreeForm2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowFreeForm2} className="temp1-content-img" />,
     ],
     pageContentBottom: [
-      <img alt="img" src={wireflowFreeForm3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={wireflowFreeForm3} className="temp1-content-img" />,
     ],
     template: 0,
   },
@@ -651,15 +651,15 @@ export const products = [
     template: 1,
     pageImage: duo1,
     pageContentLeft: [
-      <img alt="img" src={duo2} className="temp1-content-img" />,
-      <img alt="img" src={duo3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={duo2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={duo3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={duo4} className="temp1-content-img" />,
-      <img alt="img" src={duo5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={duo4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={duo5} className="temp1-content-img" />,
     ],
     pageContentBottom: [
-      <img alt="img" src={duo6} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={duo6} className="temp1-content-img" />,
     ],
   },
   {
@@ -688,17 +688,17 @@ export const products = [
       </p>,
     ],
     pageContentLeft: [
-      <img alt="img" src={palmaWall2} className="temp1-content-img" />,
-      <img alt="img" src={palmaWall3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaWall2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaWall3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={palmaWall4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaWall4} className="temp1-content-img" />,
       <p className="product-text">
         Мы представляем индивидуальный настенный светильник. Его вневременная
         сфера света эволюционирует в сторону органического. Слегка сплющенный,
         как форма Земли, он излучает теплый и регулируемый свет
       </p>,
-      <img alt="img" src={palmaWall5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaWall5} className="temp1-content-img" />,
     ],
   },
   {
@@ -729,19 +729,19 @@ export const products = [
       </p>,
     ],
     pageContentLeft: [
-      <img alt="img" src={palmaHanging2} className="temp1-content-img" />,
-      <img alt="img" src={palmaHanging3} className="temp1-content-img" />,
-      <img alt="img" src={palmaHanging4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaHanging2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaHanging3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaHanging4} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={palmaHanging5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaHanging5} className="temp1-content-img" />,
       <p className="product-text">
         <span className="product-text product-text-dark">Palma</span>{" "}
         представляет подвесной светильник. Он включает в себя два размера
         стеклянных сфер, выдувных вручную, соединенных ремнем, и алюминиевые
         конструкции. Интенсивность светодиодного источника света регулируется
       </p>,
-      <img alt="img" src={palmaHanging6} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaHanging6} className="temp1-content-img" />,
     ],
   },
   {
@@ -769,12 +769,12 @@ export const products = [
     ],
     pageImage: palmaTable1,
     pageContentLeft: [
-      <img alt="img" src={palmaTable2} className="temp1-content-img" />,
-      <img alt="img" src={palmaTable3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaTable2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaTable3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={palmaTable4} className="temp1-content-img" />,
-      <img alt="img" src={palmaTable5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaTable4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={palmaTable5} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -813,13 +813,13 @@ export const products = [
     ],
     pageImage: algorithm1,
     pageContentLeft: [
-      <img alt="img" src={algorithm2} className="temp1-content-img" />,
-      <img alt="img" src={algorithm3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={algorithm2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={algorithm3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={algorithm4} className="temp1-content-img" />,
-      <img alt="img" src={algorithm5} className="temp1-content-img" />,
-      <img alt="img" src={algorithm6} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={algorithm4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={algorithm5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={algorithm6} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -860,12 +860,12 @@ export const products = [
     ],
     pageImage: link1,
     pageContentLeft: [
-      <img alt="img" src={link2} className="temp1-content-img" />,
-      <img alt="img" src={link3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={link2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={link3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={link4} className="temp1-content-img" />,
-      <img alt="img" src={link5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={link4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={link5} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -900,10 +900,10 @@ export const products = [
     ],
     pageImage: buzziShadeSquare1,
     pageContentTop: [
-      <img alt="img" src={buzziShadeSquare2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziShadeSquare2} className="temp1-content-img" />,
     ],
     pageContentBottom: [
-      <img alt="img" src={buzziShadeSquare3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziShadeSquare3} className="temp1-content-img" />,
     ],
     temp2Top: [
       <img
@@ -956,11 +956,11 @@ export const products = [
         И акустика, и освещение влияют на личное самочувствие и, следовательно,
         являются основными факторами позитивного рабочего пространства.
       </p>,
-      <img alt="img" src={buzziShade1} className="temp1-content-img" />,
-      <img alt="img" src={buzziShade2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziShade1} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziShade2} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={buzziShade3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziShade3} className="temp1-content-img" />,
       <p className="product-text">
         <span className="product-text product-text-dark">BuzziShade</span>{" "}
         зготовлен из металлического каркаса с покрытием, обитого{" "}
@@ -976,10 +976,10 @@ export const products = [
         Эти негабаритные шторы действуют как кокон со звукопоглощающими
         свойствами, разграничивая пространство с элегантностью и тишиной
       </p>,
-      <img alt="img" src={buzziShade4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziShade4} className="temp1-content-img" />,
     ],
     pageContentBottom: [
-      <img alt="img" src={buzziShade5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziShade5} className="temp1-content-img" />,
     ],
     temp2Top: [
       <img
@@ -1039,7 +1039,7 @@ export const products = [
     ],
     pageImage: buzziProp1,
     pageContentTop: [
-      <img alt="img" src={buzziProp2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziProp2} className="temp1-content-img" />,
     ],
     pageContentLeft: [
       <p className="product-text">
@@ -1057,7 +1057,7 @@ export const products = [
         и <span className="product-text product-text-dark">BuzziProp Beam</span>{" "}
         разных цветов и тканей.
       </p>,
-      <img alt="img" src={buzziProp3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziProp3} className="temp1-content-img" />,
     ],
     pageContentRight: [
       <p className="product-text">
@@ -1072,10 +1072,10 @@ export const products = [
         Beam можно поместить BuzziSol Trio в виде пятен или глобусов на ваш
         выбор.
       </p>,
-      <img alt="img" src={buzziProp4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziProp4} className="temp1-content-img" />,
     ],
     pageContentBottom: [
-      <img alt="img" src={buzziProp5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziProp5} className="temp1-content-img" />,
     ],
     temp2Top: [
       <img
@@ -1141,15 +1141,15 @@ export const products = [
     ],
     pageImage: buzziDisk1,
     pageContentTop: [
-      <img alt="img" src={buzziDisk2} className="temp1-content-img" />,
-      <img alt="img" src={buzziDisk3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziDisk2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziDisk3} className="temp1-content-img" />,
     ],
     pageContentLeft: [
-      <img alt="img" src={buzziDisk4} className="temp1-content-img" />,
-      <img alt="img" src={buzziDisk5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziDisk4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziDisk5} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={buzziDisk6} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziDisk6} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -1179,10 +1179,10 @@ export const products = [
         светильник содержит закрытую воздушную полость, которая обеспечивает
         максимальную акустическую производительность
       </p>,
-      <img alt="img" src={buzziTrom2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziTrom2} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={buzziTrom1} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziTrom1} className="temp1-content-img" />,
       <p className="product-text">
         BuzziTrom оснащен прочными блестящими бронзовыми кнопками вместо нашей
         фирменной шнуровки, что придает варианту освещения современный вид.
@@ -1203,7 +1203,7 @@ export const products = [
       </p>,
     ],
     pageContentBottom: [
-      <img alt="img" src={buzziTrom3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziTrom3} className="temp1-content-img" />,
     ],
     temp2Top: [
       <img
@@ -1270,7 +1270,7 @@ export const products = [
     ],
     pageImage: buzziZeppLight1,
     pageContentLeft: [
-      <img alt="img" src={buzziZeppLight2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziZeppLight2} className="temp1-content-img" />,
       <p className="product-text">
         Обтекаемый дизайн{" "}
         <span className="product-text product-text-dark">BuzziZeppLight</span>{" "}
@@ -1294,7 +1294,7 @@ export const products = [
         вы выберете, он будет идеально висеть над большим столом для совещаний
         или совместной работы.
       </p>,
-      <img alt="img" src={buzziZeppLight3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={buzziZeppLight3} className="temp1-content-img" />,
     ],
     temp2Top: [
       <img
@@ -1340,16 +1340,16 @@ export const products = [
     ],
     pageImage: skirt1,
     pageContentTop: [
-      <img alt="img" src={skirt2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={skirt2} className="temp1-content-img" />,
     ],
     pageContentLeft: [
-      <img alt="img" src={skirt3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={skirt3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={skirt4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={skirt4} className="temp1-content-img" />,
     ],
     pageContentBottom: [
-      <img alt="img" src={skirt5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={skirt5} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -1369,14 +1369,14 @@ export const products = [
         сценографических конфигурациях. Современность и традиции сочетаются в
         его светящейся гармонии.
       </p>,
-      <img alt="img" src={fedora1} className="temp1-content-img" />,
-      <img alt="img" src={fedora2} className="temp1-content-img" />,
-      <img alt="img" src={fedora3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={fedora1} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={fedora2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={fedora3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={fedora4} className="temp1-content-img" />,
-      <img alt="img" src={fedora5} className="temp1-content-img" />,
-      <img alt="img" src={fedora6} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={fedora4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={fedora5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={fedora6} className="temp1-content-img" />,
     ],
     template: 0,
   },
@@ -1397,8 +1397,8 @@ export const products = [
         светящиеся архитектурные проекты, способные очень оригинально
         персонализировать пространство.
       </p>,
-      <img alt="img" src={virtus1} className="temp1-content-img" />,
-      <img alt="img" src={virtus2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={virtus1} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={virtus2} className="temp1-content-img" />,
     ],
     pageContentRight: [
       <img
@@ -1407,7 +1407,7 @@ export const products = [
         style={{ width: "13%" }}
         className="temp1-content-img"
       />,
-      <img alt="img" src={virtus4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={virtus4} className="temp1-content-img" />,
     ],
     template: 0,
   },
@@ -1444,10 +1444,10 @@ export const products = [
     ],
     pageImage: degrees1,
     pageContentLeft: [
-      <img alt="img" src={degrees2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={degrees2} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={degrees3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={degrees3} className="temp1-content-img" />,
     ],
     template: 1,
   },
@@ -1479,12 +1479,12 @@ export const products = [
     ],
     pageImage: flat1,
     pageContentLeft: [
-      <img alt="img" src={flat2} className="temp1-content-img" />,
-      <img alt="img" src={flat3} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={flat2} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={flat3} className="temp1-content-img" />,
     ],
     pageContentRight: [
-      <img alt="img" src={flat4} className="temp1-content-img" />,
-      <img alt="img" src={flat5} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={flat4} className="temp1-content-img" />,
+      <img loading="lazy" decoding="async"alt="img" src={flat5} className="temp1-content-img" />,
     ],
     template: 1,
   },

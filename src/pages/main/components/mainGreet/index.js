@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
-import AOS from "aos";
 import { mainGreetSlider } from "../../../../data/mainGreetSlider";
 import "./index.css";
 
@@ -9,7 +8,6 @@ export const MainGreet = ({ ...props }) => {
   const activeBtnIdRef = useRef(activeBtnId);
   activeBtnIdRef.current = activeBtnId;
   const [isClicked, setIsClicked] = useState(false);
-  AOS.init();
 
   const update = () => {
     let timer1 = setTimeout(() => {

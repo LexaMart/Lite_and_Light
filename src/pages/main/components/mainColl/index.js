@@ -10,7 +10,6 @@ import trom from "../../../../assets/images/trom.png";
 import "./index.css";
 
 export const MainColl = ({ ...props }) => {
-  AOS.init();
   return (
     <div className="main-coll">
       <div
@@ -87,7 +86,7 @@ export const MainColl = ({ ...props }) => {
             <p className="main-coll-content-text main-coll-content-text-trom">
               Trom
             </p>
-            <img src={trom} alt="" className="main-coll-content-img-trom"></img>
+            <img loading="lazy" decoding="async"src={trom} alt="" className="main-coll-content-img-trom"></img>
           </NavLink>
         </div>
         <div className="main-coll-content2">
