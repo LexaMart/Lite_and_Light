@@ -10,7 +10,18 @@ export const ProductHead = ({ ...props }) => {
   };
   return (
     <div className="product-head">
-      <img loading="lazy" decoding="async"src={props.cardImage} alt="img" className="product-head-img" />
+      <img
+        style={
+          props.id === "0020" || props.id === "0026"
+            ? { width: "35%" }
+            : { width: "45%" }
+        }
+        loading="lazy"
+        decoding="async"
+        src={props.cardImage}
+        alt="img"
+        className="product-head-img"
+      />
       <div className="product-head-order">
         <p className="product-head-order-name">{props.name}</p>
         <p className="product-head-order-name product-head-order-name-lite">

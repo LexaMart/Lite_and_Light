@@ -16,6 +16,7 @@ export const Product = ({ ...props }) => {
           id === product.id && (
             <div className="product" key={product.id}>
               <ProductHead
+                id={product.id}
                 name={product.name}
                 subName={product.subName}
                 price={product.price}
