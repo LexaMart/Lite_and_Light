@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import AOS from "aos";
 import typesImg1 from "../../../../assets/images/main-types-img1.png";
 import typesImg2 from "../../../../assets/images/main-types-img2.png";
 import "./index.css";
@@ -20,9 +19,12 @@ export const MainTypes = ({ ...props }) => {
       <ul className="main-types-list">
         <li className="main-types-item">
           <img
+            loading="lazy"
+            decoding="async"
             src={typesImg1}
             alt="img"
             className="main-types-img"
+            data-aos-once="true"
             data-aos="fade-right"
             data-aos-offset="180"
             data-aos-duration="1500"
@@ -30,6 +32,7 @@ export const MainTypes = ({ ...props }) => {
           ></img>
           <div
             className="main-types-box main-types-box1"
+            data-aos-once="true"
             data-aos="fade-right"
             //data-aos-offset="100"
             data-aos-delay="150"
@@ -61,6 +64,7 @@ export const MainTypes = ({ ...props }) => {
         <li className="main-types-item main-types-item2">
           <div
             className="main-types-box main-types-box2"
+            data-aos-once="true"
             data-aos="fade-right"
             data-aos-offset="100"
             data-aos-delay="150"
@@ -92,9 +96,12 @@ export const MainTypes = ({ ...props }) => {
             </div>
           </div>
           <img
+            loading="lazy"
+            decoding="async"
             src={typesImg2}
             alt="img"
             className="main-types-img"
+            data-aos-once="true"
             data-aos="fade-right"
             data-aos-offset="180"
             data-aos-duration="1500"

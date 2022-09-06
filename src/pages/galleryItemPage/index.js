@@ -29,6 +29,8 @@ export const GalleryItemPage = ({ ...props }) => {
             <div className="gallery-item-page-wrap1">
               <div className="gallery-item-page-content gallery-item-page-content-adaptive">
                 <img
+                  loading="lazy"
+                  decoding="async"
                   alt="img"
                   src={item.pageImages[0]}
                   className="gallery-item-page-img main-img"
@@ -63,19 +65,35 @@ export const GalleryItemPage = ({ ...props }) => {
                 </div>
               </div>
               <div className="gallery-item-page-content">
-                <img loading="lazy" decoding="async"alt="img" src={item.pageImages[1]} className="img1" />
-                <img loading="lazy" decoding="async"alt="img" src={item.pageImages[2]} className="img2" />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  alt="img"
+                  src={item.pageImages[1]}
+                  className="img1"
+                />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  alt="img"
+                  src={item.pageImages[2]}
+                  className="img2"
+                />
               </div>
             </div>
           ) : (
             <div className="gallery-item-page-wrap">
               <div className="gallery-item-page-content1">
                 <img
+                  loading="lazy"
+                  decoding="async"
                   alt="img"
                   src={item.pageImages[0]}
                   className="gallery-item-page-img gallery-item-page-img-adptive"
                 />
                 <img
+                  loading="lazy"
+                  decoding="async"
                   alt="img"
                   src={item.pageImages[1]}
                   className="gallery-item-page-img gallery-item-page-img-adptive"
@@ -84,6 +102,8 @@ export const GalleryItemPage = ({ ...props }) => {
               <div className="gallery-item-page-content2">
                 <div className="gallery-item-page-content-box">
                   <img
+                    loading="lazy"
+                    decoding="async"
                     alt="img"
                     src={item.pageImages[2]}
                     className="gallery-item-page-img info-img"
@@ -118,6 +138,8 @@ export const GalleryItemPage = ({ ...props }) => {
                   </div>
                 </div>
                 <img
+                  loading="lazy"
+                  decoding="async"
                   alt="img"
                   src={item.pageImages[3]}
                   className="gallery-item-page-img"

@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
-import AOS from "aos";
 import { addItemAction } from "../../store/reducers";
 import "./index.css";
 
@@ -17,6 +16,7 @@ export const CatalogItem = ({ ...props }) => {
   return (
     <div
       className="catalog-table-item"
+      data-aos-once="true"
       data-aos="fade-up"
       data-aos-offset={
         width >= 1300
@@ -36,7 +36,12 @@ export const CatalogItem = ({ ...props }) => {
       data-aos-anchor-placement="top-bottom"
     >
       <NavLink to={`/catalog/${props.id}`}>
-        <img loading="lazy" decoding="async"className="catalog-table-item-img" src={props.image}></img>
+        <img
+          loading="lazy"
+          decoding="async"
+          className="catalog-table-item-img"
+          src={props.image}
+        ></img>
       </NavLink>
       <div className="catalog-table-item-box">
         <div className="catalog-table-item-desk">

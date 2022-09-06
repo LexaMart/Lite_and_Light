@@ -13,11 +13,15 @@ export const GalleryItem = ({ ...props }) => {
       </div>
       <div className="gallery-item-images">
         <img
+          loading="lazy"
+          decoding="async"
           alt="img"
           src={props.mainImages[0]}
           className="gallery-item-images-item"
         />
         <img
+          loading="lazy"
+          decoding="async"
           alt="img"
           src={props.mainImages[1]}
           className="gallery-item-images-item"

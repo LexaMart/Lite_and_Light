@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import AOS from "aos";
 import link from "../../../../assets/images/link.png";
 import algorithm from "../../../../assets/images/algorithm.png";
 import shadePendant from "../../../../assets/images/shade-pendant.png";
@@ -14,6 +13,7 @@ export const MainColl = ({ ...props }) => {
     <div className="main-coll">
       <div
         className="main-coll-links"
+        data-aos-once="true"
         data-aos="fade-up"
         data-aos-offset="50"
         data-aos-duration="1500"
@@ -24,6 +24,7 @@ export const MainColl = ({ ...props }) => {
         <NavLink
           to="/catalog/0012"
           className="main-coll-content-box main-coll-duo"
+          data-aos-once="true"
           data-aos="fade-up"
           data-aos-offset="50"
           data-aos-duration="1500"
@@ -33,6 +34,8 @@ export const MainColl = ({ ...props }) => {
             Duo
           </p>
           <img
+            loading="lazy"
+            decoding="async"
             src={duo}
             alt="shade"
             className="main-coll-content-img-duo"
@@ -41,12 +44,15 @@ export const MainColl = ({ ...props }) => {
         <NavLink
           to="/catalog/0018"
           className="main-coll-content-box main-coll-square"
+          data-aos-once="true"
           data-aos="fade-up"
           data-aos-offset="50"
           data-aos-duration="1500"
           data-aos-anchor-placement="top-bottom"
         >
           <img
+            loading="lazy"
+            decoding="async"
             src={shadeSquare}
             alt="square"
             className="main-coll-content-img-square"
@@ -61,12 +67,15 @@ export const MainColl = ({ ...props }) => {
           <NavLink
             to="/catalog/0019"
             className="main-coll-content-box main-coll-pendant"
+            data-aos-once="true"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
             <img
+              loading="lazy"
+              decoding="async"
               src={shadePendant}
               alt="Pendant"
               className="main-coll-content-img-pendant"
@@ -78,6 +87,7 @@ export const MainColl = ({ ...props }) => {
           <NavLink
             to="/catalog/0022"
             className="main-coll-content-box main-coll-trom"
+            data-aos-once="true"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
@@ -86,19 +96,28 @@ export const MainColl = ({ ...props }) => {
             <p className="main-coll-content-text main-coll-content-text-trom">
               Trom
             </p>
-            <img loading="lazy" decoding="async"src={trom} alt="" className="main-coll-content-img-trom"></img>
+            <img
+              loading="lazy"
+              decoding="async"
+              src={trom}
+              alt=""
+              className="main-coll-content-img-trom"
+            ></img>
           </NavLink>
         </div>
         <div className="main-coll-content2">
           <NavLink
             to="/catalog/0017"
             className="main-coll-content-box main-coll-link"
+            data-aos-once="true"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
             <img
+              loading="lazy"
+              decoding="async"
               src={link}
               alt="link"
               className="main-coll-content-img-link"
@@ -110,12 +129,15 @@ export const MainColl = ({ ...props }) => {
           <NavLink
             to="/catalog/0016"
             className="main-coll-content-box main-coll-algorithm"
+            data-aos-once="true"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
             <img
+              loading="lazy"
+              decoding="async"
               src={algorithm}
               alt="algorithm"
               className="main-coll-content-img-algorithm"

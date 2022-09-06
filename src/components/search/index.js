@@ -46,6 +46,8 @@ export const Search = ({ ...props }) => {
           >
             <div className="result-item-image">
               <img
+                loading="lazy"
+                decoding="async"
                 src={product.cardImage}
                 alt="search_icon"
                 className="result-item-img"

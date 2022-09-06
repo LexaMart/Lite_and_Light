@@ -33,7 +33,7 @@ export const MainGreet = ({ ...props }) => {
       clean(timer2);
       setIsClicked(false);
     }
-  });
+  }, [activeBtnId]);
   return (
     <div className="main-greet">
       <div className="main-greet-bg-box">
@@ -67,6 +67,8 @@ export const MainGreet = ({ ...props }) => {
           <div key={item.num}>
             <NavLink to={`catalog/${item.id}`}>
               <img
+                loading="lazy"
+                decoding="async"
                 alt="img"
                 src={item.img}
                 className={
