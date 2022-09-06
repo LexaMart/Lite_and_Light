@@ -1,33 +1,43 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import AOS from "aos";
+import { useDispatch } from "react-redux";
 import typesImg1 from "../../../../assets/images/main-types-img1.png";
 import typesImg2 from "../../../../assets/images/main-types-img2.png";
 import "./index.css";
+import { setFormVisability } from "../../../../store/reducers";
 
 export const MainTypes = ({ ...props }) => {
-  AOS.init();
+  const dispatch = useDispatch();
+
+  const openForm = () => {
+    dispatch(setFormVisability(true));
+  };
+
   return (
     <div className="main-types">
       <p className="main-types-subtitle"> Типы дизайнерского света </p>
       <ul className="main-types-list">
         <li className="main-types-item">
           <img
+            loading="lazy"
+            decoding="async"
             src={typesImg1}
-            alt=""
+            alt="img"
             className="main-types-img"
+            data-aos-once="true"
             data-aos="fade-right"
             data-aos-offset="180"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           ></img>
           <div
-            className="main-types-box1"
+            className="main-types-box main-types-box1"
+            data-aos-once="true"
             data-aos="fade-right"
-            data-aos-offset="350"
+            //data-aos-offset="100"
             data-aos-delay="150"
             data-aos-duration="1500"
-            data-aos-anchor-placement="top-bottom"
+            //data-aos-anchor-placement="top-bottom"
           >
             <p className="main-types-title">Классика</p>
             <p className="main-types-text">Готовые</p>
@@ -51,20 +61,24 @@ export const MainTypes = ({ ...props }) => {
             </NavLink>
           </div>
         </li>
-        <li className="main-types-item">
+        <li className="main-types-item main-types-item2">
           <div
-            className="main-types-box2"
+            className="main-types-box main-types-box2"
+            data-aos-once="true"
             data-aos="fade-right"
-            data-aos-offset="350"
+            data-aos-offset="100"
             data-aos-delay="150"
             data-aos-duration="1500"
-            data-aos-anchor-placement="top-bottom"
+            //data-aos-anchor-placement="top-bottom"
           >
-            <p className="main-types-title">Кастом</p>
-            <p className="main-types-text">Индивидуальные</p>
-            <p className="main-types-text">решения</p>
-            <NavLink to="/catalog" className="main-types-link main-types-link2">
-              <p>Перейти в каталог</p>
+            <p className="main-types-title main-types-title2">Кастом</p>
+            <p className="main-types-text main-types-text2">Индивидуальные</p>
+            <p className="main-types-text main-types-text2">решения</p>
+            <div
+              onClick={openForm}
+              className="main-types-link main-types-link2"
+            >
+              <p>Оставить заявку</p>
               <svg
                 width="77"
                 height="18"
@@ -79,12 +93,15 @@ export const MainTypes = ({ ...props }) => {
                   fill="#504B48"
                 />
               </svg>
-            </NavLink>
+            </div>
           </div>
           <img
+            loading="lazy"
+            decoding="async"
             src={typesImg2}
-            alt=""
+            alt="img"
             className="main-types-img"
+            data-aos-once="true"
             data-aos="fade-right"
             data-aos-offset="180"
             data-aos-duration="1500"

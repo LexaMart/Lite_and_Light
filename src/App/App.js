@@ -1,17 +1,22 @@
-import { BrowserRouter } from "react-router-dom";
-import { Footer } from "../components/footer";
-import { Header } from "../components/header";
+import Aos from "aos";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { Routing } from "./Routing";
 
 function App() {
+  Aos.init({
+    startEvent: "DOMContentLoaded",
+    throttleDelay: 150,
+  });
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
-    <BrowserRouter>
-      <>
-        <Header/>
-        <Routing />
-        <Footer/>
-      </>
-    </BrowserRouter>
+    <>
+      <Routing />
+    </>
   );
 }
 

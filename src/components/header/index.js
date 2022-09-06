@@ -1,52 +1,96 @@
-import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-import { NavLink } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
+import { NavLink, useParams, useNavigate } from "react-router-dom";
+import { Search } from "../search";
 import logo from "../../assets/images/logo.png";
 import "./index.css";
 
 export const Header = ({ ...props }) => {
+  const [isFavoritesActive, setIsFavoritesActive] = useState(false);
+  const { adress } = useParams();
+  const navigate = useNavigate();
+  const width = document.body.clientWidth;
+  const goToCastom = () => {
+    if (adress === "/") {
+      navigate("", {
+        replace: true,
+      });
+    } else {
+      navigate("/", {
+        replace: false,
+      });
+      width >= 3800
+        ? setTimeout(() => window.scrollTo(0, 4000), 0)
+        : width >= 1800
+        ? setTimeout(() => window.scrollTo(0, 2400), 0)
+        : width >= 1600
+        ? setTimeout(() => window.scrollTo(0, 2200), 0)
+        : width >= 1400
+        ? setTimeout(() => window.scrollTo(0, 2000), 0)
+        : width >= 1300
+        ? setTimeout(() => window.scrollTo(0, 1800), 0)
+        : width >= 1050
+        ? setTimeout(() => window.scrollTo(0, 1500), 0)
+        : width >= 900
+        ? setTimeout(() => window.scrollTo(0, 1400), 0)
+        : width >= 750
+        ? setTimeout(() => window.scrollTo(0, 1000), 0)
+        : width >= 200 && setTimeout(() => window.scrollTo(0, 500), 0);
+    }
+  };
   return (
     <header className="header">
-      <NavLink to="/" className="header-logo">
-        <img className="header-logo-img" src={logo}></img>
-      </NavLink>
       <div className="header-menu">
-        <NavLink to="/catalog" className="header-link">
+        <NavLink to="/" className="header-logo">
+          <img loading="lazy" decoding="async"alt="logo" className="header-logo-img" src={logo}></img>
+        </NavLink>
+        <NavLink
+          to="/catalog"
+          className={({ isActive }) =>
+            isActive ? "active-link header-link" : "header-link"
+          }
+        >
           Каталог
         </NavLink>
-        <a href="#" className="header-link">
+        <NavLink
+          to="/galery"
+          className={({ isActive }) =>
+            isActive ? "active-link header-link" : "header-link"
+          }
+        >
           Галерея
-        </a>
-        <a href="#" className="header-link">
-          О нас
-        </a>
+        </NavLink>
         <Link
-          to="footer"
+          onClick={goToCastom}
+          to="main-types-item2"
           spy={true}
           smooth={true}
-          offset={-70}
+          offset={-100}
           duration={1000}
           className="header-link"
         >
-          Контакты
+          Кастом
         </Link>
       </div>
       <div className="header-nav">
         <div className="header-search">
-          <form>
-            <input
-              className="header-search-input"
-              type="text"
-              placeholder="Поиск"
-            ></input>
-            <button type="submit" className="header-search-button">
-              {" "}
-            </button>
-          </form>
+          <Search />
         </div>
         <div className="header-like">
-          <a className="header-like-btn">
-            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+          <NavLink
+            to="/favorites"
+            className={({ isActive }) => {
+              isActive
+                ? setIsFavoritesActive(true)
+                : setIsFavoritesActive(false);
+              return "header-like-btn";
+            }}
+          >
+            <svg
+              className={isFavoritesActive ? "active-link-favorites" : ""}
+              viewBox="0 0 32 32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
               <defs></defs>
               <title />
               <g data-name="Layer 54" id="Layer_54">
@@ -56,7 +100,7 @@ export const Header = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </a>
+          </NavLink>
         </div>
       </div>
     </header>

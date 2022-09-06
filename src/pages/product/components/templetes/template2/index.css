@@ -1,0 +1,16 @@
+.temp2-content {
+  display: flex;
+  justify-content: space-between;
+}
+.temp2-content-top {
+  margin-bottom: 10px;
+}
+.temp2-content-img {
+  display: block;
+}
+.temp2-content-img1 {
+  width: 50%;
+}
+.temp2-content-img2 {
+  width: 47%;
+}

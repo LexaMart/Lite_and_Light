@@ -1,34 +1,14 @@
-:root {
-  --font1: "Poppins", sans-serif;
-  --font2: "Montserrat", sans-serif;
-}
-
-p {
-  padding: 0;
-  margin: 0;
-}
-a {
-  text-decoration: none;
-  color: #000;
-}
-a:hover {
-  cursor: pointer;
-}
-button {
-  background-color: #fff;
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-button:hover {
-  cursor: pointer;
-}
 .catalog-table-item {
   display: inline-block;
   width: 100%;
 }
 .catalog-table-item-img {
-  max-width: 100%;
+  width: 100%;
+  transition: 0.5s;
+  height: 90%;
+}
+.catalog-table-item-img:hover {
+  opacity: 0.7;
 }
 .catalog-table-item-box {
   display: flex;
@@ -73,10 +53,52 @@ button:hover {
 .catalog-table-item-info-btn {
   display: flex;
   align-self: center;
-  width: 24px;
+  width: 28px;
+  transition: 0.5s;
+}
+.catalog-table-item-info-btn:hover {
+  opacity: 0.5;
 }
 .catalog-table-item-info-btn-like {
-  width: 24px;
+  width: 28px;
+}
+.btn-like-red {
+  fill: #ed3a3f;
+}
+.btn-like-red path {
+  stroke: #ed3a3f;
+}
+.btn-like-black {
+  fill: #000;
+}
+@media (min-width: 3800px) {
+  .catalog-table-item {
+    min-width: 100%;
+  }
+  .catalog-table-item-img {
+    min-width: 100%;
+  }
+  .catalog-table-item-desk-title {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .catalog-table-item-desk-subtitle {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .catalog-table-item-info-price-box-first {
+    font-size: 25px;
+  }
+  .catalog-table-item-info-price-box-second {
+    font-size: 25px;
+    margin-left: 5px;
+  }
+  .catalog-table-item-info-btn {
+    width: 50px;
+  }
+  .catalog-table-item-info-btn-like {
+    width: 50px;
+  }
 }
 @media (max-width: 1460px) {
   .catalog-table-item-desk-title {
@@ -95,10 +117,10 @@ button:hover {
     margin-left: 3px;
   }
   .catalog-table-item-info-btn {
-    width: 18px;
+    width: 22px;
   }
   .catalog-table-item-info-btn-like {
-    width: 18px;
+    width: 22px;
   }
 }
 @media (max-width: 1100px) {
@@ -118,10 +140,10 @@ button:hover {
     margin-left: 3px;
   }
   .catalog-table-item-info-btn {
-    width: 12px;
+    width: 16px;
   }
   .catalog-table-item-info-btn-like {
-    width: 12px;
+    width: 16px;
   }
 }
 @media (max-width: 900px) {
@@ -139,10 +161,10 @@ button:hover {
     margin-left: 3px;
   }
   .catalog-table-item-info-btn-like {
-    width: 8px;
+    width: 13px;
   }
   .catalog-table-item-info-btn {
-    width: 8px;
+    width: 13px;
   }
 }
 @media (max-width: 720px) {
@@ -160,10 +182,10 @@ button:hover {
     margin-left: 3px;
   }
   .catalog-table-item-info-btn-like {
-    width: 8px;
+    width: 12px;
   }
   .catalog-table-item-info-btn {
-    width: 8px;
+    width: 12px;
   }
 }
 @media (max-width: 380px) {
@@ -181,9 +203,9 @@ button:hover {
     margin-left: 2px;
   }
   .catalog-table-item-info-btn-like {
-    width: 7px;
+    width: 11px;
   }
   .catalog-table-item-info-btn {
-    width: 7px;
+    width: 11px;
   }
 }

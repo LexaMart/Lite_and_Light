@@ -1,6 +1,7 @@
 import React from "react";
-import "./index.css";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/images/big-logo.png";
+import "./index.css";
 
 export const Footer = ({ ...props }) => {
   return (
@@ -8,34 +9,33 @@ export const Footer = ({ ...props }) => {
       <div className="footer-high">
         <ul className="footer-list">
           <li className="footer-item">
-            <a className="footer-title">Каталог</a>
+            <NavLink to="/catalog" className="footer-title">
+              Каталог
+            </NavLink>
           </li>
           <li className="footer-item">
-            <a className="footer-title">Галерея</a>
-            <a href="#" className="footer-link">
-              FABROS
-            </a>
-            <a href="#" className="footer-link">
-              STROY TECH PROGRESS
-            </a>
-            <a href="#" className="footer-link">
-              ESQUIRE
-            </a>
+            <NavLink to="/galery" className="footer-title">
+              Галерея
+            </NavLink>
+            <NavLink to="/galery/001" className="footer-link">
+              Посольтво РБ в Казахстане
+            </NavLink>
+            <NavLink to="/galery/002" className="footer-link">
+              Офит IT-компании
+            </NavLink>
+            <NavLink to="/galery/003" className="footer-link">
+              Офис производственной компании
+            </NavLink>
+            <NavLink to="/galery/004" className="footer-link">
+              Офис Бизнес Авиации
+            </NavLink>
+            <NavLink to="/galery/005" className="footer-link">
+              Офис военно-промышленного предприятия
+            </NavLink>
           </li>
+
           <li className="footer-item">
-            <a className="footer-title">О нас</a>
-            <a href="#" className="footer-link">
-              История
-            </a>
-            <a href="#" className="footer-link">
-              Идеалогия
-            </a>
-            <a href="#" className="footer-link">
-              Бренды
-            </a>
-          </li>
-          <li className="footer-item">
-            <a className="footer-title">Контакты</a>
+            <p className="footer-title">Контакты</p>
             <p className="footer-subtitle">Минск</p>
             <a
               href="https://www.google.com/maps/place/%D0%BF%D1%80-%D1%82.+%D0%9F%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9+125,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.9386633,27.4664457,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbc4e33ceb2935:0x5b8aa0d96e3411de!8m2!3d53.9386633!4d27.4686344"
@@ -51,12 +51,12 @@ export const Footer = ({ ...props }) => {
             </a>
           </li>
         </ul>
-        <img src={logo} alt="logo" className="footer-logo"></img>
+        <img loading="lazy" decoding="async"src={logo} alt="logo" className="footer-logo"></img>
       </div>
       <div className="footer-low">
         <div className="footer-text">© 2022 Lite & Light</div>
         <div className="footer-social">
-          <a className="footer-social-link">
+          <p className="footer-social-link">
             <svg width="13" height="22" viewBox="0 0 13 22" fill="none">
               <g opacity="0.5">
                 <path
@@ -70,8 +70,8 @@ export const Footer = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </a>
-          <a className="footer-social-link">
+          </p>
+          <p className="footer-social-link">
             <svg width="24" height="21" viewBox="0 0 24 21" fill="none">
               <g opacity="0.5">
                 <path
@@ -85,8 +85,8 @@ export const Footer = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </a>
-          <a className="footer-social-link">
+          </p>
+          <p className="footer-social-link">
             <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
               <g opacity="0.5">
                 <rect
@@ -111,7 +111,7 @@ export const Footer = ({ ...props }) => {
                 />
               </g>
             </svg>
-          </a>
+          </p>
         </div>
       </div>
     </footer>

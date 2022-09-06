@@ -1,15 +1,40 @@
-import {createReducer, createAction} from '@reduxjs/toolkit'
+import { createReducer, createAction } from "@reduxjs/toolkit";
 
-const exampleState = {
-    exampleField: true
-}
+const initialState = {
+  likedItems: localStorage.likedItems
+    ? JSON.parse(localStorage.likedItems)
+    : [],
+};
 
-export const exampleAction = createAction("ExampleActionName")
+const initialStateFeedBack = {
+  isShown: false,
+};
 
-export const exampleReducer = createReducer(exampleState, (builder) => {
-    builder.addCase(exampleAction, (state, action) => {
-        state.exampleField = !!action.payload || false
-    })
-})
+export const addItemAction = createAction("AddItem");
+export const setFormVisability = createAction("SetFormVisability");
+export const submitFeedBackForm = createAction("SubmitForm");
 
-// export default exampleReducer
+export const likedItemsReducer = createReducer(initialState, (builder) => {
+  builder.addCase(addItemAction, (state, action) => {
+    if (state.likedItems.includes(action.payload)) {
+      state.likedItems = state.likedItems.filter((el) => el !== action.payload);
+      localStorage.setItem(
+        "likedItems",
+        JSON.stringify(state.likedItems.filter((el) => el !== action.payload))
+      );
+    } else {
+      state.likedItems.push(action.payload);
+      localStorage.setItem("likedItems", JSON.stringify(state.likedItems));
+    }
+  });
+});
+
+export const feedBackFormReducer = createReducer(
+  initialStateFeedBack,
+  (builder) => {
+    builder.addCase(setFormVisability, (state, action) => {
+      state.isShown = action.payload;
+    });
+    builder.addCase(submitFeedBackForm, (state, action) => {});
+  }
+);

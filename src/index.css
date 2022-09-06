@@ -21,52 +21,160 @@ p {
   padding: 0;
   margin: 0;
 }
+
 a {
   text-decoration: none;
   color: #000;
 }
+
 a:hover {
   cursor: pointer;
 }
+
 button {
   background-color: #fff;
   border: none;
   margin: 0;
   padding: 0;
 }
+
 button:hover {
   cursor: pointer;
 }
+
+button:focus {
+  outline: none;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #fbfbfb #2e3030;
+}
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
+  width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #2e3030;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #565a5b;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #999fa1;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #fbfbfb;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #c2c2c2;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #ffffff;
+}
+
 .catalog-table {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 58px;
+  gap: 20px;
   justify-items: center;
 }
+
+.wraper {
+  min-height: calc(100vh - 650px);
+}
+
+.active-link {
+  opacity: 0.5;
+}
+
+.active-link-favorites {
+  fill: #ed3a3f !important ;
+}
+
+@media (min-width: 3800px) {
+  .catalog-table {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+  }
+}
 @media (max-width: 1460px) {
+  .wraper {
+    min-height: calc(100vh - 550px);
+  }
+
   .catalog-table {
     gap: 40px;
   }
 }
+
 @media (max-width: 1100px) {
   .catalog-table {
     gap: 35px;
   }
+
+  .wraper {
+    min-height: calc(100vh - 520px);
+  }
 }
+
+@media (max-width: 1080px) {
+  .wraper {
+    min-height: calc(100vh - 450px);
+  }
+}
+
 @media (max-width: 960px) {
   .catalog-table {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
   }
 }
+
+@media (max-width: 910px) {
+  .wraper {
+    min-height: calc(100vh - 380px);
+  }
+}
+
 @media (max-width: 720px) {
   .catalog-table {
     gap: 20px;
   }
 }
+
+@media (max-width: 700px) {
+  .wraper {
+    min-height: calc(100vh - 320px);
+  }
+}
+
+@media (max-width: 590px) {
+  .wraper {
+    min-height: calc(100vh - 260px);
+  }
+}
+
 @media (max-width: 550px) {
   .catalog-table {
     grid-template-columns: repeat(2, 1fr);
     gap: 18px;
+  }
+}
+
+@media (max-width: 430px) {
+  .wraper {
+    min-height: calc(100vh - 240px);
   }
 }
