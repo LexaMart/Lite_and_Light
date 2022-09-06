@@ -8,17 +8,21 @@ export const MainGreet = ({ ...props }) => {
   const activeBtnIdRef = useRef(activeBtnId);
   activeBtnIdRef.current = activeBtnId;
   const [isClicked, setIsClicked] = useState(false);
+  const [timer1, setTimer1] = useState();
+  const [timer2, setTimer2] = useState();
 
   const update = () => {
-    let timer1 = setTimeout(() => {
-      activeBtnIdRef.current = activeBtnId;
-      const a = activeBtnIdRef.current;
-      if (a < 5) {
-        setActiveBtnId(a + 1);
-      } else {
-        setActiveBtnId(1);
-      }
-    }, 3000);
+    setTimer1(
+      setTimeout(() => {
+        activeBtnIdRef.current = activeBtnId;
+        const a = activeBtnIdRef.current;
+        if (a < 5) {
+          setActiveBtnId(a + 1);
+        } else {
+          setActiveBtnId(1);
+        }
+      }, 2000)
+    );
     if (isClicked) {
       clean(timer1);
       setIsClicked(false);
@@ -28,7 +32,7 @@ export const MainGreet = ({ ...props }) => {
     clearTimeout(timer);
   };
   useEffect(() => {
-    let timer2 = setTimeout(() => update(), 3000);
+    setTimer2(setTimeout(() => update(), 2000));
     if (isClicked) {
       clean(timer2);
       setIsClicked(false);
@@ -96,6 +100,8 @@ export const MainGreet = ({ ...props }) => {
               onClick={() => {
                 setActiveBtnId(item.num);
                 setIsClicked(true);
+                clean(timer1);
+                clean(timer2);
               }}
               className={
                 activeBtnId === item.num
