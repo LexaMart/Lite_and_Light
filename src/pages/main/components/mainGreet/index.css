@@ -22,7 +22,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 16% 0 13.5%;
+  padding: 0 16% 0 9%;
   background: radial-gradient(
     50% 50% at 50% 50%,
     #969696 0%,
