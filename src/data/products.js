@@ -431,7 +431,7 @@ export const products = [
   },
   {
     name: "Ego",
-    subName: null,
+    subName: "",
     id: "0004",
     title: "Ego",
     subtitle: "Потолочная лампа",
@@ -478,7 +478,7 @@ export const products = [
   },
   {
     name: "Match",
-    subName: null,
+    subName: "",
     id: "0005",
     title: "Match",
     subtitle: "Потолочная лампа",
@@ -601,7 +601,7 @@ export const products = [
   },
   {
     name: "Hoops",
-    subName: null,
+    subName: "",
     id: "0007",
     title: "Hoops",
     subtitle: "Подвесная лампа",
@@ -647,7 +647,7 @@ export const products = [
   },
   {
     name: "Wireflow",
-    subName: null,
+    subName: "",
     id: "0008",
     title: "Wireflow",
     subtitle: "Подвесная лампа",
@@ -885,7 +885,7 @@ export const products = [
   },
   {
     name: "Duo",
-    subName: null,
+    subName: "",
     id: "0012",
     title: "Duo",
     subtitle: "Потолочная лампа",
@@ -1147,7 +1147,7 @@ export const products = [
   },
   {
     name: "Algorithm",
-    subName: null,
+    subName: "",
     id: "0016",
     title: "Algorithm",
     subtitle: "Подвесная лампа",
@@ -1222,7 +1222,7 @@ export const products = [
   },
   {
     name: "Link",
-    subName: null,
+    subName: "",
     id: "0017",
     title: "Link",
     subtitle: "Потолочная лампа",
@@ -1368,7 +1368,7 @@ export const products = [
   },
   {
     name: "BuzziShade",
-    subName: null,
+    subName: "",
     id: "0019",
     title: "BuzziShade",
     subtitle: "Подвесная лампа",
@@ -1474,7 +1474,7 @@ export const products = [
   },
   {
     name: "BuzziProp",
-    subName: null,
+    subName: "",
     id: "0020",
     title: "BuzziProp",
     subtitle: "Подвесная лампа",
@@ -1596,7 +1596,7 @@ export const products = [
   },
   {
     name: "BuzziDisk",
-    subName: null,
+    subName: "",
     id: "0021",
     title: "BuzziDisk",
     subtitle: "Подвесная лампа",
@@ -1672,7 +1672,7 @@ export const products = [
   },
   {
     name: "BuzziTrom",
-    subName: null,
+    subName: "",
     id: "0022",
     title: "BuzziTrom",
     subtitle: "Подвесная лампа",
@@ -1861,7 +1861,7 @@ export const products = [
   },
   {
     name: "Skirt",
-    subName: null,
+    subName: "",
     id: "0024",
     title: "Skirt",
     subtitle: "Подвесная лампа",
@@ -1989,7 +1989,7 @@ export const products = [
   },
   {
     name: "Virtus",
-    subName: null,
+    subName: "",
     id: "0026",
     title: "Virtus",
     subtitle: "Подвесная лампа",
@@ -2038,7 +2038,7 @@ export const products = [
   },
   {
     name: "45 Degrees",
-    subName: null,
+    subName: "",
     id: "0027",
     title: "45 Degrees",
     subtitle: "Потолочная лампа",
