@@ -14,13 +14,13 @@ const bot = new TelegramApi(botToken, { polling: true });
 bot.on("invoice", (msg) => {
   console.log(msg);
 });
-
+app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, "build")));
 app.use(express.json());
 
 app.get("/*", (req, res) => {
   console.log(__dirname);
-  res.sendFile(`${__dirname}/build/index.html`);
+  res.sendFile((path.join(__dirname, 'build', 'index.html')));
 });
 
 app.post("/submit", (req, res) => {
