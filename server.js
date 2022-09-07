@@ -1,15 +1,14 @@
 const express = require("express");
 const path = require("path");
-// const tgInfo = require("./secretKey");
+const tgInfo = require("./secretKey");
 require("dotenv").config();
 const TelegramApi = require("node-telegram-bot-api");
 
 const app = express();
-const botToken = process.env.BOT_TOKEN || null;
-const chatId = process.env.CHAT_ID || null;
+const chatId = tgInfo.chatId;
 const PORT = process.env.PORT || 8080;
-// const bot = new TelegramApi(tgInfo.botToken, { polling: true });
-const bot = new TelegramApi(botToken, { polling: true });
+const bot = new TelegramApi(tgInfo.botToken, { polling: true });
+// const bot = new TelegramApi(botToken, { polling: true });
 
 bot.on("invoice", (msg) => {
   console.log(msg);
