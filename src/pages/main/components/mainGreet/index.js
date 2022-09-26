@@ -71,7 +71,7 @@ export const MainGreet = ({ ...props }) => {
           <div key={item.num}>
             <NavLink to={`catalog/${item.id}`}>
               <img
-                loading="lazy"
+                // loading="lazy"
                 decoding="async"
                 alt="img"
                 src={item.img}
