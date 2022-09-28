@@ -24,8 +24,8 @@
   opacity: 0.5;
 }
 .header-logo-img {
-  height: 66px;
-  margin-right: 95px;
+  height: 63px;
+  margin-right: 102.6px;
 }
 .header-menu {
   display: flex;
@@ -39,7 +39,7 @@
   line-height: 24px;
   text-transform: uppercase;
   color: #141517;
-  margin-right: 45px;
+  margin-right: 44px;
 }
 .header-link:hover {
   opacity: 0.4;
