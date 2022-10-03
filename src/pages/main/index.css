@@ -17,6 +17,10 @@
   letter-spacing: -1.66px;
   text-transform: uppercase;
   color: #463f3a;
+  transition: 1s;
+}
+.main-gallery-title:hover {
+  opacity: 0.7;
 }
 @media (min-width: 3800px) {
   .main {
