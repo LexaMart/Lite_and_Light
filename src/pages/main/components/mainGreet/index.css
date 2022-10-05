@@ -263,6 +263,10 @@ ul {
   display: block;
   animation: main-greet-content-btn-title 3s;
 }
+.main-greet-img-link {
+  position: absolute;
+  top: 0;
+}
 @media (min-width: 3800px) {
   .main-greet {
     top: -80px;

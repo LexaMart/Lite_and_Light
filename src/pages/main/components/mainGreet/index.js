@@ -69,7 +69,7 @@ export const MainGreet = ({ ...props }) => {
         <div className="main-greet-content-ellipse"></div>
         {mainGreetSlider.map((item, idx) => (
           <div key={item.num}>
-            <NavLink to={`catalog/${item.id}`}>
+            <NavLink className="main-greet-img-link" to={`catalog/${item.id}`}>
               <img
                 // loading="lazy"
                 decoding="async"
