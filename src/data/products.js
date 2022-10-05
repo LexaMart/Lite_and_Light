@@ -513,7 +513,7 @@ export const products = [
       />,
     ],
     pageContentLeft: [
-      <p className="product-text">
+      <p style={{ marginTop: "18%" }} className="product-text">
         Уникальный и неповторимый светильник{" "}
         <span className="product-text product-text-dark">Match</span> — это
         гораздо больше, чем светильник. Этот инновационный продукт представляет
