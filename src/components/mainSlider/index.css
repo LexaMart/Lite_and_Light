@@ -56,6 +56,29 @@
     height: 950px;
   }
 }
+@media (min-width: 2560px) {
+  .slider {
+    padding-top: 100px;
+  }
+  .slide {
+    height: 750px;
+  }
+  .slide img {
+    width: 750px;
+    height: 750px;
+  }
+  .activeSlide {
+    height: 750px;
+  }
+  .activeSlide img {
+    width: 750px;
+    height: 750px;
+  }
+  .slide-content {
+    width: 750px;
+    height: 750px;
+  }
+}
 @media (max-width: 1600px) {
   .slide {
     height: 400px;
@@ -72,6 +95,7 @@
     height: 400px;
   }
 }
+
 @media (max-width: 1200px) {
   .slide {
     height: 300px;

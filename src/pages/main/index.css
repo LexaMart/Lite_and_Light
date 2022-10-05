@@ -35,6 +35,16 @@
     line-height: 90px;
   }
 }
+@media (min-width: 2560px) {
+  .main-gallery {
+    padding: 0 18% 0 14.5%;
+    margin-bottom: 150px;
+  }
+  .main-gallery-title {
+    font-size: 70px;
+    line-height: 90px;
+  }
+}
 @media (max-width: 1700px) {
 }
 

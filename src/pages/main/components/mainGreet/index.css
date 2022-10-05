@@ -265,7 +265,8 @@ ul {
 }
 .main-greet-img-link {
   position: absolute;
-  top: 0;
+  margin: 0 auto;
+  display: contents;
 }
 @media (min-width: 3800px) {
   .main-greet {
@@ -355,6 +356,96 @@ ul {
     top: 750px;
     font-size: 35px;
     line-height: 30px;
+  }
+}
+@media (min-width: 2560px) {
+  .main-greet {
+    top: -30px;
+    padding: 0 5% 0 0;
+    margin: 0 10% 0 10%;
+  }
+  .main-greet-bg-box {
+    margin-right: 100px;
+  }
+  .main-greet-bg-link {
+    height: 100px;
+    width: 75%;
+    padding: 0 50px 0 50px;
+  }
+  .main-greet-bg-link svg {
+    width: 80px;
+  }
+  .main-greet-bg-text {
+    font-size: 24.3333px;
+  }
+  .main-greet-content {
+    height: 850px;
+  }
+  .main-greet-img {
+    width: 500px;
+    top: -1100px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -2500px;
+    }
+    to {
+      top: -1100px;
+    }
+  }
+  .main-greet-content-ellipse {
+    position: relative;
+    top: -150px;
+    width: 1000px;
+    height: 1000px;
+  }
+  @keyframes main-greet-content-ellipse {
+    from {
+      width: 0;
+      height: 0;
+      top: 250px;
+    }
+    to {
+      top: -150px;
+      width: 1000px;
+      height: 1000px;
+    }
+  }
+  .main-greet-text {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 80px;
+  }
+  .main-greet-title {
+    font-size: 80px;
+    line-height: 89px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 65px;
+  }
+  .main-greet-content-list {
+    top: 680px;
+    margin-left: 780px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 40px;
+    height: 2px;
+    margin-right: 12px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 40px;
+    height: 2px;
+    margin-left: 12px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 20px;
+    padding: 14px 19px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 790px;
+    top: 635px;
+    font-size: 30px;
+    line-height: 25px;
   }
 }
 @media (max-width: 1832px) {
