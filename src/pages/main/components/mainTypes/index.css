@@ -1,6 +1,6 @@
 .main-types {
   padding: 0 19% 0 16.5%;
-  margin-top: 100px;
+  margin-top: 225px;
 }
 .main-types-subtitle {
   font-family: var(--font2);
@@ -127,7 +127,7 @@
 @media (min-width: 2560px) {
   .main-types {
     padding: 0 18% 0 14.5%;
-    margin-top: 300px;
+    margin-top: 375px;
   }
   .main-types-subtitle {
     font-size: 70px;
