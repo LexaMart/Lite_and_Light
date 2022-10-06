@@ -21,6 +21,8 @@ export const Header = ({ ...props }) => {
       });
       width >= 3800
         ? setTimeout(() => window.scrollTo(0, 4000), 0)
+        : width >= 2560
+        ? setTimeout(() => window.scrollTo(0, 3450), 0)
         : width >= 1800
         ? setTimeout(() => window.scrollTo(0, 2400), 0)
         : width >= 1600
@@ -42,7 +44,13 @@ export const Header = ({ ...props }) => {
     <header className="header">
       <div className="header-menu">
         <NavLink to="/" className="header-logo">
-          <img loading="lazy" decoding="async"alt="logo" className="header-logo-img" src={logo}></img>
+          <img
+            loading="lazy"
+            decoding="async"
+            alt="logo"
+            className="header-logo-img"
+            src={logo}
+          ></img>
         </NavLink>
         <NavLink
           to="/catalog"

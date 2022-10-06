@@ -35,6 +35,20 @@
     margin-top: 40px;
   }
 }
+@media (min-width: 2560px) {
+  .product {
+    padding: 0 20.5%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  .product-text {
+    font-size: 23px;
+    margin-bottom: 25px;
+  }
+  .product-text:first-child {
+    margin-top: 20px;
+  }
+}
 @media (max-width: 1700px) {
   .product-text {
     font-size: 16px;

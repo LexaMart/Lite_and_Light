@@ -87,6 +87,39 @@
     opacity: 0.7;
   }
 }
+@media (min-width: 2560px) {
+  .product-head {
+    height: 750px;
+  }
+  .product-head-order-name {
+    font-size: 70px;
+  }
+  .product-head-order-name-lite {
+    margin-bottom: 70px;
+    min-height: 80px;
+  }
+  .product-head-order-price {
+    font-size: 25px;
+  }
+  .product-head-order-price-value {
+    font-size: 38px;
+    margin-bottom: 100px;
+  }
+  .product-head-order-link {
+    font-size: 33px;
+    padding: 25px 150px;
+    transition: 0.5s;
+  }
+  .product-head-order-link:hover {
+    opacity: 0.7;
+  }
+  .product-head-img {
+    position: relative;
+    top: -50px;
+    width: 40%;
+    margin: 0 0% 0 3%;
+  }
+}
 @media (max-width: 1700px) {
   .product-head {
     height: 450px;
