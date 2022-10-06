@@ -100,6 +100,35 @@
     width: 50px;
   }
 }
+@media (min-width: 2560px) {
+  .catalog-table-item {
+    min-width: 100%;
+  }
+  .catalog-table-item-img {
+    min-width: 100%;
+  }
+  .catalog-table-item-desk-title {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  .catalog-table-item-desk-subtitle {
+    font-size: 23px;
+    line-height: 25px;
+  }
+  .catalog-table-item-info-price-box-first {
+    font-size: 20px;
+  }
+  .catalog-table-item-info-price-box-second {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .catalog-table-item-info-btn {
+    width: 40px;
+  }
+  .catalog-table-item-info-btn-like {
+    width: 40px;
+  }
+}
 @media (max-width: 1460px) {
   .catalog-table-item-desk-title {
     font-size: 14px;
