@@ -112,6 +112,24 @@
     width: 150px;
   }
 }
+@media (min-width: 2560px) {
+  .gallery-item-page-img {
+    margin-bottom: 30px;
+  }
+  .gallery-item-page-link {
+    padding: 0 30px;
+    width: 320px;
+    height: 100px;
+    margin-bottom: 120px;
+  }
+  .gallery-item-page-link-text {
+    font-size: 23.3333px;
+    line-height: 30px;
+  }
+  .gallery-item-page-link svg {
+    width: 100px;
+  }
+}
 @media (max-width: 1470px) {
   .gallery-item-page-img {
     margin-bottom: 12px;
