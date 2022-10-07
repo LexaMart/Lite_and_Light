@@ -11,9 +11,9 @@
   line-height: 59px;
   color: #463f3a;
   margin-bottom: 31px;
-  animation: show-content 2s;
+  animation: show-content1 2s;
 }
-@keyframes show-content {
+@keyframes show-content1 {
   from {
     opacity: 0;
   }

@@ -16,13 +16,12 @@ export const CatalogItem = ({ ...props }) => {
   return (
     <div
       className="catalog-table-item"
-      data-aos-once="true"
       data-aos="fade-up"
       data-aos-offset={
         width >= 1300
-          ? -370
+          ? 10
           : width >= 900
-          ? -450
+          ? 5
           : width >= 800
           ? 270
           : width >= 700
@@ -32,16 +31,10 @@ export const CatalogItem = ({ ...props }) => {
           : width >= 400 && -400
       }
       data-aos-duration="1000"
-      data-aos-delay="0"
-      data-aos-anchor-placement="top-bottom"
+      data-aos-delay="100"
     >
       <NavLink to={`/catalog/${props.id}`}>
-        <img
-          loading="lazy"
-          decoding="async"
-          className="catalog-table-item-img"
-          src={props.image}
-        ></img>
+        <img className="catalog-table-item-img" src={props.image}></img>
       </NavLink>
       <div className="catalog-table-item-box">
         <div className="catalog-table-item-desk">
