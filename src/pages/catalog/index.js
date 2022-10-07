@@ -11,7 +11,12 @@ export const Catalog = ({ ...props }) => {
   return (
     <div className="catalog">
       <p className="catalog-title">Каталог</p>
-      <div className="catalog-table">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-duration="2000"
+        className="catalog-table"
+      >
         {products.map((product, idx) => (
           <CatalogItem
             key={idx}

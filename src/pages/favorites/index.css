@@ -22,17 +22,6 @@
   animation: show-content1 2s;
   position: relative;
 }
-@media (min-width: 3800px) {
-  .favorites {
-    margin-top: 50px;
-    margin-bottom: 100px;
-    padding: 0 23% 0 17.5%;
-  }
-  .favorites-title {
-    font-size: 80px;
-    margin-bottom: 50px;
-  }
-}
 @media (min-width: 2560px) {
   .favorites {
     margin-top: 60px;
@@ -41,6 +30,17 @@
   }
   .favorites-title {
     font-size: 70px;
+    margin-bottom: 50px;
+  }
+}
+@media (min-width: 3800px) {
+  .favorites {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0 12% 0 11.5%;
+  }
+  .favorites-title {
+    font-size: 80px;
     margin-bottom: 50px;
   }
 }

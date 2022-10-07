@@ -21,20 +21,6 @@
 .product-text-dark {
   font-weight: 600;
 }
-@media (min-width: 3800px) {
-  .product {
-    padding: 0 20.5%;
-    margin-top: 100px;
-    margin-bottom: 150px;
-  }
-  .product-text {
-    font-size: 30px;
-    margin-bottom: 25px;
-  }
-  .product-text:first-child {
-    margin-top: 40px;
-  }
-}
 @media (min-width: 2560px) {
   .product {
     padding: 0 20.5%;
@@ -47,6 +33,20 @@
   }
   .product-text:first-child {
     margin-top: 20px;
+  }
+}
+@media (min-width: 3800px) {
+  .product {
+    padding: 0 20.5%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  .product-text {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .product-text:first-child {
+    margin-top: 40px;
   }
 }
 @media (max-width: 1700px) {
