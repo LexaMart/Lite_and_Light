@@ -13,7 +13,7 @@ export const MainColl = ({ ...props }) => {
     <div className="main-coll">
       <div
         className="main-coll-links"
-        data-aos-once="true"
+        data-aos-once="fal"
         data-aos="fade-up"
         data-aos-offset="50"
         data-aos-duration="1500"
@@ -24,7 +24,7 @@ export const MainColl = ({ ...props }) => {
         <NavLink
           to="/catalog/0012"
           className="main-coll-content-box main-coll-duo"
-          data-aos-once="true"
+          data-aos-once="false"
           data-aos="fade-up"
           data-aos-offset="50"
           data-aos-duration="1500"
@@ -34,6 +34,8 @@ export const MainColl = ({ ...props }) => {
             Duo
           </p>
           <img
+            data-aos="fade-up"
+            data-aos-duration="1000"
             loading="lazy"
             decoding="async"
             src={duo}
@@ -44,13 +46,15 @@ export const MainColl = ({ ...props }) => {
         <NavLink
           to="/catalog/0018"
           className="main-coll-content-box main-coll-square"
-          data-aos-once="true"
+          data-aos-once="false"
           data-aos="fade-up"
           data-aos-offset="50"
           data-aos-duration="1500"
           data-aos-anchor-placement="top-bottom"
         >
           <img
+            data-aos="fade-up"
+            data-aos-duration="1000"
             loading="lazy"
             decoding="async"
             src={shadeSquare}
@@ -67,13 +71,15 @@ export const MainColl = ({ ...props }) => {
           <NavLink
             to="/catalog/0019"
             className="main-coll-content-box main-coll-pendant"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
             <img
+              data-aos="fade-up"
+              data-aos-duration="1000"
               loading="lazy"
               decoding="async"
               src={shadePendant}
@@ -87,7 +93,7 @@ export const MainColl = ({ ...props }) => {
           <NavLink
             to="/catalog/0022"
             className="main-coll-content-box main-coll-trom"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
@@ -97,6 +103,8 @@ export const MainColl = ({ ...props }) => {
               Trom
             </p>
             <img
+              data-aos="fade-up"
+              data-aos-duration="1000"
               loading="lazy"
               decoding="async"
               src={trom}
@@ -109,13 +117,15 @@ export const MainColl = ({ ...props }) => {
           <NavLink
             to="/catalog/0017"
             className="main-coll-content-box main-coll-link"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
             <img
+              data-aos="fade-up"
+              data-aos-duration="1000"
               loading="lazy"
               decoding="async"
               src={link}
@@ -129,13 +139,15 @@ export const MainColl = ({ ...props }) => {
           <NavLink
             to="/catalog/0016"
             className="main-coll-content-box main-coll-algorithm"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos="fade-up"
             data-aos-offset="50"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
             <img
+              data-aos="fade-up"
+              data-aos-duration="1000"
               loading="lazy"
               decoding="async"
               src={algorithm}
