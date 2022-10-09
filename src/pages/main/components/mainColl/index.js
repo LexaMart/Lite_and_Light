@@ -15,12 +15,28 @@ export const MainColl = ({ ...props }) => {
         className="main-coll-links"
         data-aos-once="fal"
         data-aos="fade-up"
-        data-aos-offset="50"
+        data-aos-offset="170"
         data-aos-duration="1500"
         data-aos-anchor-placement="top-bottom"
       >
-        <p className="main-coll-links-title">Избранные</p>
-        <p className="main-coll-links-title">коллекции</p>
+        <p
+          data-aos="fade-up"
+          data-aos-offset="50"
+          data-aos-duration="1500"
+          data-aos-anchor-placement="top-bottom"
+          className="main-coll-links-title"
+        >
+          Избранные
+        </p>
+        <p
+          data-aos="fade-up"
+          data-aos-offset="50"
+          data-aos-duration="1500"
+          data-aos-anchor-placement="top-bottom"
+          className="main-coll-links-title"
+        >
+          коллекции
+        </p>
         <NavLink
           to="/catalog/0012"
           className="main-coll-content-box main-coll-duo"
@@ -73,7 +89,7 @@ export const MainColl = ({ ...props }) => {
             className="main-coll-content-box main-coll-pendant"
             data-aos-once="false"
             data-aos="fade-up"
-            data-aos-offset="50"
+            data-aos-offset="150"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >
@@ -119,7 +135,7 @@ export const MainColl = ({ ...props }) => {
             className="main-coll-content-box main-coll-link"
             data-aos-once="false"
             data-aos="fade-up"
-            data-aos-offset="50"
+            data-aos-offset="150"
             data-aos-duration="1500"
             data-aos-anchor-placement="top-bottom"
           >

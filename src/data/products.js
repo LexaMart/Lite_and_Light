@@ -513,7 +513,7 @@ export const products = [
       />,
     ],
     pageContentLeft: [
-      <p style={{ marginTop: "18%" }} className="product-text">
+      <p style={{ marginTop: "15%" }} className="product-text">
         Уникальный и неповторимый светильник{" "}
         <span className="product-text product-text-dark">Match</span> — это
         гораздо больше, чем светильник. Этот инновационный продукт представляет
@@ -655,7 +655,10 @@ export const products = [
     image: [img8],
     price: "00.000 ",
     pageContentLeft: [
-      <p style={{ marginTop: "10%" }} className="product-text">
+      <p
+        style={{ marginTop: "10%", marginBottom: "10%" }}
+        className="product-text"
+      >
         <span className="product-text product-text-dark">Wireflow</span> -
         подвесной светильник, который пересматривает и обновляет внешний вид
         люстры посредством упрощения, которое исследует ее сущность и
@@ -708,7 +711,10 @@ export const products = [
     image: [img9],
     price: "00.000 ",
     pageContentLeft: [
-      <p style={{ marginTop: "13%" }} className="product-text">
+      <p
+        style={{ marginTop: "15.5%", marginBottom: "12.5%" }}
+        className="product-text"
+      >
         <span className="product-text product-text-dark">Wireflow</span> -
         подвесной светильник, который пересматривает и обновляет внешний вид
         люстры посредством упрощения, которое исследует ее сущность и
@@ -787,7 +793,7 @@ export const products = [
         том числе приемных отелей, точек розничной торговли и баров с едой и
         напитками.
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "10%" }} className="product-text">
         Черный электрический кабель в сочетании с металлической стержневой
         структурой, характерной для коллекции{" "}
         <span className="product-text product-text-dark">Wireflow</span> -
@@ -1175,7 +1181,7 @@ export const products = [
         высоте и прикрепленных к потолку с помощью плавающей трубчатой
         конструкции.
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "3%" }} className="product-text">
         Подвесной светильник состоит из выдувного вручную стеклянного шара со
         светодиодным источником света, подвешенного в воздухе на натяжном тросе.
         Доступен в лакированном матовом графите и матовом белом цвете.
@@ -1415,7 +1421,7 @@ export const products = [
         src={buzziShade3}
         className="temp1-content-img"
       />,
-      <p className="product-text">
+      <p style={{ marginTop: "7%" }} className="product-text">
         <span className="product-text product-text-dark">BuzziShade</span>{" "}
         зготовлен из металлического каркаса с покрытием, обитого{" "}
         <span className="product-text product-text-dark">BuzziFelt</span>{" "}
@@ -1423,7 +1429,7 @@ export const products = [
         <span className="product-text product-text-dark">BuzziShade</span>{" "}
         включен в списки cULus и CE.
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "9%" }} className="product-text">
         Знаменитый оттенок теперь предлагается в больших размерах:{" "}
         <span className="product-text product-text-dark">BuzziShade XL</span> и{" "}
         <span className="product-text product-text-dark">BuzziShade XXL</span>.
@@ -1485,7 +1491,7 @@ export const products = [
     image: [img20],
     price: "00.000 ",
     infoText: [
-      <p className="product-text">
+      <p style={{ marginTop: "6%" }} className="product-text">
         Позвольте своему разуму путешествовать в непрерывные далекие места. Этот
         подвесной светильник с шумоподавлением помогает позаботиться об этом,
         уравновешивая звук для улучшения фокусировки и концентрации, при этом
