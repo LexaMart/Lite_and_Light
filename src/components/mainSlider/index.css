@@ -56,6 +56,29 @@
     height: 750px;
   }
 }
+@media (min-width: 3440px) {
+  .slider {
+    padding-top: 100px;
+  }
+  .slide {
+    height: 900px;
+  }
+  .slide img {
+    width: 900px;
+    height: 900px;
+  }
+  .activeSlide {
+    height: 900px;
+  }
+  .activeSlide img {
+    width: 900px;
+    height: 900px;
+  }
+  .slide-content {
+    width: 900px;
+    height: 900px;
+  }
+}
 @media (min-width: 3800px) {
   .slider {
     padding-top: 100px;

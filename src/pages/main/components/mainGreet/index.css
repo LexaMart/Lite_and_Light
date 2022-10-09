@@ -358,6 +358,96 @@ ul {
     line-height: 25px;
   }
 }
+@media (min-width: 3440px) {
+  .main-greet {
+    top: -30px;
+    padding: 0 5% 0 0;
+    margin: 0 10% 0 10%;
+  }
+  .main-greet-bg-box {
+    margin-right: 100px;
+  }
+  .main-greet-bg-link {
+    height: 120px;
+    width: 75%;
+    padding: 0 60px;
+  }
+  .main-greet-bg-link svg {
+    width: 80px;
+  }
+  .main-greet-bg-text {
+    font-size: 25.3333px;
+  }
+  .main-greet-content {
+    height: 1000px;
+  }
+  .main-greet-img {
+    width: 650px;
+    top: -1400px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -2500px;
+    }
+    to {
+      top: -1400px;
+    }
+  }
+  .main-greet-content-ellipse {
+    position: relative;
+    top: -250px;
+    width: 1300px;
+    height: 1300px;
+  }
+  @keyframes main-greet-content-ellipse {
+    from {
+      width: 0;
+      height: 0;
+      top: 250px;
+    }
+    to {
+      top: -250px;
+      width: 1300px;
+      height: 1300px;
+    }
+  }
+  .main-greet-text {
+    font-size: 27px;
+    line-height: 35px;
+    margin-bottom: 100px;
+  }
+  .main-greet-title {
+    font-size: 90px;
+    line-height: 89px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 80px;
+  }
+  .main-greet-content-list {
+    top: 850px;
+    margin-left: 1050px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 40px;
+    height: 2px;
+    margin-right: 12px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 40px;
+    height: 2px;
+    margin-left: 12px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 20px;
+    padding: 14px 19px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 1060px;
+    top: 800px;
+    font-size: 30px;
+    line-height: 25px;
+  }
+}
 @media (min-width: 3800px) {
   .main-greet {
     top: -80px;
