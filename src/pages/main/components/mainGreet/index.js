@@ -68,14 +68,15 @@ export const MainGreet = ({ ...props }) => {
       <div className="main-greet-content">
         <div className="main-greet-content-ellipse"></div>
         {mainGreetSlider.map((item, idx) => (
-          <>
+          <div key={idx + 1}>
             <NavLink
               key={item.num}
               className="main-greet-img-link"
               to={`catalog/${item.id}`}
             >
               <img
-                // loading="lazy"
+                // loading="eager"
+                key={item.num + 2}
                 decoding="async"
                 alt="img"
                 src={item.img}
@@ -87,6 +88,7 @@ export const MainGreet = ({ ...props }) => {
               />
             </NavLink>
             <p
+              key={item.num + 1}
               className={
                 activeBtnId === item.num
                   ? "main-greet-content-btn-title main-greet-content-btn-title-active"
@@ -95,7 +97,7 @@ export const MainGreet = ({ ...props }) => {
             >
               {item.title}
             </p>
-          </>
+          </div>
         ))}
         <div className="main-greet-content-list">
           {mainGreetSlider.map((item, idx) => (
@@ -113,7 +115,7 @@ export const MainGreet = ({ ...props }) => {
                   : "main-greet-content-list-item"
               }
             >
-              <p>{item.num}</p>
+              <p key={item.num + 4}>{item.num}</p>
             </button>
           ))}
         </div>

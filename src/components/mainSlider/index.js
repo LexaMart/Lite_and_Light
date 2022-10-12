@@ -27,8 +27,15 @@ export const MainSlider = ({ ...props }) => {
             key={idx}
             className={idx === imageIndex ? "slide activeSlide" : "slide"}
           >
-            <img loading="lazy" decoding="async"src={item.image} alt="img" />
+            <img
+              key={idx + 1}
+              loading="lazy"
+              decoding="async"
+              src={item.image}
+              alt="img"
+            />
             <div
+              key={idx + 2}
               className={
                 idx === imageIndex
                   ? "slide-content slide-content-active"
