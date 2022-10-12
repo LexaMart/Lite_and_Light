@@ -239,8 +239,7 @@ export const products = [
     id: "0001",
     title: "U-light pendant",
     subtitle: "Подвесная лампа",
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/U-Light%20Pendant%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/XPMvZb6.png",
     cardImage: productImage1,
     price: "00.000 ",
     infoText: [
@@ -321,8 +320,7 @@ export const products = [
     title: "U-light suspension",
     subtitle: "Подвесная лампа",
     cardImage: productImage2,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/U-Light%20Suspension%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/myOXVwd.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -380,8 +378,7 @@ export const products = [
     title: "U-light Wall",
     subtitle: "Настенная лампа",
     cardImage: productImage3,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/U-Light%20Wall%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/Ykzfz6L.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -439,8 +436,7 @@ export const products = [
     title: "Ego",
     subtitle: "Потолочная лампа",
     cardImage: productImage4,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Ego%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/Kjhknzp.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -487,8 +483,7 @@ export const products = [
     title: "Match",
     subtitle: "Потолочная лампа",
     cardImage: productImage5,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Match%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/ys7tTMr.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -565,8 +560,7 @@ export const products = [
     title: "Hoops Ceiling",
     subtitle: "Потолочная лампа",
     cardImage: productImage7,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Hoops%20Ceiling%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/NVPkrX5.png",
     price: "00.000 ",
     infoText: [
       <p style={{ marginBottom: "35%" }} className="product-text">
@@ -612,8 +606,7 @@ export const products = [
     title: "Hoops",
     subtitle: "Подвесная лампа",
     cardImage: productImage6,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Hoops%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/UuRaECt.png",
     price: "00.000 ",
     infoText: [
       <p style={{ marginBottom: "65%" }} className="product-text">
@@ -659,8 +652,7 @@ export const products = [
     title: "Wireflow",
     subtitle: "Подвесная лампа",
     cardImage: productImage8,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Wireflow%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/yZJuznm.png",
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -716,8 +708,7 @@ export const products = [
     title: "Wireflow Chandelier",
     subtitle: "Подвесная лампа",
     cardImage: productImage9,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Wireflow%20Chandalier%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/h9F9PZd.png",
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -789,8 +780,7 @@ export const products = [
     title: "Wireflow Lineal",
     subtitle: "Подвесная лампа",
     cardImage: productImage10,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Wireflow%20Lineal%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/kj5EKAT.png",
     price: "00.000 ",
     pageContentLeft: [
       <p style={{ marginTop: "10%" }} className="product-text">
@@ -852,8 +842,7 @@ export const products = [
     title: "Wireflow free-form",
     subtitle: "Подвесная лампа",
     cardImage: productImage11,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Wireflow%20Free%20Form%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/tJ8ZR8W.png",
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -910,8 +899,7 @@ export const products = [
     title: "Duo",
     subtitle: "Потолочная лампа",
     cardImage: productImage12,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Duo%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/XYPs2iA.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -979,8 +967,7 @@ export const products = [
     title: "Palma wall",
     subtitle: "Подвесная лампа",
     cardImage: productImage13,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Palma%20Wall%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/gGug7rZ.png",
     price: "00.000 ",
     template: 1,
     pageImage: palmaWall1,
@@ -1043,8 +1030,7 @@ export const products = [
     title: "Palma hanging",
     subtitle: "Настенная лампа",
     cardImage: productImage14,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Palma%20Hanging%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/1nwLQeI.png",
     price: "00.000 ",
     template: 1,
     pageImage: palmaHanging1,
@@ -1117,8 +1103,7 @@ export const products = [
     title: "Palma table",
     subtitle: "Настольная лампа",
     cardImage: productImage15,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Palma%20Table%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/aQ5zzPZ.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1176,8 +1161,7 @@ export const products = [
     title: "Algorithm",
     subtitle: "Подвесная лампа",
     cardImage: productImage16,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Algorithm%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/T0IxfCL.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1252,8 +1236,7 @@ export const products = [
     title: "Link",
     subtitle: "Потолочная лампа",
     cardImage: productImage17,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Link%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/1ZmYpeX.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1323,8 +1306,7 @@ export const products = [
     title: "BuzziShade Square",
     subtitle: "Подвесная лампа",
     cardImage: productImage18,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/BuzziShade%20Square%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/6lhM6pl.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1400,8 +1382,7 @@ export const products = [
     title: "BuzziShade",
     subtitle: "Подвесная лампа",
     cardImage: productImage19,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/BuzziShade%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/9NRE9Jq.png",
     price: "00.000 ",
     pageContentLeft: [
       <p style={{ marginTop: "12.3%" }} className="product-text">
@@ -1507,8 +1488,7 @@ export const products = [
     title: "BuzziProp",
     subtitle: "Подвесная лампа",
     cardImage: productImage20,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/BuzziProp%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/X32Clzi.png",
     price: "00.000 ",
     infoText: [
       <p style={{ marginTop: "6%" }} className="product-text">
@@ -1630,8 +1610,7 @@ export const products = [
     title: "BuzziDisk",
     subtitle: "Подвесная лампа",
     cardImage: productImage21,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/BuzziDisk%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/x0bjDPn.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1707,8 +1686,7 @@ export const products = [
     title: "BuzziTrom",
     subtitle: "Подвесная лампа",
     cardImage: productImage22,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/BuzziTrom%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/AG2NGFF.png",
     price: "00.000 ",
     pageContentLeft: [
       <p style={{ marginTop: "12.3%" }} className="product-text">
@@ -1808,8 +1786,7 @@ export const products = [
     title: "BuzziZepp Light",
     subtitle: "Подвесная лампа",
     cardImage: productImage23,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/BuzziZepp%20Light%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/wfghTNA.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1901,8 +1878,7 @@ export const products = [
     title: "Skirt",
     subtitle: "Подвесная лампа",
     cardImage: productImage24,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Skirt%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/OIKbEom.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1967,8 +1943,7 @@ export const products = [
     title: "Fedora Suspension",
     subtitle: "Подвесная лампа",
     cardImage: productImage25,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Fedora%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/LcgRZaM.png",
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -2034,8 +2009,7 @@ export const products = [
     title: "Virtus",
     subtitle: "Подвесная лампа",
     cardImage: productImage26,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Virtus%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/3stn7D7.png",
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -2087,8 +2061,7 @@ export const products = [
     title: "45 Degrees",
     subtitle: "Потолочная лампа",
     cardImage: productImage27,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/45%20Degrees%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/hSXBw81.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -2140,8 +2113,7 @@ export const products = [
     title: "Flat Hanging",
     subtitle: "Подвесная лампа",
     cardImage: productImage28,
-    image:
-      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/catalogImages/Flat%20Catalog.png?raw=true",
+    image: "https://i.imgur.com/4T43h42.png",
     price: "00.000 ",
     infoText: [
       <p className="product-text">
