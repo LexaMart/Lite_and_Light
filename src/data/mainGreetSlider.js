@@ -8,31 +8,36 @@ export const mainGreetSlider = [
   {
     num: 1,
     title: "Fedora",
-    img: img1,
+    img:
+      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/images/main-greet-img.png?raw=true",
     id: "0025",
   },
   {
     num: 2,
     title: "Hoops",
-    img: img2,
+    img:
+      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/images/SLIDER%20Hoops.png?raw=true",
     id: "0007",
   },
   {
     num: 3,
     title: "Algorithm",
-    img: img3,
+    img:
+      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/images/SLIDER%20Algorithm.png?raw=true",
     id: "0016",
   },
   {
     num: 4,
     title: "U-light Wall",
-    img: img4,
+    img:
+      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/images/SLIDER%20U-Light%20Wall.png?raw=true",
     id: "0003",
   },
   {
     num: 5,
     title: "Wireflow Chandlier",
-    img: img5,
+    img:
+      "https://github.com/LexaMart/Lite_and_Light/blob/develop/src/assets/images/SLIDER%20Wireflow%20Chandalier.png?raw=true",
     id: "0009",
   },
 ];
