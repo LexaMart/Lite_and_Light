@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import { NavLink, useParams, useNavigate } from "react-router-dom";
+import { NavLink, useParams, useNavigate, useLocation } from "react-router-dom";
 import { Search } from "../search";
 import logo from "../../assets/images/logo.png";
 import "./index.css";
 
 export const Header = ({ ...props }) => {
+  const location = useLocation();
   const [isFavoritesActive, setIsFavoritesActive] = useState(false);
   const { adress } = useParams();
   const navigate = useNavigate();
@@ -40,6 +41,13 @@ export const Header = ({ ...props }) => {
         : width >= 200 && setTimeout(() => window.scrollTo(0, 500), 0);
     }
   };
+  useEffect(() => {
+    if (location.pathname === '/favorites') {
+      setIsFavoritesActive(true);
+    }else {
+      setIsFavoritesActive(false);
+    }
+  }, [location])
   return (
     <header className="header">
       <div className="header-menu">
@@ -88,9 +96,6 @@ export const Header = ({ ...props }) => {
           <NavLink
             to="/favorites"
             className={({ isActive }) => {
-              isActive
-                ? setIsFavoritesActive(true)
-                : setIsFavoritesActive(false);
               return "header-like-btn";
             }}
           >
