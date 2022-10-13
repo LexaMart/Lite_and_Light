@@ -21,11 +21,11 @@ export const Header = ({ ...props }) => {
         replace: false,
       });
       width >= 3800
-        ? setTimeout(() => window.scrollTo(0, 4000), 0)
+        ? setTimeout(() => window.scrollTo(0, 4600), 0)
         : width >= 2560
-        ? setTimeout(() => window.scrollTo(0, 3450), 0)
+        ? setTimeout(() => window.scrollTo(0, 3650), 0)
         : width >= 1800
-        ? setTimeout(() => window.scrollTo(0, 2400), 0)
+        ? setTimeout(() => window.scrollTo(0, 2600), 0)
         : width >= 1600
         ? setTimeout(() => window.scrollTo(0, 2200), 0)
         : width >= 1400
@@ -42,12 +42,12 @@ export const Header = ({ ...props }) => {
     }
   };
   useEffect(() => {
-    if (location.pathname === '/favorites') {
+    if (location.pathname === "/favorites") {
       setIsFavoritesActive(true);
-    }else {
+    } else {
       setIsFavoritesActive(false);
     }
-  }, [location])
+  }, [location]);
   return (
     <header className="header">
       <div className="header-menu">
