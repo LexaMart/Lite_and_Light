@@ -1,3 +1,4 @@
+import Aos from "aos";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
@@ -6,30 +7,23 @@ import "./index.css";
 
 export const CatalogItem = ({ ...props }) => {
   const { likedItems } = useSelector((store) => store.likedItemsReducer);
-  const width = document.body.clientWidth;
   const dispatch = useDispatch();
 
   function pushToLocalStorage() {
     dispatch(addItemAction(props.id));
   }
-  useEffect(() => {}, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      Aos.refreshHard();
+    }, 1000);
+  }, []);
+
   return (
     <div
       className="catalog-table-item"
       data-aos="fade-up"
-      data-aos-offset={
-        width >= 1300
-          ? 10
-          : width >= 900
-          ? 5
-          : width >= 800
-          ? 270
-          : width >= 700
-          ? -500
-          : width >= 500
-          ? 260
-          : width >= 400 && -400
-      }
+      data-aos-anchor-placement="bottom"
       data-aos-duration="1000"
       data-aos-delay="100"
     >
