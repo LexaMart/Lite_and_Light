@@ -1148,3 +1148,9 @@
     left: 35px;
   }
 }
+@media (max-width: 380px) {
+  .main-coll-links {
+    width: 100%;
+    margin-right: 7px;
+  }
+}
