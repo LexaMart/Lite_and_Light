@@ -24,7 +24,7 @@ export const MainTypes = ({ ...props }) => {
             src={typesImg1}
             alt="img"
             className="main-types-img"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos="fade-right"
             data-aos-offset="180"
             data-aos-duration="1500"
@@ -32,7 +32,7 @@ export const MainTypes = ({ ...props }) => {
           ></img>
           <div
             className="main-types-box main-types-box1"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos="fade-right"
             //data-aos-offset="100"
             data-aos-delay="150"
@@ -64,7 +64,7 @@ export const MainTypes = ({ ...props }) => {
         <li className="main-types-item main-types-item2">
           <div
             className="main-types-box main-types-box2"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos="fade-right"
             data-aos-offset="100"
             data-aos-delay="150"
@@ -101,7 +101,7 @@ export const MainTypes = ({ ...props }) => {
             src={typesImg2}
             alt="img"
             className="main-types-img"
-            data-aos-once="true"
+            data-aos-once="false"
             data-aos="fade-right"
             data-aos-offset="180"
             data-aos-duration="1500"

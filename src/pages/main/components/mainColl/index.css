@@ -1060,6 +1060,7 @@
     margin-top: 20px;
   }
   .main-coll-links {
+    width: 35.5%;
     margin-right: 7px;
   }
   .main-coll-links-title {
@@ -1082,8 +1083,8 @@
   }
   .main-coll-square {
     margin-top: 15px;
-    margin-left: 20px;
-    width: 70px;
+    margin-left: 0px;
+    width: 90px;
     height: 70px;
   }
   .main-coll-content-img-square {
@@ -1091,7 +1092,7 @@
     right: 15px;
   }
   .main-coll-content-text-square {
-    left: 25px;
+    left: 45px;
     bottom: 85px;
   }
   .main-coll-content1 {
@@ -1145,5 +1146,11 @@
   .main-coll-content-text-algorithm {
     bottom: 55px;
     left: 35px;
+  }
+}
+@media (max-width: 380px) {
+  .main-coll-links {
+    width: 100%;
+    margin-right: 7px;
   }
 }

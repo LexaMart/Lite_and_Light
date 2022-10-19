@@ -1,6 +1,7 @@
 const express = require("express");
 const path = require("path");
 const tgInfo = require("./secretKey");
+const cors = require('cors');
 require("dotenv").config();
 const TelegramApi = require("node-telegram-bot-api");
 
@@ -13,6 +14,7 @@ const bot = new TelegramApi(tgInfo.botToken, { polling: true });
 bot.on("invoice", (msg) => {
   console.log(msg);
 });
+app.use(cors());
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname, "build")));
 app.use(express.json());
