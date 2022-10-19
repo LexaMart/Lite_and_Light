@@ -1,4 +1,4 @@
-/*import img1 from "../assets/catalogImages/U-Light Pendant Catalog.png";
+import img1 from "../assets/catalogImages/U-Light Pendant Catalog.png";
 import img2 from "../assets/catalogImages/U-Light Suspension Catalog.png";
 import img3 from "../assets/catalogImages/U-Light Wall Catalog.png";
 import img4 from "../assets/catalogImages/Ego Catalog.png";
@@ -25,7 +25,7 @@ import img24 from "../assets/catalogImages/Skirt Catalog.png";
 import img25 from "../assets/catalogImages/Fedora Catalog.png";
 import img26 from "../assets/catalogImages/Virtus Catalog.png";
 import img27 from "../assets/catalogImages/45 Degrees Catalog.png";
-import img28 from "../assets/catalogImages/Flat Catalog.png";*/
+import img28 from "../assets/catalogImages/Flat Catalog.png";
 import productImage1 from "../assets/productCardImages/U-Light Pendant Main.png";
 import productImage2 from "../assets/productCardImages/U-Light Suspension Main.png";
 import productImage3 from "../assets/productCardImages/U-Light Wall Main.png";
@@ -239,7 +239,7 @@ export const products = [
     id: "0001",
     title: "U-light pendant",
     subtitle: "Подвесная лампа",
-    image: "https://i.imgur.com/XPMvZb6.png",
+    image: [img1],
     cardImage: productImage1,
     price: "00.000 ",
     infoText: [
@@ -320,7 +320,7 @@ export const products = [
     title: "U-light suspension",
     subtitle: "Подвесная лампа",
     cardImage: productImage2,
-    image: "https://i.imgur.com/myOXVwd.png",
+    image: [img2],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -378,7 +378,7 @@ export const products = [
     title: "U-light Wall",
     subtitle: "Настенная лампа",
     cardImage: productImage3,
-    image: "https://i.imgur.com/Ykzfz6L.png",
+    image: [img3],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -436,7 +436,7 @@ export const products = [
     title: "Ego",
     subtitle: "Потолочная лампа",
     cardImage: productImage4,
-    image: "https://i.imgur.com/Kjhknzp.png",
+    image: [img4],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -483,7 +483,7 @@ export const products = [
     title: "Match",
     subtitle: "Потолочная лампа",
     cardImage: productImage5,
-    image: "https://i.imgur.com/ys7tTMr.png",
+    image: [img5],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -560,7 +560,7 @@ export const products = [
     title: "Hoops Ceiling",
     subtitle: "Потолочная лампа",
     cardImage: productImage7,
-    image: "https://i.imgur.com/NVPkrX5.png",
+    image: [img6],
     price: "00.000 ",
     infoText: [
       <p style={{ marginBottom: "35%" }} className="product-text">
@@ -606,7 +606,7 @@ export const products = [
     title: "Hoops",
     subtitle: "Подвесная лампа",
     cardImage: productImage6,
-    image: "https://i.imgur.com/UuRaECt.png",
+    image: [img7],
     price: "00.000 ",
     infoText: [
       <p style={{ marginBottom: "65%" }} className="product-text">
@@ -652,7 +652,7 @@ export const products = [
     title: "Wireflow",
     subtitle: "Подвесная лампа",
     cardImage: productImage8,
-    image: "https://i.imgur.com/yZJuznm.png",
+    image: [img8],
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -708,7 +708,7 @@ export const products = [
     title: "Wireflow Chandelier",
     subtitle: "Подвесная лампа",
     cardImage: productImage9,
-    image: "https://i.imgur.com/h9F9PZd.png",
+    image: [img9],
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -780,7 +780,7 @@ export const products = [
     title: "Wireflow Lineal",
     subtitle: "Подвесная лампа",
     cardImage: productImage10,
-    image: "https://i.imgur.com/kj5EKAT.png",
+    image: [img10],
     price: "00.000 ",
     pageContentLeft: [
       <p style={{ marginTop: "10%" }} className="product-text">
@@ -842,7 +842,7 @@ export const products = [
     title: "Wireflow free-form",
     subtitle: "Подвесная лампа",
     cardImage: productImage11,
-    image: "https://i.imgur.com/tJ8ZR8W.png",
+    image: [img11],
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -899,7 +899,7 @@ export const products = [
     title: "Duo",
     subtitle: "Потолочная лампа",
     cardImage: productImage12,
-    image: "https://i.imgur.com/XYPs2iA.png",
+    image: [img12],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -967,7 +967,7 @@ export const products = [
     title: "Palma wall",
     subtitle: "Подвесная лампа",
     cardImage: productImage13,
-    image: "https://i.imgur.com/gGug7rZ.png",
+    image: [img13],
     price: "00.000 ",
     template: 1,
     pageImage: palmaWall1,
@@ -1030,7 +1030,7 @@ export const products = [
     title: "Palma hanging",
     subtitle: "Настенная лампа",
     cardImage: productImage14,
-    image: "https://i.imgur.com/1nwLQeI.png",
+    image: [img14],
     price: "00.000 ",
     template: 1,
     pageImage: palmaHanging1,
@@ -1103,7 +1103,7 @@ export const products = [
     title: "Palma table",
     subtitle: "Настольная лампа",
     cardImage: productImage15,
-    image: "https://i.imgur.com/aQ5zzPZ.png",
+    image: [img15],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1161,7 +1161,7 @@ export const products = [
     title: "Algorithm",
     subtitle: "Подвесная лампа",
     cardImage: productImage16,
-    image: "https://i.imgur.com/T0IxfCL.png",
+    image: [img16],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1236,7 +1236,7 @@ export const products = [
     title: "Link",
     subtitle: "Потолочная лампа",
     cardImage: productImage17,
-    image: "https://i.imgur.com/1ZmYpeX.png",
+    image: [img17],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1306,7 +1306,7 @@ export const products = [
     title: "BuzziShade Square",
     subtitle: "Подвесная лампа",
     cardImage: productImage18,
-    image: "https://i.imgur.com/6lhM6pl.png",
+    image: [img18],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1382,7 +1382,7 @@ export const products = [
     title: "BuzziShade",
     subtitle: "Подвесная лампа",
     cardImage: productImage19,
-    image: "https://i.imgur.com/9NRE9Jq.png",
+    image: [img19],
     price: "00.000 ",
     pageContentLeft: [
       <p style={{ marginTop: "12.3%" }} className="product-text">
@@ -1488,7 +1488,7 @@ export const products = [
     title: "BuzziProp",
     subtitle: "Подвесная лампа",
     cardImage: productImage20,
-    image: "https://i.imgur.com/X32Clzi.png",
+    image: [img20],
     price: "00.000 ",
     infoText: [
       <p style={{ marginTop: "6%" }} className="product-text">
@@ -1610,7 +1610,7 @@ export const products = [
     title: "BuzziDisk",
     subtitle: "Подвесная лампа",
     cardImage: productImage21,
-    image: "https://i.imgur.com/x0bjDPn.png",
+    image: [img21],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1686,7 +1686,7 @@ export const products = [
     title: "BuzziTrom",
     subtitle: "Подвесная лампа",
     cardImage: productImage22,
-    image: "https://i.imgur.com/AG2NGFF.png",
+    image: [img22],
     price: "00.000 ",
     pageContentLeft: [
       <p style={{ marginTop: "12.3%" }} className="product-text">
@@ -1786,7 +1786,7 @@ export const products = [
     title: "BuzziZepp Light",
     subtitle: "Подвесная лампа",
     cardImage: productImage23,
-    image: "https://i.imgur.com/wfghTNA.png",
+    image: [img23],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1878,7 +1878,7 @@ export const products = [
     title: "Skirt",
     subtitle: "Подвесная лампа",
     cardImage: productImage24,
-    image: "https://i.imgur.com/OIKbEom.png",
+    image: img24,
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -1943,7 +1943,7 @@ export const products = [
     title: "Fedora Suspension",
     subtitle: "Подвесная лампа",
     cardImage: productImage25,
-    image: "https://i.imgur.com/LcgRZaM.png",
+    image: img25,
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -2009,7 +2009,7 @@ export const products = [
     title: "Virtus",
     subtitle: "Подвесная лампа",
     cardImage: productImage26,
-    image: "https://i.imgur.com/3stn7D7.png",
+    image: img26,
     price: "00.000 ",
     pageContentLeft: [
       <p
@@ -2061,7 +2061,7 @@ export const products = [
     title: "45 Degrees",
     subtitle: "Потолочная лампа",
     cardImage: productImage27,
-    image: "https://i.imgur.com/hSXBw81.png",
+    image: img27,
     price: "00.000 ",
     infoText: [
       <p className="product-text">
@@ -2113,7 +2113,7 @@ export const products = [
     title: "Flat Hanging",
     subtitle: "Подвесная лампа",
     cardImage: productImage28,
-    image: "https://i.imgur.com/4T43h42.png",
+    image: [img28],
     price: "00.000 ",
     infoText: [
       <p className="product-text">
