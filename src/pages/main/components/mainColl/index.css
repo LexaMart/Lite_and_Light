@@ -964,7 +964,8 @@
 }
 @media (max-width: 470px) {
   .main-coll {
-    margin-top: 40px;
+    margin-top: 0px;
+    padding: 0 9%;
   }
   .main-coll-links {
     margin-right: 10px;
@@ -1001,7 +1002,7 @@
     bottom: 110px;
   }
   .main-coll-content1 {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .main-coll-pendant {
     margin-top: 30px;
@@ -1057,7 +1058,8 @@
 }
 @media (max-width: 390px) {
   .main-coll {
-    margin-top: 20px;
+    margin-top: -20px;
+    padding: 0 14%;
   }
   .main-coll-links {
     width: 35.5%;
@@ -1096,7 +1098,7 @@
     bottom: 85px;
   }
   .main-coll-content1 {
-    margin-right: 10px;
+    margin-right: 7px;
   }
   .main-coll-pendant {
     margin-top: 25px;
