@@ -1,0 +1,69 @@
+.loader{
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+}
+.loader-svg{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+.loager-svg-box{
+    width: 20%;
+    height: 24%;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    animation: svg 4s;
+    scale: 1;
+}
+@keyframes svg {
+    0% {
+        transform: matrix(0.08, 0, 0,-0.08, 1470, 1900);
+    }
+    40% {
+        transform: matrix(0.08, 0, 0,-0.08, 1470, 1900);
+    }
+    100% {
+        transform: matrix(0.1, 0, 0,-0.1, 1400, 2000);
+    }
+  }
+.loader-svg1{
+    display: block;
+    position: relative;
+    animation: svg1 1s;
+}
+@keyframes svg1 {
+    0% {
+        transform: matrix(1, 0, 0, 1, 700, 700);
+    }
+    100% {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+  .loader-svg2{
+    display: block;
+    width: 5%;
+    animation: svg2 1s;
+  }
+  @keyframes svg2 {
+    0% {
+        transform: matrix(0.7, 0, 0, 0.7, 850, 850);
+    }
+    100% {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
+  .loader-svg3{
+    display: block;
+    position: relative;
+    animation: svg3 1s;
+  }
+  @keyframes svg3 {
+    0% {
+        transform: matrix(1, 0, 0, 1, -700, -700);
+    }
+    100% {
+        transform: matrix(1, 0, 0, 1, 0, 0);
+    }
+  }
