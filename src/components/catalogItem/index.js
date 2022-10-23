@@ -1,3 +1,4 @@
+import Aos from "aos";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
@@ -6,42 +7,28 @@ import "./index.css";
 
 export const CatalogItem = ({ ...props }) => {
   const { likedItems } = useSelector((store) => store.likedItemsReducer);
-  const width = document.body.clientWidth;
   const dispatch = useDispatch();
 
   function pushToLocalStorage() {
     dispatch(addItemAction(props.id));
   }
-  useEffect(() => {}, []);
+
+  useEffect(() => {
+    setTimeout(() => {
+      Aos.refreshHard();
+    }, 1000);
+  }, []);
+
   return (
     <div
       className="catalog-table-item"
-      data-aos-once="true"
       data-aos="fade-up"
-      data-aos-offset={
-        width >= 1300
-          ? -370
-          : width >= 900
-          ? -450
-          : width >= 800
-          ? 270
-          : width >= 700
-          ? -500
-          : width >= 500
-          ? 260
-          : width >= 400 && -400
-      }
+      data-aos-anchor-placement="bottom"
       data-aos-duration="1000"
-      data-aos-delay="0"
-      data-aos-anchor-placement="top-bottom"
+      data-aos-delay="100"
     >
       <NavLink to={`/catalog/${props.id}`}>
-        <img
-          loading="lazy"
-          decoding="async"
-          className="catalog-table-item-img"
-          src={props.image}
-        ></img>
+        <img className="catalog-table-item-img" src={props.image}></img>
       </NavLink>
       <div className="catalog-table-item-box">
         <div className="catalog-table-item-desk">

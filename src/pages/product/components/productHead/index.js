@@ -13,8 +13,15 @@ export const ProductHead = ({ ...props }) => {
       return { width: "33%", marginLeft: "10%", marginRight: "20%" };
     } else if (id === "0003") {
       return { marginLeft: "-5%", marginRight: "20%" };
+    } else if (id === "0004") {
+      return {
+        width: "35%",
+        marginRight: "12%",
+        marginLeft: "9%",
+        marginBottom: "10%",
+      };
     } else if (id === "0013") {
-      return { marginLeft: "-10%", marginRight: "15%", width: "55%" };
+      return { marginLeft: "-11%", marginRight: "15%", width: "55%" };
     } else if (id === "0017") {
       return { marginLeft: "-5%", marginRight: "15%", width: "47%" };
     } else if (id === "0024") {

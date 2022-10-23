@@ -10,7 +10,7 @@
   line-height: 158.69%;
   text-align: justify;
   color: #453e39;
-  margin-bottom: 18px;
+  margin-bottom: 28px;
 }
 .product-text:last-child {
   margin: 0;
@@ -21,6 +21,20 @@
 .product-text-dark {
   font-weight: 600;
 }
+@media (min-width: 2560px) {
+  .product {
+    padding: 0 20.5%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+  .product-text {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .product-text:first-child {
+    margin-top: 20px;
+  }
+}
 @media (min-width: 3800px) {
   .product {
     padding: 0 20.5%;
@@ -28,7 +42,7 @@
     margin-bottom: 150px;
   }
   .product-text {
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 25px;
   }
   .product-text:first-child {

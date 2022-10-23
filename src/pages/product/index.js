@@ -36,6 +36,7 @@ export const Product = ({ ...props }) => {
               {product.template === 1 && (
                 <>
                   <ProductInfo
+                    id={product.id}
                     infoText={product.infoText}
                     pageImage={product.pageImage}
                   />

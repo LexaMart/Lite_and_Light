@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import { MainSlider } from "../../components/mainSlider";
 import { MainGreet } from "./components/mainGreet";
 import { MainColl } from "./components/mainColl";
@@ -14,7 +15,9 @@ export const Main = ({ ...props }) => {
         <MainColl />
         <MainTypes />
         <div className="main-gallery">
-          <p className="main-gallery-title">Наши работы</p>
+          <NavLink to="/galery" className="main-gallery-title">
+            Наши работы
+          </NavLink>
           <MainSlider />
         </div>
       </main>

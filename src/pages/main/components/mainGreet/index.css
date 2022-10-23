@@ -93,7 +93,7 @@ ul {
   animation: main-greet-img 1.7s;
   animation-delay: 0.1s;
   animation-fill-mode: backwards;
-  transition: 2s;
+  transition: 1s;
 }
 @keyframes main-greet-img {
   from {
@@ -104,15 +104,16 @@ ul {
   }
 }
 .main-greet-img-active {
+  opacity: 1;
   display: block;
-  animation: main-greet-img-active 1.5s;
-  transition: 3s;
+  animation: main-greet-img-active 3s;
+  transition: 4s;
 }
 @keyframes main-greet-img-active {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
@@ -260,33 +261,128 @@ ul {
 }
 .main-greet-content-btn-title-active {
   display: block;
-  animation: main-greet-content-btn-title 2s;
+  animation: main-greet-content-btn-title 3s;
 }
-@media (min-width: 3800px) {
+.main-greet-img-link {
+  position: absolute;
+  margin: 0 auto;
+  display: contents;
+}
+@media (min-width: 2560px) {
   .main-greet {
-    top: -80px;
+    top: -30px;
     padding: 0 5% 0 0;
-    margin: 0 20% 0 20%;
+    margin: 0 10% 0 10%;
   }
   .main-greet-bg-box {
-    margin-right: 150px;
+    margin-right: 100px;
   }
   .main-greet-bg-link {
-    height: 120px;
-    width: 90%;
+    height: 100px;
+    width: 75%;
     padding: 0 50px 0 50px;
   }
   .main-greet-bg-link svg {
-    width: 100px;
+    width: 80px;
   }
   .main-greet-bg-text {
-    font-size: 25.3333px;
+    font-size: 24.3333px;
   }
   .main-greet-content {
     height: 850px;
   }
   .main-greet-img {
-    width: 620px;
+    width: 500px;
+    top: -1100px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -2500px;
+    }
+    to {
+      top: -1100px;
+    }
+  }
+  .main-greet-content-ellipse {
+    position: relative;
+    top: -150px;
+    width: 1000px;
+    height: 1000px;
+  }
+  @keyframes main-greet-content-ellipse {
+    from {
+      width: 0;
+      height: 0;
+      top: 250px;
+    }
+    to {
+      top: -150px;
+      width: 1000px;
+      height: 1000px;
+    }
+  }
+  .main-greet-text {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 80px;
+  }
+  .main-greet-title {
+    font-size: 80px;
+    line-height: 89px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 65px;
+  }
+  .main-greet-content-list {
+    top: 680px;
+    margin-left: 780px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 40px;
+    height: 2px;
+    margin-right: 12px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 40px;
+    height: 2px;
+    margin-left: 12px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 20px;
+    padding: 14px 19px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 790px;
+    top: 635px;
+    font-size: 30px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 3440px) {
+  .main-greet {
+    top: -30px;
+    padding: 0 5% 0 0;
+    margin: 0 10% 0 10%;
+  }
+  .main-greet-bg-box {
+    margin-right: 100px;
+  }
+  .main-greet-bg-link {
+    height: 120px;
+    width: 75%;
+    padding: 0 60px;
+  }
+  .main-greet-bg-link svg {
+    width: 80px;
+  }
+  .main-greet-bg-text {
+    font-size: 25.3333px;
+  }
+  .main-greet-content {
+    height: 1000px;
+  }
+  .main-greet-img {
+    width: 650px;
     top: -1400px;
   }
   @keyframes main-greet-img {
@@ -294,14 +390,104 @@ ul {
       top: -2500px;
     }
     to {
-      top: -1350px;
+      top: -1400px;
+    }
+  }
+  .main-greet-content-ellipse {
+    position: relative;
+    top: -250px;
+    width: 1300px;
+    height: 1300px;
+  }
+  @keyframes main-greet-content-ellipse {
+    from {
+      width: 0;
+      height: 0;
+      top: 250px;
+    }
+    to {
+      top: -250px;
+      width: 1300px;
+      height: 1300px;
+    }
+  }
+  .main-greet-text {
+    font-size: 27px;
+    line-height: 35px;
+    margin-bottom: 100px;
+  }
+  .main-greet-title {
+    font-size: 90px;
+    line-height: 89px;
+  }
+  .main-greet-title:last-child {
+    margin-bottom: 80px;
+  }
+  .main-greet-content-list {
+    top: 850px;
+    margin-left: 1050px;
+  }
+  .main-greet-content-list-item-active::before {
+    width: 40px;
+    height: 2px;
+    margin-right: 12px;
+  }
+  .main-greet-content-list-item-active::after {
+    width: 40px;
+    height: 2px;
+    margin-left: 12px;
+  }
+  .main-greet-content-list-item p {
+    font-size: 20px;
+    padding: 14px 19px;
+  }
+  .main-greet-content-btn-title {
+    margin-left: 1060px;
+    top: 800px;
+    font-size: 30px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 3800px) {
+  .main-greet {
+    top: -80px;
+    padding: 0 5% 0 0;
+    margin: 0 7% 0 12%;
+  }
+  .main-greet-bg-box {
+    margin-right: 150px;
+  }
+  .main-greet-bg-link {
+    height: 170px;
+    width: 90%;
+    padding: 0 70px 0 70px;
+  }
+  .main-greet-bg-link svg {
+    width: 100px;
+  }
+  .main-greet-bg-text {
+    font-size: 30.3333px;
+  }
+  .main-greet-content {
+    height: 1200px;
+  }
+  .main-greet-img {
+    width: 750px;
+    top: -1700px;
+  }
+  @keyframes main-greet-img {
+    from {
+      top: -2900px;
+    }
+    to {
+      top: -1700px;
     }
   }
   .main-greet-content-ellipse {
     position: relative;
     top: -300px;
-    width: 1200px;
-    height: 1200px;
+    width: 1500px;
+    height: 1500px;
   }
   @keyframes main-greet-content-ellipse {
     from {
@@ -311,25 +497,25 @@ ul {
     }
     to {
       top: -300px;
-      width: 1200px;
-      height: 1200px;
+      width: 1500px;
+      height: 1500px;
     }
   }
   .main-greet-text {
-    font-size: 30px;
+    font-size: 35px;
     line-height: 42px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
   .main-greet-title {
-    font-size: 80px;
-    line-height: 89px;
+    font-size: 100px;
+    line-height: 120px;
   }
   .main-greet-title:last-child {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
   }
   .main-greet-content-list {
-    top: 800px;
-    margin-left: 800px;
+    top: 950px;
+    margin-left: 1100px;
   }
   .main-greet-content-list-item-active::before {
     width: 50px;
@@ -346,8 +532,8 @@ ul {
     padding: 18px 23px;
   }
   .main-greet-content-btn-title {
-    margin-left: 800px;
-    top: 750px;
+    margin-left: 1120px;
+    top: 890px;
     font-size: 35px;
     line-height: 30px;
   }

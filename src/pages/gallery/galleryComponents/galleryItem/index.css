@@ -37,6 +37,18 @@
 .gallery-item-images-item:first-child {
   margin-right: 2%;
 }
+@media (min-width: 2560px) {
+  .gallery-item-wrap-container {
+    margin-top: 50px;
+  }
+  .gallery-item-wrap-link {
+    font-size: 24.3333px;
+    line-height: 35px;
+    padding: 35px 180px;
+    width: fit-content;
+    border: 2px solid #000000;
+  }
+}
 @media (min-width: 3800px) {
   .gallery-item-wrap-container {
     margin-top: 55px;

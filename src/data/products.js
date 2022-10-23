@@ -513,7 +513,7 @@ export const products = [
       />,
     ],
     pageContentLeft: [
-      <p className="product-text">
+      <p style={{ marginTop: "15%" }} className="product-text">
         Уникальный и неповторимый светильник{" "}
         <span className="product-text product-text-dark">Match</span> — это
         гораздо больше, чем светильник. Этот инновационный продукт представляет
@@ -563,7 +563,7 @@ export const products = [
     image: [img6],
     price: "00.000 ",
     infoText: [
-      <p className="product-text">
+      <p style={{ marginBottom: "35%" }} className="product-text">
         Линии, которые сладострастно танцуют вокруг ядра в меняющейся игре
         отраженных форм и света. Извилистость Обручей – это тонкая извивающаяся
         нить, за которой должны следовать глаза.{" "}
@@ -609,7 +609,7 @@ export const products = [
     image: [img7],
     price: "00.000 ",
     infoText: [
-      <p className="product-text">
+      <p style={{ marginBottom: "65%" }} className="product-text">
         Линии, которые сладострастно танцуют вокруг ядра в меняющейся игре
         отраженных форм и света. Извилистость Обручей – это тонкая извивающаяся
         нить, за которой должны следовать глаза.{" "}
@@ -655,7 +655,10 @@ export const products = [
     image: [img8],
     price: "00.000 ",
     pageContentLeft: [
-      <p className="product-text">
+      <p
+        style={{ marginTop: "10%", marginBottom: "10%" }}
+        className="product-text"
+      >
         <span className="product-text product-text-dark">Wireflow</span> -
         подвесной светильник, который пересматривает и обновляет внешний вид
         люстры посредством упрощения, которое исследует ее сущность и
@@ -708,7 +711,10 @@ export const products = [
     image: [img9],
     price: "00.000 ",
     pageContentLeft: [
-      <p className="product-text">
+      <p
+        style={{ marginTop: "15.5%", marginBottom: "12.5%" }}
+        className="product-text"
+      >
         <span className="product-text product-text-dark">Wireflow</span> -
         подвесной светильник, который пересматривает и обновляет внешний вид
         люстры посредством упрощения, которое исследует ее сущность и
@@ -777,7 +783,7 @@ export const products = [
     image: [img10],
     price: "00.000 ",
     pageContentLeft: [
-      <p className="product-text">
+      <p style={{ marginTop: "10%" }} className="product-text">
         <span className="product-text product-text-dark">Wireflow</span>-
         линейная подвесная лампа. Ее внешний вид в виде структуры тонких кабелей
         с двумя светодиодными клеммами мощностью 4,5 Вт идеально подходит для
@@ -787,7 +793,7 @@ export const products = [
         том числе приемных отелей, точек розничной торговли и баров с едой и
         напитками.
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "10%" }} className="product-text">
         Черный электрический кабель в сочетании с металлической стержневой
         структурой, характерной для коллекции{" "}
         <span className="product-text product-text-dark">Wireflow</span> -
@@ -839,7 +845,10 @@ export const products = [
     image: [img11],
     price: "00.000 ",
     pageContentLeft: [
-      <p className="product-text">
+      <p
+        style={{ marginTop: "12.3%", marginBottom: "12.3%" }}
+        className="product-text"
+      >
         Дизайнер Арик Леви представляет подвесной светильник свободной формы{" "}
         <span className="product-text product-text-dark">Wireflow</span>.
         Подвесной светильник{" "}
@@ -1172,7 +1181,7 @@ export const products = [
         высоте и прикрепленных к потолку с помощью плавающей трубчатой
         конструкции.
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "3%" }} className="product-text">
         Подвесной светильник состоит из выдувного вручную стеклянного шара со
         светодиодным источником света, подвешенного в воздухе на натяжном тросе.
         Доступен в лакированном матовом графите и матовом белом цвете.
@@ -1376,7 +1385,7 @@ export const products = [
     image: [img19],
     price: "00.000 ",
     pageContentLeft: [
-      <p className="product-text">
+      <p style={{ marginTop: "12.3%" }} className="product-text">
         Предотвратите подслушивание ваших личных разговоров и сведите к минимуму
         уровень внешнего шума. Эта подвеска с шумоподавлением удовлетворяет
         требования как к поглощению звука, так и к освещению.
@@ -1385,7 +1394,7 @@ export const products = [
         В настоящее время многие открытые помещения, нуждающиеся в акустической
         обработке, также нуждаются в лучшем освещении.
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "12.3%" }} className="product-text">
         И акустика, и освещение влияют на личное самочувствие и, следовательно,
         являются основными факторами позитивного рабочего пространства.
       </p>,
@@ -1412,7 +1421,7 @@ export const products = [
         src={buzziShade3}
         className="temp1-content-img"
       />,
-      <p className="product-text">
+      <p style={{ marginTop: "7%" }} className="product-text">
         <span className="product-text product-text-dark">BuzziShade</span>{" "}
         зготовлен из металлического каркаса с покрытием, обитого{" "}
         <span className="product-text product-text-dark">BuzziFelt</span>{" "}
@@ -1420,7 +1429,7 @@ export const products = [
         <span className="product-text product-text-dark">BuzziShade</span>{" "}
         включен в списки cULus и CE.
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "9%" }} className="product-text">
         Знаменитый оттенок теперь предлагается в больших размерах:{" "}
         <span className="product-text product-text-dark">BuzziShade XL</span> и{" "}
         <span className="product-text product-text-dark">BuzziShade XXL</span>.
@@ -1482,7 +1491,7 @@ export const products = [
     image: [img20],
     price: "00.000 ",
     infoText: [
-      <p className="product-text">
+      <p style={{ marginTop: "6%" }} className="product-text">
         Позвольте своему разуму путешествовать в непрерывные далекие места. Этот
         подвесной светильник с шумоподавлением помогает позаботиться об этом,
         уравновешивая звук для улучшения фокусировки и концентрации, при этом
@@ -1680,14 +1689,14 @@ export const products = [
     image: [img22],
     price: "00.000 ",
     pageContentLeft: [
-      <p className="product-text">
+      <p style={{ marginTop: "12.3%" }} className="product-text">
         Не обманывайтесь его легким внешним видом и простым дизайном. Корпус{" "}
         <span className="product-text product-text-dark">BuzziTrom</span> в
         форме барабана создает симфонию света в любом рабочем пространстве, а
         его двойной слой войлока обеспечивает исключительные акустические
         характеристики, которых вы не ожидаете.
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "12.3%" }} className="product-text">
         <span className="product-text product-text-dark">BuzziTrom</span> — это
         первое функциональное решение для акустического освещения, созданное с
         использованием двухслойного войлока, которое присоединится к нашей семье
@@ -1724,7 +1733,7 @@ export const products = [
         однотонный наряд или даже проявить творческий подход и выбрать
         двухцветную вариацию; возможности безграничны!
       </p>,
-      <p className="product-text">
+      <p style={{ marginBottom: "12.3%" }} className="product-text">
         Чтобы создать идеальную мелодию,{" "}
         <span className="product-text product-text-dark">BuzziTrom</span>{" "}
         поставляется в трех разных размерах, чтобы соответствовать вашей
@@ -1812,7 +1821,7 @@ export const products = [
         src={buzziZeppLight2}
         className="temp1-content-img"
       />,
-      <p className="product-text">
+      <p style={{ marginBottom: "12.3%" }} className="product-text">
         Обтекаемый дизайн{" "}
         <span className="product-text product-text-dark">BuzziZeppLight</span>{" "}
         позволяет легко добавить его в любое рабочее пространство, будь то
@@ -1823,7 +1832,10 @@ export const products = [
       </p>,
     ],
     pageContentRight: [
-      <p className="product-text">
+      <p
+        style={{ marginTop: "0", marginBottom: "10.3%" }}
+        className="product-text"
+      >
         Откройте для себя различные дополнения к освещению, чтобы улучшить
         атмосферу. Выберите линейку светодиодов с регулируемой яркостью для
         более функциональных настроек и освещения рабочих мест. Для более
@@ -1934,7 +1946,10 @@ export const products = [
     image: img25,
     price: "00.000 ",
     pageContentLeft: [
-      <p className="product-text">
+      <p
+        style={{ marginBottom: "12%", marginTop: "12%" }}
+        className="product-text"
+      >
         Извилистая и изящная, как матрешка/русская кукла, одиночная или
         составная, выражает свою индивидуальность в великолепных
         сценографических конфигурациях. Современность и традиции сочетаются в
@@ -1997,7 +2012,10 @@ export const products = [
     image: img26,
     price: "00.000 ",
     pageContentLeft: [
-      <p className="product-text">
+      <p
+        style={{ marginBottom: "56.5%", marginTop: "10%" }}
+        className="product-text"
+      >
         Линейная простота становится чистой элегантностью.{" "}
         <span className="product-text product-text-dark">Virtus</span> — это
         удар света, который сочетает в себе легкость и изящество, создавая
