@@ -8,31 +8,31 @@ export const mainGreetSlider = [
   {
     num: 1,
     title: "Fedora",
-    img: "https://i.imgur.com/B6lXx13.png",
+    img: img1,
     id: "0025",
   },
   {
     num: 2,
     title: "Hoops",
-    img: "https://i.imgur.com/CS9PEny.png",
+    img: img2,
     id: "0007",
   },
   {
     num: 3,
     title: "Algorithm",
-    img: "https://i.imgur.com/uswJKXh.png",
+    img: img3,
     id: "0016",
   },
   {
     num: 4,
     title: "U-light Wall",
-    img: "https://i.imgur.com/vwiYUOo.png",
+    img: img4,
     id: "0003",
   },
   {
     num: 5,
     title: "Wireflow Chandlier",
-    img: "https://imgur.com/3BrpwK7",
+    img: img5,
     id: "0009",
   },
 ];
