@@ -17,7 +17,7 @@ export const Loader = ({ ...props }) => {
           stroke="none"
         >
           <path
-            className="loader-svg1 shadow"
+            className="shadow1"
             d="M3140 6325 l0 -455 1130 0 1130 0 0 -1240 0 -1240 455 0 455 0 0
             1695 0 1695 -1585 0 -1585 0 0 -455z"
           />
@@ -27,7 +27,7 @@ export const Loader = ({ ...props }) => {
             1695 0 1695 -1585 0 -1585 0 0 -455z"
           />
            <path
-            className="loader-svg2 shadow"
+            className="shadow2"
             d="M2715 4945 c-245 -45 -406 -119 -541 -248 -154 -145 -234 -340 -234
             -567 0 -226 73 -413 217 -559 46 -46 83 -85 83 -86 0 -1 -28 -21 -63 -43 -82
             -53 -194 -171 -245 -258 -123 -208 -148 -454 -71 -689 107 -322 359 -533 759
@@ -53,7 +53,7 @@ export const Loader = ({ ...props }) => {
             -92 88 -90 259 3 337 76 64 127 74 402 75 l219 1 -4 -147z"
           />
           <path
-            className="loader-svg3 shadow"
+            className="shadow3"
             d="M0 1700 l0 -1690 1580 0 1580 0 0 455 0 455 -1125 0 -1125 0 0 1235
             0 1235 -455 0 -455 0 0 -1690z"
           />
