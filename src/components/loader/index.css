@@ -2,6 +2,8 @@
     background-color: #000;
     width: 100vw;
     height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .loader-svg {
@@ -19,6 +21,7 @@
     animation: svg 4s;
     scale: 1;
 }
+
 @keyframes svg {
     0% {
         transform: matrix(0.08, 0, 0, -0.08, 1470, 1900);
@@ -32,69 +35,87 @@
         transform: matrix(0.1, 0, 0, -0.1, 1400, 2000);
     }
 }
+
 .shadow1 {
-    filter:blur(600px);
+    filter: blur(600px);
     opacity: 0;
     animation: shadow1 4s;
 }
+
 @keyframes shadow1 {
     0% {
         transform: matrix(1, 0, 0, 1, 700, 700);
-        filter:blur(900px);
+        filter: blur(900px);
         opacity: 1;
     }
-    22%{
-        filter:blur(500px);
+
+    22% {
+        filter: blur(500px);
     }
+
     28% {
         transform: matrix(1, 0, 0, 1, 0, 0);
     }
-    60%{
+
+    60% {
         opacity: 1;
     }
-    75%{
-        filter:blur(500px);
+
+    75% {
+        filter: blur(500px);
     }
-    78%{
-        filter:blur(700px);
+
+    78% {
+        filter: blur(700px);
     }
-    80%{
-        filter:blur(450px);
+
+    80% {
+        filter: blur(450px);
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
+
 .shadow3 {
-    filter:blur(600px);
+    filter: blur(600px);
     opacity: 0;
     animation: shadow3 4s;
 }
+
 @keyframes shadow3 {
     0% {
         transform: matrix(1, 0, 0, 1, -700, -700);
-        filter:blur(900px);
+        filter: blur(900px);
         opacity: 1;
     }
-    22%{
-        filter:blur(500px);
+
+    22% {
+        filter: blur(500px);
     }
+
     28% {
         transform: matrix(1, 0, 0, 1, 0, 0);
     }
-    60%{
+
+    60% {
         opacity: 1;
     }
-    75%{
-        filter:blur(500px);
+
+    75% {
+        filter: blur(500px);
     }
-    78%{
-        filter:blur(700px);
+
+    78% {
+        filter: blur(700px);
     }
-    80%{
-        filter:blur(450px);
+
+    80% {
+        filter: blur(450px);
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }
@@ -109,6 +130,7 @@
     0% {
         transform: matrix(1, 0, 0, 1, 700, 700);
     }
+
     100% {
         transform: matrix(1, 0, 0, 1, 0, 0);
     }
@@ -129,36 +151,45 @@
         transform: matrix(1, 0, 0, 1, 0, 0);
     }
 }
+
 .shadow2 {
-    filter:blur(600px);
+    filter: blur(600px);
     opacity: 0;
     animation: shadow2 4s;
 }
+
 @keyframes shadow2 {
     0% {
         transform: matrix(0.7, 0, 0, 0.7, 850, 850);
-        filter:blur(900px);
+        filter: blur(900px);
         opacity: 1;
     }
-    22%{
-        filter:blur(500px);
+
+    22% {
+        filter: blur(500px);
     }
+
     28% {
         transform: matrix(1, 0, 0, 1, 0, 0);
     }
-    60%{
+
+    60% {
         opacity: 1;
     }
-    75%{
-        filter:blur(500px);
+
+    75% {
+        filter: blur(500px);
     }
-    78%{
-        filter:blur(700px);
+
+    78% {
+        filter: blur(700px);
     }
-    80%{
-        filter:blur(450px);
+
+    80% {
+        filter: blur(450px);
     }
-    100%{
+
+    100% {
         opacity: 0;
     }
 }

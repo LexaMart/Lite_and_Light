@@ -10,9 +10,14 @@ const initialStateFeedBack = {
   isShown: false,
 };
 
+const initialStateSettings = {
+  isLoader: true,
+}
+
 export const addItemAction = createAction("AddItem");
 export const setFormVisability = createAction("SetFormVisability");
 export const submitFeedBackForm = createAction("SubmitForm");
+export const setIsLoader = createAction("SetIsLoader");
 
 export const likedItemsReducer = createReducer(initialState, (builder) => {
   builder.addCase(addItemAction, (state, action) => {
@@ -36,5 +41,14 @@ export const feedBackFormReducer = createReducer(
       state.isShown = action.payload;
     });
     builder.addCase(submitFeedBackForm, (state, action) => {});
+  }
+);
+
+export const settingsReducer = createReducer(
+  initialStateSettings,
+  (builder) => {
+    builder.addCase(setIsLoader, (state, action) => {
+      state.isLoader = action.payload;
+    });
   }
 );
