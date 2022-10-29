@@ -29,8 +29,5 @@ export const Layout = ({ ...props }) => {
         </>
       )}
     </>
-    /*<>
-      <Loader />
-    </>*/
   );
 };
