@@ -87,8 +87,8 @@ ul {
 .main-greet-img {
   display: none;
   position: relative;
-  width: 430px;
-  top: -900px;
+  width: 530px;
+  top: -950px;
   margin: 0 auto;
   animation: main-greet-img 1.7s;
   animation-delay: 0.1s;
@@ -105,7 +105,7 @@ ul {
     top: -2000px;
   }
   to {
-    top: -900px;
+    top: -950px;
   }
 }
 .main-greet-img-active {
@@ -568,7 +568,7 @@ ul {
     width: 53%;
   }
   .main-greet-img {
-    width: 420px;
+    width: 470px;
     top: -800px;
   }
   @keyframes main-greet-img {
@@ -657,7 +657,7 @@ ul {
     width: 53%;
   }
   .main-greet-img {
-    width: 350px;
+    width: 380px;
     top: -710px;
   }
   @keyframes main-greet-img {
@@ -746,7 +746,7 @@ ul {
     width: 53%;
   }
   .main-greet-img {
-    width: 300px;
+    width: 340px;
     top: -590px;
   }
   @keyframes main-greet-img {
@@ -834,7 +834,7 @@ ul {
     width: 53%;
   }
   .main-greet-img {
-    width: 200px;
+    width: 250px;
     top: -440px;
   }
   @keyframes main-greet-img {
@@ -924,7 +924,7 @@ ul {
     width: 53%;
   }
   .main-greet-img {
-    width: 170px;
+    width: 220px;
     top: -360px;
   }
   @keyframes main-greet-img {
@@ -1009,7 +1009,7 @@ ul {
     width: 53%;
   }
   .main-greet-img {
-    width: 150px;
+    width: 190px;
     top: -330px;
   }
   @keyframes main-greet-img {
@@ -1090,7 +1090,7 @@ ul {
     width: 53%;
   }
   .main-greet-img {
-    width: 115px;
+    width: 130px;
     top: -249px;
   }
   @keyframes main-greet-img {
@@ -1171,7 +1171,7 @@ ul {
     width: 53%;
   }
   .main-greet-img {
-    width: 90px;
+    width: 110px;
     top: -195px;
   }
   @keyframes main-greet-img {
