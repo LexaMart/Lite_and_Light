@@ -95,6 +95,11 @@ ul {
   animation-fill-mode: backwards;
   transition: 1s;
 }
+.main-greet-box{
+  display: contents;
+  position: relative;
+  top: 0;
+}
 @keyframes main-greet-img {
   from {
     top: -2000px;

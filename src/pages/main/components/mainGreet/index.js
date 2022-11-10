@@ -68,7 +68,7 @@ export const MainGreet = ({ ...props }) => {
       <div className="main-greet-content">
         <div className="main-greet-content-ellipse"></div>
         {mainGreetSlider.map((item, idx) => (
-          <div key={idx + 1}>
+          <div className="main-greet-box" key={idx + 1}>
             <NavLink
               key={item.num}
               className="main-greet-img-link"
