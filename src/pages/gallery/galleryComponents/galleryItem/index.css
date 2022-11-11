@@ -12,7 +12,8 @@
   margin-top: 25px;
 }
 .gallery-item-wrap-link {
-  display: block;
+  display: flex;
+  width: fit-content;
   font-family: var(--font2);
   font-weight: 700;
   font-size: 16.3333px;
@@ -20,7 +21,7 @@
   letter-spacing: 0.683518px;
   text-transform: uppercase;
   color: #000000;
-  padding: 30px 125px;
+  padding: 20px 50px;
   border: 1.3px solid #000000;
   border-radius: 19px;
   transition: 0.5s;
@@ -44,7 +45,7 @@
   .gallery-item-wrap-link {
     font-size: 24.3333px;
     line-height: 35px;
-    padding: 35px 180px;
+    padding: 25px 70px;
     width: fit-content;
     border: 2px solid #000000;
   }
@@ -56,7 +57,7 @@
   .gallery-item-wrap-link {
     font-size: 32.3333px;
     line-height: 35px;
-    padding: 60px 245px;
+    padding: 45px 120px;
     width: fit-content;
     border: 2px solid #000000;
   }
@@ -71,7 +72,7 @@
   .gallery-item-wrap-link {
     font-size: 15.3333px;
     line-height: 20px;
-    padding: 27px 115px;
+    padding: 18px 45px;
     border: 1px solid #000000;
   }
 }
@@ -82,7 +83,7 @@
   .gallery-item-wrap-link {
     font-size: 14.3333px;
     line-height: 18px;
-    padding: 20px 95px;
+    padding: 17px 42px;
   }
   .gallery-item-images {
     width: 65%;
@@ -101,7 +102,7 @@
   .gallery-item-wrap-link {
     font-size: 12.3333px;
     line-height: 15px;
-    padding: 15px 70px;
+    padding: 15px 40px;
     width: fit-content;
   }
 }
@@ -112,7 +113,7 @@
   .gallery-item-wrap-link {
     font-size: 8.3333px;
     line-height: 10px;
-    padding: 11px 50px;
+    padding: 13px 38px;
     width: fit-content;
   }
 }
@@ -123,7 +124,7 @@
   .gallery-item-wrap-link {
     font-size: 6.5px;
     line-height: 9px;
-    padding: 9px 40px;
+    padding: 9px 30px;
     width: fit-content;
   }
 }
@@ -134,7 +135,7 @@
   .gallery-item-wrap-link {
     font-size: 5px;
     line-height: 7px;
-    padding: 8px 30px;
+    padding: 5px 20px;
     width: fit-content;
   }
   .gallery-item-images-item {
@@ -152,7 +153,7 @@
     font-size: 4px;
     letter-spacing: 0.5px;
     line-height: 5px;
-    padding: 6px 20px;
+    padding: 4px 14px;
     width: fit-content;
   }
 }

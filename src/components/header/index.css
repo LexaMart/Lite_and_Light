@@ -46,7 +46,7 @@
 }
 .header-link:last-child {
   display: block;
-  padding: 1px 2%;
+  padding: 5px 5%;
   color: #2e6c65;
   opacity: 0.7;
   border: 2px solid #2e6c65;
@@ -106,6 +106,9 @@
     line-height: 25px;
     margin-right: 60px;
   }
+  .header-link:last-child{
+    padding: 9px 5%;
+  }
   .header-search {
     margin-right: 30px;
     border-bottom: 2px solid #000000;
@@ -136,6 +139,9 @@
     font-size: 28px;
     line-height: 25px;
     margin-right: 70px;
+  }
+  .header-link:last-child{
+    padding: 15px 5%;
   }
   .header-search {
     margin-right: 50px;
@@ -252,6 +258,9 @@
     font-size: 9px;
     margin-right: 25px;
   }
+  .header-link:last-child{
+    padding: 3px 5%;
+  }
   .header-search {
     width: 70px;
   }
@@ -282,6 +291,7 @@
   }
   .header-link:last-child {
     border: 1px solid #2e6c65;
+    padding: 1px 3%;
   }
   .header-search-input {
     width: 60px;
