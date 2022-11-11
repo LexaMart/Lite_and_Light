@@ -83,31 +83,8 @@ export const GalleryItemPage = ({ ...props }) => {
             </div>
           ) : (
             <div className="gallery-item-page-wrap">
-              <div className="gallery-item-page-content1">
-                <img
-                  loading="lazy"
-                  decoding="async"
-                  alt="img"
-                  src={item.pageImages[0]}
-                  className="gallery-item-page-img gallery-item-page-img-adptive"
-                />
-                <img
-                  loading="lazy"
-                  decoding="async"
-                  alt="img"
-                  src={item.pageImages[1]}
-                  className="gallery-item-page-img gallery-item-page-img-adptive"
-                />
-              </div>
               <div className="gallery-item-page-content2">
                 <div className="gallery-item-page-content-box">
-                  <img
-                    loading="lazy"
-                    decoding="async"
-                    alt="img"
-                    src={item.pageImages[2]}
-                    className="gallery-item-page-img info-img"
-                  />
                   <div className="gallery-item-page-info">
                     <div className="gallery-item-page-title">
                       {item.pageTitle}
@@ -136,6 +113,13 @@ export const GalleryItemPage = ({ ...props }) => {
                       </svg>
                     </div>
                   </div>
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    alt="img"
+                    src={item.pageImages[2]}
+                    className="gallery-item-page-img info-img"
+                  />
                 </div>
                 <img
                   loading="lazy"
@@ -143,6 +127,22 @@ export const GalleryItemPage = ({ ...props }) => {
                   alt="img"
                   src={item.pageImages[3]}
                   className="gallery-item-page-img"
+                />
+              </div>
+              <div className="gallery-item-page-content1">
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  alt="img"
+                  src={item.pageImages[0]}
+                  className="gallery-item-page-img gallery-item-page-img-adptive"
+                />
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  alt="img"
+                  src={item.pageImages[1]}
+                  className="gallery-item-page-img gallery-item-page-img-adptive"
                 />
               </div>
             </div>

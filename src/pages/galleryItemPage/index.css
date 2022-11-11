@@ -7,7 +7,7 @@
   margin: 25px 17.5% 92px 18.5%;
 }
 .gallery-item-page-content1 {
-  width: 30.8%;
+  width: 28.9%;
   height: 100%;
 }
 .gallery-item-page-img {
@@ -16,11 +16,12 @@
   margin-bottom: 18px;
 }
 .gallery-item-page-content2 {
-  width: 67.9%;
+  width: 69.5%;
   height: 100%;
 }
 .gallery-item-page-content {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   width: 100%;
 }
@@ -52,7 +53,7 @@
   justify-content: space-between;
 }
 .info-img {
-  width: 55%;
+  width: 46.6%;
 }
 .gallery-item-page-title {
   text-transform: uppercase;
@@ -168,7 +169,7 @@
 }
 @media (max-width: 880px) {
   .gallery-item-page-wrap {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .gallery-item-page-wrap1 {
     margin: 25px 12.5% 52px 13.5%;
