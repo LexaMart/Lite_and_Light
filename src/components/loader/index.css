@@ -4,6 +4,21 @@
     height: 100vh;
     overflow-y: hidden;
     overflow-x: hidden;
+    animation: loader 6.5s;
+}
+@keyframes loader {
+    0%{
+        background-color: #000;
+    }
+    60%{
+        background-color: #000;
+    }
+    70%{
+        background-color: #fff;
+    }
+    100%{
+        background-color: #fff;
+    }
 }
 
 .loader-svg {
